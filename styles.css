@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+section {
+    background: url(./images/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    position: fixed;
+    top: 25%;
+    left: 8%;
+    font-size: 5vw;
+    font-family:"Playfair Display SC" ;
+    /* font-family: "Cormorant Garamond", serif; */
+    /* font-family: "Lora", serif; */
+    color: aliceblue;
+}
+
+span{
+    color: #eedb93;
+}
+
+p{
+        position: fixed;
+    top: 45%;
+    left: 8%;
+    font-size: 2vw;
+    /* font-family:"Playfair Display SC" ; */
+    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Lora", serif; */
+    color: aliceblue;
+    width:35%
+}
+
+span{
+    color: #eedb93;
+}
+
+
+a {
+    position: fixed;
+    top: 75%;
+    left: 8%;
+    font-size: 2vw;
+    /* font-family:"Playfair Display SC" ; */
+    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Lora", serif; */
+    color: aliceblue;
+    width:15%;
+    padding:20px;
+    border: 1px solid #eedb93;
+    border-radius: 15px;
+    transition: all 250ms ease-in-out;
+}
+
+a:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #eedb93;
+    border-color: black;
+
+}
