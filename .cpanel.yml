@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/sylphco6b8j9/catholicfide.sylphcode.co.za/
-    - /bin/cp -R * $DEPLOYPATH
