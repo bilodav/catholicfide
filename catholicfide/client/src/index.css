@@ -29,8 +29,20 @@ span{
 }
 
 p{
-        position: fixed;
+    position: fixed;
     top: 45%;
+    left: 8%;
+    font-size: 2vw;
+    /* font-family:"Playfair Display SC" ; */
+    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Lora", serif; */
+    color: aliceblue;
+    width:35%
+}
+
+p:last-of-type{
+    position: fixed;
+    top: 58%;
     left: 8%;
     font-size: 2vw;
     /* font-family:"Playfair Display SC" ; */

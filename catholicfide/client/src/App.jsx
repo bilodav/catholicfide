@@ -15,6 +15,7 @@ function App() {
       <p>
         Defending the <span>Faith</span> and Defending the <span>Truth</span>
       </p>
+      <p>Test Server Commits</p>
       <a> Learn More</a>
     </section>
   </body>
