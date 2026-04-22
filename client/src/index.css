@@ -1,82 +1,553 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:wght@400;500;600;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+/* ============================================================
+   CSS RESET
+   ============================================================ */
 
-
-*{
-    margin: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
 section {
-    background: url(/hero_1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================================
+   ROOT — DESIGN TOKENS
+   ============================================================ */
+
+:root {
+  /* Google Fonts — add to your index.html <head>:
+     https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700
+     &family=Montserrat:wght@400;500;600;700
+     &family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900
+     &display=swap
+  */
+
+  /* Typography */
+  --font-display: "Playfair Display SC", serif;
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+
+  /* ── Primary Palette: Deep Navy ── */
+  --color-primary: #1a2332;
+  --color-primary-light: #2d3e50;
+  --color-primary-dark: #0f1419;
+
+  /* ── Accent Palette: Sacred Gold ── */
+  --color-accent: #c9a961;
+  --color-accent-light: #eedb93; /* your original highlight gold */
+  --color-accent-dark: #b8954a;
+
+  /* ── Secondary ── */
+  --color-secondary: #3d5a80;
+  --color-secondary-light: #5a7a9f;
+
+  /* ── Neutrals ── */
+  --color-white: #ffffff;
+  --color-light: #f8f6f0; /* warm off-white — more regal than grey */
+  --color-gray-100: #eee9e0;
+  --color-gray-200: #d8d2c8;
+  --color-gray-300: #c2bbb0;
+  --color-gray-400: #a09890;
+  --color-gray-500: #7a7268;
+  --color-gray-600: #524d46;
+  --color-gray-700: #2e2a24;
+  --color-black: #000000;
+
+  /* ── Text ── */
+  --text-primary: #1a2332;
+  --text-secondary: #4a4540;
+  --text-muted: #7a7268;
+  --text-light: #a09890;
+  --text-white: #ffffff;
+  --text-accent: #c9a961;
+
+  /* ── Backgrounds ── */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f6f0;
+  --bg-dark: #1a2332;
+  --bg-accent: #c9a961;
+  --bg-hover: #eee9e0;
+
+  /* ── Borders ── */
+  --border-light: #eee9e0;
+  --border-medium: #d8d2c8;
+  --border-dark: #c2bbb0;
+  --border-accent: #c9a961;
+  --border-primary: #1a2332;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(26, 35, 50, 0.12);
+  --shadow-md: 0 4px 6px rgba(26, 35, 50, 0.15);
+  --shadow-lg: 0 10px 25px rgba(26, 35, 50, 0.2);
+  --shadow-xl: 0 20px 40px rgba(26, 35, 50, 0.25);
+  --shadow-accent: 0 4px 12px rgba(201, 169, 97, 0.3);
+  --shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+
+  /* ── Buttons ── */
+  --btn-primary-bg: #1a2332;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #2d3e50;
+  --btn-primary-active: #0f1419;
+  --btn-primary-shadow: 0 4px 12px rgba(26, 35, 50, 0.3);
+
+  --btn-accent-bg: #c9a961;
+  --btn-accent-text: #ffffff;
+  --btn-accent-hover: #d4bc7f;
+  --btn-accent-active: #b8954a;
+  --btn-accent-shadow: 0 4px 12px rgba(201, 169, 97, 0.4);
+
+  --btn-secondary-bg: transparent;
+  --btn-secondary-text: #1a2332;
+  --btn-secondary-border: #1a2332;
+  --btn-secondary-hover-bg: #1a2332;
+  --btn-secondary-hover-text: #ffffff;
+
+  --btn-outline-bg: transparent;
+  --btn-outline-text: #c9a961;
+  --btn-outline-border: #c9a961;
+  --btn-outline-hover-bg: #c9a961;
+  --btn-outline-hover-text: #ffffff;
+
+  /* ── Highlights ── */
+  --highlight-primary: #c9a961;
+  --highlight-secondary: #3d5a80;
+  --accent-underline: #c9a961;
+  --selection-bg: #c9a961;
+  --selection-text: #ffffff;
+
+  /* ── Spacing ── */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* ── Border Radius ── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* ── Transitions ── */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 250ms ease-in-out;
+  --transition-slow: 350ms ease-in-out;
+}
+
+/* ============================================================
+   BASE TYPOGRAPHY
+   ============================================================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  color: var(--text-primary);
+  line-height: var(--line-height-tight);
+  margin-bottom: var(--spacing-md);
 }
 
 h1 {
-    position: fixed;
-    top: 25%;
-    left: 8%;
-    font-size: 5vw;
-    font-family:"Playfair Display SC" ;
-    /* font-family: "Cormorant Garamond", serif; */
-    /* font-family: "Lora", serif; */
-    color: aliceblue;
+  font-weight: var(--font-weight-bold);
+  font-size: 3rem;
+}
+h2 {
+  font-weight: var(--font-weight-semibold);
+  font-size: 2.5rem;
+}
+h3 {
+  font-weight: var(--font-weight-semibold);
+  font-size: 2rem;
 }
 
-span{
-    color: #eedb93;
+p,
+body {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+  color: var(--text-secondary);
 }
 
-p{
-    position: fixed;
-    top: 45%;
-    left: 8%;
-    font-size: 2vw;
-    /* font-family:"Playfair Display SC" ; */
-    font-family: "Cormorant Garamond", serif;
-    /* font-family: "Lora", serif; */
-    color: aliceblue;
-    width:35%
+body {
+  background-color: var(--color-light);
 }
-
-p:last-of-type{
-    position: fixed;
-    top: 58%;
-    left: 8%;
-    font-size: 2vw;
-    /* font-family:"Playfair Display SC" ; */
-    font-family: "Cormorant Garamond", serif;
-    /* font-family: "Lora", serif; */
-    color: aliceblue;
-    width:35%
-}
-
-span{
-    color: #eedb93;
-}
-
 
 a {
-    position: fixed;
-    top: 75%;
-    left: 8%;
-    font-size: 2vw;
-    /* font-family:"Playfair Display SC" ; */
-    font-family: "Cormorant Garamond", serif;
-    /* font-family: "Lora", serif; */
-    color: aliceblue;
-    width:15%;
-    padding:20px;
-    border: 1px solid #eedb93;
-    border-radius: 15px;
-    transition: all 250ms ease-in-out;
+  text-decoration: none;
+  color: inherit;
 }
 
-a:hover {
-    cursor: pointer;
-    color: black;
-    background-color: #eedb93;
-    border-color: black;
+::selection {
+  background-color: var(--selection-bg);
+  color: var(--selection-text);
+}
 
+/* ============================================================
+   GLOBAL BUTTON STYLES  (reusable across all sections)
+   ============================================================ */
+
+.btn-primary {
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  box-shadow: var(--btn-primary-shadow);
+}
+
+.btn-primary:hover {
+  background-color: var(--btn-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.btn-primary:active {
+  background-color: var(--btn-primary-active);
+  transform: translateY(0);
+}
+
+.btn-accent {
+  background-color: var(--btn-accent-bg);
+  color: var(--btn-accent-text);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  box-shadow: var(--btn-accent-shadow);
+}
+
+.btn-accent:hover {
+  background-color: var(--btn-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
+.btn-secondary {
+  background-color: var(--btn-secondary-bg);
+  color: var(--btn-secondary-text);
+  border: 2px solid var(--btn-secondary-border);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.btn-secondary:hover {
+  background-color: var(--btn-secondary-hover-bg);
+  color: var(--btn-secondary-hover-text);
+}
+
+.btn-outline {
+  background-color: var(--btn-outline-bg);
+  color: var(--btn-outline-text);
+  border: 2px solid var(--btn-outline-border);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+
+.btn-outline:hover {
+  background-color: var(--btn-outline-hover-bg);
+  color: var(--btn-outline-hover-text);
+}
+
+/* ============================================================
+   HERO COMPONENT
+   ============================================================ */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Layered overlay: dark vignette + subtle warm tint */
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    rgba(10, 14, 20, 038) 0%,
+    rgba(15, 20, 30, 0.15) 35%,
+    rgba(10, 14, 20, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.hero__content {
+  position: relative; /* sits above the overlay */
+  z-index: 1;
+  left: 8%;
+  max-width: 44%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* ── Title ── */
+.hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5vw, 6rem);
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  margin-bottom: 0;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.45);
+}
+
+/* Gold accent word */
+.hero__accent {
+  color: var(--color-accent-light);
+}
+
+/* ── Decorative rule beneath title ── */
+.hero__title::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 2px;
+  background: var(--color-accent);
+  margin-top: var(--spacing-sm);
+  opacity: 0.85;
+}
+
+/* ── Subtitle / first paragraph ── */
+.hero__subtitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: var(--line-height-relaxed);
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
+}
+
+/* ── Body / second paragraph ── */
+.hero__body {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  color: rgba(255, 255, 255, 0.65);
+  line-height: var(--line-height-relaxed);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* ── CTA button ── */
+.hero__cta {
+  display: inline-block;
+  width: fit-content;
+  font-family: var(--font-body);
+  font-size: clamp(0.8rem, 1.1vw, 0.95rem);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent-light);
+  padding: 0.85rem 2.2rem;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  margin-top: var(--spacing-xs);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Filled sweep on hover */
+.hero__cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+  z-index: -1;
+}
+
+.hero__cta:hover {
+  color: var(--color-primary-dark);
+  border-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.hero__cta:hover::before {
+  transform: scaleX(1);
+}
+
+/* ============================================================
+   RESPONSIVE — Hero
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .hero__content {
+    left: 0;
+    max-width: 100%;
+    padding: 0 var(--spacing-lg);
+    gap: var(--spacing-sm);
+  }
+
+  .hero__cta {
+    width: 100%;
+    text-align: center;
+  }
 }

@@ -1,26 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Hero from "./components/Hero";
+import heroImg from "./assets/hero_1.jpg";
+import Rosary from "./components/Rosary";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-  <body>
-    <section>
-      <h1>Catholic <span>Fide</span></h1>
-      <p>
-        Defending the <span>Faith</span> and Defending the <span>Truth</span>
-      </p>
-      <p>Second Round of tests</p>
-      <a> Learn More</a>
-    </section>
-  </body>
+      <Hero
+        title="Catholic"
+        titleAccent="Fide"
+        subtitle="Defending the Faith and Defending the Truth"
+        body="Standing firm in sacred tradition — for God, for Church, for truth."
+        ctaText="Oremus"
+        ctaHref="#rosary"
+        bgImage={heroImg}
+      />
+      <Rosary />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
