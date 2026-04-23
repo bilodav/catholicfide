@@ -551,3 +551,52 @@ a {
     text-align: center;
   }
 }
+
+/* ============================================================
+   ROSARY COMPONENT
+   ============================================================ */
+
+.rosary {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rosary-container {
+  height: 100%;
+  width: 80%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+/* ============================================================
+   FAMILY PRAYER COMPONENT
+   ============================================================ */
+
+.family-prayer {
+  position: relative;
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 1.5%;
+}
