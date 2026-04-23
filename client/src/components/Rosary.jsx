@@ -1,3 +1,4 @@
+import { useState } from "react";
 import mysteries from "../assets/data/mysteries";
 const days = [
   "sunday",
@@ -10,12 +11,16 @@ const days = [
 ];
 
 function Rosary() {
+  const [bead, setBead] = useState(1);
+
   const date = new Date();
   const fullDayName = days[date.getDay()];
 
   const mysterySet = mysteries.weeklySchedule.default[fullDayName];
 
-  console.log(mysteries.mysterySets[mysterySet].mysteries[0].title);
+  function handleNextBead() {
+    setBead((b) => (b < 59 ? b + 1 : b));
+  }
 
   return (
     <section id="rosary" className="rosary">
@@ -24,7 +29,10 @@ function Rosary() {
       <p> {mysteries.mysterySets[mysterySet].mysteries[0].title}</p>
       <p> {mysteries.mysterySets[mysterySet].mysteries[0].scripture}</p>
 
-      <button className="btn-accent">Next mystery</button>
+      <p>{bead}</p>
+      <button className="btn-accent" onClick={handleNextBead}>
+        Next Bead
+      </button>
     </section>
   );
 }

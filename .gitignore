@@ -4,3 +4,5 @@ node_modules/
 # client/dist
 server/node_modules
 store_workflow.txt
+check-broken.txt
+step-by-step.md
