@@ -12,6 +12,7 @@ const familyPrayers = [
       "I pray the Father gives you strength in times of difficulty and hope in times of doubt.",
       "I ask the Lord to bless your work and all the efforts of your hands.",
       "I pray Jesus lets you always feel His presence and walk in His light.",
+      "I pray that God always guides you and may his face always shine upon you. May youalways be in his Gracew",
     ],
     specialDates: [
       {
@@ -49,6 +50,7 @@ const familyPrayers = [
       "I pray the Father gives you peaceful rest and sweet dreams.",
       "I ask the Lord to help you be kind and loving to everyone you meet.",
       "I pray Jesus walks with you every day and keeps you close to Him.",
+      "I pray by the grace of outr Lord you grow up strong and healthy and always filled with love",
     ],
     specialDates: [
       {
@@ -86,6 +88,7 @@ const familyPrayers = [
       "I pray the Father grants you peace and comfort each night.",
       "I ask the Lord to help you share love and joy with others.",
       "I pray Jesus walks beside you and leads you in His truth.",
+      "I pray the light of our Lord Jesus, may always be seen in you. May you be a beacon of him in this world",
     ],
     specialDates: [
       {

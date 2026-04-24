@@ -569,6 +569,11 @@ a {
   overflow: hidden;
 }
 
+.rosary h2 {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
 .rosary-container {
   height: 100%;
   width: 80%;
@@ -578,8 +583,10 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 /* ============================================================
