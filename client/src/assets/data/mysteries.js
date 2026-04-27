@@ -1,3 +1,9 @@
+import theAnnunciation from "../joyfulMysteriesImages/theAnnunciation.webp";
+import theBirthOfJesus from "../joyfulMysteriesImages/theBirthOfJesus.webp";
+import theFindingOfJesus from "../joyfulMysteriesImages/TheFindingOfJesus.webp";
+import thePresentation from "../joyfulMysteriesImages/thePresentation.webp";
+import theVisitation from "../joyfulMysteriesImages/theVisitation.webp";
+
 let mysteries = {
   metadata: {
     description: "Season-aware Catholic Rosary schedule",
@@ -8,11 +14,31 @@ let mysteries = {
     joyful: {
       name: "Joyful Mysteries",
       mysteries: [
-        { title: "The Annunciation", scripture: "Luke 1:26-38" },
-        { title: "The Visitation", scripture: "Luke 1:39-45" },
-        { title: "The Nativity", scripture: "Luke 2:1-20" },
-        { title: "The Presentation", scripture: "Luke 2:22-35" },
-        { title: "The Finding in the Temple", scripture: "Luke 2:41-52" },
+        {
+          title: "The Annunciation",
+          scripture: "Luke 1:26-38",
+          image: theAnnunciation,
+        },
+        {
+          title: "The Visitation",
+          scripture: "Luke 1:39-45",
+          image: theVisitation,
+        },
+        {
+          title: "The Nativity",
+          scripture: "Luke 2:1-20",
+          image: theBirthOfJesus,
+        },
+        {
+          title: "The Presentation",
+          scripture: "Luke 2:22-35",
+          image: thePresentation,
+        },
+        {
+          title: "The Finding in the Temple",
+          scripture: "Luke 2:41-52",
+          image: theFindingOfJesus,
+        },
       ],
     },
     sorrowful: {

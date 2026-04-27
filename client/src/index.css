@@ -558,7 +558,7 @@ a {
 
 .rosary {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -575,8 +575,8 @@ a {
 }
 
 .rosary-container {
-  height: 100%;
-  width: 80%;
+  min-height: 100%;
+  width: 85%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -586,7 +586,36 @@ a {
   justify-content: space-between;
   overflow: hidden;
   padding: 0;
-  margin: 0;
+  margin: 50px auto 10px;
+}
+
+.rosary-card {
+  width: 50%;
+  height: 90vh;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.rosary-card h3 {
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.rosary-card h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.rosary-card p {
+  width: 100%;
+  height: auto;
+}
+
+.rosary-card img {
+  max-height: 61%;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
 }
 
 /* ============================================================

@@ -1,6 +1,10 @@
 import { useState } from "react";
 import mysteries from "../assets/data/mysteries";
 import FamilyPrayer from "./FamilyPrayer";
+import rosaryPrayers from "../assets/data/rosaryPrayers";
+import startEnder1 from "../assets/rosaryStarterEnderImages/startEnder1.jpeg";
+import startEnder2 from "../assets/rosaryStarterEnderImages/startEnder2.jpeg";
+
 import altar from "../assets/altar.png";
 import altar2 from "../assets/altar2.png";
 
@@ -24,29 +28,60 @@ function Rosary() {
   const mysterySet = mysteries.weeklySchedule.default[fullDayName];
 
   function handleNextBead() {
-    setBead((b) => (b < 59 ? b + 1 : b));
+    setBead((b) => (b < 84 ? b + 1 : b));
   }
 
   function handlePrevBead() {
     setBead((b) => (b > 1 ? b - 1 : b));
   }
 
-  let mysteryNum = 1;
+  let mysteryNum;
   let rosaryTitle = "";
+  let mysteryImage;
 
   if (bead <= 7) {
     rosaryTitle = "Introductory Prayers";
-  } else if (bead > 7 && bead <= 25) {
+    mysteryImage = startEnder1;
+  } else if (bead > 7 && bead <= 21) {
     rosaryTitle = "1st Decade";
-  } else if (bead > 25 && bead <= 35) {
+    mysteryNum = 0;
+    mysteryImage = mysteries.mysterySets[mysterySet].mysteries[0].image;
+  } else if (bead > 21 && bead <= 35) {
     rosaryTitle = "2nd Decade";
+    mysteryNum = 1;
+    mysteryImage = mysteries.mysterySets[mysterySet].mysteries[1].image;
+  } else if (bead > 35 && bead <= 49) {
+    rosaryTitle = "3rd Decade";
+    mysteryNum = 2;
+    mysteryImage = mysteries.mysterySets[mysterySet].mysteries[2].image;
+  } else if (bead > 49 && bead <= 63) {
+    rosaryTitle = "4th Decade";
+    mysteryNum = 3;
+    mysteryImage = mysteries.mysterySets[mysterySet].mysteries[3].image;
+  } else if (bead > 63 && bead <= 77) {
+    rosaryTitle = "5th Decade";
+    mysteryNum = 4;
+    mysteryImage = mysteries.mysterySets[mysterySet].mysteries[4].image;
+  } else if (bead > 77 && bead <= 150) {
+    rosaryTitle = "Closing Prayers";
+    mysteryImage = startEnder2;
   }
+
+  console.log(bead);
+
+  console.log(mysteries.mysterySets[mysterySet].name);
+
   return (
     <section id="rosary" className="rosary">
       <h2>Rosary</h2>
       <button
         className="btn-accent"
         onClick={() => {
+          if (isStarted === false) {
+            setBead(1);
+            mysteryNum = 0;
+            rosaryTitle = "";
+          }
           setisStarted((s) => !s);
         }}
       >
@@ -55,8 +90,19 @@ function Rosary() {
       <div className="rosary-container">
         {isStarted ? (
           <RosaryCard
-            mysteryGroup={mysteries.mysterySets[mysterySet].mysteries[0].title}
-            scripture={mysteries.mysterySets[mysterySet].mysteries[0].scripture}
+            mysteryGroup={
+              mysteryNum !== undefined
+                ? mysteries.mysterySets[mysterySet].mysteries[mysteryNum].title
+                : null
+            }
+            image={mysteryImage}
+            cardTitle={mysteries.mysterySets[mysterySet].name}
+            verse={
+              mysteryNum !== undefined
+                ? mysteries.mysterySets[mysterySet].mysteries[mysteryNum]
+                    .scripture
+                : null
+            }
           />
         ) : (
           <RosaryCard
@@ -65,7 +111,10 @@ function Rosary() {
           />
         )}
         {isStarted ? (
-          <RosaryCard mysteryGroup={mysteries.mysterySets[mysterySet].name} />
+          <RosaryCard
+            mysteryGroup={rosaryPrayers[bead - 1].title}
+            scripture={rosaryPrayers[bead - 1].prayer}
+          />
         ) : (
           <img
             style={{
@@ -73,6 +122,7 @@ function Rosary() {
               zIndex: "-2",
               borderRadius: "30px",
               boxShadow: "-5px 5px 2px 1px rgba(152, 152, 152, 0.3)",
+              margin: "0 auto",
             }}
             src={altar2}
           />
@@ -82,26 +132,15 @@ function Rosary() {
             cardTitle={rosaryTitle}
             onHandlePrev={handlePrevBead}
             onHandleNext={handleNextBead}
+            verse={bead}
             beads={true}
           />
         ) : (
-          <FamilyPrayer />
+          <RosaryCard>
+            <FamilyPrayer />
+          </RosaryCard>
         )}
       </div>
-
-      {/* <div>
-        <p>{mysteries.mysterySets[mysterySet].name}</p>
-        <p> {mysteries.mysterySets[mysterySet].mysteries[0].title}</p>
-        <p> {mysteries.mysterySets[mysterySet].mysteries[0].scripture}</p>
-      </div> */}
-
-      {/* <p>{bead}</p>
-      <button className="btn-accent" onClick={handlePrevBead}>
-        Prev. Bead
-      </button>
-      <button className="btn-accent" onClick={handleNextBead}>
-        Next Bead
-      </button> */}
     </section>
   );
 }
@@ -109,21 +148,23 @@ function Rosary() {
 function RosaryCard(props) {
   return (
     <div className="rosary-card">
-      <h3>{props.mysteryGroup}</h3>
-      <h3>{props.cardTitle}</h3>
-      <p>{props.mystery}</p>
-      <p> {props.verse}</p>
-      <img src={props.image} />
-      <p> {props.scripture}</p>
-      <p>{props.date}</p>
+      {props.cardTitle && <h3>{props.cardTitle}</h3>}
+      {props.mysteryGroup && <h3>{props.mysteryGroup}</h3>}
+      {props.image && <img src={props.image} alt="mystery" />}
+      {props.verse && <h4>{props.verse}</h4>}
+      {props.scripture && (
+        <p dangerouslySetInnerHTML={{ __html: props.scripture }} />
+      )}
+      {props.date && <p>{props.date}</p>}
+      {props.children}
 
-      {props.beads ? (
+      {props.beads && (
         <div
           style={{
             display: "flex",
             alignContent: "center",
             justifyContent: "space-around",
-            marginTop: "auto",
+            margin: "10% auto",
           }}
         >
           <button
@@ -149,8 +190,6 @@ function RosaryCard(props) {
             &#10095;
           </button>
         </div>
-      ) : (
-        ""
       )}
     </div>
   );
