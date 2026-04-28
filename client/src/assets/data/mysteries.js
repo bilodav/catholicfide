@@ -3,6 +3,11 @@ import theBirthOfJesus from "../joyfulMysteriesImages/theBirthOfJesus.webp";
 import theFindingOfJesus from "../joyfulMysteriesImages/TheFindingOfJesus.webp";
 import thePresentation from "../joyfulMysteriesImages/thePresentation.webp";
 import theVisitation from "../joyfulMysteriesImages/theVisitation.webp";
+import theAgony from "../sorrowfulMysteriesImages/theAgonyInTheGarden.webp";
+import theScourging from "../sorrowfulMysteriesImages/theScourgingAtThePillar.webp";
+import theCrowning from "../sorrowfulMysteriesImages/theCrowningWithThorns.webp";
+import carryingTheCross from "../sorrowfulMysteriesImages/jesusCarriesHisCross.webp";
+import theCrucifixion from "../sorrowfulMysteriesImages/theCrucifixion.webp";
 
 let mysteries = {
   metadata: {
@@ -44,11 +49,31 @@ let mysteries = {
     sorrowful: {
       name: "Sorrowful Mysteries",
       mysteries: [
-        { title: "The Agony in the Garden", scripture: "Luke 22:39-46" },
-        { title: "The Scourging at the Pillar", scripture: "John 19:1" },
-        { title: "The Crowning with Thorns", scripture: "Matthew 27:27-31" },
-        { title: "The Carrying of the Cross", scripture: "John 19:16-17" },
-        { title: "The Crucifixion", scripture: "Luke 23:33-46" },
+        {
+          title: "The Agony in the Garden",
+          scripture: "Luke 22:39-46",
+          image: theAgony,
+        },
+        {
+          title: "The Scourging at the Pillar",
+          scripture: "John 19:1",
+          image: theScourging,
+        },
+        {
+          title: "The Crowning with Thorns",
+          scripture: "Matthew 27:27-31",
+          image: theCrowning,
+        },
+        {
+          title: "The Carrying of the Cross",
+          scripture: "John 19:16-17",
+          image: carryingTheCross,
+        },
+        {
+          title: "The Crucifixion",
+          scripture: "Luke 23:33-46",
+          image: theCrucifixion,
+        },
       ],
     },
     glorious: {
