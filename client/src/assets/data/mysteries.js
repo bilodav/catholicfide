@@ -1,13 +1,30 @@
+// Joyful Images Import
 import theAnnunciation from "../joyfulMysteriesImages/theAnnunciation.webp";
 import theBirthOfJesus from "../joyfulMysteriesImages/theBirthOfJesus.webp";
 import theFindingOfJesus from "../joyfulMysteriesImages/TheFindingOfJesus.webp";
 import thePresentation from "../joyfulMysteriesImages/thePresentation.webp";
 import theVisitation from "../joyfulMysteriesImages/theVisitation.webp";
+
+// Sorrowful Images Import
 import theAgony from "../sorrowfulMysteriesImages/theAgonyInTheGarden.webp";
 import theScourging from "../sorrowfulMysteriesImages/theScourgingAtThePillar.webp";
 import theCrowning from "../sorrowfulMysteriesImages/theCrowningWithThorns.webp";
 import carryingTheCross from "../sorrowfulMysteriesImages/jesusCarriesHisCross.webp";
 import theCrucifixion from "../sorrowfulMysteriesImages/theCrucifixion.webp";
+
+// Glorious Images Import
+import theDescent from "../gloriousMysteriesImages/descentOfTheHolySpirit.webp";
+import theQueen from "../gloriousMysteriesImages/queenOfHeavenAndEarth.webp";
+import theAscension from "../gloriousMysteriesImages/theAscension.webp";
+import theAssumption from "../gloriousMysteriesImages/theAssumption.webp";
+import theResurrection from "../gloriousMysteriesImages/theResurrection.webp";
+
+// Luminous Images Import
+import theBaptism from "../luminousMysteriesImages/baptismOfJesus.webp";
+import theProclamation from "../luminousMysteriesImages/proclamationOfTheKingdom.webp";
+import theEucharist from "../luminousMysteriesImages/theInstitutionOfTheEucharist.webp";
+import theTransfiguration from "../luminousMysteriesImages/theTransfiguration.webp";
+import theWedding from "../luminousMysteriesImages/weddingAtCana.webp";
 
 let mysteries = {
   metadata: {
@@ -79,23 +96,60 @@ let mysteries = {
     glorious: {
       name: "Glorious Mysteries",
       mysteries: [
-        { title: "The Resurrection", scripture: "Matthew 28:1-10" },
-        { title: "The Ascension", scripture: "Acts 1:6-11" },
-        { title: "The Descent of the Holy Spirit", scripture: "Acts 2:1-4" },
-        { title: "The Assumption", scripture: "Revelation 12:1" },
-        { title: "The Coronation of Mary", scripture: "Revelation 12:1" },
+        {
+          title: "The Resurrection",
+          scripture: "Matthew 28:1-10",
+          image: theResurrection,
+        },
+        {
+          title: "The Ascension",
+          scripture: "Acts 1:6-11",
+          image: theAscension,
+        },
+        {
+          title: "The Descent of the Holy Spirit",
+          scripture: "Acts 2:1-4",
+          image: theDescent,
+        },
+        {
+          title: "The Assumption",
+          scripture: "Revelation 12:1",
+          image: theAssumption,
+        },
+        {
+          title: "The Coronation of Mary",
+          scripture: "Revelation 12:1",
+          image: theQueen,
+        },
       ],
     },
     luminous: {
       name: "Luminous Mysteries",
       mysteries: [
-        { title: "The Baptism in the Jordan", scripture: "Matthew 3:13-17" },
-        { title: "The Wedding at Cana", scripture: "John 2:1-11" },
-        { title: "The Proclamation of the Kingdom", scripture: "Mark 1:14-15" },
-        { title: "The Transfiguration", scripture: "Luke 9:28-36" },
+        {
+          title: "The Baptism in the Jordan",
+          scripture: "Matthew 3:13-17",
+          image: theBaptism,
+        },
+        {
+          title: "The Wedding at Cana",
+          scripture: "John 2:1-11",
+          image: theWedding,
+        },
+        {
+          title: "The Proclamation of the Kingdom",
+          scripture: "Mark 1:14-15",
+          image: theProclamation,
+        },
+        {
+          title: "The Transfiguration",
+          scripture: "Luke 9:28-36",
+          image: theTransfiguration,
+        },
         {
           title: "The Institution of the Eucharist",
           scripture: "Luke 22:14-20",
+          image: theEucharist,
         },
       ],
     },
