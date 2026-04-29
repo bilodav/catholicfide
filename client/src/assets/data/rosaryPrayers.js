@@ -1,121 +1,164 @@
+import rosary1 from "../rosaryBeadsImages/rosary1.svg";
+import rosary2 from "../rosaryBeadsImages/rosary2.svg";
+import rosary3 from "../rosaryBeadsImages/rosary3.svg";
+import rosary4 from "../rosaryBeadsImages/rosary4.svg";
+import rosary5 from "../rosaryBeadsImages/rosary5.svg";
+import rosary6 from "../rosaryBeadsImages/rosary6.svg";
+import rosary7 from "../rosaryBeadsImages/rosary7.svg";
+import rosary8 from "../rosaryBeadsImages/rosary8.svg";
+import rosary9 from "../rosaryBeadsImages/rosary9.svg";
+import rosary10 from "../rosaryBeadsImages/rosary10.svg";
+import rosary11 from "../rosaryBeadsImages/rosary11.svg";
+import rosary12 from "../rosaryBeadsImages/rosary12.svg";
+import rosary13 from "../rosaryBeadsImages/rosary13.svg";
+import rosary14 from "../rosaryBeadsImages/rosary14.svg";
+import rosary15 from "../rosaryBeadsImages/rosary15.svg";
+import rosary16 from "../rosaryBeadsImages/rosary16.svg";
+import rosary17 from "../rosaryBeadsImages/rosary17.svg";
+import rosary18 from "../rosaryBeadsImages/rosary18.svg";
+
 const rosaryPrayers = [
   {
     title: "Sign, of the Cross and Apostle's Creed",
     prayer:
       "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.",
+    bead: rosary1,
   },
   {
     title: "Our Father",
     prayer:
       "Our Father, who art in heaven,hallowed be thy name;thy kingdom come;thy will be done;on earth as it is in heaven.Give us this day our daily bread;and forgive us our trespassesas we forgive those who trespass against us;and lead us not into temptation,but deliver us from evil, Amen.",
+    bead: rosary2,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary3,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary4,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary5,
   },
   {
     title: "Glory Be",
     prayer:
       "Glory be to the Father, and to the Son, and to the Holy Spirit as it was in the beginning is now and ever shall be, world without end, Amen.",
+    bead: rosary6,
   },
   {
     title: "Fatima Prayer",
     prayer:
       "O my Jesus, forgive us our sins, save us from the fires of hell; lead all souls to Heaven, especially those in most need of Thy mercy, Amen",
+    bead: rosary6,
   },
   {
     title: "Announce the first mystery",
     prayer: "",
+    bead: rosary6,
   },
   {
     title: "Our Father",
     prayer:
       "Our Father, who art in heaven,hallowed be thy name;thy kingdom come;thy will be done;on earth as it is in heaven.Give us this day our daily bread;and forgive us our trespassesas we forgive those who trespass against us;and lead us not into temptation,but deliver us from evil, Amen.",
+    bead: rosary6,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary7,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary8,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary9,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary10,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary11,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary12,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary13,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary14,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary15,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary16,
   },
   {
     title: "Glory Be",
     prayer:
       "Glory be to the Father, and to the Son, and to the Holy Spirit as it was in the beginning is now and ever shall be, world without end, Amen.",
+    bead: rosary17,
   },
   {
     title: "Fatima Prayer",
     prayer:
       "O my Jesus, forgive us our sins, save us from the fires of hell; lead all souls to Heaven, especially those in most need of Thy mercy, Amen",
+    bead: rosary17,
   },
   {
     title: "Announce the second  mystery",
     prayer: "",
+    bead: rosary17,
   },
   {
     title: "Our Father",
     prayer:
       "Our Father, who art in heaven,hallowed be thy name;thy kingdom come;thy will be done;on earth as it is in heaven.Give us this day our daily bread;and forgive us our trespassesas we forgive those who trespass against us;and lead us not into temptation,but deliver us from evil, Amen.",
+    bead: rosary17,
   },
   {
     title: "Hail Mary",
     prayer:
       "Hail Mary, full of grace. The Lord is with thee. Blessed art thou amongst women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death, Amen.",
+    bead: rosary18,
   },
   {
     title: "Hail Mary",
