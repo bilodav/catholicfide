@@ -590,8 +590,8 @@ a {
 }
 
 .rosary-card {
-  width: 50%;
-  height: 90vh;
+  width: 30%;
+  height: 91vh;
   padding: 20px;
   overflow-y: auto;
 }
@@ -612,10 +612,16 @@ a {
 }
 
 .rosary-card img {
-  max-height: 61%;
+  height: 65%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   border-radius: var(--radius-lg);
+}
+
+.rosary-card img:last-of-type {
+  height: 65%;
+  width: 80%;
 }
 
 /* ============================================================

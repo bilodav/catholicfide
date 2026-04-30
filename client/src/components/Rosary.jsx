@@ -133,7 +133,6 @@ function Rosary() {
             image={rosaryPrayers[bead - 1].bead}
             onHandlePrev={handlePrevBead}
             onHandleNext={handleNextBead}
-            verse={bead}
             beads={true}
           />
         ) : (
