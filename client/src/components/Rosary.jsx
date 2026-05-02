@@ -103,6 +103,11 @@ function Rosary() {
                     .scripture
                 : null
             }
+            scripture={
+              mysteryNum !== undefined
+                ? mysteries.mysterySets[mysterySet].mysteries[mysteryNum].fruit
+                : null
+            }
           />
         ) : (
           <RosaryCard
@@ -113,7 +118,10 @@ function Rosary() {
         {isStarted ? (
           <RosaryCard
             mysteryGroup={rosaryPrayers[bead - 1].title}
-            scripture={rosaryPrayers[bead - 1].prayer}
+            scripture={
+              rosaryPrayers[bead - 1].prayer ||
+              mysteries.mysterySets[mysterySet].mysteries[mysteryNum].verse
+            }
           />
         ) : (
           <img
@@ -131,6 +139,7 @@ function Rosary() {
           <RosaryCard
             cardTitle={rosaryTitle}
             image={rosaryPrayers[bead - 1].bead}
+            verse={rosaryPrayers[bead - 1].title}
             onHandlePrev={handlePrevBead}
             onHandleNext={handleNextBead}
             beads={true}
@@ -151,7 +160,7 @@ function RosaryCard(props) {
       {props.cardTitle && <h3>{props.cardTitle}</h3>}
       {props.mysteryGroup && <h3>{props.mysteryGroup}</h3>}
       {props.image && <img src={props.image} alt="mystery" />}
-      {props.verse && <h4>{props.verse}</h4>}
+      {props.verse && <h4 className={props.class}>{props.verse}</h4>}
       {props.scripture && (
         <p dangerouslySetInnerHTML={{ __html: props.scripture }} />
       )}
