@@ -103,6 +103,7 @@ let mysteries = {
         {
           title: "The Agony in the Garden",
           scripture: "Luke 22:39-46",
+          verse: `39 And he came out and went, as was his custom, to the Mount of Olives, and the disciples followed him. 40 And when he came to the place, he said to them, &ldquo;Pray that you may not enter into temptation.&rdquo; 41 And he withdrew from them about a stone's throw, and knelt down and prayed, 42 saying, &ldquo;Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.&rdquo; 43 And there appeared to him an angel from heaven, strengthening him. 44 And being in agony he prayed more earnestly; and his sweat became like great drops of blood falling down to the ground. 45 And when he rose from prayer, he came to the disciples and found them sleeping for sorrow, 46 and he said to them, &ldquo;Why are you sleeping? Rise and pray that you may not enter into temptation.&rdquo;`,
           image: theAgony,
           fruit:
             "Fruit of the mystery: Contrition, Conformity to the will of God.",
@@ -110,24 +111,33 @@ let mysteries = {
         {
           title: "The Scourging at the Pillar",
           scripture: "John 19:1",
+          verse: `1 Then Pilate took Jesus and flogged him.`,
           image: theScourging,
           fruit: "Fruit of the mystery: Purity, Mortification",
         },
         {
           title: "The Crowning with Thorns",
           scripture: "Matthew 27:27-31",
+          verse: `27 Then the soldiers of the governor took Jesus into the governor's headquarters, and they gathered the whole battalion before him. 28 And they stripped him and put a scarlet robe on him, 29 and twisting together a crown of thorns, they put it on his head and put a reed in his right hand. And kneeling before him, they mocked him, saying, &ldquo;Hail, King of the Jews!&rdquo; 30 And they spit on him and took the reed and struck him on the head. 31 And when they had mocked him, they stripped him of the robe and put his own clothes on him and led him away to crucify him.`,
           image: theCrowning,
           fruit: "Fruit of the mystery: Moral courage",
         },
         {
           title: "The Carrying of the Cross",
           scripture: "John 19:16-17",
+          verse: `So they took Jesus, 17 and he went out, bearing his own cross, to the place called The Place of a Skull, which in Aramaic is called Golgotha.`,
           image: carryingTheCross,
           fruit: "Fruit of the mystery: Patience",
         },
         {
           title: "The Crucifixion",
           scripture: "Luke 23:33-46",
+          verse: `33 And when they came to the place that is called The Skull, there they crucified him, and the criminals, one on his right and one on his left. 34 And Jesus said, &ldquo;Father, forgive them, for they know not what they do.&rdquo; And they cast lots to divide his garments. 35 And the people stood by, watching, but the rulers scoffed at him, saying, &ldquo;He saved others; let him save himself, if he is the Christ of God, his Chosen One!&rdquo; 36 The soldiers also mocked him, coming up and offering him sour wine 37 and saying, &ldquo;If you are the King of the Jews, save yourself!&rdquo; 38 There was also an inscription over him, &ldquo;This is the King of the Jews.&rdquo;<br>
+          <br>
+          39 One of the criminals who were hanged railed at him, saying, &ldquo;Are you not the Christ? Save yourself and us!&rdquo; 40 But the other rebuked him, saying, &ldquo;Do you not fear God, since you are under the same sentence of condemnation? 41 And we indeed justly, for we are receiving the due reward of our deeds; but this man has done nothing wrong.&rdquo; 42 And he said, &ldquo;Jesus, remember me when you come into your kingdom.&rdquo; 43 And he said to him, &ldquo;Truly, I say to you, today you will be with me in paradise.&rdquo;<br>
+          <br>
+          The Death of Jesus<br>
+          44 It was now about the sixth hour, and there was darkness over the whole land until the ninth hour,[e] 45 while the sun's light failed. And the curtain of the temple was torn in two. 46 Then Jesus, calling out with a loud voice, said, &ldquo;Father, into your hands I commit my spirit!&rdquo; And having said this he breathed his last.`,
           image: theCrucifixion,
           fruit: "Fruit of the mystery: Salvation, Self-Denial",
         },
@@ -139,30 +149,35 @@ let mysteries = {
         {
           title: "The Resurrection",
           scripture: "Matthew 28:1-10",
+          verse: `28 Now after the Sabbath, toward the dawn of the first day of the week, Mary Magdalene and the other Mary went to see the tomb. 2 And behold, there was a great earthquake, for an angel of the Lord descended from heaven and came and rolled back the stone and sat on it. 3 His appearance was like lightning, and his clothing white as snow. 4 And for fear of him the guards trembled and became like dead men. 5 But the angel said to the women, &ldquo;Do not be afraid, for I know that you seek Jesus who was crucified. 6 He is not here, for he has risen, as he said. Come, see the place where he lay. 7 Then go quickly and tell his disciples that he has risen from the dead, and behold, he is going before you to Galilee; there you will see him. See, I have told you.&rdquo; 8 So they departed quickly from the tomb with fear and great joy, and ran to tell his disciples. 9 And behold, Jesus met them and said, &ldquo;Greetings!&rdquo; And they came up and took hold of his feet and worshiped him. 10 Then Jesus said to them, &ldquo;Do not be afraid; go and tell my brothers to go to Galilee, and there they will see me.&rdquo;`,
           image: theResurrection,
           fruit: "Fruit of the mystery: Faith",
         },
         {
           title: "The Ascension",
           scripture: "Acts 1:6-11",
+          verse: `6 So when they had come together, they asked him, &ldquo;Lord, will you at this time restore the kingdom to Israel?&rdquo; 7 He said to them, &ldquo;It is not for you to know times or seasons that the Father has fixed by his own authority. 8 But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.&rdquo; 9 And when he had said these things, as they were looking on, he was lifted up, and a cloud took him out of their sight. 10 And while they were gazing into heaven as he went, behold, two men stood by them in white robes, 11 and said, &ldquo;Men of Galilee, why do you stand looking into heaven? This Jesus, who was taken up from you into heaven, will come in the same way as you saw him go into heaven.&rdquo;`,
           image: theAscension,
           fruit: "Fruit of the mystery: Hope, Desire for Heaven",
         },
         {
           title: "The Descent of the Holy Spirit",
           scripture: "Acts 2:1-4",
+          verse: `1 When the day of Pentecost arrived, they were all together in one place. 2 And suddenly there came from heaven a sound like a mighty rushing wind, and it filled the entire house where they were sitting. 3 And divided tongues as of fire appeared to them and rested on each one of them. 4 And they were all filled with the Holy Spirit and began to speak in other tongues as the Spirit gave them utterance.`,
           image: theDescent,
           fruit: "Fruit of the mystery: Wisdom, Love of God",
         },
         {
           title: "The Assumption",
           scripture: "Revelation 12:1",
+          verse: `1 And a great sign appeared in heaven: a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars.`,
           image: theAssumption,
           fruit: "Fruit of the mystery: Devotion to Mary",
         },
         {
           title: "The Coronation of Mary",
           scripture: "Revelation 12:1",
+          verse: `1 And a great sign appeared in heaven: a woman clothed with the sun, with the moon under her feet, and on her head a crown of twelve stars.`,
           image: theQueen,
           fruit: "Fruit of the mystery: Eternal happiness",
         },
@@ -174,30 +189,37 @@ let mysteries = {
         {
           title: "The Baptism in the Jordan",
           scripture: "Matthew 3:13-17",
+          verse: `13 Then Jesus came from Galilee to the Jordan to John, to be baptized by him. 14 John would have prevented him, saying, &ldquo;I need to be baptized by you, and do you come to me?&rdquo; 15 But Jesus answered him, &ldquo;Let it be so now, for thus it is fitting for us to fulfill all righteousness.&rdquo; Then he consented. 16 And when Jesus was baptized, immediately he went up from the water, and behold, the heavens were opened to him, and he saw the Spirit of God descending like a dove and coming to rest on him; 17 and behold, a voice from heaven said, &ldquo;This is my beloved Son, with whom I am well pleased.&rdquo;`,
           image: theBaptism,
           fruit: "Fruit of the mystery: Openness to the Holy Spirit",
         },
         {
           title: "The Wedding at Cana",
           scripture: "John 2:1-11",
+          verse: `1 On the third day there was a wedding at Cana in Galilee, and the mother of Jesus was there. 2 Jesus also was invited to the wedding with his disciples. 3 When the wine ran out, the mother of Jesus said to him, &ldquo;They have no wine.&rdquo; 4 And Jesus said to her, &ldquo;Woman, what does this have to do with me? My hour has not yet come.&rdquo; 5 His mother said to the servants, &ldquo;Do whatever he tells you.&rdquo;<br>
+          <br>
+          6 Now there were six stone water jars there for the Jewish rites of purification, each holding twenty or thirty gallons. 7 Jesus said to the servants, &ldquo;Fill the jars with water.&rdquo; And they filled them up to the brim. 8 And he said to them, &ldquo;Now draw some out and take it to the master of the feast.&rdquo; So they took it. 9 When the master of the feast tasted the water now become wine, and did not know where it came from (though the servants who had drawn the water knew), the master of the feast called the bridegroom 10 and said to him, &ldquo;Everyone serves the good wine first, and when people have drunk freely, then the poor wine. But you have kept the good wine until now.&rdquo; 11 This, the first of his signs, Jesus did at Cana in Galilee, and manifested his glory. And his disciples believed in him.`,
           image: theWedding,
           fruit: "Fruit of the mystery: To Jesus Through Mary",
         },
         {
           title: "The Proclamation of the Kingdom",
           scripture: "Mark 1:14-15",
+          verse: `14 Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God, 15 and saying, &ldquo;The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.&rdquo;`,
           image: theProclamation,
           fruit: "Fruit of the mystery: Repentance, Trust in God",
         },
         {
           title: "The Transfiguration",
           scripture: "Luke 9:28-36",
+          verse: `28 Now about eight days after these sayings he took with him Peter and John and James and went up on the mountain to pray. 29 And as he was praying, the appearance of his face was altered, and his clothing became dazzling white. 30 And behold, two men were talking with him, Moses and Elijah, 31 who appeared in glory and spoke of his departure, which he was about to accomplish at Jerusalem. 32 Now Peter and those who were with him were heavy with sleep, but when they became fully awake they saw his glory and the two men who stood with him. 33 And as the men were parting from him, Peter said to Jesus, &ldquo;Master, it is good that we are here. Let us make three tents, one for you and one for Moses and one for Elijah&rdquo;&mdash;not knowing what he said. 34 As he was saying these things, a cloud came and overshadowed them, and they were afraid as they entered the cloud. 35 And a voice came out of the cloud, saying, &ldquo;This is my Son, my Chosen One; listen to him!&rdquo; 36 And when the voice had spoken, Jesus was found alone. And they kept silent and told no one in those days anything of what they had seen.`,
           image: theTransfiguration,
           fruit: "Fruit of the mystery: Desire for holiness",
         },
         {
           title: "The Institution of the Eucharist",
           scripture: "Luke 22:14-20",
+          verse: `14 And when the hour came, he reclined at table, and the apostles with him. 15 And he said to them, &ldquo;I have earnestly desired to eat this Passover with you before I suffer. 16 For I tell you I will not eat it until it is fulfilled in the kingdom of God.&rdquo; 17 And he took a cup, and when he had given thanks he said, &ldquo;Take this, and divide it among yourselves. 18 For I tell you that from now on I will not drink of the fruit of the vine until the kingdom of God comes.&rdquo; 19 And he took bread, and when he had given thanks, he broke it and gave it to them, saying, &ldquo;This is my body, which is given for you. Do this in remembrance of me.&rdquo; 20 And likewise the cup after they had eaten, saying, &ldquo;This cup that is poured out for you is the new covenant in my blood.`,
           image: theEucharist,
           fruit:
             "Fruit of the mystery: Eucharistic Adoration, Active participation at mass",
