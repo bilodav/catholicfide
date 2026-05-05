@@ -594,14 +594,19 @@ a {
 
   .rosary-card {
     width: 100%;
-    height: 91vh;
+    height: 80vh;
     padding: 20px;
     overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .rosary-card h3 {
     text-align: center;
-    margin-top: 3vh;
+    margin-top: 0;
   }
 
   .rosary-card h4 {
@@ -609,17 +614,22 @@ a {
     text-align: center;
   }
 
-  .rosary-card p {
+  .rosary-card-body {
     width: 100%;
-    height: auto;
+    height: 100%;
+    padding: 0;
   }
 
   .rosary-card img {
-    height: 63%;
-    width: 70%;
+    height: 75%;
+    width: 65%;
     display: block;
     margin: 0 auto;
     border-radius: var(--radius-lg);
+  }
+
+  .rosary-card .date {
+    text-align: center;
   }
 }
 
@@ -641,9 +651,8 @@ a {
    ============================================================ */
 
 .family-prayer {
-  position: relative;
   height: auto;
-  width: 100%;
+  width: auto;
   max-width: 400px;
   background-color: var(--bg-secondary);
   border: 1px solid var(--border-primary);
@@ -652,7 +661,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3% 1.5%;
+  padding: 3% 5%;
+}
+
+.family-prayer p {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 /* ============================================================
