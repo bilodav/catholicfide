@@ -19,6 +19,7 @@ const greeting = [
   "My little",
   "My graceful",
   "My faithful",
+  "My Sweetest"
 ];
 
 export default greeting;

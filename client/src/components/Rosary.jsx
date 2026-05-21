@@ -39,10 +39,12 @@ function Rosary() {
   let mysteryNum;
   let rosaryTitle = "";
   let mysteryImage;
+  let starterImage = mysteries.mysterySets[mysterySet].startImg;
+  let enderImage = mysteries.mysterySets[mysterySet].endImg;
 
   if (bead <= 7) {
     rosaryTitle = "Introductory Prayers";
-    mysteryImage = startEnder1;
+    mysteryImage = starterImage;
   } else if (bead > 7 && bead <= 21) {
     rosaryTitle = "1st Decade";
     mysteryNum = 0;
@@ -65,7 +67,7 @@ function Rosary() {
     mysteryImage = mysteries.mysterySets[mysterySet].mysteries[4].image;
   } else if (bead > 77 && bead <= 150) {
     rosaryTitle = "Closing Prayers";
-    mysteryImage = startEnder2;
+    mysteryImage = enderImage;
   }
 
   console.log(bead);
@@ -111,10 +113,7 @@ function Rosary() {
             }
           />
         ) : (
-          <RosaryCard
-            mysteryGroup={mysteries.mysterySets[mysterySet].name}
-            date={date.toDateString()}
-          />
+          <RosaryCard image={starterImage} />
         )}
         {isStarted ? (
           <RosaryCard
@@ -125,15 +124,9 @@ function Rosary() {
             }
           />
         ) : (
-          <img
-            style={{
-              width: "50%",
-              zIndex: "-2",
-              borderRadius: "30px",
-              boxShadow: "-5px 5px 2px 1px rgba(152, 152, 152, 0.3)",
-              margin: "0 auto",
-            }}
-            src={altar2}
+          <RosaryCard
+            mysteryGroup={mysteries.mysterySets[mysterySet].name}
+            date={date.toDateString()}
           />
         )}
         {isStarted ? (
@@ -146,9 +139,7 @@ function Rosary() {
             beads={true}
           />
         ) : (
-          <RosaryCard>
-            <FamilyPrayer />
-          </RosaryCard>
+          <RosaryCard image={enderImage} />
         )}
       </div>
     </section>

@@ -26,6 +26,7 @@ function DigitalAltar() {
           <option value="prayers">Prayers</option>
           <option value="rosary">Rosary</option>
           <option value="novenas">Novenas</option>
+          <option value="stations">Stations of the Crosss</option>
           <option value="reading">Reading of the Day</option>
         </select>
       </div>

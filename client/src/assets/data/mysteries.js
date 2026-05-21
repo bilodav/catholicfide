@@ -1,30 +1,38 @@
 // Joyful Images Import
+import joyfulStart from "../rosaryStarterEnderImages/joyfulStart.jpeg";
 import theAnnunciation from "../joyfulMysteriesImages/theAnnunciation.webp";
 import theBirthOfJesus from "../joyfulMysteriesImages/theBirthOfJesus.webp";
 import theFindingOfJesus from "../joyfulMysteriesImages/TheFindingOfJesus.webp";
 import thePresentation from "../joyfulMysteriesImages/thePresentation.webp";
 import theVisitation from "../joyfulMysteriesImages/theVisitation.webp";
+import joyfulEnd from "../rosaryStarterEnderImages/joyfulEnd.jpeg";
 
 // Sorrowful Images Import
+import sorrowfulStart from "../rosaryStarterEnderImages/sorrowfulStart.jpeg";
 import theAgony from "../sorrowfulMysteriesImages/theAgonyInTheGarden.webp";
 import theScourging from "../sorrowfulMysteriesImages/theScourgingAtThePillar.webp";
 import theCrowning from "../sorrowfulMysteriesImages/theCrowningWithThorns.webp";
 import carryingTheCross from "../sorrowfulMysteriesImages/jesusCarriesHisCross.webp";
 import theCrucifixion from "../sorrowfulMysteriesImages/theCrucifixion.webp";
+import sorrowfulEnd from "../rosaryStarterEnderImages/sorrowfulEnd.jpeg";
 
 // Glorious Images Import
+import gloriousStart from "../rosaryStarterEnderImages/gloriousStart.jpeg";
 import theDescent from "../gloriousMysteriesImages/descentOfTheHolySpirit.webp";
 import theQueen from "../gloriousMysteriesImages/queenOfHeavenAndEarth.webp";
 import theAscension from "../gloriousMysteriesImages/theAscension.webp";
 import theAssumption from "../gloriousMysteriesImages/theAssumption.webp";
 import theResurrection from "../gloriousMysteriesImages/theResurrection.webp";
+import gloriousEnd from "../rosaryStarterEnderImages/gloriousEnd.jpeg";
 
 // Luminous Images Import
+import luminousStart from "../rosaryStarterEnderImages/luminousStart.jpeg";
 import theBaptism from "../luminousMysteriesImages/baptismOfJesus.webp";
 import theProclamation from "../luminousMysteriesImages/proclamationOfTheKingdom.webp";
 import theEucharist from "../luminousMysteriesImages/theInstitutionOfTheEucharist.webp";
 import theTransfiguration from "../luminousMysteriesImages/theTransfiguration.webp";
 import theWedding from "../luminousMysteriesImages/weddingAtCana.webp";
+import luminousEnd from "../rosaryStarterEnderImages/luminousEnd.jpeg";
 
 let mysteries = {
   metadata: {
@@ -35,6 +43,8 @@ let mysteries = {
   mysterySets: {
     joyful: {
       name: "Joyful Mysteries",
+      startImg: joyfulStart,
+      endImg: joyfulEnd,
       mysteries: [
         {
           title: "The Annunciation",
@@ -99,6 +109,8 @@ let mysteries = {
     },
     sorrowful: {
       name: "Sorrowful Mysteries",
+      startImg: sorrowfulStart,
+      endImg: sorrowfulEnd,
       mysteries: [
         {
           title: "The Agony in the Garden",
@@ -145,6 +157,8 @@ let mysteries = {
     },
     glorious: {
       name: "Glorious Mysteries",
+      startImg: gloriousStart,
+      endImg: gloriousEnd,
       mysteries: [
         {
           title: "The Resurrection",
@@ -185,6 +199,8 @@ let mysteries = {
     },
     luminous: {
       name: "Luminous Mysteries",
+      startImg: luminousStart,
+      endImg: luminousEnd,
       mysteries: [
         {
           title: "The Baptism in the Jordan",
