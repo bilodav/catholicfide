@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Rosary from "./Rosary";
 import DefaultAltar from "./DefaultAltar";
+import Prayers from "./Prayers";
 
 function DigitalAltar() {
   const [altarState, setAltarState] = useState("default");
@@ -10,23 +11,26 @@ function DigitalAltar() {
     case "rosary":
       changedAltar = <Rosary />;
       break;
+    case "prayers":
+      changedAltar = <Prayers />;
+      break;
     default:
       changedAltar = <DefaultAltar />;
   }
   return (
-    <section
-      className="digital-altar"
-      id="digitalAltar"
-      value={altarState}
-      onChange={(e) => setAltarState(e.target.value)}
-    >
+    <section className="digital-altar" id="digitalAltar">
       <div className="digital-altar-selection-row">
-        <select name="devotion" id="devion">
+        <select
+          name="devotion"
+          id="devotion"
+          value={altarState}
+          onChange={(e) => setAltarState(e.target.value)}
+        >
           <option value="default"> Digital Prayer Altar</option>
           <option value="prayers">Prayers</option>
           <option value="rosary">Rosary</option>
           <option value="novenas">Novenas</option>
-          <option value="stations">Stations of the Crosss</option>
+          <option value="stations">Stations of the Cross</option>
           <option value="reading">Reading of the Day</option>
         </select>
       </div>
