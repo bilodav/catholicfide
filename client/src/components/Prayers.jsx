@@ -13,8 +13,9 @@ const initArr = PRAYERS.map((p) => ({
   title: p.metadata.title,
 }));
 
-function PrayerContent({ prayer }) {
-  const translation = prayer.translations.en;
+function PrayerContent({ prayer, language = "en" }) {
+  // ✅ fallback to English if the selected language doesn't exist on this prayer
+  const translation = prayer.translations[language] ?? prayer.translations.en;
 
   if (translation.text) {
     return <p className="prayer-text">{translation.text}</p>;
@@ -36,7 +37,7 @@ function PrayerContent({ prayer }) {
               return (
                 <div key={i} className="prayer-reference-inline">
                   {block.optional && <em>(Optional) </em>}
-                  <PrayerContent prayer={referenced} />
+                  <PrayerContent prayer={referenced} language={language} />
                   {block.count > 1 && <em> (×{block.count})</em>}
                 </div>
               );
@@ -57,6 +58,7 @@ function Prayers() {
   const [prayerLanguage, setPrayerLanguage] = useState("en");
   const [prayerList, setPrayerList] = useState(initArr);
   const [currPrayer, setcurrPrayer] = useState(null);
+  const [displayExtraInfo, setDisplayExtraInfo] = useState(false);
 
   function handlePrayerChange(e) {
     const newCategory = e.target.value;
@@ -79,6 +81,14 @@ function Prayers() {
     setcurrPrayer(PRAYERS.find((p) => p.metadata.id === prayer));
   }
 
+  function handleLanguageChange(e) {
+    setPrayerLanguage(e.target.value);
+  }
+
+  function handleDisplayExtraInfo() {
+    setDisplayExtraInfo((prev) => !prev);
+  }
+
   return (
     <section className="prayers">
       <div className="prayer-filters">
@@ -96,17 +106,19 @@ function Prayers() {
           <option value="saints">Saints</option>
           <option value="seasonal">Seasonal</option>
         </select>
-        <select name="" id="">
-          <option value="">language</option>
-          <option value="">English</option>
-          <option value="">Latin</option>
-          <option value="">French</option>
-          <option value="">Italian</option>
+        <select value={prayerLanguage} onChange={handleLanguageChange}>
+          <option value="en">English</option>
+          <option value="la">Latin</option>
+          <option value="fr">French</option>
+          <option value="de">German</option>
+          <option value="it">Italian</option>
+          <option value="pl">Polish</option>
+          <option value="pt">Portuguese</option>
+          <option value="es">Spanish</option>
         </select>
-        <select name="" id="">
-          <option value="">Display Extra Info</option>
-          <option value="">Yes</option>
-          <option value="">No</option>
+        <select onChange={handleDisplayExtraInfo}>
+          <option value={false}>No</option>
+          <option value={true}>Yes</option>
         </select>
       </div>
       <div>
@@ -133,12 +145,28 @@ function Prayers() {
             {currPrayer ? (
               <>
                 <h3>{currPrayer.metadata.title}</h3>
-                <PrayerContent prayer={currPrayer} />
+                <PrayerContent prayer={currPrayer} language={prayerLanguage} />
               </>
             ) : (
-              <p>Select a prayer to view it.</p>
+              <h3>Select a prayer to view it.</h3>
             )}
           </div>
+
+          {displayExtraInfo && currPrayer ? (
+            <div className="prayer-card prayercard-nodesc">
+              <h3>Extra Info</h3>
+              <h4>Description</h4>
+              <p>{currPrayer.metadata.description}</p>
+              <h4>Origin</h4>
+              <p>{currPrayer.metadata.origin}</p>
+              <h4>Origin Date</h4>
+              <p>{currPrayer.metadata.origin_date}</p>
+              <h4>Usage</h4>
+              <p>{currPrayer.metadata.usage}</p>
+              <h4>Type of Prayer</h4>
+              <p>{currPrayer.metadata.type}</p>
+            </div>
+          ) : undefined}
         </div>
       </div>
     </section>
