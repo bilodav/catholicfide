@@ -749,7 +749,12 @@ a {
 }
 
 .prayer-list li:hover {
-  background: var(--border-accent);
+  background: var(--color-gray-400);
+  color: var(--color-light);
+}
+
+.prayer-list-active-prayer {
+  background: var(--bg-accent);
   color: var(--color-light);
 }
 
@@ -757,6 +762,16 @@ a {
   border: 1px solid var(--border-dark);
   border-radius: var(--radius-lg);
   flex: 1;
+}
+
+.prayercard-nodesc h4 {
+  font-size: 1.35rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.prayercard-nodesc h4:first-of-type {
+  margin-top: 0px;
 }
 
 /* ============================================================

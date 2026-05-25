@@ -59,10 +59,11 @@ function Prayers() {
   const [prayerList, setPrayerList] = useState(initArr);
   const [currPrayer, setcurrPrayer] = useState(null);
   const [displayExtraInfo, setDisplayExtraInfo] = useState(false);
+  const [searchPrayer, setSearchPrayer] = useState("");
 
   function handlePrayerChange(e) {
     const newCategory = e.target.value;
-    setPrayerCategory(newCategory); // for keeping the select in sync
+    setPrayerCategory(newCategory);
 
     if (newCategory === "all") {
       setPrayerList(
@@ -87,6 +88,41 @@ function Prayers() {
 
   function handleDisplayExtraInfo() {
     setDisplayExtraInfo((prev) => !prev);
+  }
+
+  function handleSearchPrayer(e) {
+    const searchText = e.target.value.toLowerCase();
+    setSearchPrayer(searchText);
+
+    if (!searchText) {
+      // Reset to whatever category is currently active
+      const base =
+        prayerCategory === "all"
+          ? PRAYERS
+          : PRAYERS.filter(
+              (p) => p.metadata.primary_category === prayerCategory,
+            );
+      setPrayerList(
+        base.map((p) => ({ id: p.metadata.id, title: p.metadata.title })),
+      );
+      return;
+    }
+
+    const base =
+      prayerCategory === "all"
+        ? PRAYERS
+        : PRAYERS.filter((p) => p.metadata.primary_category === prayerCategory);
+
+    setPrayerList(
+      base
+        .filter(
+          (p) =>
+            p.metadata.title?.toLowerCase().includes(searchText) ||
+            p.metadata.description?.toLowerCase().includes(searchText) ||
+            p.metadata.id?.toLowerCase().includes(searchText),
+        )
+        .map((p) => ({ id: p.metadata.id, title: p.metadata.title })),
+    );
   }
 
   return (
@@ -126,6 +162,8 @@ function Prayers() {
           type="text"
           className="prayer-search"
           placeholder="Search for prayer by title or description"
+          value={searchPrayer}
+          onChange={handleSearchPrayer}
         />
         <div className="prayer-display">
           <div className="prayer-list prayer-card">
@@ -135,6 +173,11 @@ function Prayers() {
                 <li
                   onClick={() => handlePrayerClick(prayer.id)}
                   key={prayer.id}
+                  className={
+                    prayer.id === currPrayer?.metadata.id
+                      ? "prayer-list-active-prayer"
+                      : null
+                  }
                 >
                   {prayer.title}
                 </li>
