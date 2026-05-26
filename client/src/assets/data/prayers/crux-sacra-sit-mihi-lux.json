@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "crux-sacra-sit-mihi-lux",
+    "title": "Crux Sacra Sit Mihi Lux",
+    "primary_category": "benedictine",
+    "labels": ["benedictine", "protection", "latin", "common"],
+    "importance": "common",
+    "type": "prayer",
+    "description": "Traditional Benedictine prayer of protection associated with the Medal of Saint Benedict",
+    "origin": "Traditional Benedictine inscription prayer associated with Saint Benedict",
+    "origin_date": "~1400",
+    "usage": "Used in prayers of protection and spiritual warfare, commonly associated with the Saint Benedict Medal",
+    "feast_days": ["saint-benedict-feast"],
+    "devotions": ["saint-benedict-devotion", "protection-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Crux sacra sit mihi lux. Non draco sit mihi dux. Vade retro Satana. Numquam suade mihi vana. Sunt mala quae libas. Ipse venena bibas.",
+      "notes": "Traditional Latin inscription from the Saint Benedict Medal"
+    },
+    "en": {
+      "language": "English",
+      "text": "May the Holy Cross be my light. Let not the dragon be my guide. Begone, Satan. Do not suggest to me thy vanities. Evil are the things thou profferest. Drink thou thine own poison.",
+      "notes": "Common English translation used in Catholic devotion"
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "La Santa Cruz sea mi luz. No sea el demonio mi guía. Apártate, Satanás. Nunca me aconsejes cosas vanas. Es malo lo que me ofreces. Bebe tú mismo tu veneno.",
+      "notes": "Spanish devotional translation associated with the Saint Benedict Medal"
+    },
+    "fr": {
+      "language": "French",
+      "text": "Que la Sainte Croix soit ma lumière. Que le dragon ne soit pas mon guide. Retire-toi, Satan. Ne me conseille jamais des vanités. Ce que tu offres est mauvais. Bois toi-même ton poison.",
+      "notes": "French Catholic devotional translation"
+    },
+    "de": {
+      "language": "German",
+      "text": "Das heilige Kreuz sei mein Licht. Nicht der Drache sei mein Führer. Weiche, Satan. Nie verleite mich zur Eitelkeit. Böse ist, was du anbietest. Trink dein Gift selbst.",
+      "notes": "German devotional translation associated with Saint Benedict"
+    },
+    "it": {
+      "language": "Italian",
+      "text": "La Santa Croce sia la mia luce. Non sia il demonio la mia guida. Va' via, Satana. Non mi persuadere mai con cose vane. È male ciò che offri. Bevi tu stesso il tuo veleno.",
+      "notes": "Italian Catholic devotional translation"
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "A Santa Cruz seja minha luz. Não seja o dragão meu guia. Retira-te, Satanás. Nunca me aconselhes coisas vãs. É mau o que me ofereces. Bebe tu mesmo o teu veneno.",
+      "notes": "Portuguese devotional translation associated with the Saint Benedict Medal"
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Niech Święty Krzyż będzie mi światłem. Niech smok nie będzie mi przewodnikiem. Idź precz, szatanie. Nigdy nie kuś mnie marnościami. Złe jest to, co podsuwasz. Sam pij swoją truciznę.",
+      "notes": "Polish Catholic devotional translation"
+    }
+  }
+}

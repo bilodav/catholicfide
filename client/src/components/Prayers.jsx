@@ -130,6 +130,7 @@ function Prayers() {
       <div className="prayer-filters">
         <select value={prayerCategory} onChange={handlePrayerChange}>
           <option value="all">All</option>
+          <option value="benedictine">Benedictine</option>
           <option value="christological">Christological</option>
           <option value="creeds">Creeds</option>
           <option value="devotional">Devotional</option>

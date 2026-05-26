@@ -5,6 +5,8 @@ const familyPrayers = [
       "I ask our Lord Jesus to bless you with peace, strength, and wisdom in all that you do.",
       "I pray our Heavenly Father fills your heart with His love and guides your steps each day.",
       "I ask Jesus to protect you and keep you safe under His loving care.",
+      "I pray that God comforts you so that your heart may always be at peace.",
+      "I pray God gives you the strength and health to be a good Mother to out Girls.",
       "I pray the Holy Spirit grants you patience, joy, and understanding in your daily life.",
       "I ask the Lord to deepen your faith and draw you closer to His Sacred Heart.",
       "I pray Blessed Mother Mary intercedes for you and covers you with her mantle.",
@@ -12,7 +14,7 @@ const familyPrayers = [
       "I pray the Father gives you strength in times of difficulty and hope in times of doubt.",
       "I ask the Lord to bless your work and all the efforts of your hands.",
       "I pray Jesus lets you always feel His presence and walk in His light.",
-      "I pray that God always guides you and may his face always shine upon you. May youalways be in his Gracew",
+      "I pray that God always guides you and may his face always shine upon you. May youalways be in his Grace",
     ],
     specialDates: [
       {
@@ -50,7 +52,8 @@ const familyPrayers = [
       "I pray the Father gives you peaceful rest and sweet dreams.",
       "I ask the Lord to help you be kind and loving to everyone you meet.",
       "I pray Jesus walks with you every day and keeps you close to Him.",
-      "I pray by the grace of outr Lord you grow up strong and healthy and always filled with love",
+      "I pray by the grace of our Lord you grow up strong and healthy and always filled with love",
+      "I ask Jesus Christ our Lord that he may always keep your kind spirit",
     ],
     specialDates: [
       {
@@ -89,6 +92,7 @@ const familyPrayers = [
       "I ask the Lord to help you share love and joy with others.",
       "I pray Jesus walks beside you and leads you in His truth.",
       "I pray the light of our Lord Jesus, may always be seen in you. May you be a beacon of him in this world",
+      "I pray you grow up strong and healthy, and may your love for God deepen and shine.",
     ],
     specialDates: [
       {

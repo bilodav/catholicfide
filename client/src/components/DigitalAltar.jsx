@@ -2,6 +2,7 @@ import { useState } from "react";
 import Rosary from "./Rosary";
 import DefaultAltar from "./DefaultAltar";
 import Prayers from "./Prayers";
+import StationsOfTheCross from "./StationsOfTheCross";
 
 function DigitalAltar() {
   const [altarState, setAltarState] = useState("default");
@@ -13,6 +14,9 @@ function DigitalAltar() {
       break;
     case "prayers":
       changedAltar = <Prayers />;
+      break;
+    case "stations":
+      changedAltar = <StationsOfTheCross />;
       break;
     default:
       changedAltar = <DefaultAltar />;
