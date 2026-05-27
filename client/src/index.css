@@ -775,6 +775,62 @@ a {
 }
 
 /* ============================================================
+   STATIONS OF THE CROSS COMPONENT OF DIGITIAL ALTAR
+   ============================================================ */
+.stations-of-the-cross {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stations-of-the-cross-container {
+  min-height: 100%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0;
+  margin: 25px auto 10px;
+}
+
+.stations-of-the-cross-container img {
+  height: 85vh;
+  border-radius: var(--radius-lg);
+}
+
+.stations-of-the-cross-container .how-to {
+  width: 50%;
+  height: 80vh;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.how-to ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin-bottom: 20px;
+}
+
+.how-to b {
+  font-weight: 800;
+}
+
+.how-to ol b {
+  font-weight: 600;
+}
+
+.how-to p {
+  margin-bottom: 20px;
+}
+
+/* ============================================================
    FAMILY PRAYER COMPONENT
    ============================================================ */
 

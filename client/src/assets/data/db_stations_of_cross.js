@@ -146,4 +146,4 @@ const stationOfCrossDataApi = [
   },
 ];
 
-module.exports = stationOfCrossDataApi;
+export default stationOfCrossDataApi;
