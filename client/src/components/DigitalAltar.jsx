@@ -3,6 +3,7 @@ import Rosary from "./Rosary";
 import DefaultAltar from "./DefaultAltar";
 import Prayers from "./Prayers";
 import StationsOfTheCross from "./StationsOfTheCross";
+import StOfDay from "./StOfDay";
 
 function DigitalAltar() {
   const [altarState, setAltarState] = useState("default");
@@ -17,6 +18,9 @@ function DigitalAltar() {
       break;
     case "stations":
       changedAltar = <StationsOfTheCross />;
+      break;
+    case "st-of-day":
+      changedAltar = <StOfDay />;
       break;
     default:
       changedAltar = <DefaultAltar />;
@@ -34,6 +38,7 @@ function DigitalAltar() {
           <option value="prayers">Prayers</option>
           <option value="rosary">Rosary</option>
           <option value="novenas">Novenas</option>
+          <option value="st-of-day">St. of the Day</option>
           <option value="stations">Stations of the Cross</option>
           <option value="reading">Reading of the Day</option>
         </select>

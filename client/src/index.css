@@ -858,6 +858,34 @@ a {
 }
 
 /* ============================================================
+   ST OF THE DAY COMPONENT
+   ============================================================ */
+
+.st-of-day {
+  min-height: 100%;
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0;
+  margin: 25px auto 10px;
+}
+
+.st-of-day-card {
+  width: 33%;
+  height: 80vh;
+  padding: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* ============================================================
    FAMILY PRAYER COMPONENT
    ============================================================ */
 
