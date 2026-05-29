@@ -15,24 +15,34 @@ function StOfDay() {
   return (
     <section className="st-of-day">
       <div className="st-of-day-card">
-        <h2>{todaysSaint.saint_name}</h2>
-        <h3>{todaysSaint.id}</h3>
-        <p>{todaysSaint.saint_reflection}</p>
-        <h3>Patron Saint of:</h3>
+        <h2>
+          {todaysSaint.saint_name} - {todaysSaint.id}
+        </h2>
         <p>
-          {todaysSaint.saint_patron.map((item, index) =>
-            index < todaysSaint.saint_patron.length - 1 ? (
-              <span>{item} ,</span>
-            ) : (
-              <span>{item}</span>
-            ),
-          )}
+          <i>({todaysSaint.saint_lifetime})</i>
         </p>
+        <h3>Reflection</h3>
+        <p>{todaysSaint.saint_reflection}</p>
+        {todaysSaint.saint_patron ? (
+          <div>
+            <h3>Patron Saint of:</h3>
+            <p>
+              {todaysSaint.saint_patron.map((item, index) =>
+                index < todaysSaint.saint_patron.length - 1 ? (
+                  <span>{item} ,</span>
+                ) : (
+                  <span>{item}</span>
+                ),
+              )}
+            </p>
+          </div>
+        ) : null}
       </div>
       <div className="st-of-day-card">
         <img src={todaysSaint.saint_image} alt={todaysSaint.saint_name} />
       </div>
       <div className="st-of-day-card">
+        {todaysSaint.saint_lifetime ? <h3>Story</h3> : <h3>Description</h3>}
         <p>{todaysSaint.saint_story}</p>
       </div>
     </section>

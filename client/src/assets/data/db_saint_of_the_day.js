@@ -1196,6 +1196,7 @@ const saintOfThedayDataApi = [
     saint_day: "28",
     saint_date: "5/28",
     saint_name: "Venerable Pierre Toussaint",
+    saint_lifetime: "June 27, 1766 – June 30, 1853",
     saint_image: saintImg[149],
     saint_patron: ["Barbers", "Hair Stylists"],
     saint_reflection:
@@ -1210,6 +1211,13 @@ const saintOfThedayDataApi = [
     saint_day: "29",
     saint_date: "5/29",
     saint_name: "Saint Madeleine Sophie Barat",
+    saint_lifetime: "December 12, 1779 – May 25, 1865",
+    saint_image: saintImg[150],
+    saint_patron: ["Educators", "Teachers"],
+    saint_reflection:
+      "Madeleine Sophie Barat lived in turbulent times. She was only 10 when the Reign of Terror began. In the wake of the French Revolution, rich and poor both suffered before some semblance of normality returned to France. Born to some degree of privilege, Sophie received a good education. It grieved her that the same opportunity was being denied to other young girls, and she devoted herself to educating them, whether poor or well-to-do. We who live in an affluent country can follow her example by helping to ensure to others the blessings we have enjoyed.",
+    saint_story:
+      "The legacy of Madeleine Sophie Barat can be found in the more than 100 schools operated by her Society of the Sacred Heart, institutions known for the quality of the education made available to the young. Sophie herself received an extensive education, thanks to her brother Louis, 11 years older and her godfather at baptism. Himself a seminarian, Louis decided that his younger sister would likewise learn Latin, Greek, history, physics and mathematics—always without interruption and with a minimum of companionship. By age 15, she had received a thorough exposure to the Bible, the teachings of the Fathers of the Church and theology. Despite the oppressive regime Louis imposed, young Madeleine Sophie Barat thrived and developed a genuine love of learning. Meanwhile, this was the time of the French Revolution and of the suppression of Christian schools. The education of the young, particularly young girls, was in a troubled state. Sophie, who had discerned a call to the religious life, was persuaded to become a teacher. She founded the Society of the Sacred Heart, which focused on schools for the poor as well as boarding schools for young women of means. Today, co-ed Sacred Heart schools also can be found, along with schools exclusively for boys. In 1826, her Society of the Sacred Heart received formal papal approval. By then she had served as superior at a number of convents. In 1865, she was stricken with paralysis; she died that year on the feast of the Ascension. Madeleine Sophie Barat was canonized in 1925. Her liturgical feast is celebrated on May 25.",
   },
   {
     id: "151",
@@ -1218,6 +1226,13 @@ const saintOfThedayDataApi = [
     saint_day: "30",
     saint_date: "5/30",
     saint_name: "Saint Joan of Arc",
+    saint_lifetime: "January 6, 1412 – May 30, 1431",
+    saint_image: saintImg[151],
+    saint_patron: ["France", "Military Members"],
+    saint_reflection:
+      "“Joan of Arc is like a shooting star across the landscape of French and English history, amid the stories of the Church’s saints and into our consciousness. Women identify with her; men admire her courage. She challenges us in fundamental ways. Despite the fact that more than 500 years have passed since she lived, her issues of mysticism, calling, identity, trust and betrayal, conflict and focus are our issues still.” (Joan of Arc: God’s Warrior by Barbara Beckwith)",
+    saint_story:
+      "Burned at the stake as a heretic after a politically-motivated trial, Joan was beatified in 1909 and canonized in 1920. Born of a fairly well-to-do peasant couple in Domremy-Greux southeast of Paris, Joan was only 12 when she experienced a vision and heard voices that she later identified as Saints Michael the Archangel, Catherine of Alexandria, and Margaret of Antioch. During the Hundred Years War, Joan led French troops against the English and recaptured the cities of Orléans and Troyes. This enabled Charles VII to be crowned as king in Reims in 1429. Captured near Compiegne the following year, Joan was sold to the English and placed on trial for heresy and witchcraft. Professors at the University of Paris supported Bishop Pierre Cauchon of Beauvis, the judge at her trial; Cardinal Henry Beaufort of Winchester, England, participated in the questioning of Joan in prison. In the end, she was condemned for wearing men’s clothes. The English resented France’s military success–to which Joan contributed. On this day in 1431, Joan was burned at the stake in Rouen, and her ashes were scattered in the Seine River. A second Church trial 25 years later nullified the earlier verdict, which was reached under political pressure. Remembered by most people for her military exploits, Joan had a great love for the sacraments, which strengthened her compassion toward the poor. Popular devotion to her increased greatly in 19th-century France and later among French soldiers during World War I. Theologian George Tavard writes that her life “offers a perfect example of the conjunction of contemplation and action” because her spiritual insight is that there should be a “unity of heaven and earth.” Joan of Arc has been the subject of many books, plays, operas and movies.",
   },
   {
     id: "152",
@@ -1225,7 +1240,14 @@ const saintOfThedayDataApi = [
     month_num: "5",
     saint_day: "31",
     saint_date: "5/31",
-    saint_name: "St. Mechtildis",
+    saint_name: "Visitation of the Blessed Virgin Mary",
+    saint_lifetime: null,
+    saint_image: saintImg[152],
+    saint_patron: null,
+    saint_reflection:
+      "One of the invocations in Mary’s litany is “Ark of the Covenant.” Like the Ark of the Covenant of old, Mary brings God’s presence into the lives of other people. As David danced before the Ark, John the Baptist leaps for joy. As the Ark helped to unite the 12 tribes of Israel by being placed in David’s capital, so Mary has the power to unite all Christians in her son. At times, devotion to Mary may have occasioned some divisiveness, but we can hope that authentic devotion will lead all to Christ and therefore, to one another.",
+    saint_story:
+      "This is a fairly late feast, going back only to the 13th or 14th century. It was established widely throughout the Church to pray for unity. The present date of celebration was set in 1969, in order to follow the Annunciation of the Lord and precede the Nativity of Saint John the Baptist. Like most feasts of Mary, it is closely connected with Jesus and his saving work. The more visible actors in the visitation drama (see Luke 1:39-45) are Mary and Elizabeth. However, Jesus and John the Baptist steal the scene in a hidden way. Jesus makes John leap with joy—the joy of messianic salvation. Elizabeth, in turn, is filled with the Holy Spirit and addresses words of praise to Mary—words that echo down through the ages. It is helpful to recall that we do not have a journalist’s account of this meeting. Rather Luke, speaking for the Church, gives a prayerful poet’s rendition of the scene. Elizabeth’s praise of Mary as “the mother of my Lord” can be viewed as the earliest Church’s devotion to Mary. As with all authentic devotion to Mary, Elizabeth’s (the Church’s) words first praise God for what God has done to Mary. Only secondly does she praise Mary for trusting God’s words. Then comes the Magnificat (Luke 1:46-55). Here, Mary herself—like the Church—traces all her greatness to God.",
   },
   {
     id: "153",
@@ -1234,6 +1256,13 @@ const saintOfThedayDataApi = [
     saint_day: "1",
     saint_date: "6/1",
     saint_name: "Saint Justin Martyr",
+    saint_lifetime: "c. 100 – 165",
+    saint_image: saintImg[153],
+    saint_patron: ["Philosophers", "Apologists"],
+    saint_reflection:
+      "As patron of philosophers, Saint Justin Martyr may inspire us to use our natural powers—especially our power to know and understand—in the service of Christ, and to build up the Christian life within us. Since we are prone to error, especially in reference to the deep questions concerning life and existence, we should also be willing to correct and check our natural thinking in light of religious truth. Thus we will be able to say with the learned saints of the Church: I believe in order to understand, and I understand in order to believe.",
+    saint_story:
+      "Saint Justin Martyr never ended his quest for religious truth even when he converted to Christianity after years of studying various pagan philosophies. As a young man, he was principally attracted to the school of Plato. However, he found that the Christian religion answered the great questions about life and existence better than the philosophers. Upon his conversion he continued to wear the philosopher’s mantle, and became the first Christian philosopher. He combined the Christian religion with the best elements in Greek philosophy. In his view, philosophy was a pedagogue of Christ, an educator that was to lead one to Christ. Saint Justin Martyr is known as an apologist, one who defends in writing the Christian religion against the attacks and misunderstandings of the pagans. Two of his so-called apologies have come down to us; they are addressed to the Roman emperor and to the Senate. For his staunch adherence to the Christian religion, Justin was beheaded in Rome in 165.",
   },
   {
     id: "154",

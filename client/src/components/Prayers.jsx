@@ -128,35 +128,44 @@ function Prayers() {
   return (
     <section className="prayers">
       <div className="prayer-filters">
-        <select value={prayerCategory} onChange={handlePrayerChange}>
-          <option value="all">All</option>
-          <option value="benedictine">Benedictine</option>
-          <option value="christological">Christological</option>
-          <option value="creeds">Creeds</option>
-          <option value="devotional">Devotional</option>
-          <option value="daily">Daily</option>
-          <option value="for-the-dead">For the Dead</option>
-          <option value="holy-spirit">Holy Spirit</option>
-          <option value="liturgical">Liturgical</option>
-          <option value="marian">Marian</option>
-          <option value="penitential">Penitential</option>
-          <option value="saints">Saints</option>
-          <option value="seasonal">Seasonal</option>
-        </select>
-        <select value={prayerLanguage} onChange={handleLanguageChange}>
-          <option value="en">English</option>
-          <option value="la">Latin</option>
-          <option value="fr">French</option>
-          <option value="de">German</option>
-          <option value="it">Italian</option>
-          <option value="pl">Polish</option>
-          <option value="pt">Portuguese</option>
-          <option value="es">Spanish</option>
-        </select>
-        <select onChange={handleDisplayExtraInfo}>
-          <option value={false}>No</option>
-          <option value={true}>Yes</option>
-        </select>
+        <div className="select-card">
+          <p>Filter By Type:</p>
+          <select value={prayerCategory} onChange={handlePrayerChange}>
+            <option value="all">All</option>
+            <option value="benedictine">Benedictine</option>
+            <option value="christological">Christological</option>
+            <option value="creeds">Creeds</option>
+            <option value="devotional">Devotional</option>
+            <option value="daily">Daily</option>
+            <option value="for-the-dead">For the Dead</option>
+            <option value="holy-spirit">Holy Spirit</option>
+            <option value="liturgical">Liturgical</option>
+            <option value="marian">Marian</option>
+            <option value="penitential">Penitential</option>
+            <option value="saints">Saints</option>
+            <option value="seasonal">Seasonal</option>
+          </select>
+        </div>
+        <div className="select-card">
+          <p>Select Language:</p>
+          <select value={prayerLanguage} onChange={handleLanguageChange}>
+            <option value="en">English</option>
+            <option value="la">Latin</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="it">Italian</option>
+            <option value="pl">Polish</option>
+            <option value="pt">Portuguese</option>
+            <option value="es">Spanish</option>
+          </select>
+        </div>
+        <div className="select-card">
+          <p>Display Extra Info:</p>
+          <select onChange={handleDisplayExtraInfo}>
+            <option value={false}>No</option>
+            <option value={true}>Yes</option>
+          </select>
+        </div>
       </div>
       <div>
         <input
