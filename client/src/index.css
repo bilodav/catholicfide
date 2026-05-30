@@ -930,6 +930,29 @@ a {
 }
 
 /* ============================================================
+   READING OF THE DAY COMPONENT
+   ============================================================ */
+
+.reading-of-the-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.reading-of-the-day h3:not(:first-of-type) {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.reading-paragraph {
+  margin-top: 20px;
+}
+
+/* ============================================================
    FAMILY PRAYER COMPONENT
    ============================================================ */
 

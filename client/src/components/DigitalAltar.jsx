@@ -4,6 +4,7 @@ import DefaultAltar from "./DefaultAltar";
 import Prayers from "./Prayers";
 import StationsOfTheCross from "./StationsOfTheCross";
 import StOfDay from "./StOfDay";
+import ReadingOfTheDay from "./ReadingOfTheDay";
 
 function DigitalAltar() {
   const [altarState, setAltarState] = useState("default");
@@ -21,6 +22,9 @@ function DigitalAltar() {
       break;
     case "st-of-day":
       changedAltar = <StOfDay />;
+      break;
+    case "reading":
+      changedAltar = <ReadingOfTheDay />;
       break;
     default:
       changedAltar = <DefaultAltar />;

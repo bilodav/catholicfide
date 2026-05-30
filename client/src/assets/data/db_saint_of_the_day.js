@@ -1271,6 +1271,13 @@ const saintOfThedayDataApi = [
     saint_day: "2",
     saint_date: "6/2",
     saint_name: "Saints Marcellinus and Peter",
+    saint_lifetime: "d. 304",
+    saint_image: saintImg[154],
+    saint_patron: ["Protection against evil", "Sorcery", "Demonic possession"],
+    saint_reflection:
+      "Why are these men included in our Eucharistic prayer, and given their own feast day, in spite of the fact that almost nothing is known about them? Probably because the Church respects its collective memory. They once sent an impulse of encouragement through the whole Church. They made the ultimate step of faith.",
+    saint_story:
+      "Marcellinus and Peter were prominent enough in the memory of the Church to be included among the saints of the Roman Canon. Mention of their names is optional in our present Eucharistic Prayer I. Marcellinus was a priest and Peter was an exorcist, that is, someone authorized by the Church to deal with cases of demonic possession. They were beheaded during the persecution of Emperor Diocletian. Pope Damasus wrote an epitaph apparently based on the report of their executioner, and Constantine erected a basilica over the crypt in which they were buried in Rome. Numerous legends sprang from an early account of their death.",
   },
   {
     id: "155",
@@ -1279,6 +1286,17 @@ const saintOfThedayDataApi = [
     saint_day: "3",
     saint_date: "6/3",
     saint_name: "Saint Charles Lwanga and Companions",
+    saint_lifetime: "d. between November 15, 1885 – January 27, 1887",
+    saint_image: saintImg[155],
+    saint_patron: [
+      "African Catholic Youth Action",
+      "Catholic youth more broadly",
+      "Toture victims",
+    ],
+    saint_reflection:
+      "Like Saint Charles Lwanga, we are all teachers and witnesses to Christian living by the examples of our own lives. We are all called upon to spread the word of God, whether by word or deed. By remaining courageous and unshakable in our faith during times of great moral and physical temptation, we live as Christ lived.",
+    saint_story:
+      "One of 22 Ugandan martyrs, Saint Charles Lwanga is the patron of youth and Catholic action in most of tropical Africa. He protected his fellow pages, aged 13 to 30, from the sexual demands of the Bagandan ruler, Mwanga, and encouraged and instructed them in the Catholic faith during their imprisonment for refusing the ruler’s demands. Saint Charles Lwanga first learned of Christ’s teachings from two retainers in the court of Chief Mawulugungu. While a catechumen, he entered the royal household as assistant to Joseph Mukaso, head of the court pages. On the night of Mukaso’s martyrdom for encouraging the African youths to resist Mwanga, Saint Charles Lwanga requested and received baptism. Imprisoned with his friends, Charles’ courage and belief in God inspired them to remain chaste and faithful. For his own unwillingness to submit to the immoral acts and his efforts to safeguard the faith of his friends, Charles was burned to death at Namugongo on June 3, 1886, by Mwanga’s order. When Pope Paul VI canonized these 22 martyrs on October 18, 1964, he also made reference to the Anglican pages martyred for the same reason.",
   },
   {
     id: "156",
@@ -1287,6 +1305,13 @@ const saintOfThedayDataApi = [
     saint_day: "4",
     saint_date: "6/4",
     saint_name: "Blessed Angelina of Marsciano",
+    saint_lifetime: "1377 – July 14, 1435",
+    saint_image: saintImg[156],
+    saint_patron: ["Foundresses", "Consecrated women", "Franciscan Tertiaries"],
+    saint_reflection:
+      "Priests, sisters and brothers cannot be signs of God’s love for the human family if they belittle the vocation of marriage. Angelina respected marriage, but felt called to another way of living out the gospel. Her choice was life-giving in its own way.",
+    saint_story:
+      "Blessed Angelina of Marsciano founded the first community of Franciscan women other than Poor Clares to receive papal approval. Angelina of Marsciano was born to the Duke of Marsciano near Orvieto. She was 12 when her mother died. Three years later, the young woman made a vow of perpetual chastity. That same year, however, she yielded to her father’s decision that she marry the Duke of Civitella. Her husband agreed to respect her previous vow. When he died two years later, Angelina of Marsciano joined the Secular Franciscans and with several other women dedicated herself to caring for the sick, the poor, widows and orphans. When many other young women were attracted to Angelina’s community, some people accused her of condemning the married vocation. Legend has it that when she came before the King of Naples to answer these charges, she had burning coals hidden in the folds of her cloak. When she proclaimed her innocence and showed the king that these coals had not harmed her, he dropped the case. Angelina of Marsciano and her companions later went to Foligno, where her community of Third Order sisters received papal approval in 1397. She soon established 15 similar communities of women in other Italian cities. Angelina of Marsciano died on July 14, 1435, and was beatified in 1825. Her liturgical feast is celebrated on July 13.",
   },
   {
     id: "157",
@@ -1295,6 +1320,13 @@ const saintOfThedayDataApi = [
     saint_day: "5",
     saint_date: "6/5",
     saint_name: "Saint Boniface",
+    saint_lifetime: "c. 675 – June 5, 754",
+    saint_image: saintImg[157],
+    saint_patron: ["Germany"],
+    saint_reflection:
+      "Saint Boniface bears out the Christian rule: To follow Christ is to follow the way of the cross. For Boniface, it was not only physical suffering or death, but the painful, thankless, bewildering task of Church reform. Missionary glory is often thought of in terms of bringing new persons to Christ. It seems—but is not—less glorious to heal the household of the faith.",
+    saint_story:
+      "Boniface, known as the apostle of the Germans, was an English Benedictine monk who gave up being elected abbot to devote his life to the conversion of the Germanic tribes. Two characteristics stand out: his Christian orthodoxy and his fidelity to the pope of Rome. How absolutely necessary this orthodoxy and fidelity were is borne out by the conditions Saint Boniface found on his first missionary journey in 719 at the request of Pope Gregory II. Paganism was a way of life. What Christianity he did find had either lapsed into paganism or was mixed with error. The clergy were mainly responsible for these latter conditions since they were in many instances uneducated, lax and questionably obedient to their bishops. In particular instances their very ordinations were questionable. These are the conditions that Saint Boniface was to report in 722 on his first return visit to Rome. The Holy Father instructed him to reform the German Church. The pope sent letters of recommendation to religious and civil leaders. Boniface later admitted that his work would have been unsuccessful, from a human viewpoint, without a letter of safe-conduct from Charles Martel, the powerful Frankish ruler, grandfather of Charlemagne. Boniface was finally made a regional bishop and authorized to organize the whole German Church. He was eminently successful. In the Frankish kingdom, he met great problems because of lay interference in bishops’ elections, the worldliness of the clergy and lack of papal control. During a final mission to the Frisians, Boniface and 53 companions were massacred while he was preparing converts for confirmation. In order to restore the Germanic Church to its fidelity to Rome and to convert the pagans, Saint Boniface had been guided by two principles. The first was to restore the obedience of the clergy to their bishops in union with the pope of Rome. The second was the establishment of many houses of prayer which took the form of Benedictine monasteries. A great number of Anglo-Saxon monks and nuns followed him to the continent, where he introduced the Benedictine nuns to the active apostolate of education.",
   },
   {
     id: "158",
