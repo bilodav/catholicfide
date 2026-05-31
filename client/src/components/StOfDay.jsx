@@ -19,7 +19,11 @@ function StOfDay() {
           {todaysSaint.saint_name} - {todaysSaint.id}
         </h2>
         <p>
-          <i>({todaysSaint.saint_lifetime})</i>
+          {todaysSaint.saint_lifetime ? (
+            <i>({todaysSaint.saint_lifetime})</i>
+          ) : (
+            <i>(Feast Day)</i>
+          )}
         </p>
         <h3>Reflection</h3>
         <p>{todaysSaint.saint_reflection}</p>

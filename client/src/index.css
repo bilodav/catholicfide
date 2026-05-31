@@ -581,6 +581,10 @@ a {
   cursor: pointer;
 }
 
+.digital-altar-selection-row select:focus {
+  border: 2px solid var(--border-accent);
+  box-shadow: var(--shadow-accent);
+}
 /* ============================================================
    ROSARY COMPONENT
    ============================================================ */
@@ -611,17 +615,17 @@ a {
   .rosary-container {
     min-height: 100%;
     width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: minmax(300px, 450px);
+    justify-content: center;
     overflow: hidden;
     padding: 0;
     margin: 50px auto 10px;
   }
 
   .rosary-card {
-    width: 100%;
+    width: 95%;
     height: 80vh;
     padding: 20px;
     overflow-y: auto;
@@ -677,9 +681,17 @@ a {
   } */
 
   .rosary-container {
-    flex-direction: row;
+    width: fit-content;
+    max-width: 90%;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1.6fr) minmax(
+        250px,
+        1fr
+      );
+    grid-template-rows: 1fr;
+    gap: 25px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 50px auto 10px;
   }
 }
 
@@ -701,9 +713,6 @@ a {
   font-size: 1.5rem;
   border-radius: var(--radius-md);
   cursor: pointer;
-  transition:
-    border-color var(--transition-fast),
-    box-shadow var(--transition-fast);
 }
 
 .prayer-filters select:focus {
@@ -723,9 +732,6 @@ a {
   outline: none;
   display: block;
   margin: 8px auto;
-  transition:
-    border-color var(--transition-fast),
-    box-shadow var(--transition-fast);
 }
 
 .prayer-search:focus {
@@ -890,17 +896,19 @@ a {
   min-height: 100%;
   width: 90%;
   display: flex;
-  gap: 20px;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  row-gap: 30px;
   overflow: hidden;
   padding: 0;
   margin: 25px auto 10px;
 }
 
 .st-of-day-card {
-  width: 33%;
+  min-width: 300px;
+  width: 30%;
   height: 80vh;
   padding: 20px;
   overflow-y: auto;
@@ -913,6 +921,7 @@ a {
 .st-of-day-card:nth-of-type(odd) {
   border: 1px solid var(--border-dark);
   border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-inset);
 }
 
 .st-of-day-card img {
@@ -927,6 +936,22 @@ a {
 .st-of-day-card h3 {
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) {
+  /* body {background-color: green;} */
+  .st-of-day-card:nth-of-type(2) {
+    order: -1;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* body {background-color: rgb(71, 17, 195);} */
+  .st-of-day-card:nth-of-type(2) {
+    order: 0;
+  }
 }
 
 /* ============================================================

@@ -16,8 +16,8 @@ function RosaryCard(props) {
           <div
             style={{
               display: "flex",
-              alignItems: "space-between",
-              justifyContent: "space-between",
+              alignItems: "space-around",
+              justifyContent: "space-around",
               margin: "10% auto",
             }}
           >

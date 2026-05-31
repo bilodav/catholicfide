@@ -40,6 +40,20 @@ function ReadingOfTheDay() {
         dangerouslySetInnerHTML={{ __html: data.Mass_Ps?.text }}
       />
 
+      {data.Mass_R2 ? (
+        <>
+          <h3>Reading 2</h3>
+          <div
+            className="reading-span"
+            dangerouslySetInnerHTML={{ __html: data.Mass_R2?.source }}
+          />
+          <div
+            className="reading-paragraph"
+            dangerouslySetInnerHTML={{ __html: data.Mass_R2?.text }}
+          />
+        </>
+      ) : null}
+
       <h3>Alleluia</h3>
       <div
         className="reading-span"
