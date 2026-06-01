@@ -93,6 +93,7 @@ const familyPrayers = [
       "I pray Jesus walks beside you and leads you in His truth.",
       "I pray the light of our Lord Jesus, may always be seen in you. May you be a beacon of him in this world",
       "I pray you grow up strong and healthy, and may your love for God deepen and shine.",
+      "I pray you may always seek after Christ and aspire to be a great woman",
     ],
     specialDates: [
       {
