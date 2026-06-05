@@ -1335,6 +1335,13 @@ const saintOfThedayDataApi = [
     saint_day: "6",
     saint_date: "6/6",
     saint_name: "Saint Norbert",
+    saint_lifetime: "c. 1080 – June 6, 1134",
+    saint_image: saintImg[158],
+    saint_patron: ["Bohemia", "Expectant Mothers"],
+    saint_reflection:
+      "A different world cannot be built by indifferent people. The same is true in regard to the Church. The indifference of vast numbers of nominal faithful to ecclesiastical authority and essential doctrines of the faith weakens the Church’s witness. Unswerving loyalty to the Church and fervent devotion to the Eucharist, as practiced by Saint Norbert, will continue immeasurably toward maintaining the people of God in accord with the heart of Christ.",
+    saint_story:
+      "In the 12th century in the French region of Premontre, Saint Norbert founded a religious Order known as the Praemonstratensians or the Norbertines. His founding of the Order was a monumental tasks: combating rampant heresies—particularly regarding the Blessed Sacrament, revitalizing many of the faithful who had grown indifferent and dissolute, plus effecting peace and reconciliation among enemies. Saint Norbert entertained no pretensions about his own ability to accomplish this multiple task. Even with the aid of a goodly number of men who joined his Order, he realized that nothing could be effectively done without God’s power. Finding this help especially in devotion to the Blessed Sacrament, he and his Norbertines praised God for success in converting heretics, reconciling numerous enemies, and rebuilding faith in indifferent believers. Many of them lived in central houses during the week and served in parishes on weekends. Reluctantly, Saint Norbert became archbishop of Magdeburg in central Germany, a territory half pagan and half Christian. In this position he zealously and courageously continued his work for the Church until his death on June 6, 1134.",
   },
   {
     id: "159",
@@ -1343,6 +1350,12 @@ const saintOfThedayDataApi = [
     saint_day: "7",
     saint_date: "6/7",
     saint_name: "Blessed Franz Jägerstätter",
+    saint_lifetime: "May 20, 1907 – August 9, 1943",
+    saint_image: saintImg[159],
+    saint_patron: ["Conscientious Objectors"],
+    saint_reflection: null,
+    saint_story:
+      "Called to fight for his country as a Nazi soldier, Franz Jägerstätter eventually refused, and this husband and father of three daughters—Rosalie, Marie and Aloisia—was executed because of it. Born in St. Radegund in Upper Austria, Franz Jägerstätter lost his father during World War I and was adopted after Heinrich Jaegerstaetter married Rosalia Huber. As a young man, he loved to ride his motorcycle and was the natural leader of a gang whose members were arrested in 1934 for brawling. For three years he worked in the mines in another city and then returned to St. Radegund, where he became a farmer, married Franziska and lived his faith with quiet but intense conviction. In 1938, he publicly opposed the German Anschluss–annexation–of Austria. The next year he was drafted into the Austrian army, trained for seven months and then received a deferment. In 1940, Franz was called up again but allowed to return home at the request of the town’s mayor. He was in active service between October 1940 and April 1941, but was again deferred. His pastor, other priests, and the bishop of Linz urged him not to refuse to serve if drafted. In February 1943, Franz was called up again and reported to army officials in Enns, Austria. When he refused to take the oath of loyalty to Hitler, he was imprisoned in Linz. Later he volunteered to serve in the medical corps but was not assigned there. During Holy Week Blessed Franz Jägerstätter wrote to his wife: “Easter is coming and, if it should be God’s will that we can never again in this world celebrate Easter together in our intimate family circle, we can still look ahead in the happy confidence that, when the eternal Easter morning dawns, no one in our family circle shall be missing—so we can then be permitted to rejoice together forever.” He was transferred in May to a prison in Berlin. Challenged by his attorney that other Catholics were serving in the army, Franz responded, “I can only act on my own conscience. I do not judge anyone. I can only judge myself.” He continued, “I have considered my family. I have prayed and put myself and my family in God’s hands. I know that, if I do what I think God wants me to do, he will take care of my family.” On August 8, 1943, Franz wrote to Fransizka: “Dear wife and mother, I thank you once more from my heart for everything that you have done for me in my lifetime, for all the sacrifices that you have borne for me. I beg you to forgive me if I have hurt or offended you, just as I have forgiven everything…My heartfelt greetings for my dear children. I will surely beg the dear God, if I am permitted to enter heaven soon, that he will set aside a little place in heaven for all of you.” Franz Jägerstätter was beheaded and cremated the following day. In 1946, his ashes were reburied in St. Radegund near a memorial inscribed with his name and the names of almost 60 village men who died during their military service. He was beatified in Linz on October 26, 2007. His “spiritual testament” is now in Rome’s St. Bartholomew Church as part of a shrine to 20th-century martyrs for their faith. Blessed Franz’s liturgical feast is celebrated on August 9.",
   },
   {
     id: "160",
@@ -1351,6 +1364,13 @@ const saintOfThedayDataApi = [
     saint_day: "8",
     saint_date: "6/8",
     saint_name: "Saint William of York",
+    saint_lifetime: "c. 1090 – June 8, 1154",
+    saint_image: saintImg[160],
+    saint_patron: ["York", "Craftsmen", "Prisoners", "Bachelors"],
+    saint_reflection:
+      "“Good things come to those who wait” might be the catch phrase for today’s saint. We don’t always get what we want when we want it. Sometimes we have to wait patiently, trusting that if it is for our good, God will bless us.",
+    saint_story:
+      "A disputed election as archbishop of York and a mysterious death. Those are the headlines from the tragic life of today’s saint. Born into a powerful family in 12th-century England, William of York seemed destined for great things. His uncle was next in line for the English throne—though a nasty dynastic struggle complicated things. William himself faced an internal Church feud. Despite these roadblocks, he was nominated as archbishop of York in 1140. Local clergymen were less enthusiastic, however, and the archbishop of Canterbury refused to consecrate William. Three years later a neighboring bishop performed the consecration, but it lacked the approval of Pope Innocent II, whose successors likewise withheld approval. William was deposed, and a new election was ordered. It was not until 1154—14 years after he was first nominated—that William of York became archbishop of York. When he entered the city that spring after years of exile, he received an enthusiastic welcome. Within two months he was dead, probably from poisoning. His administrative assistant was a suspect, though no formal ruling was ever made. Despite all that happened to him, William of York did not show resentment toward his opponents. Following his death, many miracles were attributed to him. He was canonized 73 years later.",
   },
   {
     id: "161",
@@ -1359,6 +1379,13 @@ const saintOfThedayDataApi = [
     saint_day: "9",
     saint_date: "6/9",
     saint_name: "Saint Ephrem",
+    saint_lifetime: "c. 306 – June 9, 373",
+    saint_image: saintImg[161],
+    saint_patron: ["Teachers", "Musicians", "Syrian Aramaic people"],
+    saint_reflection:
+      "Many Catholics still find singing in church a problem, probably because of the rather individualistic piety that they inherited. Yet singing has been a tradition of both the Old and the New Testaments. It is an excellent way of expressing and creating a community spirit of unity as well as of joy. An ancient historian testifies that Saint Ephrem’s hymns “lent luster to the Christian assemblies.” We need some modern Ephrems—and cooperating singers—to do the same for our Christian assemblies today.",
+    saint_story:
+      "Poet, teacher, orator, and defender of the faith, Saint Ephrem is the only Syriac Christian recognized as a doctor of the Church. He took upon himself the special task of opposing the many false doctrines rampant at his time, always remaining a true and forceful defender of the Catholic Church. Born in Nisibis, Mesopotamia, he was baptized as a young man and became famous as a teacher in his native city. When the Christian emperor had to cede Nisibis to the Persians, Ephrem fled as a refugee to Edessa, along with many other Christians. He is credited with attracting great glory to the biblical school there. He was ordained a deacon but declined becoming a priest. Ephrem was said to have avoided presbyteral consecration by feigning madness! Saint Ephrem had a prolific pen, and his writings best illumine his holiness. Although he was not a man of great scholarship, his works reflect deep insight and knowledge of the Scriptures. In writing about the mysteries of humanity’s redemption, Ephrem reveals a realistic and humanly sympathetic spirit and a great devotion to the humanity of Jesus. It is said that his poetic account of the Last Judgment inspired Dante. It is surprising to read that he wrote hymns against the heretics of his day. He would take the popular songs of the heretical groups and using their melodies, compose beautiful hymns embodying orthodox doctrine. Saint Ephrem became one of the first to introduce song into the Church’s public worship as a means of instruction for the faithful. His many hymns have earned him the title “Harp of the Holy Spirit.” Saint Ephrem preferred a simple, austere life, living in a small cave overlooking the city of Edessa. It was here that he died around 373.",
   },
   {
     id: "162",
@@ -1367,6 +1394,13 @@ const saintOfThedayDataApi = [
     saint_day: "10",
     saint_date: "6/10",
     saint_name: "Saint Joachima",
+    saint_lifetime: "1783-1854",
+    saint_image: saintImg[162],
+    saint_patron: ["Abuse Victims", "Exiles", "Widows"],
+    saint_reflection:
+      "Saint Joachima understands loss. She lost the home where her children grew up, her husband, and finally her health. As the power to move and care for her own needs slowly ebbed away, this woman who had all her life cared for others became wholly dependent; she required help with life’s simplest tasks. When our own lives go spinning out of control, when illness and bereavement and financial hardship strike, all we can do is cling to the belief that sustained Joachima: God watches over us always.",
+    saint_story:
+      "Born into an aristocratic family in Barcelona, Spain, Saint Joachima was 12 when she expressed a desire to become a Carmelite nun. But her life took an altogether different turn at 16 with her marriage to a young lawyer, Theodore de Mas. Both deeply devout, they became Secular Franciscans. During their 17 years of married life they raised eight children. The normalcy of their family life was interrupted when Napoleon invaded Spain. Saint Joachima had to flee with the children; Theodore remained behind and died. Though Joachima re-experienced a desire to enter a religious community, she attended to her duties as a mother. At the same time, the young widow led a life of austerity and chose to wear the habit of the Third Order of St. Francis as her ordinary dress. She spent much time in prayer and visiting the sick. Four years later, with some of her children now married and younger ones under their care, Joachima confessed her desire to a priest to join a religious order. With his encouragement, she established the Carmelite Sisters of Charity. In the midst of the fratricidal wars occurring at the time, Joachima was briefly imprisoned and later exiled to France for several years. Sickness ultimately compelled her to resign as superior of her order. Over the next four years she slowly succumbed to paralysis, which caused her to die by inches. At her death in 1854 at the age of 71, Joachima was known and admired for her high degree of prayer, deep trust in God, and selfless charity. Saint Joachima was beatified by Pope Pius XII in 1940, and canonized by Pope John XXIII in 1959. Her liturgical feast is celebrated on August 28.",
   },
   {
     id: "163",
@@ -1375,6 +1409,13 @@ const saintOfThedayDataApi = [
     saint_day: "11",
     saint_date: "6/11",
     saint_name: "Saint Barnabas",
+    saint_lifetime: "1783-1854",
+    saint_image: saintImg[163],
+    saint_patron: ["Cyprus", "Antioch", "Peacemakers"],
+    saint_reflection:
+      "Saint Barnabas is spoken of simply as one who dedicated his life to the Lord. He was a man “filled with the Holy Spirit and faith. Thereby, large numbers were added to the Lord.” Even when he and Paul were expelled from Antioch in Pisidia—modern-day Turkey—they were “filled with joy and the Holy Spirit.”",
+    saint_story:
+      "Saint Barnabas, a Jew of Cyprus, comes as close as anyone outside the Twelve to being a full-fledged apostle. He was closely associated with Saint Paul—he introduced Paul to Peter and the other apostles—and served as a kind of mediator between the former persecutor and the still suspicious Jewish Christians. When a Christian community developed at Antioch, Barnabas was sent as the official representative of the church of Jerusalem to incorporate them into the fold. He and Paul instructed in Antioch for a year, after which they took relief contributions to Jerusalem. Later Paul and Barnabas, now clearly seen as charismatic leaders, were sent by Antioch officials to preach to the gentiles. Enormous success crowned their efforts. After a miracle at Lystra, the people wanted to offer sacrifice to them as gods—Barnabas being Zeus, and Paul, Hermes—but the two said, “We are of the same nature as you, human beings. We proclaim to you good news that you should turn from these idols to the living God” (see Acts 14:8-18). But all was not peaceful. They were expelled from one town, they had to go to Jerusalem to clear up the ever-recurring controversy about circumcision, and even the best of friends can have differences. When Paul wanted to revisit the places they had evangelized, Saint Barnabas wanted to take along his cousin John Mark, author of the Gospel, but Paul insisted that since Mark had deserted them once, he was not fit to take along now. The disagreement that followed was so sharp that Barnabas and Paul separated: Barnabas taking Mark to Cyprus, Paul taking Silas to Syria. Later they were reconciled—Paul, Barnabas and Mark. When Paul stood up to Peter for not eating with gentiles for fear of his Jewish friends, we learn that “even Barnabas was carried away by their hypocrisy” (see Galatians 2:1-13).",
   },
   {
     id: "164",
@@ -1383,6 +1424,13 @@ const saintOfThedayDataApi = [
     saint_day: "12",
     saint_date: "6/12",
     saint_name: "Blessed Jolenta of Poland",
+    saint_lifetime: "c. 1235 – June 11, 1298",
+    saint_image: saintImg[164],
+    saint_patron: ["Charity", "Devotion", "Widows"],
+    saint_reflection:
+      "Blessed Jolenta’s story begins like a fairy tale. But fairy tales seldom include the death of the prince and never end with the princess living out her days in a convent. Nonetheless, Jolenta’s story has a happy ending. Her life of charity toward the poor and devotion to her Franciscan sisters indeed brought her to a “happily ever after.” Our lives may be short on fairy tale elements, but our generosity and our willingness to serve well the people we live with lead us toward an ending happier than we can imagine.",
+    saint_story:
+      "Blessed Jolenta was the daughter of Bela IV, King of Hungary. Her sister, St. Kunigunde, was married to the Duke of Poland. Jolenta was sent to Poland where her sister was to supervise her education. Eventually married to Boleslaus, the Duke of Greater Poland, Jolenta was able to use her material means to assist the poor, the sick, widows, and orphans. Her husband joined her in building hospitals, convents, and churches so that he was surnamed “the Pious.” Upon the death of her husband and the marriage of two of her daughters, Jolenta and her third daughter entered the convent of the Poor Clares. War forced Jolenta to move to another convent where despite her reluctance, she was made abbess. So well did Jolenta serve her Franciscan sisters by word and example, that her fame and good works continued to spread beyond the walls of the cloister. Her favorite devotion was the Passion of Christ. Indeed, Jesus appeared to her, telling her of her coming death. Many miracles, down to our own day, are said to have occurred at her grave.",
   },
   {
     id: "165",
@@ -1391,6 +1439,19 @@ const saintOfThedayDataApi = [
     saint_day: "13",
     saint_date: "6/13",
     saint_name: "Saint Anthony of Padua",
+    saint_lifetime: "c. 1080 – June 6, 1134",
+    saint_image: saintImg[165],
+    saint_patron: [
+      "Lost things",
+      "Poor",
+      "Travelers",
+      "Fisherman",
+      "Those seeking a spouse",
+    ],
+    saint_reflection:
+      "Saint Anthony of Padua should be the patron of those who find their lives completely uprooted and set in a new and unexpected direction. Like all saints, he is a perfect example of turning one’s life completely over to Christ. God did with Anthony as God pleased—and what God pleased was a life of spiritual power and brilliance that still attracts admiration today. He whom popular devotion has nominated as finder of lost objects found himself by losing himself totally to the providence of God. May Saint Anthony’s holy life help us see with renewed faith God’s forgiveness and unconditional love for each of us! If we as believers understood as clearly as Anthony the depth of God’s love for each of us, surely our love for Christ would grow stronger.",
+    saint_story:
+      "The gospel call to leave everything and follow Christ was the rule of Saint Anthony of Padua’s life. Over and over again, God called him to something new in his plan. Every time Anthony responded with renewed zeal and self-sacrificing to serve his Lord Jesus more completely. His journey as the servant of God began as a very young man when he decided to join the Augustinians in Lisbon, giving up a future of wealth and power to be a servant of God. Later when the bodies of the first Franciscan martyrs went through the Portuguese city where he was stationed, he was again filled with an intense longing to be one of those closest to Jesus himself: those who die for the Good News. So, Saint Anthony of Padua entered the Franciscan Order and set out to preach to the Moors. But an illness prevented him from achieving that goal. He went to Italy and was stationed in a small hermitage where he spent most of his time praying, reading the Scriptures and doing menial tasks. The call of God came again at an ordination where no one was prepared to speak. The humble and obedient Anthony hesitantly accepted the task. The years of searching for Jesus in prayer, of reading sacred Scripture and of serving him in poverty, chastity, and obedience had prepared Saint Anthony of Padua to allow the Spirit to use his talents. Anthony’s sermon was astounding to those who expected an unprepared speech and knew not the Spirit’s power to give people words. Recognized as a great man of prayer and a great Scripture and theology scholar, Saint Anthony of Padua became the first friar to teach theology to the other friars. Soon he was called from that post to preach to the Albigensians in France, using his profound knowledge of Scripture and theology to convert and reassure those who had been misled by their denial of Christ’s divinity and of the sacraments. After he led the friars in northern Italy for three years, he made his headquarters in the city of Padua. He resumed his preaching and began writing sermon notes to help other preachers. In the spring of 1231 Saint Anthony of Padua withdrew to a friary at Camposampiero where he had a sort of treehouse built as a hermitage. There he prayed and prepared for death. On June 13, he became very ill and asked to be taken back to Padua, where he died after receiving the last sacraments. Saint Anthony of Padua was canonized less than a year later and named a Doctor of the Church in 1946.",
   },
   {
     id: "166",
