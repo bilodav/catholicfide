@@ -1444,7 +1444,7 @@ const saintOfThedayDataApi = [
     saint_patron: [
       "Lost things",
       "Poor",
-      "Travelers",
+      "Travellers",
       "Fisherman",
       "Those seeking a spouse",
     ],
@@ -1460,6 +1460,13 @@ const saintOfThedayDataApi = [
     saint_day: "14",
     saint_date: "6/14",
     saint_name: "Saint Albert Chmielowski",
+    saint_lifetime: "August 20, 1845 – December 25, 1916",
+    saint_image: saintImg[166],
+    saint_patron: ["Painers", "Harvests", "Travellers"],
+    saint_reflection:
+      "Reflecting on his own priestly vocation, Pope John Paul II wrote in 1996 that Albert Chmielowski had played a role in its formation “because I found in him a real spiritual support and example in leaving behind the world of art, literature, and the theater, and in making the radical choice of a vocation to the priesthood” (Gift and Mystery: On the Fiftieth Anniversary of My Priestly Ordination). As a young priest, Karol Wojtyla repaid his debt of gratitude by writing The Brother of Our God, a play about Brother Albert’s life.",
+    saint_story:
+      "Born in Igolomia near Kraków as the eldest of four children in a wealthy family, Albert Chmielowski was christened Adam. During the 1864 revolt against Czar Alexander III, Adam’s wounds forced the amputation of his left leg. His great talent for painting led to studies in Warsaw, Munich, and Paris. Adam returned to Kraków and became a Secular Franciscan. In 1888, when he founded the Brothers of the Third Order of Saint Francis, Servants to the Poor, he took the name Albert. They worked primarily with the homeless, depending completely on alms while serving the needy regardless of age, religion, or politics. A community of Albertine sisters was established later. Pope John Paul II beatified Albert Chmielowski in 1983, and canonized him six years later. His liturgical feast is celebrated on June 17.",
   },
   {
     id: "167",
@@ -1468,6 +1475,17 @@ const saintOfThedayDataApi = [
     saint_day: "15",
     saint_date: "6/15",
     saint_name: "Saint Marguerite d’Youville",
+    saint_lifetime: "October 15, 1701 – December 23, 1771",
+    saint_image: saintImg[167],
+    saint_patron: [
+      "Widows",
+      "Those suffering from difficult marriages",
+      "Parents who have lost young children",
+    ],
+    saint_reflection:
+      "Saints deal with plenty of discouragement, plenty of reasons to say, “Life isn’t fair” and wonder where God is in the rubble of their lives. We honor saints like Marguerite d’Youville because they show us that with God’s grace and our cooperation, suffering can lead to compassion rather than bitterness.",
+    saint_story:
+      "We learn compassion from allowing our lives to be influenced by compassionate people, by seeing life from their perspectives, and reconsidering our own values. Born in Varennes, Canada, Marie Marguerite Dufrost de Lajemmerais had to interrupt her schooling at the age of 12 to help her widowed mother. Eight years later she married François d’Youville; they had six children, four of whom died young. Despite the fact that her husband gambled, sold liquor illegally to Native Americans, and treated her indifferently, she cared for him compassionately until his death in 1730. Even though she was caring for two small children and running a store to help pay off her husband’s debts, Marguerite d’Youville still helped the poor. Once her children were grown, she and several companions rescued a Quebec hospital that was in danger of failing. She called her community the Institute of the Sisters of Charity of Montreal; the people called them the “Grey Nuns” because of the color of their habits. In time, a proverb arose among the poor people of Montreal, “Go to the Grey Nuns; they never refuse to serve.” In time, five other religious communities traced their roots to the Grey Nuns. The General Hospital in Montreal became known as the Hôtel Dieu (House of God) and set a standard for medical care and Christian compassion. When the hospital was destroyed by fire in 1766, Mère Marguerite knelt in the ashes, led the Te Deum—a hymn to God’s providence in all circumstances—and began the rebuilding process. She fought the attempts of government officials to restrain her charity, and established the first foundling home in North America. Pope Saint John XXIII, who beatified Mère Marguerite d’Youville in 1959, called her the “Mother of Universal Charity.” She was canonized in 1990, and her liturgical feast is celebrated on October 16.",
   },
   {
     id: "168",
