@@ -1493,7 +1493,18 @@ const saintOfThedayDataApi = [
     month_num: "6",
     saint_day: "16",
     saint_date: "6/16",
-    saint_name: "Saint John Francis Regis",
+    saint_name: "Saint John Francis Regis",\
+        saint_lifetime: "January 31, 1597 – December 30, 1640",
+    saint_image: saintImg[168],
+    saint_patron: [
+      "Lacemakers",
+      "Medical social workers",
+      "Children born outside of marriage",
+    ],
+    saint_reflection:
+      "John Francis Regis longed to travel to the New World and become a missionary to the Native Americans, but he was called instead to work among his own compatriots. Unlike many famous preachers, he isn’t remembered for golden-tongued oratory. What people who listened to him heard was his own fervent faith, and it had a powerful effect on them. We can recall homilists who impressed us for the same reason. More importantly for us, we can also remember ordinary people, neighbors and friends, whose faith and goodness touched us and brought us to deeper faith. That is the calling most of us must follow. Let us take a moment to thank luminaries like John Francis Regis who show us the way to grace,",
+    saint_story:
+      "Born into a family of some wealth, John Francis Regis was so impressed by his Jesuit educators that he himself wished to enter the Society of Jesus. He did so at age 18. Despite his rigorous academic schedule, he spent many hours in chapel, often to the dismay of fellow seminarians who were concerned about his health. Following his ordination to the priesthood, John Francis undertook missionary work in various French towns. While the formal sermons of the day tended toward the poetic, his discourses were plain. But they revealed the fervor within him and attracted people of all classes. Father Regis especially made himself available to the poor. Many mornings were spent in the confessional or at the altar celebrating Mass; afternoons were reserved for visits to prisons and hospitals. The bishop of Viviers, observing the success of John Francis Regis in communicating with people, sought to draw on his many gifts, especially needed during the prolonged civil and religious strife then rampant throughout France. With many prelates absent and priests negligent, the people had been deprived of the sacraments for 20 years or more. Various forms of Protestantism were thriving in some cases while a general indifference toward religion was evident in other instances. For three years, Father Regis traveled throughout the diocese, conducting missions in advance of a visit by the bishop. He succeeded in converting many people and in bringing many others back to religious observances. Though John Francis Regis longed to work as a missionary among the Native Americans in Canada, he was to live out his days working for the Lord in the wildest and most desolate part of his native France. There he encountered rigorous winters, snowdrifts and other deprivations. Meanwhile he continued preaching missions and earned a reputation as a saint. Upon entering the town of Saint-Andé, one man came upon a large crowd in front of a church and was told that people were waiting for “the saint” who was coming to preach a mission. The last four years of John Francis Regis’ life were spent preaching and organizing social services, especially for prisoners, the sick and the poor. In the autumn of 1640, Father Regis sensed that his days were coming to a conclusion. He settled some of his affairs and prepared for the end by continuing to do what he did so well: speaking to the people about the God who loved them. On December 31, he spent most of the day with his eyes on the crucifix. That evening, he died. His final words were: “Into thy hands I commend my spirit.” John Francis Regis was canonized in 1737.",
   },
   {
     id: "169",
