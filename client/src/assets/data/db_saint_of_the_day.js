@@ -1493,8 +1493,8 @@ const saintOfThedayDataApi = [
     month_num: "6",
     saint_day: "16",
     saint_date: "6/16",
-    saint_name: "Saint John Francis Regis",\
-        saint_lifetime: "January 31, 1597 – December 30, 1640",
+    saint_name: "Saint John Francis Regis",
+    saint_lifetime: "January 31, 1597 – December 30, 1640",
     saint_image: saintImg[168],
     saint_patron: [
       "Lacemakers",
@@ -1513,6 +1513,13 @@ const saintOfThedayDataApi = [
     saint_day: "17",
     saint_date: "6/17",
     saint_name: "Saint Joseph Cafasso",
+    saint_lifetime: "January 15, 1811 – June 23, 1860",
+    saint_image: saintImg[169],
+    saint_patron: ["Prisoners", "Prisons", "Prison Chaplains"],
+    saint_reflection:
+      "Devotion to the Eucharist gave energy to all Joseph’s other activities. Long prayer before the Blessed Sacrament has been characteristic of many Catholics who have lived out the gospel well: Saint Francis, Bishop Fulton Sheen, Cardinal Joseph Bernardin, and Saint Teresa of Calcutta among them.",
+    saint_story:
+      "Even as a young man, Joseph Cafasso loved to attend Mass and was known for his humility and fervor in prayer. After his ordination, he was assigned to a seminary in Turin. There he worked especially against the spirit of Jansenism—an excessive preoccupation with sin and damnation. He used the works of Saint Francis de Sales and Saint Alphonsus Liguori to moderate the rigorism popular at the seminary. Joseph Cafasso recommended membership in the Secular Franciscan Order to priests. He urged devotion to the Blessed Sacrament and encouraged daily Communion. In addition to his teaching duties, Joseph was an excellent preacher, confessor, and retreat master. Noted for his work with condemned prisoners, he helped many of them die at peace with God. Joseph Cafasso urged one of his former pupils—Saint John Bosco—to establish the Salesians congregation to work with the youth of Turin. Joseph died in 1860, and was canonized in 1947. His liturgical feast is celebrated on June 23.",
   },
   {
     id: "170",
@@ -1521,6 +1528,16 @@ const saintOfThedayDataApi = [
     saint_day: "18",
     saint_date: "6/18",
     saint_name: "Venerable Matt Talbot",
+    saint_lifetime: "May 2, 1856 – June 7, 1925",
+    saint_image: saintImg[170],
+    saint_patron: [
+      "Alcoholics",
+      "Those recovering from substance abuse and addictions",
+    ],
+    saint_reflection:
+      "In looking at the life of Matt Talbot, we may easily focus on the later years when he had stopped drinking for some time and was leading a penitential life. Only alcoholic men and women who have stopped drinking can fully appreciate how difficult the earliest years of sobriety were for Matt. He had to take one day at a time. So do the rest of us.",
+    saint_story:
+      "Matt Talbot can be considered the patron of men and women struggling with alcoholism. He was born in Dublin, where his father worked on the docks and had a difficult time supporting his family. After a few years of schooling, Matt obtained work as a messenger for some liquor merchants; there he began to drink excessively. For 15 years—until he was almost 30—Matt was an active alcoholic. One day he decided to take “the pledge” for three months, make a general confession and begin to attend daily Mass. There is evidence that Matt’s first seven years after taking the pledge were especially difficult. Avoiding his former drinking places was hard. He began to pray as intensely as he used to drink. He also tried to pay back people from whom he had borrowed or stolen money while he was drinking. Most of his life Matt Talbot worked as a builder’s laborer. He joined the Secular Franciscan Order and began a life of strict penance; he abstained from meat nine months a year. Matt spent hours every night avidly reading Scripture and the lives of the saints. He prayed the rosary conscientiously. Though his job did not make him rich, Matt contributed generously to the missions. After 1923, Matt’s health failed, and he was forced to quit work. He died on his way to church on Trinity Sunday. Fifty years later, Pope Paul VI gave Matt Talbot the title venerable. His liturgical feast is celebrated on June 19.",
   },
   {
     id: "171",
