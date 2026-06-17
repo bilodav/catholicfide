@@ -1546,6 +1546,13 @@ const saintOfThedayDataApi = [
     saint_day: "19",
     saint_date: "6/19",
     saint_name: "Saint Romuald",
+    saint_lifetime: "c. 950 – June 19, 1027",
+    saint_image: saintImg[171],
+    saint_patron: ["Hermits", "contemplatives", "Camaldolese Order"],
+    saint_reflection:
+      "Christ is a gentle leader, but he calls us to total holiness. Now and then, men and women are raised up to challenge us by the absoluteness of their dedication, the vigor of their spirit, the depth of their conversion. The fact that we cannot duplicate their lives does not change the call to us to be totally open to God in our own particular circumstances.",
+    saint_story:
+      "In the midst of a wasted youth, Saint Romuald watched his father kill a relative in a duel over property. In horror he fled to a monastery near Ravenna. After three years, some of the monks found him to be uncomfortably holy and eased him out. Romuald spent the next 30 years going about Italy, founding monasteries and hermitages. He longed to give his life to Christ in martyrdom, and got the pope’s permission to preach the gospel in Hungary. But he was struck with illness as soon as he arrived, and the illness recurred as often as he tried to proceed. During another period of his life, Saint Romuald suffered great spiritual dryness. One day as he was praying Psalm 31 (“I will give you understanding and I will instruct you”), he was given an extraordinary light and spirit which never left him. At the next monastery where he stayed, Saint Romuald was accused of a scandalous crime by a young nobleman he had rebuked for a dissolute life. Amazingly, his fellow monks believed the accusation. He was given a severe penance, forbidden from offering Mass, and excommunicated—an unjust sentence that he endured in silence for six months. The most famous of the monasteries Saint Romuald founded was that of the Camaldoli in Tuscany. Here began the Order of the Camaldolese Benedictines, uniting the monastic and eremitical lives. In later life Romuald’s own father became a monk, wavered, and was kept faithful by the encouragement of his son.",
   },
   {
     id: "172",
@@ -1554,6 +1561,17 @@ const saintOfThedayDataApi = [
     saint_day: "20",
     saint_date: "6/20",
     saint_name: "Saint Paulinus of Nola",
+    saint_lifetime: "354 – June 22, 431",
+    saint_image: saintImg[172],
+    saint_patron: [
+      "Poets and Writers",
+      "Vine-growers",
+      "Charitable giving and the poor",
+    ],
+    saint_reflection:
+      "Many of us are tempted to “retire” early in life, after an initial burst of energy. Devotion to Christ and his work is waiting to be done all around us. Paulinus’ life had scarcely begun when he thought it was over, as he took his ease on that estate in Spain. “Man proposes, but God disposes.”",
+    saint_story:
+      "Anyone who is praised in the letters of six or seven saints undoubtedly must be of extraordinary character. Such a person was Paulinus of Nola, correspondent and friend of Saints Augustine, Jerome, Melania, Martin, Gregory and Ambrose. Born near Bordeaux, he was the son of the Roman prefect of Gaul, who had extensive property in both Gaul and Italy. Saint Paulinus of Nola became a distinguished lawyer, holding several public offices in the Roman Empire. With his Spanish wife, Therasia, he retired at an early age to a life of cultured leisure. The two were baptized by the saintly bishop of Bordeaux and moved to Therasia’s estate in Spain. After many childless years, they had a son who died a week after birth. This occasioned their beginning a life of great austerity and charity, giving away most of their Spanish property. Possibly as a result of this great example, Paulinus was rather unexpectedly ordained a priest at Christmas by the bishop of Barcelona. He and his wife then moved to Nola, near Naples. He had a great love for Saint Felix of Nola, and spent much effort in promoting devotion to this saint. Saint Paulinus of Nola gave away most of his remaining property—to the consternation of his relatives—and continued his work for the poor. Supporting a host of debtors, the homeless and other needy people, he lived a monastic life in another part of his home. By popular demand he was made bishop of Nola and guided that diocese for 21 years. Saint Paulinus of Nola’s last years were saddened by the invasion of the Huns. Among his few writings is the earliest extant Christian wedding song. His liturgical feast is celebrated on June 22.",
   },
   {
     id: "173",
@@ -1562,6 +1580,13 @@ const saintOfThedayDataApi = [
     saint_day: "21",
     saint_date: "6/21",
     saint_name: "Saint Aloysius Gonzaga",
+    saint_lifetime: "March 9, 1568 – June 21, 1591",
+    saint_image: saintImg[173],
+    saint_patron: ["Catholic youth", "Teenagers", "Seminarians"],
+    saint_reflection:
+      "As a saint who fasted, scourged himself, sought solitude and prayer, and did not look on the faces of women, Aloysius seems an unlikely patron of youth in a society where asceticism is confined to training camps of football teams and boxers, and sexual permissiveness has little left to permit. Can an overweight and air-conditioned society deprive itself of anything? It will when it discovers a reason, as Aloysius did. The motivation for letting God purify us is the experience of God loving us in prayer.",
+    saint_story:
+      "The Lord can make saints anywhere, even amid the brutality and license of Renaissance life. Florence was the “mother of piety” for Aloysius Gonzaga despite his exposure to a “society of fraud, dagger, poison, and lust.” As a son of a princely family, he grew up in royal courts and army camps. His father wanted Aloysius to be a military hero. At age 7 Aloysius experienced a profound spiritual quickening. His prayers included the Office of Mary, the psalms, and other devotions. At age 9 he came from his hometown of Castiglione to Florence to be educated; by age 11 he was teaching catechism to poor children, fasting three days a week, and practicing great austerities. When Aloysius Gonzaga was 13 years old, he traveled with his parents and the Empress of Austria to Spain, and acted as a page in the court of Philip II. The more Aloysius saw of court life, the more disillusioned he became, seeking relief in learning about the lives of saints. A book about the experience of Jesuit missionaries in India suggested to him the idea of entering the Society of Jesus, and in Spain his decision became final. Now began a four-year contest with his father. Eminent churchmen and laypeople were pressed into service to persuade Aloysius to remain in his “normal” vocation. Finally he prevailed, was allowed to renounce his right to succession, and was received into the Jesuit novitiate. Like other seminarians, Aloysius was faced with a new kind of penance—that of accepting different ideas about the exact nature of penance. He was obliged to eat more, and to take recreation with the other students. He was forbidden to pray except at stated times. He spent four years in the study of philosophy and had Saint Robert Bellarmine as his spiritual adviser. In 1591, a plague struck Rome. The Jesuits opened a hospital of their own. The superior general himself and many other Jesuits rendered personal service. Because he nursed patients, washing them and making their beds, Aloysius Gonzaga caught the disease. A fever persisted after his recovery and he was so weak he could scarcely rise from bed. Yet he maintained his great discipline of prayer, knowing that he would die three months later within the octave of Corpus Christi, at the age of 23.",
   },
   {
     id: "174",
