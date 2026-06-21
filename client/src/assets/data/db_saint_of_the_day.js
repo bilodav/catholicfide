@@ -1595,6 +1595,13 @@ const saintOfThedayDataApi = [
     saint_day: "22",
     saint_date: "6/22",
     saint_name: "Saint Thomas More",
+    saint_lifetime: "February 7, 1478 – July 6, 1535",
+    saint_image: saintImg[174],
+    saint_patron: ["Statesmen", "Politicians", "Civil servants", "Lawyers"],
+    saint_reflection:
+      "Four hundred years later in 1935, Thomas More was canonized a saint of God. Few saints are more relevant to our time. In the year 2000, in fact, Pope John Paul II named him patron of political leaders. The supreme diplomat and counselor, he did not compromise his own moral values in order to please the king, knowing that true allegiance to authority is not blind acceptance of everything that authority wants. King Henry himself realized this and tried desperately to win his chancellor to his side because he knew More was a man whose approval counted, a man whose personal integrity no one questioned. But when Thomas More resigned as chancellor, unable to approve the two matters that meant most to Henry, the king had to get rid of him.",
+    saint_story:
+      "Thomas More’s belief that no lay ruler has jurisdiction over the Church of Christ cost him his life. Beheaded on Tower Hill, London, on July 6, 1535, More steadfastly refused to approve King Henry VIII’s divorce and remarriage and establishment of the Church of England. Described as “a man for all seasons,” Thomas More was a literary scholar, eminent lawyer, gentleman, father of four children, and chancellor of England. An intensely spiritual man, he would not support the king’s divorce from Catherine of Aragon in order to marry Anne Boleyn. Nor would he acknowledge Henry as supreme head of the Church in England, breaking with Rome, and denying the pope as head. More was committed to the Tower of London to await trial for treason: not swearing to the Act of Succession and the Oath of Supremacy. Upon conviction, More declared he had all the councils of Christendom and not just the council of one realm to support him in the decision of his conscience.",
   },
   {
     id: "175",
@@ -1603,6 +1610,13 @@ const saintOfThedayDataApi = [
     saint_day: "23",
     saint_date: "6/23",
     saint_name: "Saint John Fisher",
+    saint_lifetime: "1469 – June 22, 1535",
+    saint_image: saintImg[175],
+    saint_patron: ["Roman Catholic Diocese of Rochester"],
+    saint_reflection:
+      "Today many questions are raised about Christians’ and priests’ active involvement in social issues. John Fisher remained faithful to his calling as a priest and bishop. He strongly upheld the teachings of the Church; the very cause of his martyrdom was his loyalty to Rome. He was involved in the cultural enrichment circles as well as in the political struggles of his time. This involvement caused him to question the moral conduct of the leadership of his country. “The Church has the right, indeed the duty, to proclaim justice on the social, national and international level, and to denounce instances of injustice, when the fundamental rights of man and his very salvation demand it” (Justice in the World, 1971 Synod of Bishops).",
+    saint_story:
+      "John Fisher is usually associated with Erasmus, Thomas More, and other Renaissance humanists. His life therefore, did not have the external simplicity found in the lives of some saints. Rather, he was a man of learning, associated with the intellectuals and political leaders of his day. He was interested in the contemporary culture and eventually became chancellor at Cambridge. John Fisher had been made a bishop at 35, and one of his interests was raising the standard of preaching in England. Fisher himself was an accomplished preacher and writer. His sermons on the penitential psalms were reprinted seven times before his death. With the coming of Lutheranism, he was drawn into controversy. His eight books against heresy gave him a leading position among European theologians. In 1521, Fisher was asked to study the question of King Henry VIII’s marriage to Catherine of Aragon, his brother’s widow. He incurred Henry’s anger by defending the validity of the king’s marriage with Catherine, and later by rejecting Henry’s claim to be the supreme head of the Church of England. In an attempt to be rid of him, Henry first had John Fisher accused of not reporting all the “revelations” of the nun of Kent, Elizabeth Barton. In feeble health, Fisher was summoned to take the oath to the new Act of Succession. He and Thomas More refused to do so because the Act presumed the legality of Henry’s divorce and his claim to be head of the English Church. They were sent to the Tower of London, where Fisher remained 14 months without trial. Finally both men were sentenced to life imprisonment and loss of goods. When the two were called to further interrogations, they remained silent. On the supposition that he was speaking privately as a priest, Fisher was tricked into declaring again that the king was not supreme head of the church in England. The king, further angered that the pope had made John Fisher a cardinal, had him brought to trial on the charge of high treason. He was condemned and executed, his body left to lie all day on the scaffold and his head hung on London Bridge. More was executed two weeks later. John Fisher’s liturgical feast is celebrated on June 22.",
   },
   {
     id: "176",
@@ -1610,7 +1624,13 @@ const saintOfThedayDataApi = [
     month_num: "6",
     saint_day: "24",
     saint_date: "6/24",
-    saint_name: "St. John the Baptist",
+    saint_name: "Nativity of Saint John the Baptist",
+    saint_image: saintImg[176],
+    saint_patron: ["Baptism"],
+    saint_reflection:
+      "John challenges us Christians to the fundamental attitude of Christianity—total dependence on the Father, in Christ. Except for the Mother of God, no one had a higher function in the unfolding of salvation. Yet the least in the kingdom, Jesus said, is greater than he, for the pure gift that the Father gives. The attractiveness as well as the austerity of John, his fierce courage in denouncing evil—all stem from his fundamental and total placing of his life within the will of God. The Nativity of Saint John the Baptist shows us the way to purity and grace",
+    saint_story:
+      "Jesus called John the greatest of all those who had preceded him: “I tell you, among those born of women, no one is greater than John….” But John would have agreed completely with what Jesus added: “[Y]et the least in the kingdom of God is greater than he” (Luke 7:28). John spent his time in the desert, an ascetic. He began to announce the coming of the Kingdom, and to call everyone to a fundamental reformation of life. His purpose was to prepare the way for Jesus. His baptism, he said, was for repentance. But one would come who would baptize with the Holy Spirit and fire. John was not worthy even to untie his sandals. His attitude toward Jesus was: “He must increase; I must decrease” (John 3:30). John was humbled to find among the crowd of sinners who came to be baptized the one whom he already knew to be the Messiah. “I need to be baptized by you” (Matthew 3:14b). But Jesus insisted, “Allow it now, for thus it is fitting for us to fulfill all righteousness” (Matthew 3:15b). Jesus, true and humble human as well as eternal God, was eager to do what was required of any good Jew. Jesus thus publicly entered the community of those awaiting the Messiah. But making himself part of that community, he made it truly messianic. The greatness of John, his pivotal place in the history of salvation, is seen in the great emphasis Luke gives to the announcement of his birth and the event itself—both made prominently parallel to the same occurrences in the life of Jesus. John attracted countless people to the banks of the Jordan, and it occurred to some people that he might be the Messiah. But he constantly deferred to Jesus, even to sending away some of his followers to become the first disciples of Jesus. Perhaps John’s idea of the coming of the Kingdom of God was not being perfectly fulfilled in the public ministry of Jesus. For whatever reason, when he was in prison he sent his disciples to ask Jesus if he was the Messiah. Jesus’ answer showed that the Messiah was to be a figure like that of the Suffering Servant in Isaiah. John himself would share in the pattern of messianic suffering, losing his life to the revenge of Herodias.",
   },
   {
     id: "177",
