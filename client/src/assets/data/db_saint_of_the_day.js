@@ -1639,6 +1639,13 @@ const saintOfThedayDataApi = [
     saint_day: "25",
     saint_date: "6/25",
     saint_name: "Blessed Jutta of Thuringia",
+    saint_lifetime: "c. 1200-1260",
+    saint_image: saintImg[177],
+    saint_patron: ["Prussia"],
+    saint_reflection:
+      "Jesus once said that a camel can pass through a needle’s eye more easily than a rich person can enter God’s realm. That’s pretty scary news for us. We may not have great fortunes, but we who live in the West enjoy a share of the world’s goods that people in the rest of the world cannot imagine. Much to the amusement of her neighbors, Jutta disposed of her wealth after her husband’s death and devoted her life to caring for those who had no means. Should we follow her example, people will probably laugh at us, too. But God will smile.",
+    saint_story:
+      "Today’s patroness of Prussia began her life amidst luxury and power but died the death of a simple servant of the poor. In truth, virtue and piety were always of prime importance to Jutta of Thuringia and her husband, both of noble rank. The two were set to make a pilgrimage together to the holy places in Jerusalem, but her husband died on the way. The newly widowed Jutta, after taking care to provide for her children, resolved to live in a manner she felt was utterly pleasing to God. She disposed of the costly clothes, jewels, and furniture befitting one of her rank, and became a Secular Franciscan, taking on the simple garment of a religious. From that point her life was utterly devoted to others: caring for the sick, particularly lepers; tending to the poor, whom she visited in their hovels; helping the crippled and blind with whom she shared her own home. Many of the townspeople of Thuringia laughed at how the once-distinguished lady now spent all her time. But Jutta saw the face of God in the poor and felt honored to render whatever services she could. About the year 1260, not long before her death, Jutta of Thuringia lived near the non-Christians in eastern Germany. There she built a small hermitage and prayed unceasingly for their conversion. She has been venerated for centuries as the special patron of Prussia.",
   },
   {
     id: "178",
@@ -1647,6 +1654,17 @@ const saintOfThedayDataApi = [
     saint_day: "26",
     saint_date: "6/26",
     saint_name: "Blessed Raymond Lull",
+    saint_lifetime: "c. 1235 – June 28, 1315",
+    saint_image: saintImg[178],
+    saint_patron: [
+      "Multicultural dialogue",
+      "Islamic-Christian dialogue",
+      "Missionary work",
+    ],
+    saint_reflection:
+      "Raymond worked most of his life to help spread the gospel. Indifference on the part of some Christian leaders and opposition in North Africa did not turn him from his goal. Three hundred years later Raymond’s work began to have an influence in the Americas. When the Spanish began to spread the gospel in the New World, they set up missionary colleges to aid the work. Saint Junípero Serra belonged to such a college.",
+    saint_story:
+      "Blessed Raymond Lull worked all his life to promote the missions and died a missionary to North Africa. Blessed Raymond Lull was born at Palma on the island of Mallorca in the Mediterranean Sea. He earned a position in the king’s court there. One day a sermon inspired him to dedicate his life to working for the conversion of the Muslims in North Africa. He became a Secular Franciscan and founded a college where missionaries could learn the Arabic they would need in the missions. Retiring to solitude, he spent nine years as a hermit. During that time he wrote on all branches of knowledge, a work which earned him the title “Enlightened Doctor.” Blessed Raymond Lull then made many trips through Europe to interest popes, kings, and princes in establishing special colleges to prepare future missionaries. He achieved his goal in 1311, when the Council of Vienne ordered the creation of chairs of Hebrew, Arabic, and Chaldean at the universities of Bologna, Oxford, Paris, and Salamanca. At the age of 79, Raymond went to North Africa in 1314 to be a missionary himself. An angry crowd of Muslims stoned him in the city of Bougie. Genoese merchants took him back to Mallorca, where he died. Raymond was beatified in 1514 and his liturgical feast is celebrated on June 30.",
   },
   {
     id: "179",
@@ -1655,6 +1673,13 @@ const saintOfThedayDataApi = [
     saint_day: "27",
     saint_date: "6/27",
     saint_name: "Saint Cyril of Alexandria",
+    saint_lifetime: "378 – June 27, 444",
+    saint_image: saintImg[179],
+    saint_patron: ["Alexandria", "Egypt"],
+    saint_reflection:
+      "Lives of the saints are valuable not only for the virtue they reveal but also for the less admirable qualities that also appear. Holiness is a gift of God to us as human beings. Life is a process. We respond to God’s gift, but sometimes with a lot of zigzagging. If Cyril had been more patient and diplomatic, the Nestorian church might not have risen and maintained power so long. But even saints must grow out of immaturity, narrowness, and selfishness. It is because they—and we—do grow, that we are truly saints, persons who live the life of God.",
+    saint_story:
+      "Saints are not born with halos around their heads. Cyril of Alexandria, recognized as a great teacher of the Church, began his career as archbishop of Alexandria, Egypt, with impulsive, often violent, actions. He pillaged and closed the churches of the Novatian heretics—who required those who denied the faith to be re-baptized—participated in the deposing of Saint John Chrysostom, and confiscated Jewish property, expelling the Jews from Alexandria in retaliation for their attacks on Christians. Cyril of Alexandria’s importance for theology and Church history lies in his championing the cause of orthodoxy against the heresy of Nestorius, who taught that in Christ there were two persons, one human and one divine. The controversy centered around the two natures in Christ. Nestorius would not agree to the title “God-bearer” for Mary. He preferred “Christ-bearer,” saying there are two distinct persons in Christ—divine and human—joined only by a moral union. He said Mary was not the mother of God but only of the man Christ, whose humanity was only a temple of God. Nestorianism implied that the humanity of Christ was a mere disguise. Presiding as the pope’s representative at the Council of Ephesus in 431, Cyril condemned Nestorianism and proclaimed Mary truly the “God-bearer”—the mother of the one Person who is truly God and truly human. In the confusion that followed, Cyril of Alexandria was deposed and imprisoned for three months, after which he was welcomed back to Alexandria. Besides needing to soften some of his opposition to those who had sided with Nestorius, Cyril had difficulties with some of his own allies, who thought he had gone too far, sacrificing not only language but orthodoxy. Until his death, his policy of moderation kept his extreme partisans under control. On his deathbed, despite pressure, he refused to condemn the teacher of Nestorius.",
   },
   {
     id: "180",
