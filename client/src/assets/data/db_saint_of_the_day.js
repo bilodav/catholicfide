@@ -1716,7 +1716,13 @@ const saintOfThedayDataApi = [
     month_num: "6",
     saint_day: "30",
     saint_date: "6/30",
-    saint_name: "St. Airick",
+    saint_name: "First Martyrs of the Church of Rome",
+    saint_lifetime: "d. 64",
+    saint_image: saintImg[182],
+    saint_reflection:
+      "Wherever the Good News of Jesus was preached, it met the same opposition as Jesus did, and many of those who began to follow him shared his suffering and death. But no human force could stop the power of the Spirit unleashed upon the world. The blood of martyrs has always been, and will always be, the seed of Christians.",
+    saint_story:
+      "There were Christians in Rome within a dozen or so years after the death of Jesus, though they were not the converts of the “Apostle of the Gentiles” (Romans 15:20). Saint Paul had not yet visited them at the time he wrote his great letter in 57-58 A.D. There was a large Jewish population in Rome. Probably as a result of controversy between Jews and Jewish Christians, the Emperor Claudius expelled all Jews from Rome in 49-50 A.D. Suetonius the historian says that the expulsion was due to disturbances in the city “caused by the certain Chrestus” [Christ]. Perhaps many came back after Claudius’ death in 54 A.D. Paul’s letter was addressed to a Church with members from Jewish and Gentile backgrounds. In July of 64 A.D., more than half of Rome was destroyed by fire. Rumor blamed the tragedy on Nero, who wanted to enlarge his palace. He shifted the blame by accusing the Christians. According to the historian Tacitus, many Christians were put to death because of their “hatred of the human race.” Peter and Paul were probably among the victims. Threatened by an army revolt and condemned to death by the senate, Nero committed suicide in 68 A.D. at the age of 31.",
   },
   {
     id: "183",
@@ -1725,6 +1731,13 @@ const saintOfThedayDataApi = [
     saint_day: "1",
     saint_date: "7/1",
     saint_name: "Saint Junipero Serra",
+    saint_lifetime: "c. 130 – c. 202",
+    saint_image: saintImg[183],
+    saint_patron: ["November 24, 1713 – August 28, 1784"],
+    saint_reflection:
+      "The word that best describes Junipero Serra is zeal. It was a spirit that came from his deep prayer and dauntless will. “Always forward, never back” was his motto. His work bore fruit for 50 years after his death as the rest of the missions were founded in a kind of Christian communal living by the Indians. When both Mexican and American greed caused the secularization of the missions, the Chumash people went back to what they had been—God again writing straight with crooked lines.",
+    saint_story:
+      "In 1776, when the American Revolution was beginning in the east, another part of the future United States was being born in California. That year a gray-robed Franciscan founded Mission San Juan Capistrano, now famous for its annually returning swallows. San Juan was the seventh of nine missions established under the direction of this indomitable Spaniard. Born on Spain’s island of Mallorca, Serra entered the Franciscan Order taking the name of Saint Francis’ childlike companion, Brother Juniper. Until he was 35, he spent most of his time in the classroom—first as a student of theology and then as a professor. He also became famous for his preaching. Suddenly he gave it all up and followed the yearning that had begun years before when he heard about the missionary work of Saint Francis Solano in South America. Junipero’s desire was to convert native peoples in the New World. Arriving by ship at Vera Cruz, Mexico, he and a companion walked the 250 miles to Mexico City. On the way Junipero’s left leg became infected by an insect bite and would remain a cross—sometimes life-threatening—for the rest of his life. For 18 years, he worked in central Mexico and in the Baja Peninsula. He became president of the missions there. Enter politics: the threat of a Russian invasion south from Alaska. Charles III of Spain ordered an expedition to beat Russia to the territory. So the last two conquistadors—one military, one spiritual—began their quest. José de Galvez persuaded Junipero Serra to set out with him for present-day Monterey, California. The first mission founded after the 900-mile journey north was San Diego in 1769. That year a shortage of food almost canceled the expedition. Vowing to stay with the local people, Junipero Serra and another friar began a novena in preparation for St. Joseph’s day, March 19, the scheduled day of departure. On that day, the relief ship arrived. Other missions followed: Monterey/Carmel (1770); San Antonio and San Gabriel (1771); San Luís Obispo (1772); San Francisco and San Juan Capistrano (1776); Santa Clara (1777); San Buenaventura (1782). Twelve more were founded after Serra’s death. Junipero made the long trip to Mexico City to settle great differences with the military commander. He arrived at the point of death. The outcome was substantially what Junipero Serra sought: the famous “Regulation” protecting the Indians and the missions. It was the basis for the first significant legislation in California, a “Bill of Rights” for Native Americans. Because the Native Americans were living a nonhuman life from the Spanish point of view, the friars were made their legal guardians. The Native Americans were kept at the mission after baptism lest they be corrupted in their former haunts—a move that has brought cries of “injustice” from some moderns. Junipero Serra’s missionary life was a long battle with cold and hunger, with unsympathetic military commanders and even with danger of death from non-Christian native peoples. Through it all his unquenchable zeal was fed by prayer each night, often from midnight till dawn. He baptized over 6,000 people and confirmed 5,000. His travels would have circled the globe. He brought the Native Americans not only the gift of faith but also a decent standard of living. He won their love, as witnessed especially by their grief at his death. He is buried at Mission San Carlo Borromeo, Carmel, and was beatified in 1988. Pope Francis canonized him in Washington, D.C., on September 23, 2015.",
   },
   {
     id: "184",
@@ -1733,6 +1746,13 @@ const saintOfThedayDataApi = [
     saint_day: "2",
     saint_date: "7/2",
     saint_name: "Saint Oliver Plunkett",
+    saint_lifetime: "November 1, 1629 – July 1, 1681",
+    saint_image: saintImg[184],
+    saint_patron: ["Peace and reconciliation in Ireland"],
+    saint_reflection:
+      "Stories like that of Oliver Plunkett seem to fit history. “Things like that don’t happen today” is often our thought. But they do. False accusations, prejudice, anti-Catholic sentiments, racism, sexism, etc. are still an active reality in our day. Perhaps a prayer to Saint Oliver Plunkett for peace and justice might be appropriate.",
+    saint_story:
+      "The name of today’s saint is especially familiar to the Irish and the English—and with good reason. The English martyred Oliver Plunkett for defending the faith in his native Ireland during a period of severe persecution. Born in County Meath in 1629, Oliver studied for the priesthood in Rome and was ordained there in 1654. After some years of teaching and service to the poor of Rome he was appointed Archbishop of Armagh in Ireland. Four years later, in 1673, a new wave of anti-Catholic persecution began, forcing Archbishop Plunkett to do his pastoral work in secrecy and disguise and to live in hiding. Meanwhile, many of his priests were sent into exile, schools were closed, Church services had to be held in secret, and convents and seminaries were suppressed. As archbishop, Plunkett was viewed as ultimately responsible for any rebellion or political activity among his parishioners. Oliver Plunkett was arrested and imprisoned in Dublin Castle in 1679, but his trial was moved to London. After deliberating for 15 minutes, a jury found him guilty of fomenting revolt. He was hanged, drawn, and quartered in July 1681. Pope Paul VI canonized Oliver in 1975.",
   },
   {
     id: "185",
