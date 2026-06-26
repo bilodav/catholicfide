@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "id": "st-jude-novena",
+    "title": "St. Jude Novena",
+    "primary_category": "novena",
+    "labels": [
+      "st-jude",
+      "apostle",
+      "intercession",
+      "impossible-causes",
+      "hope",
+      "saints",
+      "novena"
+    ],
+    "type": "novena",
+    "description": "Traditional nine-day novena seeking the intercession of St. Jude, patron of impossible and desperate causes.",
+    "origin": "Traditional Catholic devotion",
+    "origin_date": "~20th Century",
+    "usage": "Prayed over nine consecutive days while presenting personal intentions and seeking God's will through the intercession of St. Jude.",
+    "created_date": "2026-06-26",
+    "last_modified": "2026-06-26"
+  },
+  "display": {
+    "default_language": "en",
+    "available_languages": ["en"],
+    "liturgical_color": "green",
+    "featured": false,
+    "show_intention_prompt": true
+  },
+  "assets": {
+    "cover_image": null,
+    "icon": "st-jude",
+    "audio": {},
+    "video": null
+  },
+  "references": {
+    "scripture": [],
+    "catechism": [],
+    "saints": ["St. Jude"],
+    "related_devotions": [],
+    "external_sources": []
+  },
+  "structure": {
+    "type": "common_with_reflection",
+    "days": 9
+  },
+  "translations": {
+    "en": {
+      "title": "St. Jude Novena",
+      "common": {
+        "opening": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+        "introduction": "Most holy St. Jude – apostle, martyr and friend of Jesus, today I ask that you pray for me and my intentions!",
+        "intention_prompt": "(State your intentions here)",
+        "body_before_reflection": "You are the patron of the impossible. Pray for me and my intentions! O St. Jude, pray that God's grace and mercy will cover my intentions. Pray for the impossible if it is God's will.\n\nPray that I may have the grace to accept God's holy will even if it is painful and difficult for me.",
+        "body_after_reflection": "O St. Jude, pray for me that I may grow in faith, hope and love and in the grace of Jesus Christ. Pray for these intentions, but most of all pray that I may join you in heaven with God for all eternity.\n\nAmen.",
+        "closing": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Love of Christ",
+          "reflection": "St. Jude, you loved our Lord, help me to love Him more."
+        },
+        {
+          "day": 2,
+          "theme": "Zeal",
+          "reflection": "St. Jude, pray that I may have your zeal to preach the Gospel."
+        },
+        {
+          "day": 3,
+          "theme": "Patience",
+          "reflection": "St. Jude, you labored for years, pray that I may have patience in my struggles."
+        },
+        {
+          "day": 4,
+          "theme": "Impossible Causes",
+          "reflection": "St. Jude, you are known for answering lost causes, pray for my most impossible needs."
+        },
+        {
+          "day": 5,
+          "theme": "Sacrifice",
+          "reflection": "St. Jude, you sacrificed for the Kingdom of God, pray that I may sacrifice like you."
+        },
+        {
+          "day": 6,
+          "theme": "Discernment",
+          "reflection": "St. Jude, pray that I may know God's will in my life."
+        },
+        {
+          "day": 7,
+          "theme": "Trust",
+          "reflection": "St. Jude, pray that I may put my trust in God that He knows my needs even better than I do and that He provides."
+        },
+        {
+          "day": 8,
+          "theme": "Hope",
+          "reflection": "St. Jude, pray for me that I will not lose hope."
+        },
+        {
+          "day": 9,
+          "theme": "Faith",
+          "reflection": "St. Jude, pray for me that I will not lose faith."
+        }
+      ]
+    },
+    "la": {
+      "title": "Novena ad Sanctum Iudam",
+      "common": {
+        "opening": "In nomine Patris, et Filii, et Spiritus Sancti. Amen.",
+        "introduction": "Sanctissime Iuda, apostole, martyr et amice Iesu, hodie te precor ut pro me et intentionibus meis intercedas.",
+        "intention_prompt": "(Hic tuas intentiones commemora.)",
+        "body_before_reflection": "Tu es patronus causarum desperatarum et impossibilium. Ora pro me et intentionibus meis. O Sancte Iuda, precare ut gratia et misericordia Dei super intentiones meas descendant. Intercede etiam pro rebus impossibilibus, si haec sit voluntas Dei.\n\nOra ut gratiam accipiam sanctam Dei voluntatem amplectendi, etiam si mihi dolorosa atque difficilis sit.",
+        "body_after_reflection": "O Sancte Iuda, ora pro me ut crescam in fide, spe et caritate atque in gratia Iesu Christi. Intercede pro his intentionibus, sed maxime ut tecum in caelis Deum in aeternum contemplari merear.\n\nAmen.",
+        "closing": "In nomine Patris, et Filii, et Spiritus Sancti. Amen."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Amor Christi",
+          "reflection": "Sancte Iuda, qui Dominum nostrum dilexisti, adiuva me ut eum magis diligam."
+        },
+        {
+          "day": 2,
+          "theme": "Zelus",
+          "reflection": "Sancte Iuda, impetra mihi zelum tuum ad Evangelium praedicandum."
+        },
+        {
+          "day": 3,
+          "theme": "Patientia",
+          "reflection": "Sancte Iuda, qui multos annos laborasti, impetra mihi patientiam in tribulationibus meis."
+        },
+        {
+          "day": 4,
+          "theme": "Causae Desperatae",
+          "reflection": "Sancte Iuda, qui patronus causarum desperatarum haberi soles, intercede pro maximis necessitatibus meis."
+        },
+        {
+          "day": 5,
+          "theme": "Sacrificium",
+          "reflection": "Sancte Iuda, qui propter Regnum Dei sacrificia obtulisti, impetra mihi gratiam te imitandi."
+        },
+        {
+          "day": 6,
+          "theme": "Voluntas Dei",
+          "reflection": "Sancte Iuda, ora ut voluntatem Dei in vita mea cognoscam."
+        },
+        {
+          "day": 7,
+          "theme": "Fiducia",
+          "reflection": "Sancte Iuda, impetra mihi fiduciam in Deo, qui necessitates meas melius quam ego ipse novit atque providet."
+        },
+        {
+          "day": 8,
+          "theme": "Spes",
+          "reflection": "Sancte Iuda, ora pro me ut spem numquam amittam."
+        },
+        {
+          "day": 9,
+          "theme": "Fides",
+          "reflection": "Sancte Iuda, ora pro me ut fidem numquam amittam."
+        }
+      ]
+    },
+    "es": {
+      "title": "Novena a San Judas Tadeo",
+      "common": {
+        "opening": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+        "introduction": "Santísimo San Judas Tadeo, apóstol, mártir y amigo de Jesús, hoy te pido que ruegues por mí y por mis intenciones.",
+        "intention_prompt": "(Menciona aquí tus intenciones.)",
+        "body_before_reflection": "Tú eres el patrono de las causas imposibles. Ruega por mí y por mis intenciones. Oh San Judas, ruega para que la gracia y la misericordia de Dios cubran mis intenciones. Intercede por lo imposible, si es la voluntad de Dios.\n\nRuega para que tenga la gracia de aceptar la santa voluntad de Dios, aunque sea dolorosa y difícil para mí.",
+        "body_after_reflection": "Oh San Judas, ruega por mí para que crezca en la fe, la esperanza y la caridad, y en la gracia de Jesucristo. Ruega por estas intenciones, pero sobre todo para que algún día pueda reunirme contigo en el cielo junto a Dios por toda la eternidad.\n\nAmén.",
+        "closing": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Amor a Cristo",
+          "reflection": "San Judas, tú amaste a nuestro Señor; ayúdame a amarlo cada día más."
+        },
+        {
+          "day": 2,
+          "theme": "Celo",
+          "reflection": "San Judas, ruega para que tenga tu celo por anunciar el Evangelio."
+        },
+        {
+          "day": 3,
+          "theme": "Paciencia",
+          "reflection": "San Judas, que trabajaste durante tantos años, ruega para que tenga paciencia en mis luchas."
+        },
+        {
+          "day": 4,
+          "theme": "Causas Imposibles",
+          "reflection": "San Judas, conocido por socorrer las causas desesperadas, ruega por mis necesidades más imposibles."
+        },
+        {
+          "day": 5,
+          "theme": "Sacrificio",
+          "reflection": "San Judas, que te sacrificaste por el Reino de Dios, ruega para que yo también aprenda a sacrificarme."
+        },
+        {
+          "day": 6,
+          "theme": "Voluntad de Dios",
+          "reflection": "San Judas, ruega para que conozca la voluntad de Dios para mi vida."
+        },
+        {
+          "day": 7,
+          "theme": "Confianza",
+          "reflection": "San Judas, ruega para que confíe plenamente en Dios, que conoce mis necesidades mejor que yo mismo y siempre provee."
+        },
+        {
+          "day": 8,
+          "theme": "Esperanza",
+          "reflection": "San Judas, ruega por mí para que nunca pierda la esperanza."
+        },
+        {
+          "day": 9,
+          "theme": "Fe",
+          "reflection": "San Judas, ruega por mí para que nunca pierda la fe."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Neuvaine à Saint Jude",
+      "common": {
+        "opening": "Au nom du Père, et du Fils, et du Saint-Esprit. Amen.",
+        "introduction": "Très saint Jude, apôtre, martyr et ami de Jésus, aujourd'hui je te demande de prier pour moi et pour mes intentions.",
+        "intention_prompt": "(Présente ici tes intentions.)",
+        "body_before_reflection": "Tu es le patron des causes impossibles. Prie pour moi et pour mes intentions. Ô saint Jude, prie afin que la grâce et la miséricorde de Dieu couvrent mes intentions. Intercède pour les causes impossibles, si telle est la volonté de Dieu.\n\nPrie afin que j'aie la grâce d'accepter la sainte volonté de Dieu, même lorsqu'elle est difficile et douloureuse.",
+        "body_after_reflection": "Ô saint Jude, prie pour moi afin que je grandisse dans la foi, l'espérance et la charité, ainsi que dans la grâce de Jésus-Christ. Prie pour ces intentions, mais surtout afin que je puisse un jour te rejoindre au ciel auprès de Dieu pour l'éternité.\n\nAmen.",
+        "closing": "Au nom du Père, et du Fils, et du Saint-Esprit. Amen."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Amour du Christ",
+          "reflection": "Saint Jude, toi qui as aimé notre Seigneur, aide-moi à l'aimer davantage."
+        },
+        {
+          "day": 2,
+          "theme": "Zèle",
+          "reflection": "Saint Jude, obtiens-moi ton zèle pour annoncer l'Évangile."
+        },
+        {
+          "day": 3,
+          "theme": "Patience",
+          "reflection": "Saint Jude, toi qui as travaillé durant de longues années, obtiens-moi la patience dans mes épreuves."
+        },
+        {
+          "day": 4,
+          "theme": "Causes Désespérées",
+          "reflection": "Saint Jude, connu comme le patron des causes désespérées, intercède pour mes besoins les plus impossibles."
+        },
+        {
+          "day": 5,
+          "theme": "Sacrifice",
+          "reflection": "Saint Jude, toi qui t'es sacrifié pour le Royaume de Dieu, apprends-moi à me sacrifier comme toi."
+        },
+        {
+          "day": 6,
+          "theme": "Volonté de Dieu",
+          "reflection": "Saint Jude, prie afin que je connaisse la volonté de Dieu dans ma vie."
+        },
+        {
+          "day": 7,
+          "theme": "Confiance",
+          "reflection": "Saint Jude, prie afin que je mette toute ma confiance en Dieu, qui connaît mes besoins mieux que moi-même et qui pourvoit toujours."
+        },
+        {
+          "day": 8,
+          "theme": "Espérance",
+          "reflection": "Saint Jude, prie pour moi afin que je ne perde jamais l'espérance."
+        },
+        {
+          "day": 9,
+          "theme": "Foi",
+          "reflection": "Saint Jude, prie pour moi afin que je ne perde jamais la foi."
+        }
+      ]
+    },
+    "de": {
+      "title": "Novene zum Heiligen Judas Thaddäus",
+      "common": {
+        "opening": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen.",
+        "introduction": "Heiligster Judas Thaddäus, Apostel, Märtyrer und Freund Jesu, heute bitte ich dich, für mich und meine Anliegen zu beten.",
+        "intention_prompt": "(Nenne hier deine Anliegen.)",
+        "body_before_reflection": "Du bist der Patron der aussichtslosen und unmöglichen Anliegen. Bitte für mich und meine Anliegen. O heiliger Judas, bete, dass Gottes Gnade und Barmherzigkeit meine Anliegen umfassen. Bitte auch für das Unmögliche, wenn es Gottes Wille ist.\n\nBitte darum, dass ich die Gnade erhalte, Gottes heiligen Willen anzunehmen, auch wenn er schmerzhaft und schwer ist.",
+        "body_after_reflection": "O heiliger Judas, bete für mich, damit ich im Glauben, in der Hoffnung und in der Liebe sowie in der Gnade Jesu Christi wachse. Bitte für diese Anliegen, vor allem aber darum, dass ich eines Tages mit dir im Himmel bei Gott sein darf.\n\nAmen.",
+        "closing": "Im Namen des Vaters und des Sohnes und des Heiligen Geistes. Amen."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Liebe zu Christus",
+          "reflection": "Heiliger Judas, du hast unseren Herrn geliebt; hilf mir, ihn immer mehr zu lieben."
+        },
+        {
+          "day": 2,
+          "theme": "Eifer",
+          "reflection": "Heiliger Judas, erbitte mir deinen Eifer für die Verkündigung des Evangeliums."
+        },
+        {
+          "day": 3,
+          "theme": "Geduld",
+          "reflection": "Heiliger Judas, du hast viele Jahre treu gearbeitet; erbitte mir Geduld in meinen Prüfungen."
+        },
+        {
+          "day": 4,
+          "theme": "Aussichtslose Anliegen",
+          "reflection": "Heiliger Judas, du bist als Patron aussichtsloser Anliegen bekannt; bitte für meine größten und unmöglichsten Nöte."
+        },
+        {
+          "day": 5,
+          "theme": "Opfer",
+          "reflection": "Heiliger Judas, du hast dich für das Reich Gottes geopfert; hilf mir, Opfer aus Liebe zu Gott zu bringen."
+        },
+        {
+          "day": 6,
+          "theme": "Gottes Wille",
+          "reflection": "Heiliger Judas, bete dafür, dass ich Gottes Willen für mein Leben erkenne."
+        },
+        {
+          "day": 7,
+          "theme": "Vertrauen",
+          "reflection": "Heiliger Judas, bete dafür, dass ich Gott vertraue, der meine Bedürfnisse besser kennt als ich selbst und immer für mich sorgt."
+        },
+        {
+          "day": 8,
+          "theme": "Hoffnung",
+          "reflection": "Heiliger Judas, bete für mich, damit ich niemals die Hoffnung verliere."
+        },
+        {
+          "day": 9,
+          "theme": "Glaube",
+          "reflection": "Heiliger Judas, bete für mich, damit ich niemals den Glauben verliere."
+        }
+      ]
+    },
+
+    "it": {
+      "title": "Novena a San Giuda Taddeo",
+      "common": {
+        "opening": "Nel nome del Padre, del Figlio e dello Spirito Santo. Amen.",
+        "introduction": "Santissimo San Giuda Taddeo, apostolo, martire e amico di Gesù, oggi ti chiedo di pregare per me e per le mie intenzioni.",
+        "intention_prompt": "(Presenta qui le tue intenzioni.)",
+        "body_before_reflection": "Tu sei il patrono delle cause impossibili. Prega per me e per le mie intenzioni. O San Giuda, prega affinché la grazia e la misericordia di Dio accompagnino le mie intenzioni. Intercedi anche per ciò che sembra impossibile, se è volontà di Dio.\n\nPrega affinché io abbia la grazia di accettare la santa volontà di Dio, anche quando è difficile e dolorosa.",
+        "body_after_reflection": "O San Giuda, prega per me affinché cresca nella fede, nella speranza e nella carità, e nella grazia di Gesù Cristo. Prega per queste intenzioni, ma soprattutto affinché un giorno possa raggiungerti in cielo presso Dio per tutta l'eternità.\n\nAmen.",
+        "closing": "Nel nome del Padre, del Figlio e dello Spirito Santo. Amen."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Amore per Cristo",
+          "reflection": "San Giuda, tu hai amato il Signore; aiutami ad amarlo sempre di più."
+        },
+        {
+          "day": 2,
+          "theme": "Zelo",
+          "reflection": "San Giuda, ottienimi il tuo zelo nell'annunciare il Vangelo."
+        },
+        {
+          "day": 3,
+          "theme": "Pazienza",
+          "reflection": "San Giuda, che hai lavorato per tanti anni, ottienimi pazienza nelle mie prove."
+        },
+        {
+          "day": 4,
+          "theme": "Cause Impossibili",
+          "reflection": "San Giuda, conosciuto come patrono delle cause impossibili, intercedi per i miei bisogni più difficili."
+        },
+        {
+          "day": 5,
+          "theme": "Sacrificio",
+          "reflection": "San Giuda, che ti sei sacrificato per il Regno di Dio, aiutami a sacrificarmi come hai fatto tu."
+        },
+        {
+          "day": 6,
+          "theme": "Volontà di Dio",
+          "reflection": "San Giuda, prega affinché io conosca la volontà di Dio nella mia vita."
+        },
+        {
+          "day": 7,
+          "theme": "Fiducia",
+          "reflection": "San Giuda, prega affinché io riponga tutta la mia fiducia in Dio, che conosce i miei bisogni meglio di me e provvede sempre."
+        },
+        {
+          "day": 8,
+          "theme": "Speranza",
+          "reflection": "San Giuda, prega per me affinché non perda mai la speranza."
+        },
+        {
+          "day": 9,
+          "theme": "Fede",
+          "reflection": "San Giuda, prega per me affinché non perda mai la fede."
+        }
+      ]
+    },
+
+    "pt": {
+      "title": "Novena a São Judas Tadeu",
+      "common": {
+        "opening": "Em nome do Pai, do Filho e do Espírito Santo. Amém.",
+        "introduction": "Santíssimo São Judas Tadeu, apóstolo, mártir e amigo de Jesus, hoje peço que rezeis por mim e pelas minhas intenções.",
+        "intention_prompt": "(Apresente aqui as suas intenções.)",
+        "body_before_reflection": "Vós sois o padroeiro das causas impossíveis. Rogai por mim e pelas minhas intenções. Ó São Judas, rogai para que a graça e a misericórdia de Deus cubram as minhas intenções. Intercedei pelo impossível, se for da vontade de Deus.\n\nRogai para que eu tenha a graça de aceitar a santa vontade de Deus, mesmo quando ela for difícil e dolorosa.",
+        "body_after_reflection": "Ó São Judas, rogai para que eu cresça na fé, na esperança e na caridade, e na graça de Jesus Cristo. Rogai por estas intenções, mas sobretudo para que um dia eu possa juntar-me convosco no céu junto de Deus por toda a eternidade.\n\nAmém.",
+        "closing": "Em nome do Pai, do Filho e do Espírito Santo. Amém."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Amor por Cristo",
+          "reflection": "São Judas, vós amastes o Senhor; ajudai-me a amá-Lo cada vez mais."
+        },
+        {
+          "day": 2,
+          "theme": "Zelo",
+          "reflection": "São Judas, alcançai-me o vosso zelo para anunciar o Evangelho."
+        },
+        {
+          "day": 3,
+          "theme": "Paciência",
+          "reflection": "São Judas, que trabalhastes durante tantos anos, alcançai-me paciência nas minhas dificuldades."
+        },
+        {
+          "day": 4,
+          "theme": "Causas Impossíveis",
+          "reflection": "São Judas, conhecido como padroeiro das causas impossíveis, intercedei pelas minhas maiores necessidades."
+        },
+        {
+          "day": 5,
+          "theme": "Sacrifício",
+          "reflection": "São Judas, que vos sacrificastes pelo Reino de Deus, ajudai-me a oferecer os meus sacrifícios por amor a Deus."
+        },
+        {
+          "day": 6,
+          "theme": "Vontade de Deus",
+          "reflection": "São Judas, rogai para que eu conheça a vontade de Deus para a minha vida."
+        },
+        {
+          "day": 7,
+          "theme": "Confiança",
+          "reflection": "São Judas, rogai para que eu confie plenamente em Deus, que conhece melhor do que eu as minhas necessidades e sempre providencia."
+        },
+        {
+          "day": 8,
+          "theme": "Esperança",
+          "reflection": "São Judas, rogai por mim para que eu nunca perca a esperança."
+        },
+        {
+          "day": 9,
+          "theme": "Fé",
+          "reflection": "São Judas, rogai por mim para que eu nunca perca a fé."
+        }
+      ]
+    },
+
+    "pl": {
+      "title": "Nowenna do Świętego Judy Tadeusza",
+      "common": {
+        "opening": "W imię Ojca i Syna, i Ducha Świętego. Amen.",
+        "introduction": "Najświętszy Święty Judo Tadeuszu, Apostole, Męczenniku i Przyjacielu Jezusa, dziś proszę Cię, módl się za mną i za moimi intencjami.",
+        "intention_prompt": "(Przedstaw tutaj swoje intencje.)",
+        "body_before_reflection": "Jesteś patronem spraw beznadziejnych i niemożliwych. Módl się za mnie i za moje intencje. O Święty Judo, wypraszaj, aby łaska i miłosierdzie Boże ogarnęły moje intencje. Wstawiaj się również w sprawach niemożliwych, jeśli taka jest wola Boża.\n\nMódl się, abym otrzymał łaskę przyjęcia świętej woli Boga, nawet gdy jest ona trudna i bolesna.",
+        "body_after_reflection": "O Święty Judo, módl się za mnie, abym wzrastał w wierze, nadziei i miłości oraz w łasce Jezusa Chrystusa. Módl się za te intencje, lecz przede wszystkim o to, abym kiedyś mógł dołączyć do Ciebie w niebie i przebywać z Bogiem na wieki.\n\nAmen.",
+        "closing": "W imię Ojca i Syna, i Ducha Świętego. Amen."
+      },
+      "days": [
+        {
+          "day": 1,
+          "theme": "Miłość do Chrystusa",
+          "reflection": "Święty Judo, umiłowałeś naszego Pana; pomóż mi kochać Go coraz bardziej."
+        },
+        {
+          "day": 2,
+          "theme": "Gorliwość",
+          "reflection": "Święty Judo, wyproś mi swoją gorliwość w głoszeniu Ewangelii."
+        },
+        {
+          "day": 3,
+          "theme": "Cierpliwość",
+          "reflection": "Święty Judo, który przez wiele lat wiernie pracowałeś, wyproś mi cierpliwość w moich trudnościach."
+        },
+        {
+          "day": 4,
+          "theme": "Sprawy Beznadziejne",
+          "reflection": "Święty Judo, patronie spraw beznadziejnych, wstawiaj się za moimi najtrudniejszymi potrzebami."
+        },
+        {
+          "day": 5,
+          "theme": "Ofiara",
+          "reflection": "Święty Judo, który poświęciłeś się dla Królestwa Bożego, naucz mnie składać ofiary z miłości do Boga."
+        },
+        {
+          "day": 6,
+          "theme": "Wola Boża",
+          "reflection": "Święty Judo, módl się, abym poznał wolę Boga wobec mojego życia."
+        },
+        {
+          "day": 7,
+          "theme": "Ufność",
+          "reflection": "Święty Judo, módl się, abym całkowicie zaufał Bogu, który zna moje potrzeby lepiej ode mnie i zawsze się o mnie troszczy."
+        },
+        {
+          "day": 8,
+          "theme": "Nadzieja",
+          "reflection": "Święty Judo, módl się za mnie, abym nigdy nie utracił nadziei."
+        },
+        {
+          "day": 9,
+          "theme": "Wiara",
+          "reflection": "Święty Judo, módl się za mnie, abym nigdy nie utracił wiary."
+        }
+      ]
+    }
+  }
+}
