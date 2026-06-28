@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const modules = import.meta.glob("../assets/data/novenas/*.json", {
   eager: true,
@@ -12,6 +12,26 @@ const initArr = NOVENAS.map((p) => ({
   id: p.metadata.id,
   title: p.metadata.title,
 }));
+
+// -----HELPER FUNCTIONS------
+function loadSaved() {
+  try {
+    const raw = localStorage.getItem("novena_progress");
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+function saveSaved(data) {
+  try {
+    localStorage.setItem("novena_progress", JSON.stringify(data));
+  } catch {}
+}
+
+function clearSaved() {
+  localStorage.removeItem("novena_progress");
+}
 
 function PrayerContent({ prayer, language = "en", day }) {
   const translation = prayer.translations[language] ?? prayer.translations.en;
@@ -87,15 +107,33 @@ function PrayerContent({ prayer, language = "en", day }) {
   return <p>No content available.</p>;
 }
 function Novenas() {
+  const saved = loadSaved(); // read oncce on module load
   const [novenaCategory, setNovenaCategory] = useState("all");
   const [novenaLanguage, setNovenaLanguage] = useState("en");
   const [novenaList, setNovenaList] = useState(initArr);
-  const [displayExtraInfo, setDisplayExtraInfo] = useState(false);
   const [searchNovena, setSearchNovena] = useState("");
   const [currNovena, setCurrNovena] = useState(null);
-  const [currPrayingNovena, setCurrPrayingNovena] = useState(null);
-  const [dayCount, setDayCount] = useState(0);
+
+  // Rehydrate from localStorage
+  const [currPrayingNovena, setCurrPrayingNovena] = useState(() =>
+    saved?.noveId ? (NOVENAS_BY_ID[saved.novenaId] ?? null) : null,
+  );
+  const [dayCount, setDayCount] = useState(() => saved?.dayCount ?? 0);
+  const [lastCompletedDate, setLastCompletedDate] = useState(
+    () => saved?.lastCompletedDate ?? null,
+  );
   const [isStarted, setIsStarted] = useState(false);
+
+  // Persist whenever progress changes
+  useEffect(() => {
+    if (currPrayingNovena) {
+      saveSaved({
+        novenaId: currPrayingNovena.metadata.id,
+        dayCount,
+        lastCompletedDate,
+      });
+    }
+  }, [currPrayingNovena, dayCount, lastCompletedDate]);
 
   function handleNovenaChange(e) {
     const newCategory = e.target.value;
@@ -114,16 +152,12 @@ function Novenas() {
     }
   }
 
-  function handleNovenaClick(novena) {
-    setCurrNovena(NOVENAS.find((n) => n.metadata.id === novena));
+  function handleNovenaClick(novenaId) {
+    setCurrNovena(NOVENAS_BY_ID[novenaId] ?? null);
   }
 
   function handleLanguageChange(e) {
     setNovenaLanguage(e.target.value);
-  }
-
-  function handleDisplayExtraInfo() {
-    setDisplayExtraInfo((prev) => !prev);
   }
 
   function handleSearchNovena(e) {
@@ -166,13 +200,34 @@ function Novenas() {
     if (newNovena) {
       setCurrPrayingNovena(selectedNovena);
       setDayCount(1);
+      setLastCompletedDate(null);
     }
   }
 
   function handleCompletedNovena() {
-    setDayCount((prev) => prev + 1);
+    const today = new Date().toDateString();
+    const nextDay = dayCount + 1;
+    setDayCount(nextDay);
+    setLastCompletedDate(today);
     setIsStarted(false);
   }
+
+  function handleStopNovena() {
+    setCurrPrayingNovena(null);
+    setDayCount(0);
+    setLastCompletedDate(null);
+    clearSaved();
+  }
+
+  function handleRestartNovena() {
+    setDayCount(1);
+    setLastCompletedDate(null);
+    setIsStarted(true);
+  }
+
+  // Has the user already prayed today?
+  const today = new Date().toDateString();
+  const prayedToday = lastCompletedDate === today;
 
   return isStarted ? (
     <section className="prayers">
@@ -235,11 +290,18 @@ function Novenas() {
                 You are currently doing {currPrayingNovena.metadata.title}
               </h3>
               <p>You have finished {dayCount - 1} on *Today*</p>
-              <button onClick={handleStartNovena}>
-                Proceed to day:{dayCount}
-              </button>
-              <button>Stop this Novena</button>
-              <button>Restart this Novens</button>
+              {prayedToday ? (
+                <p>
+                  ✅ Day {dayCount - 1} complete — see you tomorrow for day{" "}
+                  {dayCount}!
+                </p>
+              ) : (
+                <button onClick={handleStartNovena}>
+                  Proceed to day: {dayCount}
+                </button>
+              )}
+              <button onClick={handleStopNovena}>Stop this Novena</button>
+              <button onClick={handleRestartNovena}>Restart this Novena</button>
             </>
           ) : (
             <>
