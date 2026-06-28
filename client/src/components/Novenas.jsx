@@ -116,7 +116,7 @@ function Novenas() {
 
   // Rehydrate from localStorage
   const [currPrayingNovena, setCurrPrayingNovena] = useState(() =>
-    saved?.noveId ? (NOVENAS_BY_ID[saved.novenaId] ?? null) : null,
+    saved?.novenaId ? (NOVENAS_BY_ID[saved.novenaId] ?? null) : null,
   );
   const [dayCount, setDayCount] = useState(() => saved?.dayCount ?? 0);
   const [lastCompletedDate, setLastCompletedDate] = useState(
@@ -247,13 +247,15 @@ function Novenas() {
         </div>
       </div>
       <div className="novena-card-prayer">
-        {currNovena ? (
+        {currPrayingNovena ? (
           <>
             <h3>
-              {currNovena.metadata.title} - Day: {dayCount}
+              <h3>
+                {currPrayingNovena.metadata.title} - Day: {dayCount}
+              </h3>
             </h3>
             <PrayerContent
-              prayer={currNovena}
+              prayer={currPrayingNovena}
               language={novenaLanguage}
               day={dayCount}
             />
