@@ -1,21 +1,18 @@
-import Hero from "./components/Hero";
-import heroImg from "./assets/hero_1.jpg";
-import Rosary from "./components/Rosary";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 import DigitalAltar from "./components/DigitalAltar";
+import LandingPage from "./pages/LandingPage";
+import ApologiaPage from "./pages/apologiaPage";
 
 function App() {
   return (
     <>
-      <Hero
-        title="Catholic"
-        titleAccent="Fide"
-        subtitle="Defending the Faith and Defending the Truth"
-        body="Standing firm in sacred tradition — for God, for Church, for truth."
-        ctaText="Oremus"
-        ctaHref="#digitalAltar"
-        bgImage={heroImg}
-      />
-      <DigitalAltar />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/oremus" element={<DigitalAltar />} />
+        <Route path="/apologia" element={<ApologiaPage />} />
+      </Routes>
     </>
   );
 }

@@ -5,7 +5,7 @@ function DefaultAltar() {
   const containerStyle = {
     position: "relative",
     width: "100%",
-    margin: "-8vh auto",
+    margin: "-12vh auto",
     zIndex: "-1",
   };
 

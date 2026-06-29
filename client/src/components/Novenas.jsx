@@ -259,7 +259,12 @@ function Novenas() {
               language={novenaLanguage}
               day={dayCount}
             />
-            <button onClick={() => handleCompletedNovena()}>Completed</button>
+            <button
+              className="btn-primary"
+              onClick={() => handleCompletedNovena()}
+            >
+              Completed
+            </button>
           </>
         ) : (
           <h3>Select a Novena to view it.</h3>
@@ -268,93 +273,96 @@ function Novenas() {
     </section>
   ) : (
     <section className="prayers">
-      <div className="prayer-filters">
+      <div className="novena-filters">
         <div className="select-card">
           <p>Filter By Type:</p>
           <select value={novenaCategory} onChange={handleNovenaChange}>
             <option value="all">All</option>
           </select>
         </div>
-      </div>
-
-      <div>
         <input
           type="text"
-          className="prayer-search"
+          className="novena-search"
           placeholder="Search for prayer by title or description"
           value={searchNovena}
           onChange={handleSearchNovena}
         />
-        <div className="prayer-filters">
-          {currPrayingNovena ? (
+      </div>
+
+      <div className="active-novena">
+        {currPrayingNovena ? (
+          <>
+            <h3>You are currently doing {currPrayingNovena.metadata.title}</h3>
+            <p>
+              You have finished Day: {dayCount - 1} on {today}
+            </p>
+            {prayedToday ? (
+              <p>
+                ✅ Day {dayCount - 1} complete — see you tomorrow for day{" "}
+                {dayCount}!
+              </p>
+            ) : (
+              <button className="btn-accent" onClick={handleStartNovena}>
+                Proceed to day: {dayCount}
+              </button>
+            )}
+          </>
+        ) : (
+          <>
+            <h3>You have not started a novena yet?</h3>
+            <p>Choose a Novena below</p>
+          </>
+        )}
+      </div>
+      <div className="prayer-display">
+        <div className="prayer-list prayer-card">
+          <h3>Novena List</h3>
+          <ul>
+            {novenaList.map((novena) => (
+              <li
+                onClick={() => handleNovenaClick(novena.id)}
+                key={novena.id}
+                className={
+                  novena.id === currNovena?.metadata.id
+                    ? "prayer-list-active-prayer"
+                    : null
+                }
+              >
+                {novena.title}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="prayer-card prayercard-nodesc">
+          {currNovena ? (
             <>
-              <h3>
-                You are currently doing {currPrayingNovena.metadata.title}
-              </h3>
-              <p>You have finished {dayCount - 1} on *Today*</p>
-              {prayedToday ? (
-                <p>
-                  ✅ Day {dayCount - 1} complete — see you tomorrow for day{" "}
-                  {dayCount}!
-                </p>
-              ) : (
-                <button onClick={handleStartNovena}>
-                  Proceed to day: {dayCount}
-                </button>
-              )}
-              <button onClick={handleStopNovena}>Stop this Novena</button>
-              <button onClick={handleRestartNovena}>Restart this Novena</button>
+              <h3>{currNovena.metadata.title}</h3>
+              {/* <PrayerContent prayer={currNovena} language={novenaLanguage} /> */}
+              <button
+                className="btn-outline"
+                onClick={() => handleStartNovena(currNovena, true)}
+              >
+                Start Novena
+              </button>{" "}
+              {currPrayingNovena ? (
+                <span style={{ color: "red" }}>
+                  This will overide your current progress
+                </span>
+              ) : null}
+              <h4>Description</h4>
+              <p>{currNovena.metadata.description}</p>
+              <h4>Origin</h4>
+              <p>{currNovena.metadata.origin}</p>
+              <h4>Origin Date</h4>
+              <p>{currNovena.metadata.origin_date}</p>
+              <h4>Usage</h4>
+              <p>{currNovena.metadata.usage}</p>
+              <h4>Type of Prayer</h4>
+              <p>{currNovena.metadata.type}</p>
             </>
           ) : (
-            <>
-              <h3>You have not started a novena yet?</h3>
-              <p>Choose a Novena below</p>
-            </>
+            <h3>Select a Novena to view it.</h3>
           )}
-        </div>
-        <div className="prayer-display">
-          <div className="prayer-list prayer-card">
-            <h3>Novena List</h3>
-            <ul>
-              {novenaList.map((novena) => (
-                <li
-                  onClick={() => handleNovenaClick(novena.id)}
-                  key={novena.id}
-                  className={
-                    novena.id === currNovena?.metadata.id
-                      ? "prayer-list-active-prayer"
-                      : null
-                  }
-                >
-                  {novena.title}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="prayer-card prayercard-nodesc">
-            {currNovena ? (
-              <>
-                <h3>{currNovena.metadata.title}</h3>
-                {/* <PrayerContent prayer={currNovena} language={novenaLanguage} /> */}
-                <button onClick={() => handleStartNovena(currNovena, true)}>
-                  Start Novena
-                </button>{" "}
-                <span>This will overide your current progrss</span>
-                <h4>Description</h4>
-                <p>{currNovena.metadata.description}</p>
-                <h4>Origin</h4>
-                <p>{currNovena.metadata.origin}</p>
-                <h4>Origin Date</h4>
-                <p>{currNovena.metadata.origin_date}</p>
-                <h4>Usage</h4>
-                <p>{currNovena.metadata.usage}</p>
-                <h4>Type of Prayer</h4>
-                <p>{currNovena.metadata.type}</p>
-              </>
-            ) : (
-              <h3>Select a Novena to view it.</h3>
-            )}
-          </div>
         </div>
       </div>
     </section>
