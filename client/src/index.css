@@ -1194,12 +1194,20 @@ nav a.active {
 
 .apologia h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 0;
 }
 
-.apologia h2:first-of-type {
+.scripture-banner:first-of-type {
   margin-top: 7vh;
+}
+
+.scripture-banner {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  background-color: var(--bg-primary);
 }
 .apologia-landing-banner {
   display: flex;
@@ -1210,23 +1218,60 @@ nav a.active {
 
 .apologia-landing-banner img {
   height: 65vh;
-  margin: 20px;
+  margin: 10px 20px;
   border-radius: var(--radius-lg);
 }
 
 .apologia video {
   height: 65vh;
-  margin: 20px;
+  margin: 10px 20px;
   border-radius: var(--radius-lg);
 }
 
 .apologia p {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   text-align: left;
   justify-self: flex-end;
   align-self: flex-end;
   font-style: italic;
+}
+
+.apologia h1 {
+  margin-top: 80px;
+}
+
+.navigation-section {
+  width: 80%;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation-card {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navigation-card h3 {
+  color: var(--color-accent-light);
+}
+
+.navigation-card:hover {
+  cursor: pointer;
+  background-color: #5a7a9f;
+  border: 1px solid var(--border-accent);
+  box-shadow: 0 0 20px 5px var(--bg-accent);
 }
 
 /* ============================================================

@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 const links = [
   { label: "Home", to: "/" },
   { label: "Apologia", to: "/apologia" },
-  { label: "Biblia Sacra", to: "/bibliasacra" },
-  { label: "Ecclesiastica", to: "/historia" },
+  { label: "Theologica", to: "/theologica" },
+  { label: "Ecclesiastica", to: "/ecclesiastica" },
   { label: "Contact Us", to: "/contact" },
 ];
 
