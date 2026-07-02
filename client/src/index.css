@@ -861,6 +861,8 @@ nav a.active {
 
 .novena-filters {
   display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
   align-items: center;
   justify-content: space-around;
   margin: 0 auto;
@@ -1180,7 +1182,7 @@ nav a.active {
 }
 
 /* ============================================================
-   APOLOGIA FUN
+   APOLOGIA PAGE
    ============================================================ */
 
 .apologia {
@@ -1246,12 +1248,17 @@ nav a.active {
   margin: 0 auto;
   height: 50vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  gap: 20px;
 }
 
 .navigation-card {
+  position: relative;
   width: 30%;
+  min-width: 200px;
+  gap: 8px;
   height: 90%;
   display: flex;
   align-items: center;
@@ -1261,17 +1268,37 @@ nav a.active {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: all var(--transition-base);
 }
 
 .navigation-card h3 {
   color: var(--color-accent-light);
+  z-index: 3;
 }
 
 .navigation-card:hover {
   cursor: pointer;
-  background-color: #5a7a9f;
   border: 1px solid var(--border-accent);
   box-shadow: 0 0 20px 5px var(--bg-accent);
+}
+
+.navigation-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #09090955;
+  border-radius: var(--radius-lg);
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-base);
+}
+
+.navigation-card:hover::before {
+  opacity: 1;
 }
 
 /* ============================================================
