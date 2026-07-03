@@ -1,4 +1,10 @@
 function RosaryCard(props) {
+  const vibrate = (pattern = 50) => {
+    if (navigator.vibrate) {
+      navigator.vibrate(pattern);
+    }
+  };
+
   return (
     <div className="rosary-card">
       {props.cardTitle && <h3>{props.cardTitle}</h3>}
@@ -29,7 +35,10 @@ function RosaryCard(props) {
                 fontSize: "20px",
                 marginRight: "100px",
               }}
-              onClick={() => props.onHandlePrev()}
+              onClick={() => {
+                vibrate();
+                props.onHandlePrev();
+              }}
             >
               &#10094;
             </button>
@@ -40,7 +49,10 @@ function RosaryCard(props) {
                 padding: "5px 15px",
                 fontSize: "20px",
               }}
-              onClick={() => props.onHandleNext()}
+              onClick={() => {
+                vibrate();
+                props.onHandleNext();
+              }}
             >
               &#10095;
             </button>
