@@ -543,7 +543,7 @@ a {
    ============================================================ */
 nav {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.379);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   top: 1vh;
@@ -551,7 +551,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
-  color: var(--color-accent);
+  color: var(--color-gray-700);
   display: flex;
   align-items: center;
   height: 5vh;
@@ -1321,7 +1321,7 @@ nav a.active {
 }
 
 .navigation-section {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   height: 50vh;
   display: flex;
@@ -1351,6 +1351,8 @@ nav a.active {
 .navigation-card h3 {
   color: var(--color-accent-light);
   z-index: 3;
+  padding: 0 12px;
+  text-align: center;
 }
 
 .navigation-card:hover {

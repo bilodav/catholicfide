@@ -478,3 +478,18 @@ Ecclesiastica
 ├── Doctrine
 └── Find a Church
 
+└── data/
+    └── apologia/
+        └── core-christian-doctrine/
+            └── god/
+                └── who-is-god/
+                    ├── meta.json
+                    ├── content.json
+                    ├── media/
+                    │   ├── hero.webp
+                    │   ├── burning-bush.webp
+                    │   ├── timeline.svg
+                    │   ├── god-explained.mp4
+                    │   ├── intro.mp3
+                    │   └── study-guide.pdf
+                    └── citations.json   (or use a shared global references library)

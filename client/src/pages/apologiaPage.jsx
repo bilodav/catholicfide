@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import apologiaHome from "../assets/videos/apologiaHome.mp4";
 import apologiaHomeBanner1 from "../assets/apologiaImages/apologia1.png";
 import apologiaHomeBanner2 from "../assets/apologiaImages/apologia2.jpeg";
@@ -11,31 +13,42 @@ import themeImage6 from "../assets/apologiaImages/apologiaTheme6.jpeg";
 const apologiaThemes = [
   {
     title: "Core Christian Doctrine",
+    id: "core-christian-doctrine",
     image: themeImage1,
   },
   {
     title: "Defending the Faith",
+    id: "defending-the-faith",
     image: themeImage2,
   },
   {
     title: "Scriptural Reliability",
+    id: "scriptural-reliability",
     image: themeImage3,
   },
   {
     title: "Catholic Distinctives",
+    id: "catholic-apologetics",
     image: themeImage4,
   },
   {
     title: "Church History",
+    id: "church-history",
     image: themeImage5,
   },
   {
     title: "Resources",
+    id: "resources",
     image: themeImage6,
   },
 ];
 
 function ApologiaPage() {
+  const navigate = useNavigate();
+  function handleThemeClick(theme) {
+    navigate(`/apologia/${theme.id}`, { state: { theme } });
+  }
+
   return (
     <>
       <section className="apologia">
@@ -71,6 +84,7 @@ function ApologiaPage() {
               style={{ backgroundImage: `url(${theme.image})` }}
               key={index}
               className="navigation-card"
+              onClick={() => handleThemeClick(theme)}
             >
               <h3>{theme.title}</h3>
             </div>
