@@ -1,0 +1,480 @@
+===========================================
+        WEBFLOW
+===========================================
+
+-------------------------------------------
+ Main Titles
+-------------------------------------------
+
+# Apologia
+A place where all faith defence happens
+
+#Theologia
+
+#Ecclesiastica
+
+#Bibliotheca
+A place that will contain all the source material
+- Bible
+- Church Fathers
+- Catechism
+- Council Documents
+- Papal Documents
+- Encyclicals
+- Canon Law
+- Prayers
+- PDFs
+- Downloadable Resources
+
+#Contact Us
+
+
+-------------------------------------------
+ APOLOGIA FLOW AND TITLES
+-------------------------------------------
+Why Christianity is true."
+
+
+1. Core Christian Doctrine
+**What Christians Believe**
+
+#God
+- Who is God?
+- The Attributes of God
+- The Names of God
+- God the Father
+
+#Jesus Christ
+- Who is Jesus?
+- Is Jesus God?
+- Why did Jesus become man?
+- The Incarnation
+- The Death and Resurrection
+- The Ascension
+- Why Jesus is the Only Way
+
+#The Trinity
+- What is the Trinity?
+- Where is the Trinity in Scripture?
+- Is the Trinity Biblical?
+- Common Misunderstandings of the Trinity
+- Who is the Angel of God?
+
+#The Gospel
+- What is the Gospel?
+- Why We Need Salvation
+- Grace, Faith and Works
+- Repentance
+- Eternal Life
+
+#The Holy Spirit
+- Who is the Holy Spirit?
+- The Gifts of the Holy Spirit
+- The Fruit of the Spirit
+
+2. Defending the Faith
+**Answering objections.**
+
+#Biblical Contradictions
+- Alleged Contradictions Explained
+- Difficult Old Testament Passages
+- Difficult New Testament Passages
+- Genealogies of Jesus
+- Resurrection Accounts
+- Judas' Death
+- Census of Quirinius
+
+#Islamic Objections
+- Jesus
+-- Where Does Jesus Say "I Am God"?
+-- Jesus Was Only a Prophet
+-- Why Didn't Jesus Say "Worship Me"?
+-- Jesus Never Claimed Divinity
+-- Did Jesus Predict Muhammad?
+
+- The Bible
+-- The Bible Is Corrupted
+-- Jesus Spoke Aramaic
+-- The Injil vs the New Testament
+-- Why Isn't the Gospel of Barnabas in the Bible?
+
+- Paul
+-- Paul Never Met Jesus
+-- Paul Invented Christianity
+-- Why Did Paul Change Jesus' Message?
+
+- The Law
+-- Why Don't Christians Keep the Mosaic Law?
+-- Why Did the Apostles Change the Law?
+-- Food Laws
+-- Circumcision
+
+- Historical Claims
+-- Moses Only Did Nine Miracles
+-- Rebecca Was Three Years Old
+-- Mary Was Thirteen
+-- The Trinity Was Invented at Nicaea
+-- Constantine Created Christianity
+
+# Atheistic Objections
+- Morality
+-- Are We All Innately Moral?
+-- Can Morality Exist Without God?
+-- Is Religion the Cause of Violence?
+-- The Problem of Evil
+
+#The Bible
+- The Bible Is Chinese Whispers
+- The Bible Is Corrupted
+- The Bible Is Full of Contradictions
+- The Bible Endorses Slavery
+- The Bible Promotes Genocide
+
+#Science
+- Christianity vs Evolution
+- Christianity and the Big Bang
+- Miracles Are Impossible
+- Faith vs Evidence
+
+#Philosophy
+- Does God Exist?
+- Who Created God?
+- Why Doesn't God Reveal Himself?
+- Is Faith Irrational?
+
+3. Scriptural Reliability
+** Why we can trust the Bible. **
+
+#The Bible
+- Why I Believe the Bible
+- Inspiration of Scripture
+- Inerrancy vs Infallibility
+
+#Manuscripts
+- The Earliest Manuscripts
+- How the New Testament Was Preserved
+- How the Old Testament Was Preserved
+- The Dead Sea Scrolls
+- Comparing Ancient Documents
+
+#The Canon
+- How the Bible Was Compiled
+- Why Are There Different Canons?
+- Why Catholics Have More Books
+- What the Councils Actually Did
+- Did the Church Create the Bible?
+
+#Textual Criticism
+- What Is Textual Criticism?
+- Has the Bible Changed?
+- Common Variants Explained
+- Why There Are So Many Bible Translations
+
+#Authorship
+- Who Wrote the Gospels?
+- Who Wrote the Letters of Paul?
+- How Do We Know?
+
+#History
+- The Reliability of Christian History
+- Archaeology and the Bible
+- Non-Christian Sources for Jesus
+
+4. Catholic Distinctives
+**Catholic Faith**
+
+#The Church
+- Why Be Catholic?
+- Why One Church?
+- Apostolic Succession
+- The Authority of the Church
+- Sacred Scripture and Sacred Tradition
+- The Magisterium
+
+#Mary
+- Why Catholics Honor Mary
+- Immaculate Conception
+- Perpetual Virginity
+- Assumption
+- Queen of Heaven
+- Is Praying to Mary Worship?
+
+#The Saints
+- Why Pray to Saints?
+- Communion of Saints
+- Relics
+- Patron Saints
+
+#The Sacraments
+-Baptism
+-Eucharist
+-Confession
+-Confirmation
+-Marriage
+-Holy Orders
+-Anointing of the Sick
+
+#Purgatory
+-What Is Purgatory?
+-Biblical Basis
+-Common Objections
+
+#The Papacy
+- Why the Pope?
+- Peter and the Keys
+- Papal Infallibility
+- Early Church Evidence
+
+5. Church History
+- The Early Church
+- The Church Fathers
+- The Ecumenical Councils
+- Development of Doctrine
+- The Protestant Reformation
+- Why the Catholic Church Endured
+
+6. Resources
+- Recommended Books
+- Recommended Debates
+- Church Fathers
+- Church Documents
+- Bible Study Tools
+- Frequently Asked Questions
+
+========================
+NOTES
+========================
+
+#Some tags to tag the articles by
+
+Bible
+Old Testament
+New Testament
+Jesus
+Trinity
+God
+Holy Spirit
+Mary
+Papacy
+Sacraments
+Church Fathers
+Councils
+Canon
+History
+Archaeology
+Philosophy
+Logic
+Science
+Atheism
+Islam
+Orthodoxy
+Protestantism
+Judaism
+Salvation
+Grace
+Faith
+Works
+Resurrection
+Messiah
+Prophecy
+Creation
+Evolution
+Purgatory
+Heaven
+Hell
+Prayer
+Saints
+Tradition
+
+
+# Article Structure
+**Every article could follow the same pattern so readers know what to expect.**
+
+For example:
+
+1. The Question
+- "Did Jesus ever claim to be God?"
+2. The Short Answer
+- A 2–3 paragraph summary for people who don't want a long read.
+3. The Biblical Evidence
+- Relevant passages with explanations.
+4. Historical Evidence
+- Early Christian writings, historians, archaeology, etc.
+5. Common Objections
+- Address the strongest opposing arguments fairly.
+6. Catholic Perspective
+- Explain how the Church understands the issue.
+7. Further Reading
+- Scripture references.
+- Church Fathers.
+- Catechism references.
+- Books and articles.
+
+
+##############
+REMEMBER TO STEELMAN THE ARGUMENT bilo
+
+Instead of writing:
+
+"Muslims claim..."
+
+write something like:
+
+"Many Muslim scholars argue that the New Testament was altered after Jesus because the Qur'an speaks positively of the Injil while modern Christians possess four Gospels rather than a single revealed book. They therefore conclude that the original revelation has been lost."
+##############
+
+This section answers:
+
+"Why should I believe Christianity?"
+
+-------------------------------------------
+ Theologia FLOW AND TITLES
+-------------------------------------------
+
+
+**"Study the faith."**
+
+
+This becomes less apologetics and more of a library.
+
+Almost like a digital seminary vibe
+
+#Scripture
+- Bible
+- Interlinear Bibles
+- Commentaries
+- Bible Dictionaries
+- Maps
+- Timelines
+
+#Church Fathers
+- Apostolic Fathers
+- Ante-Nicene Fathers
+- Nicene Fathers
+- Desert Fathers
+
+#Doctors of the Church
+- Thomas Aquinas
+- Augustine of Hippo
+- Bonaventure
+
+#Philosophy
+- Classical Philosophy
+- Metaphysics
+- Natural Theology
+- Ethics
+
+#Theology
+- Dogmatic Theology
+- Moral Theology
+- Biblical Theology
+- Systematic Theology
+
+#Church Documents
+- Papal Encyclicals
+- Apostolic Constitutions
+- Vatican II Documents
+- Ecumenical Councils
+
+This section answers:
+
+"How do I study Christianity?"
+
+-------------------------------------------
+Ecclesiastica FLOW AND TITLES
+-------------------------------------------
+
+"The Church founded by Christ."
+
+This is where I can make the Catholic identity really shine.
+
+# About the Church
+- Who is the Catholic Church?
+- Why be Catholic?
+- The Four Marks of the Church
+- Apostolic Succession
+
+#History
+- Timeline
+- Early Church
+- Councils
+- Schisms
+- Reformation
+
+#Church Fathers
+- Who were they?
+- Their writings
+- Their teachings
+
+#Doctrine
+- Catechism
+- Dogma
+- Doctrine
+- Discipline
+- Tradition
+
+#Sacraments
+- Baptism
+- Eucharist
+- Confession
+- Confirmation
+- Marriage
+- Holy Orders
+- Anointing
+
+#Worship
+- The Mass
+- Liturgical Calendar
+- Feast Days
+- Devotions
+
+#Find a Church
+- Catholic Churches Near Me
+- Mass Times
+- Parish Directory
+
+This section answers:
+
+"How do I live the Catholic faith?"
+
+
+-------------------------------------------
+Flow
+-------------------------------------------
+
+Home ── Oremus
+        │
+        │── Digital Prayer Altar
+        │── Prayers
+        │── Rosary
+        │── Novenas
+        │── St of the Day
+        │── Stations of the Cross
+        └── Reading Of the Day
+
+Apologia
+│
+├── Core Doctrine
+├── Defending the Faith
+├── Scriptural Reliability
+├── Catholic Distinctives
+├── Church History
+└── Resources
+
+Theologica
+│
+├── Bible
+├── Church Fathers
+├── Theology
+├── Philosophy
+└── Church Documents
+
+Ecclesiastica
+│
+├── The Catholic Church
+├── Church History
+├── Sacraments
+├── Catechism
+├── Doctrine
+└── Find a Church
+

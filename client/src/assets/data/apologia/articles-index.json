@@ -1,0 +1,53 @@
+[
+  {
+    "id": "who-is-god",
+
+    "title": "Who is God?",
+
+    "slug": "who-is-god",
+
+    "site": "apologia",
+
+    "primary": "core-christian-doctrine",
+
+    "secondary": "god",
+
+    "tertiary": null,
+
+    "difficulty": "Beginner",
+
+    "readingTime": 18,
+
+    "labels": ["god", "trinity", "philosophy"],
+
+    "description": "Understanding who God is according to Christianity.",
+
+    "thumbnail": "/images/who-is-god.webp",
+
+    "path": "/content/apologia/core-christian-doctrine/god/who-is-god"
+  },
+
+  {
+    "id": "is-jesus-god",
+
+    "title": "Is Jesus God?",
+
+    "slug": "is-jesus-god",
+
+    "site": "apologia",
+
+    "primary": "core-christian-doctrine",
+
+    "secondary": "jesus-christ",
+
+    "tertiary": null,
+
+    "difficulty": "Intermediate",
+
+    "readingTime": 22,
+
+    "labels": ["jesus", "divinity", "trinity"],
+
+    "path": "/content/apologia/core-christian-doctrine/jesus-christ/is-jesus-god"
+  }
+]

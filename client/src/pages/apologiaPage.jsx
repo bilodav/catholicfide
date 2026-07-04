@@ -4,6 +4,9 @@ import apologiaHomeBanner2 from "../assets/apologiaImages/apologia2.jpeg";
 import themeImage1 from "../assets/apologiaImages/apologiaTheme1.jpeg";
 import themeImage2 from "../assets/apologiaImages/apologiaTheme2.jpeg";
 import themeImage3 from "../assets/apologiaImages/apologiaTheme3.jpeg";
+import themeImage4 from "../assets/apologiaImages/apologiaTheme4.jpeg";
+import themeImage5 from "../assets/apologiaImages/apologiaTheme5.jpeg";
+import themeImage6 from "../assets/apologiaImages/apologiaTheme6.jpeg";
 
 const apologiaThemes = [
   {
@@ -17,6 +20,18 @@ const apologiaThemes = [
   {
     title: "Scriptural Reliability",
     image: themeImage3,
+  },
+  {
+    title: "Catholic Distinctives",
+    image: themeImage4,
+  },
+  {
+    title: "Church History",
+    image: themeImage5,
+  },
+  {
+    title: "Resources",
+    image: themeImage6,
   },
 ];
 

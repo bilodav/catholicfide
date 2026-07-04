@@ -1,0 +1,177 @@
+{
+  "scripture": [
+    {
+      "id": "scripture-exodus-3-14",
+      "reference": "Exodus 3:14",
+      "translation": "RSVCE",
+      "text": "God said to Moses, 'I AM WHO I AM.'"
+    },
+    {
+      "id": "scripture-john-1-1",
+      "reference": "John 1:1",
+      "translation": "RSVCE",
+      "text": "In the beginning was the Word..."
+    },
+    {
+      "id": "scripture-john-8-58",
+      "reference": "John 8:58",
+      "translation": "RSVCE",
+      "text": "Before Abraham was, I AM."
+    }
+  ],
+
+  "catechism": [
+    {
+      "id": "ccc-199",
+      "paragraph": 199,
+      "title": "God Is",
+      "text": "God is infinitely perfect and blessed in himself."
+    },
+    {
+      "id": "ccc-200",
+      "paragraph": 200,
+      "title": "God Reveals His Name",
+      "text": "God revealed himself to Israel by making his name known."
+    }
+  ],
+
+  "church_fathers": [
+    {
+      "id": "ignatius-ephesians-18",
+      "author": "St. Ignatius of Antioch",
+      "work": "Letter to the Ephesians",
+      "chapter": "18",
+      "quote": "Our God, Jesus Christ..."
+    },
+    {
+      "id": "augustine-confessions-1",
+      "author": "St. Augustine",
+      "work": "Confessions",
+      "book": "Book I",
+      "quote": "You have made us for yourself, O Lord..."
+    }
+  ],
+
+  "church_documents": [
+    {
+      "id": "dei-verbum-2",
+      "title": "Dei Verbum",
+      "section": "2",
+      "quote": "Through divine revelation..."
+    },
+    {
+      "id": "lumen-gentium-1",
+      "title": "Lumen Gentium",
+      "section": "1"
+    }
+  ],
+
+  "ecumenical_councils": [
+    {
+      "id": "nicaea-325",
+      "name": "First Council of Nicaea",
+      "year": 325,
+      "statement": "Begotten, not made, consubstantial with the Father."
+    }
+  ],
+
+  "papal_documents": [
+    {
+      "id": "fides-et-ratio",
+      "title": "Fides et Ratio",
+      "author": "Pope St. John Paul II",
+      "year": 1998
+    }
+  ],
+
+  "books": [
+    {
+      "id": "mere-christianity",
+      "title": "Mere Christianity",
+      "author": "C.S. Lewis",
+      "publisher": "HarperOne",
+      "year": 1952
+    },
+    {
+      "id": "summa-theologiae",
+      "title": "Summa Theologiae",
+      "author": "St. Thomas Aquinas"
+    }
+  ],
+
+  "historical_sources": [
+    {
+      "id": "josephus-antiquities",
+      "author": "Flavius Josephus",
+      "work": "Antiquities of the Jews",
+      "book": "18",
+      "chapter": "3"
+    },
+    {
+      "id": "tacitus-annals",
+      "author": "Tacitus",
+      "work": "Annals",
+      "book": "15",
+      "chapter": "44"
+    }
+  ],
+
+  "philosophical_sources": [
+    {
+      "id": "aristotle-metaphysics",
+      "author": "Aristotle",
+      "work": "Metaphysics"
+    },
+    {
+      "id": "plato-republic",
+      "author": "Plato",
+      "work": "Republic"
+    }
+  ],
+
+  "videos": [
+    {
+      "id": "yt-bishop-barron-god",
+      "provider": "YouTube",
+      "title": "Who is God?",
+      "url": "https://youtu.be/xxxxxxxx"
+    }
+  ],
+
+  "images": [
+    {
+      "id": "burning-bush",
+      "src": "media/burning-bush.webp",
+      "title": "The Burning Bush",
+      "credit": "Public Domain",
+      "license": "Public Domain"
+    },
+    {
+      "id": "trinity-diagram",
+      "src": "media/trinity-diagram.webp",
+      "title": "Shield of the Trinity",
+      "credit": "SylphCode"
+    }
+  ],
+
+  "downloads": [
+    {
+      "id": "study-guide",
+      "title": "Who Is God? Study Guide",
+      "file": "downloads/who-is-god-study-guide.pdf"
+    }
+  ],
+
+  "external_links": [
+    {
+      "id": "vatican-catechism",
+      "title": "Catechism of the Catholic Church",
+      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
+    },
+    {
+      "id": "new-advent",
+      "title": "New Advent",
+      "url": "https://www.newadvent.org/"
+    }
+  ]
+}
