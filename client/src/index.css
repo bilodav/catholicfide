@@ -1380,6 +1380,144 @@ nav a.active {
 }
 
 /* ============================================================
+   ARTICLE BANNER (used by ApologiaArticleViewer)
+   ============================================================ */
+
+.artcle-banner {
+  width: 90%;
+  margin: 40px auto 0;
+  padding: 24px 32px;
+  background-color: var(--color-primary);
+  color: var(--color-accent-light);
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-semibold);
+  font-size: 2.2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+/* ============================================================
+   BREADCRUMB FILTER (secondary / tertiary category picker)
+   ============================================================ */
+
+.apologia-filter-banner {
+  width: 90%;
+  margin: 20px auto 0;
+}
+
+.apologia-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 20px;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.crumb-root {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-semibold);
+  font-size: 1.15rem;
+  color: var(--color-primary);
+}
+
+.crumb-sep {
+  color: var(--color-accent);
+  font-size: 0.9rem;
+}
+
+.crumb-select-wrap {
+  position: relative;
+}
+
+.crumb-select {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--border-accent);
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.95rem;
+  padding: 2px 22px 2px 2px;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.crumb-select:hover,
+.crumb-select:focus {
+  color: var(--color-accent-dark);
+  outline: none;
+}
+
+.crumb-select-wrap::after {
+  content: "▾";
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  pointer-events: none;
+}
+
+/* ============================================================
+   PRAYER COMPONENT — polish pass
+   ============================================================ */
+
+.prayer-list {
+  background-color: var(--bg-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.prayer-list li {
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.prayer-list-active-prayer {
+  box-shadow: var(--shadow-accent);
+}
+
+.prayer-list-empty {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 10px;
+}
+
+.prayercard-nodesc {
+  background-color: var(--bg-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.prayercard-nodesc h3 {
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 8px;
+}
+
+.prayer-text::first-letter,
+.prayer-content > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  font-size: 2.3em;
+  color: var(--color-accent-dark);
+  float: left;
+  line-height: 0.8;
+  padding-right: 6px;
+  padding-top: 4px;
+}
+
+.prayer-reference-inline {
+  border-left: 3px solid var(--border-accent);
+  padding-left: 14px;
+  margin: 10px 0;
+}
+
+/* ============================================================
    GENERAL STYLES 
    ============================================================ */
 

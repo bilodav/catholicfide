@@ -1,86 +1,92 @@
 {
-  "citations": [
+  "scripture": [
     {
       "id": "scripture-exodus-3-14",
-      "type": "scripture",
       "reference": "Exodus 3:14",
       "translation": "RSVCE",
-      "text": "God said to Moses, \"I AM WHO I AM.\" And he said, \"Say this to the people of Israel, 'I AM has sent me to you.'\""
+      "text": "God said to Moses, 'I AM WHO I AM.'"
     },
     {
       "id": "scripture-john-1-1",
-      "type": "scripture",
       "reference": "John 1:1",
       "translation": "RSVCE",
-      "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+      "text": "In the beginning was the Word..."
     },
     {
       "id": "scripture-john-8-58",
-      "type": "scripture",
       "reference": "John 8:58",
       "translation": "RSVCE",
-      "text": "Jesus said to them, \"Truly, truly, I say to you, before Abraham was, I AM.\""
-    },
+      "text": "Before Abraham was, I AM."
+    }
+  ],
+
+  "catechism": [
     {
       "id": "ccc-199",
-      "type": "catechism",
       "paragraph": 199,
       "title": "God Is",
-      "text": "\"I believe in one God\": this is the first affirmation of the Creed. It affirms first the existence of one, unique, and true God."
+      "text": "God is infinitely perfect and blessed in himself."
     },
     {
       "id": "ccc-200",
-      "type": "catechism",
       "paragraph": 200,
       "title": "God Reveals His Name",
-      "text": "God revealed himself to his people Israel by making his name known to them, revealing his mysterious name in the theophany of the burning bush."
-    },
+      "text": "God revealed himself to Israel by making his name known."
+    }
+  ],
+
+  "church_fathers": [
     {
       "id": "ignatius-ephesians-18",
-      "type": "church-father",
       "author": "St. Ignatius of Antioch",
       "work": "Letter to the Ephesians",
       "chapter": "18",
-      "quote": "Our God, Jesus the Christ, was conceived by Mary in accord with a plan, of the seed of David, but also of the Holy Spirit."
+      "quote": "Our God, Jesus Christ..."
     },
     {
       "id": "augustine-confessions-1",
-      "type": "church-father",
       "author": "St. Augustine",
       "work": "Confessions",
       "book": "Book I",
-      "quote": "You have made us for yourself, O Lord, and our heart is restless until it rests in you."
-    },
+      "quote": "You have made us for yourself, O Lord..."
+    }
+  ],
+
+  "church_documents": [
     {
       "id": "dei-verbum-2",
-      "type": "church-document",
       "title": "Dei Verbum",
       "section": "2",
-      "quote": "Through divine revelation, God chose to show forth and communicate himself and the eternal decisions of his will."
+      "quote": "Through divine revelation..."
     },
     {
       "id": "lumen-gentium-1",
-      "type": "church-document",
       "title": "Lumen Gentium",
       "section": "1"
-    },
+    }
+  ],
+
+  "ecumenical_councils": [
     {
       "id": "nicaea-325",
-      "type": "council",
       "name": "First Council of Nicaea",
       "year": 325,
       "statement": "Begotten, not made, consubstantial with the Father."
-    },
+    }
+  ],
+
+  "papal_documents": [
     {
       "id": "fides-et-ratio",
-      "type": "papal-document",
       "title": "Fides et Ratio",
       "author": "Pope St. John Paul II",
       "year": 1998
-    },
+    }
+  ],
+
+  "books": [
     {
       "id": "mere-christianity",
-      "type": "book",
       "title": "Mere Christianity",
       "author": "C.S. Lewis",
       "publisher": "HarperOne",
@@ -88,13 +94,14 @@
     },
     {
       "id": "summa-theologiae",
-      "type": "book",
       "title": "Summa Theologiae",
       "author": "St. Thomas Aquinas"
-    },
+    }
+  ],
+
+  "historical_sources": [
     {
       "id": "josephus-antiquities",
-      "type": "historical-source",
       "author": "Flavius Josephus",
       "work": "Antiquities of the Jews",
       "book": "18",
@@ -102,36 +109,38 @@
     },
     {
       "id": "tacitus-annals",
-      "type": "historical-source",
       "author": "Tacitus",
       "work": "Annals",
       "book": "15",
       "chapter": "44"
-    },
+    }
+  ],
+
+  "philosophical_sources": [
     {
       "id": "aristotle-metaphysics",
-      "type": "philosophical-source",
       "author": "Aristotle",
-      "work": "Metaphysics",
-      "book": "Book XII",
-      "note": "The unmoved mover, later developed by Aquinas into the Five Ways."
+      "work": "Metaphysics"
     },
     {
       "id": "plato-republic",
-      "type": "philosophical-source",
       "author": "Plato",
       "work": "Republic"
-    },
+    }
+  ],
+
+  "videos": [
     {
       "id": "yt-bishop-barron-god",
-      "type": "video",
       "provider": "YouTube",
       "title": "Who is God?",
       "url": "https://youtu.be/xxxxxxxx"
-    },
+    }
+  ],
+
+  "images": [
     {
       "id": "burning-bush",
-      "type": "image",
       "src": "media/burning-bush.webp",
       "title": "The Burning Bush",
       "credit": "Public Domain",
@@ -139,26 +148,28 @@
     },
     {
       "id": "trinity-diagram",
-      "type": "image",
       "src": "media/trinity-diagram.webp",
       "title": "Shield of the Trinity",
       "credit": "SylphCode"
-    },
+    }
+  ],
+
+  "downloads": [
     {
       "id": "study-guide",
-      "type": "download",
       "title": "Who Is God? Study Guide",
       "file": "downloads/who-is-god-study-guide.pdf"
-    },
+    }
+  ],
+
+  "external_links": [
     {
       "id": "vatican-catechism",
-      "type": "external-link",
       "title": "Catechism of the Catholic Church",
       "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
     },
     {
       "id": "new-advent",
-      "type": "external-link",
       "title": "New Advent",
       "url": "https://www.newadvent.org/"
     }

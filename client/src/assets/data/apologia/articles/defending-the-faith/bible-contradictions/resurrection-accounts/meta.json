@@ -1,0 +1,82 @@
+{
+  "id": "resurrection-accounts",
+
+  "slug": "resurrection-accounts",
+
+  "title": "Resurrection Accounts",
+
+  "subtitle": "Understanding the Christian doctrine of God",
+
+  "description": "A biblical, philosophical, historical and Catholic explanation of who God is.",
+
+  "author": {
+    "id": "bilo-davids",
+    "name": "Bilo Davids"
+  },
+
+  "site": "apologia",
+
+  "primary_category": "defending-the-faith",
+
+  "secondary_category": "bible-contradictions",
+
+  "tertiary_category": null,
+
+  "difficulty": "beginner",
+
+  "estimated_reading_time": {
+    "short": 2,
+    "medium": 8,
+    "long": 18
+  },
+
+  "labels": ["god", "trinity", "philosophy", "atheism", "islam", "bible"],
+
+  "featured": false,
+
+  "status": "published",
+
+  "language": "en",
+
+  "version": 1,
+
+  "hero_image": {
+    "src": "media/hero.webp",
+    "alt": "Moses before the Burning Bush"
+  },
+
+  "thumbnail": {
+    "src": "media/thumbnail.webp",
+    "alt": "Who is God article thumbnail"
+  },
+
+  "search": {
+    "keywords": [
+      "Who is God",
+      "Christian God",
+      "Nature of God",
+      "Attributes of God"
+    ],
+
+    "aliases": ["God", "Yahweh", "Jehovah", "I AM"]
+  },
+
+  "seo": {
+    "title": "Who is God? | Catholic Apologetics",
+
+    "description": "A biblical explanation of who God is according to Christianity.",
+
+    "canonical": "/apologia/core-christian-doctrine/god/who-is-god"
+  },
+
+  "related_articles": [
+    "attributes-of-god",
+    "names-of-god",
+    "what-is-the-trinity",
+    "is-jesus-god"
+  ],
+
+  "created_at": "2026-07-04",
+
+  "updated_at": "2026-07-04"
+}

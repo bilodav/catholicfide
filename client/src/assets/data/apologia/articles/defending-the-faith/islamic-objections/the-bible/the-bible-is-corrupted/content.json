@@ -1,0 +1,363 @@
+{
+  "article": {
+    "version": 1,
+
+    "defaultView": "long",
+
+    "availableViews": ["short", "medium", "long"],
+
+    "views": {
+      "short": ["question", "short-answer"]
+    }
+  },
+
+  "sections": [
+    {
+      "id": "question",
+
+      "type": "introduction",
+
+      "title": "The Question",
+
+      "blocks": [
+        {
+          "id": "paragraph-1",
+
+          "type": "paragraph",
+
+          "text": "Who is God according to Christianity?"
+        }
+      ]
+    },
+
+    {
+      "id": "short-answer",
+
+      "type": "summary",
+
+      "title": "The Short Answer",
+
+      "blocks": [
+        {
+          "id": "paragraph-2",
+
+          "type": "paragraph",
+
+          "text": "Christians believe there is one eternal God who created everything that exists."
+        },
+
+        {
+          "id": "paragraph-3",
+
+          "type": "paragraph",
+
+          "text": "God exists eternally as Father, Son and Holy Spirit."
+        }
+      ]
+    },
+
+    {
+      "id": "historical-background",
+
+      "type": "history",
+
+      "title": "Historical Background",
+
+      "blocks": [
+        {
+          "id": "paragraph-4",
+
+          "type": "paragraph",
+
+          "text": "The belief in one God stretches throughout Scripture."
+        },
+
+        {
+          "id": "timeline-1",
+
+          "type": "timeline",
+
+          "events": [
+            {
+              "title": "Creation",
+
+              "date": "Genesis"
+            },
+
+            {
+              "title": "Burning Bush",
+
+              "date": "Exodus"
+            },
+
+            {
+              "title": "Incarnation",
+
+              "date": "1st Century"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "biblical-evidence",
+
+      "type": "biblical",
+
+      "title": "Biblical Evidence",
+
+      "blocks": [
+        {
+          "id": "heading-1",
+
+          "type": "heading",
+
+          "level": 2,
+
+          "text": "God Reveals His Name"
+        },
+
+        {
+          "id": "paragraph-5",
+
+          "type": "paragraph",
+
+          "text": "When Moses asked God's name..."
+        },
+
+        {
+          "id": "scripture-1",
+
+          "type": "scripture",
+
+          "reference": "Exodus 3:14",
+
+          "translation": "RSVCE",
+
+          "text": "I AM WHO I AM.",
+
+          "commentary": "God reveals His eternal existence."
+        },
+
+        {
+          "id": "image-1",
+
+          "type": "image",
+
+          "src": "media/burning-bush.webp",
+
+          "alt": "The Burning Bush",
+
+          "caption": "God appears to Moses."
+        },
+
+        {
+          "id": "video-1",
+
+          "type": "video",
+
+          "provider": "youtube",
+
+          "videoId": "XXXXXXXX",
+
+          "title": "Who is God?"
+        }
+      ]
+    },
+
+    {
+      "id": "philosophical-evidence",
+
+      "type": "philosophy",
+
+      "title": "Philosophical Evidence",
+
+      "blocks": [
+        {
+          "id": "heading-2",
+
+          "type": "heading",
+
+          "level": 2,
+
+          "text": "The First Cause"
+        },
+
+        {
+          "id": "paragraph-6",
+
+          "type": "paragraph",
+
+          "text": "Everything that begins to exist has a cause..."
+        },
+
+        {
+          "id": "callout-1",
+
+          "type": "callout",
+
+          "style": "info",
+
+          "title": "Natural Theology",
+
+          "text": "This argument does not rely upon Scripture."
+        }
+      ]
+    },
+
+    {
+      "id": "historical-evidence",
+
+      "type": "historical",
+
+      "title": "Historical Evidence",
+
+      "blocks": [
+        {
+          "id": "father-1",
+
+          "type": "church-father",
+
+          "author": "St. Ignatius of Antioch",
+
+          "work": "Letter to the Ephesians",
+
+          "citation": "18",
+
+          "text": "Our God, Jesus Christ..."
+        }
+      ]
+    },
+
+    {
+      "id": "common-objections",
+
+      "type": "objections",
+
+      "title": "Common Objections",
+
+      "blocks": [
+        {
+          "id": "objection-1",
+
+          "type": "objection",
+
+          "title": "Who created God?",
+
+          "steelman": "Many atheists argue that if everything requires a creator then God must also require one.",
+
+          "response": "Christianity teaches that everything which begins to exist requires a cause. God is eternal."
+        },
+
+        {
+          "id": "objection-2",
+
+          "type": "objection",
+
+          "title": "Isn't God just an invention?",
+
+          "steelman": "Some argue belief in God evolved naturally over time.",
+
+          "response": "The Christian claim is supported by revelation, philosophy and history."
+        }
+      ]
+    },
+
+    {
+      "id": "catholic-perspective",
+
+      "type": "catholic",
+
+      "title": "Catholic Teaching",
+
+      "blocks": [
+        {
+          "id": "catechism-1",
+
+          "type": "catechism",
+
+          "paragraph": 199,
+
+          "text": "God is infinitely perfect..."
+        }
+      ]
+    },
+
+    {
+      "id": "summary",
+
+      "type": "summary",
+
+      "title": "Summary",
+
+      "blocks": [
+        {
+          "id": "list-1",
+
+          "type": "bullet-list",
+
+          "items": [
+            "God is eternal.",
+
+            "God is one.",
+
+            "God is Creator.",
+
+            "God revealed Himself.",
+
+            "Jesus reveals the Father."
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "conclusion",
+
+      "type": "conclusion",
+
+      "title": "Conclusion",
+
+      "blocks": [
+        {
+          "id": "paragraph-7",
+
+          "type": "paragraph",
+
+          "text": "The Christian understanding of God is supported by Scripture, history, philosophy and Sacred Tradition."
+        }
+      ]
+    },
+
+    {
+      "id": "faq",
+
+      "type": "faq",
+
+      "title": "Frequently Asked Questions",
+
+      "blocks": [
+        {
+          "id": "faq-1",
+
+          "type": "faq",
+
+          "question": "Can God change?",
+
+          "answer": "No. God's divine nature is immutable."
+        },
+
+        {
+          "id": "faq-2",
+
+          "type": "faq",
+
+          "question": "Is the Trinity three gods?",
+
+          "answer": "No. Christians believe in one God in three Persons."
+        }
+      ]
+    }
+  ]
+}

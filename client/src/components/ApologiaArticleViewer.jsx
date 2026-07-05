@@ -1,183 +1,279 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useLocation, useParams } from "react-router-dom";
 
-const modules = import.meta.glob(
+const metaModules = import.meta.glob(
   "../assets/data/apologia/articles/**/meta.json",
   { eager: true },
 );
+const contentModules = import.meta.glob(
+  "../assets/data/apologia/articles/**/content.json",
+  { eager: true },
+);
+const citationsModules = import.meta.glob(
+  "../assets/data/apologia/articles/**/citations.json",
+  { eager: true },
+);
 
-const ARTICLES = Object.values(modules).map((m) => m.default);
+function dirOf(path) {
+  return path.substring(0, path.lastIndexOf("/"));
+}
 
-const ARTICLES_BY_ID = Object.fromEntries(ARTICLES.map((a) => [a.id, a]));
+function indexByDir(modules) {
+  const map = {};
+  for (const path in modules) {
+    map[dirOf(path)] = modules[path].default;
+  }
+  return map;
+}
+
+const contentByDir = indexByDir(contentModules);
+const citationsByDir = indexByDir(citationsModules);
+
+const ARTICLES = Object.entries(metaModules).map(([path, m]) => {
+  const dir = dirOf(path);
+  return {
+    ...m.default,
+    content: contentByDir[dir] ?? null,
+    citations: citationsByDir[dir] ?? null,
+  };
+});
+
+function formatLabel(slug) {
+  return slug
+    .split("-")
+    .map((w) => w[0].toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+// Maps a block's `type` to the category it should be looked up under in citations.json
+const CITATION_CATEGORY_BY_BLOCK_TYPE = {
+  scripture: "scripture",
+  image: "images",
+  video: "videos",
+  "church-father": "church_fathers",
+  catechism: "catechism",
+  "philosophical-citation": "philosophical_sources",
+};
+
+function resolveCitation(citations, citationId) {
+  if (!citations || !citationId) return null;
+  return citations.citations.find((c) => c.id === citationId) ?? null;
+}
 
 function ApologiaArticleViewer() {
   const { themeId } = useParams();
   const { state } = useLocation();
-  const [prayerCategory, setPrayerCategory] = useState("all");
-  const [prayerLanguage, setPrayerLanguage] = useState("en");
-  const [currPrayer, setcurrPrayer] = useState(null);
+
+  const [selectedSecondary, setSelectedSecondary] = useState("all");
+  const [selectedTertiary, setSelectedTertiary] = useState("all");
+  const [currPrayer, setCurrPrayer] = useState(null);
+  const [articleView, setArticleView] = useState("short");
   const [displayExtraInfo, setDisplayExtraInfo] = useState(false);
-  const [searchPrayer, setSearchPrayer] = useState("");
-  // Depends on themeId, so it has to live inside the component
-  const initArr = ARTICLES.filter((a) => a.primary_category === themeId).map(
-    (a) => ({
-      id: a.id,
-      title: a.title,
-    }),
-  );
-  const [prayerList, setPrayerList] = useState(initArr);
+  const [searchText, setSearchText] = useState("");
 
   useEffect(() => {
-    setPrayerList(
-      ARTICLES.filter((a) => a.primary_category === themeId).map((a) => ({
-        id: a.id,
-        title: a.title,
-      })),
-    );
+    setSelectedSecondary("all");
+    setSelectedTertiary("all");
+    setCurrPrayer(null);
   }, [themeId]);
 
-  function handlePrayerChange(e) {
-    const newCategory = e.target.value;
-    setPrayerCategory(newCategory);
+  const articlesInTheme = useMemo(
+    () => ARTICLES.filter((a) => a.primary_category === themeId),
+    [themeId],
+  );
 
-    if (newCategory === "all") {
-      setPrayerList(
-        ARTICLES.map((p) => ({ id: p.metadata.id, title: p.metadata.title })),
-      );
-    } else {
-      setPrayerList(
-        ARTICLES.filter((p) => p.metadata.primary_category === newCategory).map(
-          (p) => ({ id: p.metadata.id, title: p.metadata.title }),
-        ),
-      );
-    }
-  }
+  const secondaryCategories = useMemo(() => {
+    const seen = new Set();
+    return articlesInTheme
+      .map((a) => a.secondary_category)
+      .filter((c) => c && !seen.has(c) && seen.add(c));
+  }, [articlesInTheme]);
 
-  function handlePrayerClick(prayer) {
-    setcurrPrayer(ARTICLES.find((p) => p.metadata.id === prayer));
-  }
-
-  function handleLanguageChange(e) {
-    setPrayerLanguage(e.target.value);
-  }
-
-  function handleDisplayExtraInfo() {
-    setDisplayExtraInfo((prev) => !prev);
-  }
-
-  function handleSearchPrayer(e) {
-    const searchText = e.target.value.toLowerCase();
-    setSearchPrayer(searchText);
-
-    if (!searchText) {
-      // Reset to whatever category is currently active
-      const base =
-        prayerCategory === "all"
-          ? ARTICLES
-          : ARTICLES.filter(
-              (p) => p.metadata.primary_category === prayerCategory,
-            );
-      setPrayerList(
-        base.map((p) => ({ id: p.metadata.id, title: p.metadata.title })),
-      );
-      return;
-    }
-
-    const base =
-      prayerCategory === "all"
-        ? ARTICLES
-        : ARTICLES.filter(
-            (p) => p.metadata.primary_category === prayerCategory,
-          );
-
-    setPrayerList(
-      base
-        .filter(
-          (p) =>
-            p.metadata.title?.toLowerCase().includes(searchText) ||
-            p.metadata.description?.toLowerCase().includes(searchText) ||
-            p.metadata.id?.toLowerCase().includes(searchText),
-        )
-        .map((p) => ({ id: p.metadata.id, title: p.metadata.title })),
+  const articlesInSecondary = useMemo(() => {
+    if (selectedSecondary === "all") return articlesInTheme;
+    return articlesInTheme.filter(
+      (a) => a.secondary_category === selectedSecondary,
     );
+  }, [articlesInTheme, selectedSecondary]);
+
+  const tertiaryCategories = useMemo(() => {
+    const seen = new Set();
+    return articlesInSecondary
+      .map((a) => a.tertiary_category)
+      .filter((c) => c && !seen.has(c) && seen.add(c));
+  }, [articlesInSecondary]);
+
+  const hasTertiary = tertiaryCategories.length > 0;
+
+  const articlesInTertiary = useMemo(() => {
+    if (!hasTertiary || selectedTertiary === "all") return articlesInSecondary;
+    return articlesInSecondary.filter(
+      (a) => a.tertiary_category === selectedTertiary,
+    );
+  }, [articlesInSecondary, hasTertiary, selectedTertiary]);
+
+  const prayerList = useMemo(() => {
+    const text = searchText.toLowerCase();
+    if (!text) return articlesInTertiary;
+    return articlesInTertiary.filter(
+      (a) =>
+        a.title?.toLowerCase().includes(text) ||
+        a.description?.toLowerCase().includes(text) ||
+        a.id?.toLowerCase().includes(text),
+    );
+  }, [articlesInTertiary, searchText]);
+
+  function handleSecondaryChange(e) {
+    setSelectedSecondary(e.target.value);
+    setSelectedTertiary("all");
+  }
+
+  function handleTertiaryChange(e) {
+    setSelectedTertiary(e.target.value);
+  }
+
+  function handlePrayerClick(id) {
+    setCurrPrayer(ARTICLES.find((a) => a.id === id));
+    setArticleView("short"); // always open on the short answer first
+  }
+
+  function handleDisplayExtraInfo(e) {
+    setDisplayExtraInfo(e.target.value === "true");
   }
 
   return (
     <section className="prayers">
       <div className="artcle-banner">{state.theme.title}</div>
+
+      <div className="apologia-filter-banner">
+        {secondaryCategories.length > 0 && (
+          <nav className="apologia-breadcrumb" aria-label="Category filters">
+            <span className="crumb-root">{state.theme.title}</span>
+            <span className="crumb-sep">✦</span>
+            <div className="crumb-select-wrap">
+              <select
+                className="crumb-select"
+                value={selectedSecondary}
+                onChange={handleSecondaryChange}
+              >
+                <option value="all">All</option>
+                {secondaryCategories.map((cat) => (
+                  <option key={cat} value={cat}>
+                    {formatLabel(cat)}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {hasTertiary && (
+              <>
+                <span className="crumb-sep">✦</span>
+                <div className="crumb-select-wrap">
+                  <select
+                    className="crumb-select"
+                    value={selectedTertiary}
+                    onChange={handleTertiaryChange}
+                  >
+                    <option value="all">All</option>
+                    {tertiaryCategories.map((cat) => (
+                      <option key={cat} value={cat}>
+                        {formatLabel(cat)}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </>
+            )}
+          </nav>
+        )}
+      </div>
+
       <div className="prayer-filters">
         <div className="select-card">
-          <p>Sort:</p>
-          <select value={prayerCategory} onChange={handlePrayerChange}>
-            <option value="alpha-asc">A-Z</option>
-            <option value="alpha-dec">Z-A</option>
-            <option value="newest-first">Newest First</option>
-            <option value="oldest-first">Oldest First</option>
-            <option value="recent-updated">Recently Updated</option>
-          </select>
-        </div>
-        <div className="select-card">
           <p>Display Extra Info:</p>
-          <select onChange={handleDisplayExtraInfo}>
-            <option value={false}>No</option>
-            <option value={true}>Yes</option>
+          <select onChange={handleDisplayExtraInfo} defaultValue="false">
+            <option value="false">No</option>
+            <option value="true">Yes</option>
           </select>
         </div>
         <input
           type="text"
           className="prayer-search"
-          placeholder="Search for prayer by title or description"
-          value={searchPrayer}
-          onChange={handleSearchPrayer}
+          placeholder="Search for an article by title or description"
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
         />
       </div>
-      <div>
-        <div className="prayer-display">
-          <div className="prayer-list prayer-card">
-            <h3>Prayer List</h3>
+
+      <div className="prayer-display">
+        <div className="prayer-list prayer-card">
+          <h3>Article List</h3>
+          {prayerList.length === 0 ? (
+            <p className="prayer-list-empty">No articles match this filter.</p>
+          ) : (
             <ul>
-              {prayerList.map((prayer) => (
+              {prayerList.map((article) => (
                 <li
-                  onClick={() => handlePrayerClick(prayer.id)}
-                  key={prayer.id}
+                  onClick={() => handlePrayerClick(article.id)}
+                  key={article.id}
                   className={
-                    prayer.id === currPrayer?.metadata.id
+                    article.id === currPrayer?.id
                       ? "prayer-list-active-prayer"
                       : null
                   }
                 >
-                  {prayer.title}
+                  {article.title}
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="prayer-card prayercard-nodesc">
-            {currPrayer ? (
-              <>
-                <h3>{currPrayer.metadata.title}</h3>
-                <PrayerContent prayer={currPrayer} language={prayerLanguage} />
-              </>
-            ) : (
-              <h3>Select a prayer to view it.</h3>
-            )}
-          </div>
-
-          {displayExtraInfo && currPrayer ? (
-            <div className="prayer-card prayercard-nodesc">
-              <h3>Extra Info</h3>
-              <h4>Description</h4>
-              <p>{currPrayer.metadata.description}</p>
-              <h4>Origin</h4>
-              <p>{currPrayer.metadata.origin}</p>
-              <h4>Origin Date</h4>
-              <p>{currPrayer.metadata.origin_date}</p>
-              <h4>Usage</h4>
-              <p>{currPrayer.metadata.usage}</p>
-              <h4>Type of Prayer</h4>
-              <p>{currPrayer.metadata.type}</p>
-            </div>
-          ) : undefined}
+          )}
         </div>
+
+        <div className="prayer-card prayercard-nodesc">
+          {currPrayer ? (
+            <>
+              <h3>{currPrayer.title}</h3>
+
+              {currPrayer.content?.article?.availableViews?.length > 1 && (
+                <div className="article-view-toggle">
+                  {currPrayer.content.article.availableViews.map((view) => (
+                    <button
+                      key={view}
+                      type="button"
+                      className={view === articleView ? "is-active" : ""}
+                      onClick={() => setArticleView(view)}
+                    >
+                      {view === "short" ? "Short answer" : "Full article"}
+                    </button>
+                  ))}
+                </div>
+              )}
+
+              <ArticleSections article={currPrayer} view={articleView} />
+            </>
+          ) : (
+            <h3>Select an article to view it.</h3>
+          )}
+        </div>
+
+        {displayExtraInfo && currPrayer && (
+          <div className="prayer-card prayercard-nodesc">
+            <h3>Extra Info</h3>
+            <h4>Description</h4>
+            <p>{currPrayer.description}</p>
+            <h4>Author</h4>
+            <p>{currPrayer.author?.name}</p>
+            <h4>Difficulty</h4>
+            <p>{formatLabel(currPrayer.difficulty ?? "")}</p>
+            <h4>Reading Time</h4>
+            <p>
+              {articleView === "short"
+                ? currPrayer.estimated_reading_time?.short
+                : currPrayer.estimated_reading_time?.long}{" "}
+              min
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );
@@ -185,42 +281,182 @@ function ApologiaArticleViewer() {
 
 export default ApologiaArticleViewer;
 
-function PrayerContent({ prayer, language = "en" }) {
-  // ✅ fallback to English if the selected language doesn't exist on this prayer
-  const translation = prayer.translations[language] ?? prayer.translations.en;
-
-  if (translation.text) {
-    return <p className="prayer-text">{translation.text}</p>;
+function ArticleSections({ article, view }) {
+  if (!article.content) {
+    return <p className="empty-note">This article has no content yet.</p>;
   }
 
-  if (translation.content) {
-    return (
-      <div className="prayer-content">
-        {translation.content.map((block, i) => {
-          switch (block.type) {
-            case "text":
-              return <p key={i}>{block.value}</p>;
-            case "instructions":
-              return <em key={i}>{block.value}</em>;
-            case "prayer-reference": {
-              const referenced = PRAYERS_BY_ID[block.value];
-              if (!referenced)
-                return <p key={i}>[ {block.value} not found ]</p>;
-              return (
-                <div key={i} className="prayer-reference-inline">
-                  {block.optional && <em>(Optional) </em>}
-                  <PrayerContent prayer={referenced} language={language} />
-                  {block.count > 1 && <em> (×{block.count})</em>}
-                </div>
-              );
-            }
-            default:
-              return null;
-          }
-        })}
-      </div>
-    );
-  }
+  const sectionIds = article.content.article.views[view] ?? [];
+  const sections = article.content.sections.filter((s) =>
+    sectionIds.includes(s.id),
+  );
 
-  return <p>No content available.</p>;
+  return (
+    <div className="article-sections">
+      {sections.map((section) => (
+        <section
+          key={section.id}
+          className={`article-section section-${section.type}`}
+        >
+          <h4 className="section-title">{section.title}</h4>
+          {section.blocks.map((block) => (
+            <ArticleBlock
+              key={block.id}
+              block={block}
+              citations={article.citations}
+            />
+          ))}
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function ArticleBlock({ block, citations }) {
+  switch (block.type) {
+    case "paragraph":
+      return <p className="article-paragraph">{block.text}</p>;
+
+    case "heading": {
+      const Tag = `h${block.level || 3}`;
+      return <Tag className="article-heading">{block.text}</Tag>;
+    }
+
+    case "scripture": {
+      const cite = resolveCitation(citations, block);
+      if (!cite) return null;
+      return (
+        <blockquote className="article-scripture">
+          <p className="scripture-text">&ldquo;{cite.text}&rdquo;</p>
+          <cite className="scripture-reference">
+            {cite.reference} ({cite.translation})
+          </cite>
+          {block.commentary && (
+            <p className="scripture-commentary">{block.commentary}</p>
+          )}
+        </blockquote>
+      );
+    }
+
+    case "image": {
+      const cite = resolveCitation(citations, block);
+      if (!cite) return null;
+      return (
+        <figure className="article-image">
+          <img src={cite.src} alt={cite.title || ""} />
+          {(block.caption || cite.title) && (
+            <figcaption>{block.caption || cite.title}</figcaption>
+          )}
+        </figure>
+      );
+    }
+
+    case "video": {
+      const cite = resolveCitation(citations, block);
+      if (!cite) return null;
+      return (
+        <div className="article-video">
+          <p className="video-title">{block.title || cite.title}</p>
+          <a href={cite.url} target="_blank" rel="noreferrer">
+            Watch on {cite.provider}
+          </a>
+        </div>
+      );
+    }
+
+    case "callout":
+      return (
+        <div className={`article-callout callout-${block.style || "info"}`}>
+          {block.title && <p className="callout-title">{block.title}</p>}
+          <p className="callout-text">{block.text}</p>
+        </div>
+      );
+
+    case "timeline":
+      return (
+        <ol className="article-timeline">
+          {block.events.map((ev, i) => (
+            <li key={i} className="timeline-event">
+              <span className="timeline-date">{ev.date}</span>
+              <span className="timeline-title">{ev.title}</span>
+            </li>
+          ))}
+        </ol>
+      );
+
+    case "church-father": {
+      const cite = resolveCitation(citations, block);
+      if (!cite) return null;
+      return (
+        <blockquote className="article-church-father">
+          <p className="father-quote">&ldquo;{cite.quote}&rdquo;</p>
+          <cite className="father-attribution">
+            {cite.author}, {cite.work}
+            {cite.chapter ? ` ${cite.chapter}` : ""}
+          </cite>
+        </blockquote>
+      );
+    }
+
+    case "catechism": {
+      const cite = resolveCitation(citations, block);
+      if (!cite) return null;
+      return (
+        <blockquote className="article-catechism">
+          <p className="catechism-text">{cite.text}</p>
+          <cite className="catechism-reference">CCC {cite.paragraph}</cite>
+        </blockquote>
+      );
+    }
+
+    case "philosophical-citation": {
+      const cite = resolveCitation(citations, block);
+      if (!cite) return null;
+      return (
+        <div className="article-philosophy-citation">
+          <p className="philosophy-source">
+            {cite.author}, <em>{cite.work}</em>
+          </p>
+          {(block.note || cite.note) && (
+            <p className="philosophy-note">{block.note || cite.note}</p>
+          )}
+        </div>
+      );
+    }
+
+    case "objection":
+      return (
+        <div className="article-objection">
+          <p className="objection-title">{block.title}</p>
+          <p className="objection-steelman">
+            <strong>The objection: </strong>
+            {block.steelman}
+          </p>
+          <p className="objection-response">
+            <strong>Response: </strong>
+            {block.response}
+          </p>
+        </div>
+      );
+
+    case "bullet-list":
+      return (
+        <ul className="article-bullet-list">
+          {block.items.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      );
+
+    case "faq":
+      return (
+        <div className="article-faq-item">
+          <p className="faq-question">{block.question}</p>
+          <p className="faq-answer">{block.answer}</p>
+        </div>
+      );
+
+    default:
+      return null;
+  }
 }
