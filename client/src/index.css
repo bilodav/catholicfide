@@ -411,9 +411,7 @@ a {
 
 nav {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.85);
   top: 1vh;
   width: 80%;
   left: 50%;
@@ -426,6 +424,19 @@ nav {
   justify-content: space-around;
   border-radius: var(--radius-lg);
   transition: transform 600ms ease-in-out;
+}
+
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+  nav {
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.5
+    ); /* lighter, since blur will help */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
 }
 
 nav.nav--hidden {
