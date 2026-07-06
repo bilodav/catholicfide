@@ -45,20 +45,15 @@ function formatLabel(slug) {
     .join(" ");
 }
 
-// Maps a block's `type` to the category it should be looked up under in citations.json
-const CITATION_CATEGORY_BY_BLOCK_TYPE = {
-  scripture: "scripture",
-  image: "images",
-  video: "videos",
-  "church-father": "church_fathers",
-  catechism: "catechism",
-  "philosophical-citation": "philosophical_sources",
-};
-
 function resolveCitation(citations, citationId) {
   if (!citations || !citationId) return null;
   return citations.citations.find((c) => c.id === citationId) ?? null;
 }
+
+const VIEW_LABELS = {
+  short: "Short answer",
+  long: "Full article",
+};
 
 function ApologiaArticleViewer() {
   const { themeId } = useParams();
@@ -134,7 +129,7 @@ function ApologiaArticleViewer() {
 
   function handlePrayerClick(id) {
     setCurrPrayer(ARTICLES.find((a) => a.id === id));
-    setArticleView("short"); // always open on the short answer first
+    setArticleView("short");
   }
 
   function handleDisplayExtraInfo(e) {
@@ -188,7 +183,7 @@ function ApologiaArticleViewer() {
         )}
       </div>
 
-      <div className="prayer-filters">
+      <div className="article-filters">
         <div className="select-card">
           <p>Display Extra Info:</p>
           <select onChange={handleDisplayExtraInfo} defaultValue="false">
@@ -198,7 +193,7 @@ function ApologiaArticleViewer() {
         </div>
         <input
           type="text"
-          className="prayer-search"
+          className="article-search"
           placeholder="Search for an article by title or description"
           value={searchText}
           onChange={(e) => setSearchText(e.target.value)}
@@ -234,16 +229,16 @@ function ApologiaArticleViewer() {
             <>
               <h3>{currPrayer.title}</h3>
 
-              {currPrayer.content?.article?.availableViews?.length > 1 && (
+              {currPrayer.content && (
                 <div className="article-view-toggle">
-                  {currPrayer.content.article.availableViews.map((view) => (
+                  {["short", "long"].map((view) => (
                     <button
                       key={view}
                       type="button"
                       className={view === articleView ? "is-active" : ""}
                       onClick={() => setArticleView(view)}
                     >
-                      {view === "short" ? "Short answer" : "Full article"}
+                      {VIEW_LABELS[view]}
                     </button>
                   ))}
                 </div>
@@ -286,10 +281,10 @@ function ArticleSections({ article, view }) {
     return <p className="empty-note">This article has no content yet.</p>;
   }
 
-  const sectionIds = article.content.article.views[view] ?? [];
-  const sections = article.content.sections.filter((s) =>
-    sectionIds.includes(s.id),
-  );
+  const sections =
+    view === "short"
+      ? article.content.sections.filter((s) => s.includeInShort)
+      : article.content.sections;
 
   return (
     <div className="article-sections">
@@ -323,7 +318,7 @@ function ArticleBlock({ block, citations }) {
     }
 
     case "scripture": {
-      const cite = resolveCitation(citations, block);
+      const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
       return (
         <blockquote className="article-scripture">
@@ -339,7 +334,7 @@ function ArticleBlock({ block, citations }) {
     }
 
     case "image": {
-      const cite = resolveCitation(citations, block);
+      const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
       return (
         <figure className="article-image">
@@ -352,14 +347,27 @@ function ArticleBlock({ block, citations }) {
     }
 
     case "video": {
-      const cite = resolveCitation(citations, block);
+      const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
+
       return (
         <div className="article-video">
           <p className="video-title">{block.title || cite.title}</p>
-          <a href={cite.url} target="_blank" rel="noreferrer">
-            Watch on {cite.provider}
-          </a>
+          {cite.provider === "YouTube" && cite.videoId ? (
+            <div className="video-embed">
+              <iframe
+                src={`https://www.youtube.com/embed/${cite.videoId}`}
+                title={block.title || cite.title}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              />
+            </div>
+          ) : (
+            <a href={cite.url} target="_blank" rel="noreferrer">
+              Watch on {cite.provider}
+            </a>
+          )}
         </div>
       );
     }
@@ -385,7 +393,7 @@ function ArticleBlock({ block, citations }) {
       );
 
     case "church-father": {
-      const cite = resolveCitation(citations, block);
+      const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
       return (
         <blockquote className="article-church-father">
@@ -399,7 +407,7 @@ function ArticleBlock({ block, citations }) {
     }
 
     case "catechism": {
-      const cite = resolveCitation(citations, block);
+      const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
       return (
         <blockquote className="article-catechism">
@@ -410,7 +418,7 @@ function ArticleBlock({ block, citations }) {
     }
 
     case "philosophical-citation": {
-      const cite = resolveCitation(citations, block);
+      const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
       return (
         <div className="article-philosophy-citation">

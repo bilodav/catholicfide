@@ -1,24 +1,7 @@
 {
   "article": {
     "version": 1,
-    "defaultView": "short",
-    "availableViews": ["short", "long"],
-    "views": {
-      "short": ["question", "short-answer"],
-      "long": [
-        "question",
-        "short-answer",
-        "historical-background",
-        "biblical-evidence",
-        "philosophical-evidence",
-        "historical-evidence",
-        "common-objections",
-        "catholic-perspective",
-        "summary",
-        "conclusion",
-        "faq"
-      ]
-    }
+    "defaultView": "short"
   },
 
   "sections": [
@@ -26,6 +9,7 @@
       "id": "question",
       "type": "introduction",
       "title": "The Question",
+      "includeInShort": true,
       "blocks": [
         {
           "id": "paragraph-1",
@@ -39,6 +23,7 @@
       "id": "short-answer",
       "type": "summary",
       "title": "The Short Answer",
+      "includeInShort": true,
       "blocks": [
         {
           "id": "paragraph-2",
@@ -144,7 +129,10 @@
           "id": "video-1",
           "type": "video",
           "citation_id": "yt-bishop-barron-god",
-          "title": "Who is God?"
+          "provider": "YouTube",
+          "title": "Who is God, What is God, & How can we know God | GotQuestions.org",
+          "videoId": "J9f0pwsZ4So",
+          "url": "https://www.youtube.com/watch?v=J9f0pwsZ4So"
         }
       ]
     },
