@@ -1761,6 +1761,20 @@ const saintOfThedayDataApi = [
     saint_day: "3",
     saint_date: "7/3",
     saint_name: "Saint Thomas",
+    saint_lifetime: "1st Century – December 21, 72",
+    saint_image: saintImg[185],
+    saint_patron: [
+      "Architects/Builders/Construction",
+      "Workers/Surveyors",
+      "india",
+      "Pakistan",
+      "Sri Lanka",
+      "Theologians",
+    ],
+    saint_reflection:
+      "Saint Thomas shares the lot of Peter the impetuous, James and John, the “sons of thunder,” Philip and his foolish request to see the Father—indeed all the apostles in their weakness and lack of understanding. We must not exaggerate these facts, however, for Christ did not pick worthless men. But their human weakness again points up the fact that holiness is a gift of God, not a human creation; it is given to ordinary men and women with weaknesses; it is God who gradually transforms the weaknesses into the image of Christ, the courageous, trusting, and loving one.",
+    saint_story:
+      "Poor Saint Thomas! He made one remark and has been branded as “Doubting Thomas” ever since. But if he doubted, he also believed. He made what is certainly the most explicit statement of faith in the New Testament: “My Lord and My God!” and, in so expressing his faith, gave Christians a prayer that will be said till the end of time. He also occasioned a compliment from Jesus to all later Christians: “Have you come to believe because you have seen me? Blessed are those who have not seen and have believed” (John 20:29). Saint Thomas should be equally well-known for his courage. Perhaps what he said was impetuous—since he ran, like the rest, at the showdown—but he can scarcely have been insincere when he expressed his willingness to die with Jesus. The occasion was when Jesus proposed to go to Bethany after Lazarus had died. Since Bethany was near Jerusalem, this meant walking into the very midst of his enemies and to almost certain death. Realizing this, Thomas said to the other apostles, “Let us also go to die with him” (John 11:16b).",
   },
   {
     id: "186",
@@ -1769,6 +1783,13 @@ const saintOfThedayDataApi = [
     saint_day: "4",
     saint_date: "7/4",
     saint_name: "Saint Elizabeth of Portugal",
+    saint_lifetime: "1271 – July 4, 1336)",
+    saint_image: saintImg[186],
+    saint_patron: ["Peacemakers", "Brides", "Widows", "Charitable Workers"],
+    saint_reflection:
+      "The work of promoting peace is anything but a calm and quiet endeavor. It takes a clear mind, a steady spirit and a brave soul to intervene between people whose emotions are so aroused that they are ready to destroy one another. This is all the more true of a woman in the early 14th century. But Elizabeth had a deep and sincere love and sympathy for humankind, an almost total lack of concern for herself, and an abiding confidence in God. These were the tools of her success.",
+    saint_story:
+      "Elizabeth of Portugal is usually depicted in royal garb with a dove or an olive branch. At her birth in 1271, her father Pedro III, future king of Aragon, was reconciled with his father James, the reigning monarch. This proved to be a portent of things to come. Under the healthful influences surrounding her early years, she quickly learned self-discipline and acquired a taste for spirituality. Thus fortunately prepared, Elizabeth was able to meet the challenge when at the age of 12, she was given in marriage to Denis, king of Portugal. She was able to establish for herself a pattern of life conducive to growth in God’s love, not merely through her exercises of piety, including daily Mass, but also through her exercise of charity, by which she was able to befriend and help pilgrims, strangers, the sick, the poor—in a word, all those whose need came to her notice. At the same time she remained devoted to her husband, whose infidelity to her was a scandal to the kingdom. Denis, too, was the object of many of her peace endeavors. Elizabeth of Portugal long sought peace for him with God, and was finally rewarded when he gave up his life of sin. She repeatedly sought and effected peace between the king and their rebellious son Alfonso, who thought that he was passed over to favor the king’s illegitimate children. She acted as peacemaker in the struggle between Ferdinand, king of Aragon, and his cousin James, who claimed the crown. And finally from Coimbra, where she had retired as a Franciscan tertiary to the monastery of the Poor Clares after the death of her husband, Elizabeth set out and was able to bring about a lasting peace between her son Alfonso, now king of Portugal, and his son-in-law, the king of Castile.",
   },
   {
     id: "187",
@@ -1777,6 +1798,13 @@ const saintOfThedayDataApi = [
     saint_day: "5",
     saint_date: "7/5",
     saint_name: "Saint Anthony Zaccaria",
+    saint_lifetime: "1502 – July 5, 1539",
+    saint_image: saintImg[187],
+    saint_patron: ["Physicians"],
+    saint_reflection:
+      "The austerity of Anthony Zaccaria’s spirituality and the Pauline ardor of his preaching would probably “turn off” many people today. When even some psychiatrists complain at the lack of a sense of sin, it may be time to tell ourselves that not all evil is explained by emotional disorder, subconscious and unconscious drives, parental influence, and so on. The old-time “hell and damnation” mission sermons have given way to positive, encouraging, biblical homilies. We do indeed need assurance of forgiveness, relief from existential anxiety, and future shock. But we still need prophets to stand up and tell us, “If we say ‘We are without sin,’ we deceive ourselves and the truth is not in us” (1 John 1:8).",
+    saint_story:
+      "At the same time that Martin Luther was attacking abuses in the Church, a reformation within the Church was already being attempted. Among the early movers of the Counter-Reformation was Anthony Zaccaria. His mother became a widow at 18, and devoted herself to the spiritual education of her son. He received a medical doctorate at 22, and while working among the poor of his native Cremona in Italy, was attracted to the religious apostolate. Anthony Zaccaria renounced his rights to any future inheritance, worked as a catechist, and was ordained a priest at the age of 26. Called to Milan in a few years, he laid the foundations of three religious congregations, one for men, one for women, and an association of married couples. Their aim was the reform of the decadent society of their day, beginning with the clergy, religious, and lay people. Greatly inspired by Saint Paul—his congregation is named the Barnabites, after the companion of that saint—Anthony preached with great vigor in church and street, conducted popular missions, and was not ashamed of doing public penance. Anthony Zaccaria encouraged such innovations as the collaboration of the laity in the apostolate, frequent Communion, the Forty Hours devotion, and the ringing of church bells at 3:00 p.m. on Fridays. His holiness moved many to reform their lives, but as with all saints, it also moved many to oppose him. Twice his community had to undergo official religious investigation, and twice it was exonerated. While on a mission of peace, Anthony became seriously ill and was brought home for a visit to his mother. He died at Cremona at the age of 36.",
   },
   {
     id: "188",
@@ -1785,6 +1813,13 @@ const saintOfThedayDataApi = [
     saint_day: "6",
     saint_date: "7/6",
     saint_name: "Saint Maria Goretti",
+    saint_lifetime: "October 16, 1890 – July 6, 1902",
+    saint_image: saintImg[188],
+    saint_patron: ["Catholic Youth", "Teenagers"],
+    saint_reflection:
+      "Saint Maria may have had trouble with catechism, but she had no trouble with faith. God’s will was holiness, decency, respect for one’s body, absolute obedience, total trust. In a complex world, her faith was simple: It is a privilege to be loved by God, and to love him—at any cost.",
+    saint_story:
+      "One of the largest crowds ever assembled for a canonization—250,000—symbolized the reaction of millions touched by the simple story of Maria Goretti. She was the daughter of a poor Italian tenant farmer, had no chance to go to school, never learned to read or write. When Maria made her First Communion not long before her death, she was one of the larger and somewhat backward members of the class. On a hot afternoon in July, Maria Goretti was sitting at the top of the stairs of her house, mending a shirt. She was not quite 12 years old, but physically mature. A cart stopped outside, and a neighbor, 18-year-old Alessandro, ran up the stairs. He seized her and pulled her into a bedroom. She struggled and tried to call for help. “No, God does not wish it,” she cried out. “It is a sin. You would go to hell for it.” Alessandro began striking at her blindly with a long dagger. Maria Goretti was taken to a hospital. Her last hours were marked by the usual simple compassion of the good—concern about where her mother would sleep, forgiveness of her murderer (she had been in fear of him, but did not say anything lest she cause trouble to his family), and her devout welcoming of Viaticum, her last Holy Communion. She died about 24 hours after the attack. Alessandro was sentenced to 30 years in prison. For a long time he was unrepentant and surly. One night he had a dream or vision of Maria Goretti gathering flowers and offering them to him. His life changed. When he was released after 27 years, his first act was to beg the forgiveness of Maria’s mother. Devotion to the young martyr grew, miracles were worked, and in less than half a century she was canonized. At her beatification in 1947, her 82-year-old mother, two sisters, and her brother appeared with Pope Pius XII on the balcony of St. Peter’s. Three years later, at Maria’s canonization, a 66-year-old Alessandro Serenelli knelt among the quarter-million people and cried tears of joy.",
   },
   {
     id: "189",
@@ -1793,6 +1828,12 @@ const saintOfThedayDataApi = [
     saint_day: "7",
     saint_date: "7/7",
     saint_name: "Blessed Emmanuel Ruiz and Companions",
+    saint_lifetime: "1804 – 1860",
+    saint_image: saintImg[189],
+    saint_reflection:
+      "The Church in Syria has known persecution throughout its history. Yet it has produced saints whose blood was shed for the faith. Let us pray for the Church in Syria.",
+    saint_story:
+      "Not much is known of the early life of Emmanuel Ruiz, but details of his heroic death in defense of the faith have come down to us. Born of humble parents in Santander, Spain, he became a Franciscan priest and served as a missionary in Damascus. This was at a time when anti-Christian riots shook Syria and thousands lost their lives in just a short time. Among these were Emmanuel Ruiz, superior of the Franciscan convent, seven other friars, and three laymen. When a menacing crowd came looking for the men, they refused to renounce their faith and become Muslims. The men were subjected to horrible tortures before their martyrdom. Emmanuel Ruiz, his brother Franciscans and the three Maronite laymen were beatified by Pope Pius XI in 1926.",
   },
   {
     id: "190",
@@ -1801,6 +1842,17 @@ const saintOfThedayDataApi = [
     saint_day: "8",
     saint_date: "7/8",
     saint_name: "Saint Gregory Grassi and Companions",
+    saint_lifetime: "February 13, 1823 – July 9, 1900",
+    saint_image: saintImg[190],
+    saint_patron: [
+      "Missionaries",
+      "Catholics in China",
+      "Those who suffer persecution for their faith",
+    ],
+    saint_reflection:
+      "Martyrdom is the occupational hazard of missionaries. Throughout China during the Boxer Uprising, five bishops, 50 priests, two brothers, 15 sisters and 40,000 Chinese Christians were killed. The 146,575 Catholics served by the Franciscans in China in 1906 had grown to 303,760 by 1924, and were served by 282 Franciscans and 174 local priests. Great sacrifices often bring great results.",
+    saint_story:
+      "Christian missionaries have often gotten caught in the crossfire of wars against their own countries. When the governments of Britain, Germany, Russia, and France forced substantial territorial concessions from the Chinese in 1898, anti-foreign sentiment grew very strong among many Chinese people. Gregory Grassi was born in Italy in 1823, ordained in 1856, and sent to China five years later. Gregory was later ordained bishop of North Shanxi. With 14 other European missionaries and 14 Chinese religious, he was martyred during the short but bloody Boxer Uprising of 1900. Twenty-six of these martyrs were arrested on the orders of Yu Hsien, the governor of Shanxi province. They were hacked to death on July 9, 1900. Five of them were Friars Minor; seven were Franciscan Missionaries of Mary—the first martyrs of their congregation. Seven were Chinese seminarians and Secular Franciscans; four martyrs were Chinese laymen and Secular Franciscans. The other three Chinese laymen killed in Shanxi simply worked for the Franciscans and were rounded up with all the others. Three Italian Franciscans were martyred that same week in the province of Hunan. All these martyrs were beatified in 1946, and were among the 120 martyrs canonized in 2000.",
   },
   {
     id: "191",
@@ -1809,6 +1861,13 @@ const saintOfThedayDataApi = [
     saint_day: "9",
     saint_date: "7/9",
     saint_name: "Saint Augustine Zhao Rong and Companions",
+    saint_lifetime: "d. 1648 – 1930",
+    saint_image: saintImg[191],
+    saint_patron: ["Cathechists", "Missionaries"],
+    saint_reflection:
+      "The People’s Republic of China and the Roman Catholic Church each have well over a billion members, but there are only about 12 million Catholics in China. The reasons for that are better explained by historical conflicts than by a wholesale rejection of the Good News of Jesus Christ. The Chinese-born martyrs honored by today’s feast were regarded by their persecutors as dangerous because they were considered allies of enemy, Catholic countries. The martyrs born outside China often tried to distance themselves from European political struggles relating to China, but their persecutors saw them as Westerners and therefore, by definition, anti-Chinese. The Good News of Jesus Christ is intended to benefit all peoples; today’s martyrs knew that. May 21st-century Christians live in such a way that Chinese women and men will be attracted to hear that Good News and embrace it.",
+    saint_story:
+      "Christianity arrived in China by way of Syria in the 600s. Depending on China’s relations with the outside world, Christianity over the centuries was free to grow or was forced to operate secretly. The 120 martyrs in this group died between 1648 and 1930. Eighty-seven of them were born in China, and were children, parents, catechists, or laborers, ranging in age from nine years to 72. This group includes four Chinese diocesan priests. The 33 foreign-born martyrs were mostly priests or women religious, especially from the Order of Preachers, the Paris Foreign Mission Society, the Friars Minor, Society of Jesus, Society of St. Francis de Sales (Salesians), and Franciscan Missionaries of Mary. Augustine Zhao Rong was a Chinese soldier who accompanied Bishop John Gabriel Taurin Dufresse of the Paris Foreign Mission Society to his martyrdom in Beijing. Not long after his baptism, Augustine was ordained as a diocesan priest. He was martyred in 1815. Beatified in groups at various times, these 120 martyrs were canonized together in Rome on October 1, 2000.",
   },
   {
     id: "192",
@@ -1817,6 +1876,17 @@ const saintOfThedayDataApi = [
     saint_day: "10",
     saint_date: "7/10",
     saint_name: "Saint Veronica Giuliani",
+    saint_lifetime: "December 27, 1660 – July 9, 1727",
+    saint_image: saintImg[192],
+    saint_patron: [
+      "Embroiderers",
+      "Dressmakers",
+      "Those suffering from physical wounds and body ills",
+    ],
+    saint_reflection:
+      "Why did God grant the stigmata to Francis of Assisi and to Veronica Giuliani? God alone knows the deepest reasons, but as Celano points out, the external sign of the cross is a confirmation of these saints’ commitment to the cross in their lives. The stigmata that appeared in Veronica’s flesh had taken root in her heart many years before. It was a fitting conclusion for her love of God and her charity toward her sisters.",
+    saint_story:
+      "Veronica Giuliani’s desire to be like Christ crucified was answered with the stigmata. Veronica was born in Mercatelli, Italy. It is said that when her mother Benedetta was dying she called her five daughters to her bedside and entrusted each of them to one of the five wounds of Jesus. Veronica was entrusted to the wound below Christ’s heart. At the age of 17, Veronica Giuliani joined the Poor Clares directed by the Capuchins. Her father had wanted her to marry, but she convinced him to allow her to become a nun. In her first years in the monastery, she worked in the kitchen, infirmary, sacristy, and also served as portress. At the age of 34, she was made novice mistress, a position she held for 22 years. When she was 37, Veronica received the stigmata. Life was not the same after that. Church authorities in Rome wanted to test Veronica’s authenticity and so conducted an investigation. She lost the office of novice mistress temporarily and was not allowed to attend Mass except on Sundays or holy days. Through all of this Veronica did not become bitter, and the investigation eventually restored her as novice mistress. Though she protested against it, at the age of 56 she was elected abbess, an office she held for 11 years until her death. Veronica was very devoted to the Eucharist and to the Sacred Heart. She offered her sufferings for the missions, died in 1727, and was canonized in 1839. Her Liturgical Feast Day is July 9.",
   },
   {
     id: "193",
