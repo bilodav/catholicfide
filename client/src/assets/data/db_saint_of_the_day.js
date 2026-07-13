@@ -1895,6 +1895,19 @@ const saintOfThedayDataApi = [
     saint_day: "11",
     saint_date: "7/11",
     saint_name: "Saint Benedict",
+    saint_lifetime: "c. 480 – c. 547",
+    saint_image: saintImg[193],
+    saint_patron: [
+      "Europe",
+      "Kidney Disease",
+      "Monastics",
+      "Poisoning",
+      "Schoolchildren",
+    ],
+    saint_reflection:
+      "The Church has been blessed through Benedictine devotion to the liturgy, not only in its actual celebration with rich and proper ceremony in the great abbeys, but also through the scholarly studies of many of its members. Liturgy is sometimes confused with guitars or choirs, Latin or Bach. We should be grateful to those who both preserve and adapt the genuine tradition of worship in the Church.",
+    saint_story:
+      "It is unfortunate that no contemporary biography was written of a man who has exercised the greatest influence on monasticism in the West. Benedict is well recognized in the later Dialogues of Saint Gregory, but these are sketches to illustrate miraculous elements of his career. Saint Benedict was born into a distinguished family in central Italy, studied at Rome, and early in life was drawn to monasticism. At first he became a hermit, leaving a depressing world—pagan armies on the march, the Church torn by schism, people suffering from war, morality at a low ebb. He soon realized that he could not live a hidden life in a small town any better than in a large city, so he withdrew to a cave high in the mountains for three years. Some monks chose Saint Benedict as their leader for a while, but found his strictness not to their taste. Still the shift from hermit to community life had begun for him. He had an idea of gathering various families of monks into one “Grand Monastery” to give them the benefit of unity, fraternity, and permanent worship in one house. Finally he began to build what was to become one of the most famous monasteries in the world—Monte Cassino, commanding three narrow valleys running toward the mountains north of Naples. The Rule that gradually developed prescribed a life of liturgical prayer, study, manual labor, and living together in community under a common abbot. Benedictine asceticism is known for its moderation, and Benedictine charity has always shown concern for the people in the surrounding countryside. In the course of the Middle Ages, all monasticism in the West was gradually brought under the Rule of Saint Benedict. Today the Benedictine family is represented by two branches: the Benedictine Federation encompassing the men and women of the Order of St. Benedict; and the Cistercians, men and women of the Order of Cistercians of the Strict Observance.",
   },
   {
     id: "194",
@@ -1903,6 +1916,14 @@ const saintOfThedayDataApi = [
     saint_day: "12",
     saint_date: "7/12",
     saint_name: "Saints John Jones and John Wall",
+    saint_lifetime:
+      "Saint John Jones (c.1530 – 1598) and Saint John Wall (1620 – 1679)",
+    saint_image: saintImg[194],
+    saint_patron: ["Priestly Fidelity"],
+    saint_reflection:
+      "Every martyr knows how to save his/her life and yet refuses to do so. A public repudiation of the faith would save any of them. But some things are more precious than life itself. These martyrs prove that their 20th-century countryman, C. S. Lewis, was correct in saying that courage is not simply one of the virtues but the form of every virtue at the testing point, that is, at the point of highest reality.",
+    saint_story:
+      "These two friars were martyred in England in the 16th and 17th centuries for refusing to deny their faith. John Jones was Welsh. He was ordained a diocesan priest and was twice imprisoned for administering the sacraments before leaving England in 1590. He joined the Franciscans at the age of 60 and returned to England three years later while Queen Elizabeth I was at the height of her power. John ministered to Catholics in the English countryside until his imprisonment in 1596. He was condemned to be hanged, drawn, and quartered. John was executed on July 12, 1598. John Wall was born in England but was educated at the English College of Douai, Belgium. Ordained in Rome in 1648, he entered the Franciscans in Douai several years later. In 1656 he returned to work secretly in England. In 1678, Titus Oates worked many English people into a frenzy over an alleged papal plot to murder the king and restore Catholicism in that country. In that year Catholics were legally excluded from Parliament, a law which was not repealed until 1829. John Wall was arrested and imprisoned in 1678, and was executed the following year. John Jones and John Wall were canonized in 1970.",
   },
   {
     id: "195",
@@ -1911,6 +1932,19 @@ const saintOfThedayDataApi = [
     saint_day: "13",
     saint_date: "7/13",
     saint_name: "Saint Henry",
+    saint_lifetime: "December 27, 1660 – July 9, 1727",
+    saint_image: saintImg[195],
+    saint_patron: [
+      "BEnedictine oblates",
+      "Kings and people in positions of power",
+      "The childless",
+      "The handicapped",
+      "Those rejected by religious orders",
+    ],
+    saint_reflection:
+      "All in all, this saint was a man of his times. From our standpoint, he may have been too quick to do battle and too ready to use power to accomplish reforms. But granted such limitations, he shows that holiness is possible in a busy secular life. It is in doing our job that we become saints.",
+    saint_story:
+      "As German king and Holy Roman Emperor, Saint Henry was a practical man of affairs. He was energetic in consolidating his rule. He crushed rebellions and feuds. On all sides he had to deal with drawn-out disputes so as to protect his frontiers. This involved him in a number of battles, especially in the south in Italy; he also helped Pope Benedict VIII quell disturbances in Rome. Always his ultimate purpose was to establish a stable peace in Europe. According to eleventh-century custom, Saint Henry took advantage of his position and appointed as bishops men loyal to him. In his case, however, he avoided the pitfalls of this practice and actually fostered the reform of ecclesiastical and monastic life. He was canonized in 1146",
   },
   {
     id: "196",
