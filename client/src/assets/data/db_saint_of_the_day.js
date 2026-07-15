@@ -1935,7 +1935,7 @@ const saintOfThedayDataApi = [
     saint_lifetime: "December 27, 1660 – July 9, 1727",
     saint_image: saintImg[195],
     saint_patron: [
-      "BEnedictine oblates",
+      "Benedictine oblates",
       "Kings and people in positions of power",
       "The childless",
       "The handicapped",
@@ -1997,6 +1997,13 @@ const saintOfThedayDataApi = [
     saint_day: "17",
     saint_date: "7/17",
     saint_name: "Saint Francis Solano",
+    saint_image: saintImg[199],
+    saint_lifetime: "March 10, 1549 – July 14, 1610",
+    saint_patron: ["Argentina", "Bolivia", "Peru", "Chile", "Paraguay"],
+    saint_reflection:
+      "Francis Solano knew from experience that the lives of Christians sometimes greatly hinder the spread of the gospel of Jesus Christ. Francis lived an exemplary life himself, and urged his fellow Spaniards to make their lives worthy of their baptisms.",
+    saint_story:
+      "Francis came from a leading family in Andalusia, Spain. Perhaps it was his popularity as a student that enabled Francis Solano in his teens to stop two duelists. He entered the Friars Minor in 1570, and after ordination enthusiastically sacrificed himself for others. His care for the sick during an epidemic drew so much admiration that he became embarrassed and asked to be sent to the African missions. Instead he was sent to South America in 1589. While working in what is now Argentina, Bolivia, and Paraguay, Francis quickly learned the local languages and was well received by the indigenous peoples. His visits to the sick often included playing a song on his violin. Around 1601, he was called to Lima, Peru, where he tried to recall the Spanish colonists to their baptismal integrity. Francis Solano also worked to defend the indigenous peoples from oppression. He died in Lima in 1610 and was canonized in 1726. His liturgical feast is celebrated on July 14.",
   },
   {
     id: "200",
@@ -2005,6 +2012,19 @@ const saintOfThedayDataApi = [
     saint_day: "18",
     saint_date: "7/18",
     saint_name: "Saint Camillus de Lellis",
+    saint_image: saintImg[200],
+    saint_lifetime: "1550 – July 14, 1614",
+    saint_patron: [
+      "The sick",
+      "Hospitals",
+      "Nurses",
+      "Physicians",
+      "Healthcare workers",
+    ],
+    saint_reflection:
+      "Saints are created by God. Parents must indeed nurture the faith in their children; husbands and wives must cooperate to deepen their baptismal grace; friends must support each other. But all human effort is only the dispensing of divine power. We must all try as if everything depended on us. But only the power of God can fulfill the plan of God—to make us like himself.",
+    saint_story:
+      "Humanly speaking, Camillus was not a likely candidate for sainthood. His mother died when he was a child, his father neglected him, and he grew up with an excessive love for gambling. At 17, he was afflicted with a disease of his leg that remained with him for life. In Rome he entered the San Giacomo Hospital for Incurables as both patient and servant, but was dismissed for quarrelsomeness after nine months. He served in the Venetian army for three years. Then, in the winter of 1574, when he was 24, Camillus de Lellis gambled away everything he had—savings, weapons, literally down to his shirt. He accepted work at the Capuchin friary at Manfredonia, and was one day so moved by a sermon of the superior that he began a conversion that changed his life. He entered the Capuchin novitiate, but was dismissed because of the apparently incurable sore on his leg. After another stint of service at San Giacomo, he came back to the Capuchins, only to be dismissed again, for the same reason. Again, back at San Giacomo, his dedication was rewarded by his being made superintendent. Camillus de Lellis devoted the rest of his life to the care of the sick. Along with Saint John of God he has been named patron of hospitals, nurses, and the sick. With the advice of his friend Saint Philip Neri, he studied for the priesthood and was ordained at the age of 34. Contrary to the advice of his friend, Camillus left San Giacomo and founded a congregation of his own. As superior, he devoted much of his own time to the care of the sick. Charity was his first concern, but the physical aspects of the hospital also received his diligent attention. Camillus insisted on cleanliness and the technical competence of those who served the sick. The members of his community bound themselves to serve prisoners and persons infected by the plague as well as those dying in private homes. Some of his men were with troops fighting in Hungary and Croatia in 1595, forming the first recorded military field ambulance. In Naples, he and his men went onto the galleys that had plague and were not allowed to land. He discovered that there were people being buried alive, and ordered his brothers to continue the prayers for the dying 15 minutes after apparent death. Camillus de Lellis himself suffered the disease of his leg through his life. In his last illness, he left his own bed to see if other patients in the hospital needed help.",
   },
   {
     id: "201",
@@ -2013,6 +2033,17 @@ const saintOfThedayDataApi = [
     saint_day: "19",
     saint_date: "7/19",
     saint_name: "Saint Mary MacKillop",
+    saint_image: saintImg[201],
+    saint_lifetime: "January 15, 1842 – August 8, 1909",
+    saint_patron: [
+      "Australia",
+      "Archdiocese of Brisbane",
+      "Knights of the Southern Cross",
+    ],
+    saint_reflection:
+      "The story of many foundresses of religious communities and the tales of the early days of those communities can make for fascinating reading. Those women were dedicated and tough and fought for those they served. Let’s thank the Lord for raising up such wonderful examples of faith.",
+    saint_story:
+      "If Saint Mary MacKillop were alive today, she would be a household name. It’s not that she sought the limelight. On the contrary, she simply wanted to serve the poor wherever she found them in her native Australia. But along the way, she managed to arouse the ire of some rather powerful churchmen. One even excommunicated her for a time. Born in Melbourne in 1842, to parents who had emigrated from Scotland, Mary MacKillop grew up in a family that faced constant financial struggles. As a young woman she was drawn to religious life but could not find an existing order of Sisters that met her needs. In 1860, she met Father Julian Woods, who became her spiritual director. Together they founded a new community of women—the Sisters of St. Joseph of the Sacred Heart, also known as the Josephite Sisters. Its members were to staff schools especially for poor children, as well as orphanages, and do other works of charity. As the congregation grew, so did Mary MacKillop’s problems. Her priest-friend proved unreliable in many ways and his responsibilities for direction of the Sisters were removed. Meanwhile, Mary had the support of some local bishops as she and her Sisters went about their work. But the bishop in South Australia, aging and relying on others for advice, briefly excommunicated Mary—charging her with disobedience—and dispensed 50 of her Sisters from their vows. In truth, the bishop’s quarrel was about power and who had authority over whom. He ultimately rescinded his order of excommunication. Mary MacKillop insisted that her congregation should be governed by an elected mother general answerable to Rome, not to the local bishop. There also were disputes about whether or not the congregation could own property. In the end, Rome proved to be Mary’s best source of support. After a long wait official approval of the congregation—and how it was to be governed—came from Pope Leo XIII. Despite her struggles with Church authorities, Mary MacKillop and her Sisters were able to offer social services that few, if any, government agencies in Australia could. They served Protestants and Catholics alike. They worked among the aborigines. They taught in schools and orphanages and served unmarried mothers. Money, actually the lack of it, was a constant worry. But the Sisters who begged from door to door, were bolstered by faith and by the conviction that their struggles were opportunities to grow closer to God. By the time Mary MacKillop was approaching the end of her life, the congregation was thriving. She died in 1909 at the age of 67. Pope John Paul II beatified her in 1995. In 2010, when Pope Benedict XVI canonized her, she became Australia’s first saint. Her liturgical feast is celebrated on August 8.",
   },
   {
     id: "202",
