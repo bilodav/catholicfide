@@ -2052,6 +2052,13 @@ const saintOfThedayDataApi = [
     saint_day: "20",
     saint_date: "7/20",
     saint_name: "Saint Apollinaris",
+    saint_image: saintImg[202],
+    saint_lifetime: "d. c. 79",
+    saint_patron: ["Ravenna"],
+    saint_reflection:
+      "Following Jesus involves risks—sometimes the supreme risk of life itself. Martyrs are people who would rather accept the risk of death than deny the cornerstone of their whole life: faith in Jesus Christ. Everyone will die eventually—the persecutors and those persecuted. The question is what kind of a conscience people will bring before the Lord for judgment. Remembering the witness of past and present martyrs can help us make the often small sacrifices that following Jesus today may require.",
+    saint_story:
+      "According to tradition, Saint Peter sent Saint Apollinaris to Ravenna, Italy, as its first bishop. His preaching of the Good News was so successful that the pagans there beat him and drove him from the city. He returned, however, and was exiled a second time. After preaching in the area surrounding Ravenna, he entered the city again. After being cruelly tortured, he was put on a ship heading to Greece. Pagans there caused him to be expelled to Italy, where he went to Ravenna for a fourth time. He died from wounds received during a savage beating at Classis, a suburb of Ravenna. A beautiful basilica honoring him was built there in the sixth century.",
   },
   {
     id: "203",
@@ -2060,6 +2067,13 @@ const saintOfThedayDataApi = [
     saint_day: "21",
     saint_date: "7/21",
     saint_name: "Saint Lawrence of Brindisi",
+    saint_image: saintImg[203],
+    saint_lifetime: "July 22, 1559 – July 22, 1619",
+    saint_patron: ["Brindisi, Italy", "Capuchin missionaies"],
+    saint_reflection:
+      "His constant devotion to Scripture, coupled with great sensitivity to the needs of people, present a lifestyle which appeals to Christians today. Lawrence had a balance in his life that blended self-discipline with a keen appreciation for the needs of those whom he was called to serve.",
+    saint_story:
+      "At first glance, perhaps the most remarkable quality of Lawrence of Brindisi is his outstanding gift of languages. In addition to a thorough knowledge of his native Italian, he had complete reading and speaking ability in Latin, Hebrew, Greek, German, Bohemian, Spanish, and French. Lawrence was born on July 22, 1559, and died exactly 60 years later on his birthday in 1619. His parents William and Elizabeth Russo gave him the name of Julius Caesar, Caesare in Italian. After the early death of his parents, he was educated by his uncle at the College of St. Mark in Venice. When he was just 16, he entered the Capuchin Franciscan Order in Venice and received the name of Lawrence of Brindisi. He completed his studies of philosophy and theology at the University of Padua and was ordained a priest at 23. With his facility for languages Lawrence of Brindisi was able to study the Bible in its original texts. At the request of Pope Clement VIII, he spent much time preaching to the Jews in Italy. So excellent was his knowledge of Hebrew, the rabbis felt sure he was a Jew who had become a Christian. Lawrence’s sensitivity to the needs of people—a character trait perhaps unexpected in such a talented scholar—began to surface. He was elected major superior of the Capuchin Franciscan province of Tuscany at the age of 31. He had the combination of brilliance, human compassion, and administrative skill needed to carry out his duties. In rapid succession he was promoted by his fellow Capuchins and was elected minister general of the Capuchins in 1602. In this position he was responsible for great growth and geographical expansion of the Order. Lawrence of Brindisi was appointed papal emissary and peacemaker, a job which took him to a number of foreign countries. An effort to achieve peace in his native kingdom of Naples took him on a journey to Lisbon to visit the king of Spain. Serious illness in Lisbon took his life in 1619. In 1956, the Capuchins completed a 15-volume edition of Lawrence’s writings. Eleven of these 15 contain his sermons, each of which relies chiefly on scriptural quotations to illustrate his teaching.",
   },
   {
     id: "204",
@@ -2068,6 +2082,13 @@ const saintOfThedayDataApi = [
     saint_day: "22",
     saint_date: "7/22",
     saint_name: "Saint Mary Magdalene",
+    saint_image: saintImg[201],
+    saint_lifetime: "March 10, 1549 – July 14, 1610",
+    saint_patron: ["Argentina", "Bolivia", "Peru", "Chile", "Paraguay"],
+    saint_reflection:
+      "Francis Solano knew from experience that the lives of Christians sometimes greatly hinder the spread of the gospel of Jesus Christ. Francis lived an exemplary life himself, and urged his fellow Spaniards to make their lives worthy of their baptisms.",
+    saint_story:
+      "Francis came from a leading family in Andalusia, Spain. Perhaps it was his popularity as a student that enabled Francis Solano in his teens to stop two duelists. He entered the Friars Minor in 1570, and after ordination enthusiastically sacrificed himself for others. His care for the sick during an epidemic drew so much admiration that he became embarrassed and asked to be sent to the African missions. Instead he was sent to South America in 1589. While working in what is now Argentina, Bolivia, and Paraguay, Francis quickly learned the local languages and was well received by the indigenous peoples. His visits to the sick often included playing a song on his violin. Around 1601, he was called to Lima, Peru, where he tried to recall the Spanish colonists to their baptismal integrity. Francis Solano also worked to defend the indigenous peoples from oppression. He died in Lima in 1610 and was canonized in 1726. His liturgical feast is celebrated on July 14.",
   },
   {
     id: "205",
