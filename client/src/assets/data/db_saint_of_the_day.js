@@ -2083,12 +2083,12 @@ const saintOfThedayDataApi = [
     saint_date: "7/22",
     saint_name: "Saint Mary Magdalene",
     saint_image: saintImg[201],
-    saint_lifetime: "March 10, 1549 – July 14, 1610",
-    saint_patron: ["Argentina", "Bolivia", "Peru", "Chile", "Paraguay"],
+    saint_lifetime: "d. c. 63",
+    saint_patron: ["Penitents", "Perfumers"],
     saint_reflection:
-      "Francis Solano knew from experience that the lives of Christians sometimes greatly hinder the spread of the gospel of Jesus Christ. Francis lived an exemplary life himself, and urged his fellow Spaniards to make their lives worthy of their baptisms.",
+      "Mary Magdalene has been a victim of mistaken identity for almost 20 centuries. Yet she would no doubt insist that it makes no difference. We are all sinners in need of the saving power of God, whether our sins have been lurid or not. More importantly, we are all “unofficial” witnesses of the Resurrection.",
     saint_story:
-      "Francis came from a leading family in Andalusia, Spain. Perhaps it was his popularity as a student that enabled Francis Solano in his teens to stop two duelists. He entered the Friars Minor in 1570, and after ordination enthusiastically sacrificed himself for others. His care for the sick during an epidemic drew so much admiration that he became embarrassed and asked to be sent to the African missions. Instead he was sent to South America in 1589. While working in what is now Argentina, Bolivia, and Paraguay, Francis quickly learned the local languages and was well received by the indigenous peoples. His visits to the sick often included playing a song on his violin. Around 1601, he was called to Lima, Peru, where he tried to recall the Spanish colonists to their baptismal integrity. Francis Solano also worked to defend the indigenous peoples from oppression. He died in Lima in 1610 and was canonized in 1726. His liturgical feast is celebrated on July 14.",
+      "Except for the mother of Jesus, few women are more honored in the Bible than Mary Magdalene. Yet she could well be the patron of the slandered, since there has been a persistent legend in the Church that she is the unnamed sinful woman who anointed the feet of Jesus in Luke 7:36-50. Most Scripture scholars today point out that there is no scriptural basis for confusing the two women. Mary Magdalene, that is, “of Magdala,” was the one from whom Christ cast out “seven demons” (Luke 8:2)—an indication at the worst, of extreme demonic possession or possibly, severe illness. Writing in the New Catholic Commentary, Father Wilfrid J. Harrington, O.P., says that “seven demons” “does not mean that Mary had lived an immoral life—a conclusion reached only by means of a mistaken identification with the anonymous woman of Luke 7:36.” In the Jerome Biblical Commentary, Father Edward Mally, S.J., agrees that she “is not…the same as the sinner of Luke 7:37, despite the later Western romantic tradition about her.” Mary Magdalene was one of the many “who were assisting them [Jesus and the Twelve] out of their means.” She was one of those who stood by the cross of Jesus with his mother. And, of all the “official” witnesses who might have been chosen for the first awareness of the Resurrection, she was the one to whom that privilege was given. She is known as the “Apostle to the Apostles.”",
   },
   {
     id: "205",
