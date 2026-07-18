@@ -2082,7 +2082,7 @@ const saintOfThedayDataApi = [
     saint_day: "22",
     saint_date: "7/22",
     saint_name: "Saint Mary Magdalene",
-    saint_image: saintImg[201],
+    saint_image: saintImg[204],
     saint_lifetime: "d. c. 63",
     saint_patron: ["Penitents", "Perfumers"],
     saint_reflection:
@@ -2097,6 +2097,13 @@ const saintOfThedayDataApi = [
     saint_day: "23",
     saint_date: "7/23",
     saint_name: "Saint Bridget of Sweden",
+    saint_image: saintImg[205],
+    saint_lifetime: "c. 1303 – July 23, 1373",
+    saint_patron: ["Europe"],
+    saint_reflection:
+      "Bridget’s visions, rather than isolating her from the affairs of the world, involved her in many contemporary issues, whether they be royal policy or the years that the legitimate Bishop of Rome lived in Avignon, France. She saw no contradiction between mystical experience and secular activity, and her life is a testimony to the possibility of a holy life in the marketplace.",
+    saint_story:
+      "From age 7 on, Bridget had visions of Christ crucified. Her visions formed the basis for her activity—always with the emphasis on charity rather than spiritual favors. She lived her married life in the court of the Swedish king Magnus II. Mother of eight children—the second eldest was Saint Catherine of Sweden—Bridget lived the strict life of a penitent after her husband’s death. Bridget of Sweden constantly strove to exert her good influence over Magnus; while never fully reforming, he did give her land and buildings to found a monastery for men and women. This group eventually expanded into an Order known as the Bridgetines. In 1350, a year of jubilee, Bridget braved a plague-stricken Europe to make a pilgrimage to Rome. Although she never returned to Sweden, her years in Rome were far from happy, being hounded by debts and by opposition to her work against Church abuses. A final pilgrimage to the Holy Land, marred by shipwreck and the death of her son, Charles, eventually led to her death in 1373. In 1999, Bridget of Sweden, Saint Catherine of Siena, and Saint Teresa Benedicta of the Cross, were named co-patronesses of Europe.",
   },
   {
     id: "206",
@@ -2105,6 +2112,13 @@ const saintOfThedayDataApi = [
     saint_day: "24",
     saint_date: "7/24",
     saint_name: "Saint Sharbel Makhlouf",
+    saint_image: saintImg[206],
+    saint_lifetime: "May 8, 1828 – December 24, 1898",
+    saint_patron: ["Lebanon", "Those who suffer in body and soul"],
+    saint_reflection:
+      "John Paul II often said that the Church has two lungs—East and West—and it must learn to breathe using both of them. Remembering saints like Sharbel Makhlouf helps the Church to appreciate both the diversity and unity present in the Catholic Church. Like all the saints, Sharbel points us to God and invites us to cooperate generously with God’s grace, no matter what our situation in life may be. As our prayer life becomes deeper and more honest, we become more ready to make that generous response.",
+    saint_story:
+      "Although this saint never traveled far from the Lebanese village of Beka-Kafra where he was born, his influence has spread widely. Joseph Zaroun Maklouf was raised by an uncle because his father, a mule driver, died when Joseph was only three. At the age of 23, Joseph joined the Monastery of St. Maron at Annaya, Lebanon, and took the name Sharbel Makhlouf in honor of a second-century martyr. He professed his final vows in 1853, and was ordained six years later. Following the example of the fifth-century Saint Maron, Sharbel Makhlouf lived as a hermit from 1875, until his death. His reputation for holiness prompted people to seek him to receive a blessing and to be remembered in his prayers. He followed a strict fast and was very devoted to the Blessed Sacrament. When his superiors occasionally asked him to administer the sacraments to nearby villages, Sharbel did so gladly. He died in the late afternoon on Christmas Eve. Christians and non-Christians soon made his tomb a place of pilgrimage and of cures. Pope Paul VI beatified Sharbel in 1965, and canonized him 12 years later.",
   },
   {
     id: "207",
@@ -2113,6 +2127,19 @@ const saintOfThedayDataApi = [
     saint_day: "25",
     saint_date: "7/25",
     saint_name: "Saint James",
+    saint_image: saintImg[207],
+    saint_lifetime: "d. c. 44",
+    saint_patron: [
+      "Chile",
+      "Laborers",
+      "Nicaragua",
+      "Rheumatism sufferers",
+      "Spain",
+    ],
+    saint_reflection:
+      "The way the Gospels treat the apostles is a good reminder of what holiness is all about. There is very little about their virtues as static possessions, entitling them to heavenly reward. Rather, the great emphasis is on the Kingdom, on God’s giving them the power to proclaim the Good News. As far as their personal lives are concerned, there is much about Jesus’ purifying them of narrowness, pettiness, fickleness. From James there is much to learn still.",
+    saint_story:
+      "This James is the brother of John the Evangelist. The two were called by Jesus as they worked with their father in a fishing boat on the Sea of Galilee. Jesus had already called another pair of brothers from a similar occupation: Peter and Andrew. “He walked along a little farther and saw James, the son of Zebedee, and his brother John. They too were in a boat mending their nets. Then he called them. So they left their father Zebedee in the boat along with the hired men and followed him” (Mark 1:19-20). Saint James was one of the favored three who had the privilege of witnessing the Transfiguration, the raising to life of the daughter of Jairus, and the agony in Gethsemani. Two incidents in the Gospels describe the temperament of this man and his brother. Saint Matthew tells that their mother came—Mark says it was the brothers themselves—to ask that they have the seats of honor in the kingdom. “Jesus said in reply, ‘You do not know what you are asking. Can you drink the cup that I am going to drink?’ They said to him, ‘We can’” (Matthew 20:22). Jesus then told them they would indeed drink the cup and share his baptism of pain and death, but that sitting at his right hand or left was not his to give—it “is for those for whom it has been prepared by my Father” (Matthew 20:23b). It remained to be seen how long it would take to realize the implications of their confident “We can!” The other disciples became indignant at the ambition of James and John. Then Jesus taught them all the lesson of humble service: The purpose of authority is to serve. They are not to impose their will on others, or lord it over them. This is the position of Jesus himself. He was the servant of all; the service imposed on him was the supreme sacrifice of his own life. On another occasion, James and John gave evidence that the nickname Jesus gave them—“sons of thunder”—was an apt one. The Samaritans would not welcome Jesus because he was on his way to hated Jerusalem. “When the disciples James and John saw this they asked, ‘Lord, do you want us to call down fire from heaven to consume them?’ Jesus turned and rebuked them…” (Luke 9:54-55). Saint James was apparently the first of the apostles to be martyred. “About that time King Herod laid hands upon some members of the church to harm them. He had James, the brother of John, killed by the sword, and when he saw that this was pleasing to the Jews he proceeded to arrest Peter also” (Acts 12:1-3a). This Saint James, sometimes called James the Greater, is not to be confused with James the Lesser or with the author of the Letter of James and the leader of the Jerusalem community.",
   },
   {
     id: "208",
