@@ -2148,6 +2148,13 @@ const saintOfThedayDataApi = [
     saint_day: "26",
     saint_date: "7/26",
     saint_name: "Saints Joachim and Anne",
+    saint_image: saintImg[208],
+    saint_lifetime: "c. 1st century",
+    saint_patron: ["Grandparents"],
+    saint_reflection:
+      "This is the “feast of grandparents.” It reminds grandparents of their responsibility to establish a tone for generations to come: They must make the traditions live and offer them as a promise to little children. But the feast has a message for the younger generation as well. It reminds the young that older people’s greater perspective, depth of experience, and appreciation of life’s profound rhythms are all part of a wisdom not to be taken lightly or ignored.",
+    saint_story:
+      "In the Scriptures, Matthew and Luke furnish a legal family history of Jesus, tracing ancestry to show that Jesus is the culmination of great promises. Not only is his mother’s family neglected, we also know nothing factual about them except that they existed. Even the names “Joachim” and “Anne” come from a legendary source written more than a century after Jesus died. The heroism and holiness of these people however, is inferred from the whole family atmosphere around Mary in the Scriptures. Whether we rely on the legends about Mary’s childhood or make guesses from the information in the Bible, we see in her a fulfillment of many generations of prayerful persons, herself steeped in the religious traditions of her people. The strong character of Mary in making decisions, her continuous practice of prayer, her devotion to the laws of her faith, her steadiness at moments of crisis, and her devotion to her relatives—all indicate a close-knit, loving family that looked forward to the next generation even while retaining the best of the past. Joachim and Anne—whether these are their real names or not—represent that entire quiet series of generations who faithfully perform their duties, practice their faith, and establish an atmosphere for the coming of the Messiah, but remain obscure.",
   },
   {
     id: "209",
@@ -2156,6 +2163,18 @@ const saintOfThedayDataApi = [
     saint_day: "27",
     saint_date: "7/27",
     saint_name: "Saint Titus Brandsma",
+    saint_image: saintImg[209],
+    saint_lifetime: "February 23, 1881-July 26, 1942",
+    saint_patron: [
+      "Catholic journalists",
+      "Friesland",
+      "International Union of Catholic Esperantists",
+      "Tobacconists",
+    ],
+    saint_reflection:
+      "Conscience often creates martyrs. That was the case for Titus Brandsma. Many people “go along to get along,” not realizing that by doing so they are destroying themselves internally. In his homily at the canonization Mass, Pope Francis said, “Holiness does not consist of a few heroic gestures, but of many small acts of daily love.”",
+    saint_story:
+      "Given the birth name Anno, Brandsma and his siblings grew up on their parents’ dairy farm in rural Frisia. As devout Catholics, the family was in the minority among their Calvinist neighbors. From age 11 Anno was educated at a preparatory school for boys who were studying for the priesthood. He joined the Carmelite novitiate in 1898, taking the name Titus Brandsma in honor of his father. In the years following his 1905 ordination, Brandsma received a doctorate in philosophy and initiated a project to translate the works of Saint Teresa of Avila into Dutch. One of the founders of the Catholic University of Nijmegen, he served as a professor of philosophy and the history of mysticism at the school. While there Brandsma was known more for his availability to faculty and students than for his academic achievements. Working as a journalist Brandsma served as ecclesiastical advisor to Catholic journalists. His long-standing opposition to Nazi ideology came to the attention of the Nazis when they invaded the Netherlands in 1940. In direct opposition to the Third Reich, the Conference of Dutch Bishops sent a letter ordering Catholic newspaper editors not to print Nazi propaganda. Fr. Brandsma was arrested while hand delivering the letter in January 1942. After being imprisoned in several other facilities, in June he was taken to the Dachau camp in Germany. During his brief time at Dachau Fr. Brandsma was well-known for his kindness and spiritual support of other prisoners. His death on July 26, 1942 was a result of the Reich’s program of medical experimentation on prisoners. He gave a wooden rosary to the nurse who administered the fatal injection; she later became Catholic and testified to his holiness. In recent years Brandsma has been honored by both the cities of Nijmegen and Dachau. Titus Brandsma was beatified in 1985, and canonized in 2022.",
   },
   {
     id: "210",
@@ -2164,6 +2183,13 @@ const saintOfThedayDataApi = [
     saint_day: "28",
     saint_date: "7/28",
     saint_name: "Blessed Stanley Rother",
+    saint_image: saintImg[210],
+    saint_lifetime: "March 27, 1935 – July 28, 1981",
+    saint_patron: ["Penitents", "Perfumers"],
+    saint_reflection:
+      "The declaration of a blessed or saint is always a celebration of the Church as the people of God. To single out an individual for his or her holiness and service builds up the entire community of faith. But this is doubly true for the Church in the United States and in Oklahoma, as one of our own is both declared a martyr for the faith and enrolled in the ranks of those declared Blessed by the Church. May the dedication, faith, and service of Blessed Stanley Rother be a source of strength for all in this country.",
+    saint_story:
+      "On May 25, 1963, Stanley Francis Rother, a farmer’s son from Okarche, Oklahoma, was ordained for his home diocese of Oklahoma City-Tulsa. Having flunked out of the area seminary due to his difficulty with Latin, Fr. Rother finally accepted an invitation to attend Mount St. Mary Seminary in Maryland, where he finished his studies and was approved for ordination. After serving in his local diocese for five years, Fr. Stanley Rother joined five priests, three religious sisters, and three laypersons to staff a Guatemalan mission in Santiago Atitlán serving the Tz’utujil people. The Oklahoma City diocese heard the call of Pope John XXIII to send missionaries to foreign lands, especially Central America. These twelve individuals felt the call, and with their bishop’s approval, left the comforts of the United States to live and work in Guatemala. By 1975, Fr. Stanley Rother was alone at his parish in Santiago Atitlán, the others having returned home for various reasons. He served the Tz’utujil people for 13 years and won their hearts and souls. Ever the farmer, and always unpretentious and mild mannered, Fr. Rother experimented with various crops as well as fulfilling his heavy pastoral duties which included as many as five Masses in four different locations on a given Sunday and as many as 1,000 baptisms a year. Guatemala’s civil war reached the highlands and Lake Atitlán by 1980. Government troops camped on the parish farm and Fr. Rother witnessed the assassination of a number of his parishioners, including the parish deacon. Warned of imminent danger, Fr. Rother returned to the United States for three months early in 1981, to visit with his family and friends. Against the advice of his family and the local bishop, Fr. Stanley Rother returned to Atitlán to be with his people. He remembered a Sisters’ community who had fled the country and later tried to return but the people asked, “Where were you when we needed you?” On the evening of July 28, three masked men entered the rectory and shot Fr. Rother to death. His beloved parishioners mourned him repeatedly crying, “They have killed our priest.” Pope Francis declared Stanley Rother a martyr on December 2, 2016. He was beatified in Oklahoma City on September 23, 2017.",
   },
   {
     id: "211",
