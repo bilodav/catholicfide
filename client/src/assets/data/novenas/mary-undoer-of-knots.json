@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "id": "mary-undoer-of-knots-novena",
+    "title": "Mary Undoer of Knots Novena",
+    "primary_category": "novena",
+    "labels": [
+      "mary",
+      "mary-undoer-of-knots",
+      "blessed-virgin-mary",
+      "intercession",
+      "healing",
+      "deliverance",
+      "novena"
+    ],
+    "type": "novena",
+    "description": "Traditional nine-day novena seeking the intercession of Mary, Undoer of Knots, asking her to untie the knots of sin, suffering, and difficulty in our lives.",
+    "origin": "Traditional Catholic devotion",
+    "origin_date": "18th Century",
+    "usage": "Prayed over nine consecutive days while entrusting a particular intention to the Blessed Virgin Mary.",
+    "created_date": "2026-07-23",
+    "last_modified": "2026-07-23"
+  },
+  "display": {
+    "default_language": "en",
+    "available_languages": ["en"],
+    "liturgical_color": "blue",
+    "featured": false,
+    "show_intention_prompt": true
+  },
+  "assets": {
+    "cover_image": null,
+    "icon": "mary-undoer-of-knots",
+    "audio": {},
+    "video": null
+  },
+  "references": {
+    "scripture": [],
+    "catechism": [],
+    "saints": ["Blessed Virgin Mary"],
+    "related_devotions": [],
+    "external_sources": []
+  },
+  "structure": {
+    "type": "common_with_reflection",
+    "days": 9
+  },
+  "translations": {
+    "en": {
+      "title": "Mary Undoer of Knots Novena",
+      "common": {
+        "opening": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+
+        "introduction": "Mary, Undoer of Knots, I come before you with confidence, entrusting to your loving care every knot of sin, fear, anxiety, suffering and difficulty in my life. I ask your powerful intercession before your Son, Jesus Christ.",
+
+        "intention_prompt": "(Mention your request here)",
+
+        "body_before_reflection": "Mary, Undoer of Knots, pray for me.\n\nVirgin Mary, Mother of fair love, Mother who never refuses to come to the aid of a child in need, Mother whose hands never cease to serve your beloved children because they are moved by the divine love and immense mercy that exist in your heart, cast your compassionate eyes upon me and see the snarl of knots that exists in my life. You know very well how desperate I am, my pain, and how I am bound by these knots. Mary, Mother to whom God entrusted the undoing of the knots in the lives of his children, I entrust into your hands the ribbon of my life. No one, not even the  evil one himself, can take it away from your precious care. In your hands there is no knot that cannot be undone. Powerful Mother, by your grace and intercessory power with Your Son and My Liberator, Jesus, take into your hands today this knot.\n\n(Mention your request here)\n\nI beg you to undo it for the glory of God, once for all.\n\nO my Lady, you are the consolation that God gives me, the fortification of my feeble strength, the enrichment of my destitution, and, through the power of Christ, the freedom from my chains.\n\nHear my plea.\n\nKeep me, guide me, protect me, O safe refuge!",
+
+        "body_after_reflection": "Mary, Undoer of Knots, pray for me.\n\nAmen.",
+
+        "closing": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+
+      "days": [
+        {
+          "day": 1,
+          "theme": "Trust",
+          "reflection": "Dearest Holy Mother, Most Holy Mary, you undo the knots that suffocate your children. Extend your merciful hands to me. I entrust to You today this knot (Mention your request here) and all the negative consequences that it provokes in my life."
+        },
+        {
+          "day": 2,
+          "theme": "Repentance",
+          "reflection": "Mary, Beloved Mother, channel of all grace, I return to You today my heart, recognizing that I am a sinner in need of your help. I entrust into Your hands this knot (Mention your request here) which keeps me from reflecting the glory of God."
+        },
+        {
+          "day": 3,
+          "theme": "Forgiveness",
+          "reflection": "Meditating Mother, Queen of Heaven, in whose hands the treasures of the King are found, turn your merciful eyes upon me today. I entrust into your holy hands this knot in my life (Mention your request here) and all the rancor and resentment it has caused in me."
+        },
+        {
+          "day": 4,
+          "theme": "Peace",
+          "reflection": "Dearest Holy Mother, you are generous with all who seek you, have mercy on me. I entrust into your hands this knot which robs the peace of my heart, paralyzes my soul and keeps me from going to my Lord and serving Him with my life."
+        },
+        {
+          "day": 5,
+          "theme": "Wisdom",
+          "reflection": "Mother, Undoer of Knots, generous and compassionate, I come to You today to once again entrust this knot (Mention your request here) in my life to you and to ask the divine wisdom to undo, under the light of the Holy Spirit, this snarl of problems."
+        },
+        {
+          "day": 6,
+          "theme": "Patience",
+          "reflection": "Queen of Mercy, I entrust to you this knot in my life (Mention your request here) and I ask you to give me a heart that is patient until you undo it."
+        },
+        {
+          "day": 7,
+          "theme": "Purity",
+          "reflection": "Mother Most Pure, I come to You today to beg you to undo this knot in my life (Mention your request here) and free me from the snares of evil."
+        },
+        {
+          "day": 8,
+          "theme": "Mercy",
+          "reflection": "Virgin Mother of God, overflowing with mercy, have mercy on your child and undo this knot (Mention your request here) in my life."
+        },
+        {
+          "day": 9,
+          "theme": "Thanksgiving",
+          "reflection": "Most Holy Mary, our Advocate, Undoer of Knots, I come today to thank you for undoing this knot in my life.\n\nYou know very well the suffering it has caused me. Thank you for coming, Mother, with your long fingers of mercy to dry the tears in my eyes; you receive me in your arms and make it possible for me to receive once again the divine grace. Mary, Undoer of Knots, dearest Mother, I thank you for undoing the knots in my life. Wrap me in your mantle of love, keep me under your protection, enlighten me with your peace! Amen."
+        }
+      ]
+    }
+  }
+}

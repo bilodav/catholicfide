@@ -113,6 +113,7 @@ function Novenas() {
   const [novenaList, setNovenaList] = useState(initArr);
   const [searchNovena, setSearchNovena] = useState("");
   const [currNovena, setCurrNovena] = useState(null);
+  const [completedNovenaTitle, setCompletedNovenaTitle] = useState(null);
 
   // Rehydrate from localStorage
   const [currPrayingNovena, setCurrPrayingNovena] = useState(() =>
@@ -197,6 +198,7 @@ function Novenas() {
 
   function handleStartNovena(selectedNovena, newNovena = false) {
     setIsStarted(true);
+    setCompletedNovenaTitle(null);
     if (newNovena) {
       setCurrPrayingNovena(selectedNovena);
       setDayCount(1);
@@ -206,7 +208,20 @@ function Novenas() {
 
   function handleCompletedNovena() {
     const today = new Date().toDateString();
+    const totalDays = currPrayingNovena.structure.days;
     const nextDay = dayCount + 1;
+
+    if (nextDay > totalDays) {
+      // Full novena completed — reset everything
+      setCompletedNovenaTitle(currPrayingNovena.metadata.title);
+      setCurrPrayingNovena(null);
+      setDayCount(0);
+      setLastCompletedDate(null);
+      setIsStarted(false);
+      clearSaved();
+      return;
+    }
+
     setDayCount(nextDay);
     setLastCompletedDate(today);
     setIsStarted(false);
@@ -250,9 +265,7 @@ function Novenas() {
         {currPrayingNovena ? (
           <>
             <h3>
-              <h3>
-                {currPrayingNovena.metadata.title} - Day: {dayCount}
-              </h3>
+              {currPrayingNovena.metadata.title} - Day: {dayCount}
             </h3>
             <PrayerContent
               prayer={currPrayingNovena}
@@ -290,7 +303,17 @@ function Novenas() {
       </div>
 
       <div className="active-novena">
-        {currPrayingNovena ? (
+        {completedNovenaTitle ? (
+          <>
+            <h3>You have completed the full novena: {completedNovenaTitle}!</h3>
+            <button
+              className="btn-accent"
+              onClick={() => setCompletedNovenaTitle(null)}
+            >
+              Dismiss
+            </button>
+          </>
+        ) : currPrayingNovena ? (
           <>
             <h3>You are currently doing {currPrayingNovena.metadata.title}</h3>
             <p>

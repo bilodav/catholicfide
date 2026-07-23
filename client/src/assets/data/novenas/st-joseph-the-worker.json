@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "id": "st-joseph-find-job-novena",
+    "title": "Novena to St. Joseph to Find a Job",
+    "primary_category": "novena",
+    "labels": [
+      "st-joseph",
+      "workers",
+      "employment",
+      "job",
+      "work",
+      "provider",
+      "novena"
+    ],
+    "type": "novena",
+    "description": "Traditional nine-day novena seeking the intercession of St. Joseph for employment, meaningful work, and holiness through labor.",
+    "origin": "Traditional Catholic devotion",
+    "origin_date": "~20th Century",
+    "usage": "Prayed over nine consecutive days while asking St. Joseph's intercession for employment and presenting personal intentions.",
+    "created_date": "2026-07-23",
+    "last_modified": "2026-07-23"
+  },
+
+  "display": {
+    "default_language": "en",
+    "available_languages": ["en"],
+    "liturgical_color": "white",
+    "featured": false,
+    "show_intention_prompt": true
+  },
+
+  "assets": {
+    "cover_image": null,
+    "icon": "st-joseph",
+    "audio": {},
+    "video": null
+  },
+
+  "references": {
+    "scripture": [],
+    "catechism": [],
+    "saints": ["St. Joseph"],
+    "related_devotions": [],
+    "external_sources": []
+  },
+
+  "structure": {
+    "type": "common_with_reflection",
+    "days": 9
+  },
+
+  "translations": {
+    "en": {
+      "title": "Novena to St. Joseph to Find a Job",
+
+      "common": {
+        "opening": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+
+        "introduction": "Dear Jesus, we thank You for giving us Your foster father, St. Joseph, as an example of a holy worker. Help us to imitate all of his virtues, particularly his humble spirit of diligence in work.",
+
+        "intention_prompt": "(Mention your intentions here)",
+
+        "body_before_reflection": "",
+
+        "body_after_reflection": "Pray that we may faithfully follow God's will in our lives. Help us through your prayers to grow in holiness and become devoted servants of God.\n\nAnd please pray for (Mention your intentions here).\n\nSt. Joseph, patron saint of workers, pray for us!",
+
+        "closing": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+
+      "days": [
+        {
+          "day": 1,
+          "theme": "Holy Work",
+          "reflection": "St. Joseph, you worked as a carpenter for many years of your life. You know the importance of a good job through which we can support ourselves and our families in our world today. Many people suffer a lot as the result of losing their jobs, and they are in great need of assistance as they search for a new job.\n\nPlease bring our prayers for employment before God, and pray today especially for those who have been laid off from their jobs!"
+        },
+        {
+          "day": 2,
+          "theme": "Justice",
+          "reflection": "St. Joseph, Scripture tells us that you were a just man. In our fallen world, many people today are not just like you were. And many people suffer as the result of others' corruption or lack of care, in their work lives and as they try to support themselves.\n\nPlease bring our prayers for employment before God, and pray today especially for those who have been unjustly fired from their jobs!"
+        },
+        {
+          "day": 3,
+          "theme": "Provision",
+          "reflection": "St. Joseph, you are an example of holiness and of a spirit of diligence in work. Many people in our world today wish to work as you did to provide for themselves and their families. But some jobs do not provide enough money for workers to adequately support themselves and their families.\n\nPlease bring our prayers for employment before God, and pray today especially for those whose current jobs do not pay them enough to support themselves and their families!"
+        },
+        {
+          "day": 4,
+          "theme": "Compassion",
+          "reflection": "St. Joseph, we know little about the events of your life or your death. But as a holy and just man, you must have had great compassion on all who suffer pain. We ask you to look with compassion on all who suffer physical pain from the demands of their jobs.\n\nPlease bring our prayers for employment before God, and pray today especially for those whose current jobs cause them physical pain!"
+        },
+        {
+          "day": 5,
+          "theme": "Perseverance",
+          "reflection": "St. Joseph, you are the patron saint of workers. Your patronage is often invoked by those seeking better employment or a job that they are suited for. We ask you to help through your intercession all whose current jobs lay undue burdens upon them.\n\nPlease bring our prayers for employment before God, and pray today especially for those who are suffering mental or emotional anguish in their current jobs!"
+        },
+        {
+          "day": 6,
+          "theme": "Hope",
+          "reflection": "St. Joseph, you devoted your life to caring for Mary and Jesus. You faced many difficulties in your life with them, but you did not allow discouragement to overcome you. Many of us face the temptation to give in to discouragement in our lives, especially during such difficult times as the search for employment.\n\nPlease bring our prayers for employment before God, and pray today especially for those who are struggling with discouragement as they search for a job!\n\nPray that we may grow in all the virtues we need to live a holy life. Help us through your prayers to become more devoted servants of God."
+        },
+        {
+          "day": 7,
+          "theme": "Faithful Labor",
+          "reflection": "St. Joseph, you worked hard as a carpenter for many years. You supported yourself and your family through this work. Many in our world today face difficulties in their work or in their search for a job that can support them.\n\nPlease bring our prayers for employment before God, and pray today especially that all employers may be just and compassionate towards those who work for them!\n\nPray that we may always strive for holiness and virtue in our lives. Help us through your prayers to grow closer to God each day, even in the midst of difficulties."
+        },
+        {
+          "day": 8,
+          "theme": "Perseverance",
+          "reflection": "St. Joseph, you are invoked as the patron saint of workers. Through your intercession, you have assisted many people in finding work. We ask you to look with compassion on all who are struggling to find a new job, and we ask you to do all you can to assist them.\n\nPlease bring our prayers for employment before God, and pray today especially that those searching for a job may have the grace to persevere in their difficult task!\n\nPray that we may persevere in holiness throughout all the trials we face in life. Help us through your prayers to grow closer to your foster-Son."
+        },
+        {
+          "day": 9,
+          "theme": "God's Will",
+          "reflection": "St. Joseph, you were a holy man who did all you could to serve God as He asked of you. Even when God asked you to do difficult and unexpected things, you responded generously and strove to do God's will.\n\nPlease bring our prayers for employment before God, and pray today especially that all who are searching for a job may grow in openness to whatever God is asking of them in their lives!\n\nPray that we may always be eager to serve God as He calls us to. Help us through your prayers to grow in docility and submission to God's will in all circumstances in our lives."
+        }
+      ]
+    }
+  }
+}
