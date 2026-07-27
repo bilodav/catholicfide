@@ -61,9 +61,12 @@ function PrayerContent({ prayer, language = "en", day }) {
         {dayData && (
           <div className="prayer-daily-reflection">
             <h4 className="reflection-theme">
-              Day {dayData.day}: {dayData.theme}
+              Day {dayData.day}
+              {dayData.theme ? `: ${dayData.theme}` : ""}
             </h4>
-            <p className="reflection-text">{dayData.reflection}</p>
+            {dayData.reflection && (
+              <p className="reflection-text">{dayData.reflection}</p>
+            )}
           </div>
         )}
         {common.body_after_reflection && (
@@ -74,7 +77,38 @@ function PrayerContent({ prayer, language = "en", day }) {
     );
   }
 
-  // ── 3. Block-based content array (existing format) ───────────────────
+  // ── 3. Novena structure: same_prayer template (e.g. Infant of Prague) ─
+  if (translation.template) {
+    const { template } = translation;
+
+    return (
+      <div className="prayer-content novena-content">
+        {template.opening && (
+          <p className="prayer-opening">{template.opening}</p>
+        )}
+        {template.introduction && (
+          <p className="prayer-introduction">{template.introduction}</p>
+        )}
+        {template.intention_prompt && (
+          <em className="prayer-intention">{template.intention_prompt}</em>
+        )}
+        {template.daily_prayer && (
+          <div className="prayer-daily-reflection">
+            {template.daily_prayer.split("\n\n").map((para, i) => (
+              <p key={i} className="prayer-body">
+                {para}
+              </p>
+            ))}
+          </div>
+        )}
+        {template.closing && (
+          <p className="prayer-closing">{template.closing}</p>
+        )}
+      </div>
+    );
+  }
+
+  // ── 4. Block-based content array (existing format) ───────────────────
   if (translation.content) {
     return (
       <div className="prayer-content">
@@ -85,7 +119,7 @@ function PrayerContent({ prayer, language = "en", day }) {
             case "instructions":
               return <em key={i}>{block.value}</em>;
             case "prayer-reference": {
-              const referenced = PRAYERS_BY_ID[block.value];
+              const referenced = NOVENAS_BY_ID[block.value];
               if (!referenced)
                 return <p key={i}>[ {block.value} not found ]</p>;
               return (
@@ -106,6 +140,7 @@ function PrayerContent({ prayer, language = "en", day }) {
 
   return <p>No content available.</p>;
 }
+
 function Novenas() {
   const saved = loadSaved(); // read oncce on module load
   const [novenaCategory, setNovenaCategory] = useState("all");

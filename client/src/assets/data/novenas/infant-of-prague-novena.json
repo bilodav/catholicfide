@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+
+  "metadata": {
+    "id": "infant-of-prague-novena",
+    "title": "Infant of Prague Novena",
+    "primary_category": "novena",
+    "labels": [
+      "infant-of-prague",
+      "divine-infant",
+      "infant-jesus",
+      "christ-child",
+      "trust",
+      "miracles",
+      "novena"
+    ],
+    "type": "novena",
+    "description": "Traditional nine-day novena to the Divine Infant Jesus of Prague seeking His mercy, blessings, and intercession.",
+    "origin": "Traditional Catholic devotion",
+    "origin_date": "~17th Century",
+    "usage": "Prayed for nine consecutive days while presenting a personal intention.",
+    "created_date": "2026-07-27",
+    "last_modified": "2026-07-27"
+  },
+
+  "display": {
+    "default_language": "en",
+    "available_languages": ["en"],
+    "liturgical_color": "white",
+    "featured": false,
+    "show_intention_prompt": true
+  },
+
+  "assets": {
+    "cover_image": null,
+    "icon": "infant-of-prague",
+    "audio": {},
+    "video": null
+  },
+
+  "references": {
+    "scripture": [],
+    "catechism": [],
+    "saints": ["Infant Jesus of Prague"],
+    "related_devotions": [],
+    "external_sources": []
+  },
+
+  "structure": {
+    "type": "same_prayer",
+    "days": 9,
+    "has_theme": false,
+    "has_reflection": false,
+    "has_intention": true
+  },
+
+  "translations": {
+    "en": {
+      "title": "Infant of Prague Novena",
+
+      "template": {
+        "opening": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+
+        "introduction": "O Divine Infant Jesus, I come before You with confidence, trusting in Your infinite mercy and love. Through the intercession of Mary, Your Most Holy Mother, I place before You all my needs and intentions.",
+
+        "intention_prompt": "(Mention your request here)",
+
+        "daily_prayer": "O Jesus, who has said, \"Ask and you shall receive, seek and you shall find, knock and it shall be opened to you,\" through the intercession of Mary, Your Most Holy Mother, I knock, I seek and I ask that my prayer may be granted.\n\n(Mention your request here)\n\nO Jesus, who has said, \"All that you ask of the Father in My Name, He will grant you,\" through the intercession of Mary, Your Most Holy Mother, I humbly and urgently ask Your Father in Your Name that my prayer be granted.\n\n(Mention your request here)\n\nO Jesus, who has said, \"Heaven and earth shall pass away, but My words shall not pass away,\" through the intercession of Mary, Your Most Holy Mother, I place my confidence in You that my prayer will be granted.\n\n(Mention your request here)\n\nDivine Infant Jesus, I know You love me and would never leave me. I thank You for Your close presence in my life.\n\nMiraculous Infant, I believe in Your promise of peace, blessings, and freedom from want. I place every need and care into Your hands.\n\nLord Jesus, may I always trust in Your generous mercy and love. I want to honor and praise You now and forever.\n\nInfant of Prague, have mercy on us.\n\nAmen.",
+
+        "closing": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+
+      "days": [
+        { "day": 1 },
+        { "day": 2 },
+        { "day": 3 },
+        { "day": 4 },
+        { "day": 5 },
+        { "day": 6 },
+        { "day": 7 },
+        { "day": 8 },
+        { "day": 9 }
+      ]
+    }
+  }
+}
