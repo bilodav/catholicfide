@@ -412,7 +412,7 @@ a {
 nav {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.9);
-  top: 1vh;
+  top: 0.5vh;
   width: 80%;
   left: 50%;
   transform: translateX(-50%);
@@ -426,7 +426,7 @@ nav {
   transition: transform 600ms ease-in-out;
 }
 
-@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+@supports (backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px)) {
   nav {
     background-color: rgba(
       255,
@@ -434,8 +434,8 @@ nav {
       255,
       0.45
     ); /* lighter, since blur will help */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
   }
 }
 
@@ -690,7 +690,7 @@ nav a.active {
 
 .digital-altar-selection-row {
   position: relative;
-  top: 4.5vh;
+  top: 5vh;
   width: 100%;
   height: 8vh;
   display: flex;
@@ -1254,18 +1254,32 @@ nav a.active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3% 5%;
-  container-type: inline-size;
+  padding: 5px 20px;
 }
 
-.family-prayer h3 {
-  font-size: 18cqi;
+/* Small devices (landscape phones, 376px and up) */
+@media (min-width: 176px) {
+  .family-prayer h3 {
+    font-size: 1.4rem;
+  }
+
+  .family-prayer p {
+    text-align: center;
+    font-size: 0.85rem;
+  }
 }
 
-.family-prayer p {
-  text-align: center;
-  margin-bottom: 1cqi;
-  font-size: 8cqi;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* body {background-color: rgb(71, 17, 195);} */
+  .family-prayer h3 {
+    font-size: 1.8rem;
+  }
+
+  .family-prayer p {
+    text-align: center;
+    font-size: 0.95rem;
+  }
 }
 
 /* ============================================================
