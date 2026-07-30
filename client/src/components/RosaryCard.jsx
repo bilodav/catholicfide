@@ -10,7 +10,9 @@ function RosaryCard(props) {
       {props.cardTitle && <h3>{props.cardTitle}</h3>}
       {props.mysteryGroup && <h3>{props.mysteryGroup}</h3>}
       <div className="rosary-card-body">
-        {props.image && <img src={props.image} alt="mystery" />}
+        {props.image && (
+          <img src={props.image} className={props.imgClass} alt="mystery" />
+        )}
         {props.verse && <h4 className={props.class}>{props.verse}</h4>}
         {props.scripture && (
           <p dangerouslySetInnerHTML={{ __html: props.scripture }} />

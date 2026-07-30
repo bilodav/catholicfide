@@ -133,6 +133,7 @@ function Rosary() {
           <RosaryCard
             cardTitle={rosaryTitle}
             image={rosaryPrayers[bead - 1].bead}
+            imgClass={"rosary-img"}
             verse={rosaryPrayers[bead - 1].title}
             onHandlePrev={handlePrevBead}
             onHandleNext={handleNextBead}
