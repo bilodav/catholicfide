@@ -8,7 +8,7 @@ function DefaultAltar() {
     position: "fixed",
     inset: 0, // shorthand for top:0, right:0, bottom:0, left:0
     width: "100%",
-    height: "100dvh",
+    height: "100vh",
     overflow: "hidden",
     backgroundImage: `url(${altar3})`,
     zIndex: "-1",
@@ -26,7 +26,7 @@ function DefaultAltar() {
     position: "absolute",
     top: "70%",
     left: "50%",
-    transform: "translate(-50%, -30%)",
+    transform: "translate(-50%, -40%)",
     width: "clamp(120px, 12vw, 150px)",
     aspectRatio: "3 / 4",
   };
