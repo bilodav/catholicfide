@@ -1640,6 +1640,18 @@ i {
   font-weight: 900;
 }
 
+/* Only applied while DefaultAltar is mounted */
+body.no-scroll {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* Height fix scoped to this page's container, not global */
+.default-altar-viewport {
+  height: 100vh; /* fallback */
+  height: 100dvh; /* wins in supporting browsers via cascade */
+}
+
 /* Small devices (landscape phones, 576px and up) */
 /* @media (min-width: 176px) { */
 /* body {background-color: green;} */

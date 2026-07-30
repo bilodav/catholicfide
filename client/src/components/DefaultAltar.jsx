@@ -1,25 +1,26 @@
+import { useEffect } from "react";
 import altar2 from "../assets/altar2.png";
 import altar3 from "../assets/altar3.png";
-
 import FamilyPrayer from "./FamilyPrayer";
 
 function DefaultAltar() {
+  useEffect(() => {
+    document.body.classList.add("no-scroll");
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, []);
+
   const containerStyle = {
     position: "fixed",
-    inset: 0, // shorthand for top:0, right:0, bottom:0, left:0
+    inset: 0,
     width: "100%",
-    height: "100vh",
     overflow: "hidden",
     backgroundImage: `url(${altar3})`,
     zIndex: "-1",
     backgroundSize: "cover",
     backgroundPosition: "center top",
     backgroundRepeat: "no-repeat",
-  };
-
-  const imgStyle = {
-    width: "100%",
-    display: "block",
   };
 
   const cardStyle = {
@@ -32,9 +33,8 @@ function DefaultAltar() {
   };
 
   return (
-    <div className="default-altar">
+    <div className="default-altar default-altar-viewport">
       <div style={containerStyle}>
-        {/* <img style={imgStyle} src={altar2} alt="Altar image" /> */}
         <FamilyPrayer style={cardStyle} />
       </div>
     </div>
