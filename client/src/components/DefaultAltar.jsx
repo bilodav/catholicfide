@@ -5,17 +5,16 @@ import FamilyPrayer from "./FamilyPrayer";
 
 function DefaultAltar() {
   const containerStyle = {
-    position: "relative",
+    position: "fixed",
+    inset: 0, // shorthand for top:0, right:0, bottom:0, left:0
     width: "100%",
-    height: "100vh",
+    height: "100dvh",
     overflow: "hidden",
-    margin: "-11vh auto",
     backgroundImage: `url(${altar3})`,
     zIndex: "-1",
     backgroundSize: "cover",
     backgroundPosition: "center top",
     backgroundRepeat: "no-repeat",
-    overflow: "hidden",
   };
 
   const imgStyle = {
@@ -27,7 +26,7 @@ function DefaultAltar() {
     position: "absolute",
     top: "70%",
     left: "50%",
-    transform: "translate(-50%, -50%)",
+    transform: "translate(-50%, -30%)",
     width: "clamp(120px, 12vw, 150px)",
     aspectRatio: "3 / 4",
   };

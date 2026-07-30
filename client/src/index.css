@@ -411,7 +411,8 @@ a {
 
 nav {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.9);
+  /* Always start with a background opaque enough to stand alone */
+  background-color: rgba(255, 255, 255, 0.85);
   top: 0.5vh;
   width: 80%;
   left: 50%;
@@ -426,14 +427,11 @@ nav {
   transition: transform 600ms ease-in-out;
 }
 
+/* Where blur DOES render, we can afford to go more transparent
+   since the blur itself will still keep text readable */
 @supports (backdrop-filter: blur(20px)) or (-webkit-backdrop-filter: blur(20px)) {
   nav {
-    background-color: rgba(
-      255,
-      255,
-      255,
-      0.45
-    ); /* lighter, since blur will help */
+    background-color: rgba(255, 255, 255, 0.45);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
   }
@@ -690,14 +688,14 @@ nav a.active {
 
 .digital-altar-selection-row {
   position: relative;
-  top: 5vh;
+  top: 35px;
   width: 100%;
-  height: 8vh;
+  height: 7vh;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .digital-altar-selection-row select {
@@ -705,9 +703,9 @@ nav a.active {
   padding: 2px 10px;
   min-height: 30px;
 
-  height: 4vh;
+  height: 3.5vh;
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   border-radius: var(--radius-md);
   cursor: pointer;
   margin: 0;
