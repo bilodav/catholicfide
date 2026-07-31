@@ -873,116 +873,132 @@ nav a.active {
 /* ============================================================
    PRAYER COMPONENT OF DIGITIAL ALTAR
    ============================================================ */
-.prayer-filters {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
+
+/* Small devices (landscape phones, 176px and up) */
+@media (min-width: 176px) {
+  /* body {background-color: green;} */
+  .prayer-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .prayer-filters select {
+    min-width: 300px;
+    padding: 2px 10px;
+    min-height: 30px;
+    height: 4vh;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+  }
+
+  .prayer-filters select:focus {
+    border: 2px solid var(--border-accent);
+    box-shadow: var(--shadow-accent);
+  }
+
+  .prayer-search {
+    min-width: 300px;
+    width: 84.5%;
+    padding: 2px 10px;
+    min-height: 20px;
+    height: 3.5vh;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    border-radius: var(--radius-md);
+    border: 2px solid var(--border-medium);
+    outline: none;
+    display: block;
+    margin: 8px auto;
+  }
+
+  .prayer-search:focus {
+    border: 2px solid var(--border-accent);
+    box-shadow: var(--shadow-accent);
+  }
+
+  .select-card p {
+    font-size: 0.85rem;
+  }
+
+  .prayer-display {
+    min-height: 100%;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0;
+    margin: 15px auto 10px;
+  }
+
+  .prayer-card {
+    min-width: 300px;
+    width: 25%;
+    height: 80vh;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .prayer-list {
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-lg);
+    height: 50vh;
+    flex: 1;
+  }
+
+  .prayer-list li {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: var(--radius-md);
+  }
+
+  .prayer-list li:hover {
+    background: var(--color-gray-400);
+    color: var(--color-light);
+  }
+
+  .prayer-list-active-prayer {
+    background: var(--bg-accent);
+    color: var(--color-light);
+  }
+
+  .prayercard-nodesc {
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-lg);
+    flex: 1;
+  }
+
+  .prayercard-nodesc h4 {
+    font-size: 1.35rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .prayercard-nodesc h4:first-of-type {
+    margin-top: 0px;
+  }
 }
 
-.prayer-filters select {
-  min-width: 300px;
-  padding: 2px 10px;
-  min-height: 30px;
-  height: 4vh;
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  border-radius: var(--radius-md);
-  cursor: pointer;
-}
-
-.prayer-filters select:focus {
-  border: 2px solid var(--border-accent);
-  box-shadow: var(--shadow-accent);
-}
-
-.prayer-search {
-  min-width: 300px;
-  width: 84.5%;
-  padding: 2px 10px;
-  min-height: 20px;
-  height: 3.5vh;
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  border-radius: var(--radius-md);
-  border: 2px solid var(--border-medium);
-  outline: none;
-  display: block;
-  margin: 8px auto;
-}
-
-.prayer-search:focus {
-  border: 2px solid var(--border-accent);
-  box-shadow: var(--shadow-accent);
-}
-
-.select-card p {
-  font-size: 0.85rem;
-}
-
-.prayer-display {
-  min-height: 100%;
-  width: 90%;
-  display: flex;
-  gap: 20px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  overflow: hidden;
-  padding: 0;
-  margin: 15px auto 10px;
-}
-
-.prayer-card {
-  min-width: 300px;
-  width: 25%;
-  height: 80vh;
-  padding: 20px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.prayer-list {
-  border: 1px solid var(--border-dark);
-  border-radius: var(--radius-lg);
-}
-
-.prayer-list li {
-  padding: 10px;
-  width: 100%;
-  cursor: pointer;
-  border-radius: var(--radius-md);
-}
-
-.prayer-list li:hover {
-  background: var(--color-gray-400);
-  color: var(--color-light);
-}
-
-.prayer-list-active-prayer {
-  background: var(--bg-accent);
-  color: var(--color-light);
-}
-
-.prayercard-nodesc {
-  border: 1px solid var(--border-dark);
-  border-radius: var(--radius-lg);
-  flex: 1;
-}
-
-.prayercard-nodesc h4 {
-  font-size: 1.35rem;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.prayercard-nodesc h4:first-of-type {
-  margin-top: 0px;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 796px) {
+  /* body {background-color: rgb(71, 17, 195);} */
+  .prayer-list {
+    height: 80vh;
+    flex: 0;
+  }
 }
 
 /* ============================================================
