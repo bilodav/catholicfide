@@ -29,7 +29,7 @@ function Rosary() {
   const mysterySet = mysteries.weeklySchedule.default[fullDayName];
 
   function handleNextBead() {
-    setBead((b) => (b < 84 ? b + 1 : b));
+    setBead((b) => (b < 85 ? b + 1 : b));
   }
 
   function handlePrevBead() {
@@ -65,7 +65,7 @@ function Rosary() {
     rosaryTitle = "5th Decade";
     mysteryNum = 4;
     mysteryImage = mysteries.mysterySets[mysterySet].mysteries[4].image;
-  } else if (bead > 77 && bead <= 150) {
+  } else if (bead > 77 && bead <= 151) {
     rosaryTitle = "Closing Prayers";
     mysteryImage = enderImage;
   }
