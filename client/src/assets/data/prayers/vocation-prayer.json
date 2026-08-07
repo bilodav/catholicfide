@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "vocation-prayer",
+    "title": "Vocation Prayer",
+    "primary_category": "vocations",
+    "labels": ["vocations", "discernment", "guidance", "daily", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "A prayer asking God for the grace to discern and faithfully follow one's vocation in life.",
+    "origin": "Modern Catholic prayer",
+    "origin_date": "~1900",
+    "usage": "Recited during times of vocational discernment or as a daily prayer for guidance in following God's will.",
+    "feast_days": [],
+    "devotions": ["vocations", "discernment"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Domine, fac ut clare cognoscam opus ad quod me in vita vocas. Da mihi omnem gratiam necessariam, ut vocationi tuae respondeam fortiter, cum amore et perpetua fidelitate voluntati tuae. Amen.",
+      "notes": "Modern Latin translation."
+    },
+    "en": {
+      "language": "English",
+      "text": "Lord, let me know clearly\nthe work which you are calling me to do in life.\nAnd grant me every grace I need to answer your call\nwith courage and love and lasting dedication to your will.\nAmen.",
+      "notes": "Common English vocation prayer."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Señor, haz que conozca claramente la misión a la que me llamas en esta vida. Concédeme todas las gracias que necesito para responder a tu llamado con valentía, amor y una entrega constante a tu voluntad. Amén.",
+      "notes": "Modern Spanish translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Seigneur, fais-moi connaître clairement l'œuvre à laquelle tu m'appelles dans cette vie. Accorde-moi toutes les grâces dont j'ai besoin pour répondre à ton appel avec courage, amour et une fidélité durable à ta volonté. Amen.",
+      "notes": "Modern French translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "Herr, lass mich klar erkennen, zu welchem Werk du mich in meinem Leben berufst. Schenke mir alle Gnaden, die ich brauche, um deinem Ruf mit Mut, Liebe und bleibender Treue zu deinem Willen zu folgen. Amen.",
+      "notes": "Modern German translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Signore, fammi conoscere con chiarezza l'opera alla quale mi chiami nella vita. Concedimi ogni grazia di cui ho bisogno per rispondere alla tua chiamata con coraggio, amore e costante fedeltà alla tua volontà. Amen.",
+      "notes": "Modern Italian translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Senhor, fazei que eu conheça claramente a missão para a qual me chamais nesta vida. Concedei-me todas as graças de que necessito para responder ao vosso chamado com coragem, amor e dedicação constante à vossa vontade. Amém.",
+      "notes": "Modern Portuguese translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Panie, pozwól mi jasno poznać dzieło, do którego mnie powołujesz w życiu. Udziel mi wszelkich łask potrzebnych, abym odpowiedział na Twoje wezwanie z odwagą, miłością i nieustanną wiernością Twojej woli. Amen.",
+      "notes": "Modern Polish translation."
+    }
+  }
+}

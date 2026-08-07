@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "id": "divine-praises",
+    "title": "Divine Praises",
+    "primary_category": "devotional",
+    "labels": [
+      "devotional",
+      "benediction",
+      "eucharistic-adoration",
+      "reparation",
+      "common"
+    ],
+    "importance": "common",
+    "type": "devotional",
+    "description": "The Divine Praises, a prayer of blessing and reparation traditionally recited after Benediction of the Blessed Sacrament.",
+    "origin": "Composed by Fr. Luigi Felici and later expanded by Pope Pius VII and subsequent popes",
+    "origin_date": "1797",
+    "usage": "Recited after Benediction of the Blessed Sacrament, during Eucharistic Adoration, or privately as an act of praise and reparation.",
+    "feast_days": [],
+    "devotions": ["eucharistic-adoration", "benediction", "sacred-heart"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Benedictus Deus.\nBenedictum Nomen sanctum eius.\nBenedictus Iesus Christus, verus Deus et verus Homo.\nBenedictum Nomen Iesu.\nBenedictum Cor eius Sacratissimum.\nBenedictus Sanguis eius Pretiosissimus.\nBenedictus Iesus in sanctissimo Altaris Sacramento.\nBenedictus Spiritus Sanctus Paraclitus.\nBenedicta excelsa Dei Genetrix Maria sanctissima.\nBenedicta sancta et Immaculata eius Conceptio.\nBenedicta eius gloriosa Assumptio.\nBenedictum Nomen Mariae, Virginis et Matris.\nBenedictus Sanctus Ioseph, eius castissimus Sponsus.\nBenedictus Deus in Angelis suis et in Sanctis suis.",
+      "notes": "Traditional Latin text used after Benediction."
+    },
+    "en": {
+      "language": "English",
+      "text": "Blessed be God.\nBlessed be his holy Name.\nBlessed be Jesus Christ, true God and true Man.\nBlessed be the name of Jesus.\nBlessed be his most Sacred Heart.\nBlessed be his most Precious Blood.\nBlessed be Jesus in the most holy Sacrament of the altar.\nBlessed be the Holy Spirit, the Paraclete.\nBlessed be the great Mother of God, Mary most holy.\nBlessed be her holy and Immaculate Conception.\nBlessed be her glorious Assumption.\nBlessed be the name of Mary, Virgin and Mother.\nBlessed be Saint Joseph, her most chaste spouse.\nBlessed be God in his angels and in his saints.",
+      "notes": "Common English version used after Benediction of the Blessed Sacrament."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Bendito sea Dios.\nBendito sea su santo Nombre.\nBendito sea Jesucristo, verdadero Dios y verdadero Hombre.\nBendito sea el Nombre de Jesús.\nBendito sea su Sacratísimo Corazón.\nBendita sea su Preciosísima Sangre.\nBendito sea Jesús en el Santísimo Sacramento del altar.\nBendito sea el Espíritu Santo Paráclito.\nBendita sea la excelsa Madre de Dios, María Santísima.\nBendita sea su santa e Inmaculada Concepción.\nBendita sea su gloriosa Asunción.\nBendito sea el nombre de María, Virgen y Madre.\nBendito sea San José, su castísimo esposo.\nBendito sea Dios en sus ángeles y en sus santos.",
+      "notes": "Traditional Spanish translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Béni soit Dieu.\nBéni soit son saint Nom.\nBéni soit Jésus-Christ, vrai Dieu et vrai Homme.\nBéni soit le Nom de Jésus.\nBéni soit son Très Sacré-Cœur.\nBéni soit son Très Précieux Sang.\nBéni soit Jésus au Très Saint Sacrement de l'autel.\nBéni soit le Saint-Esprit Consolateur.\nBénie soit la très auguste Mère de Dieu, la très sainte Vierge Marie.\nBénie soit sa sainte et Immaculée Conception.\nBénie soit sa glorieuse Assomption.\nBéni soit le nom de Marie, Vierge et Mère.\nBéni soit saint Joseph, son très chaste époux.\nBéni soit Dieu dans ses anges et dans ses saints.",
+      "notes": "Traditional French translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "Gepriesen sei Gott.\nGepriesen sei sein heiliger Name.\nGepriesen sei Jesus Christus, wahrer Gott und wahrer Mensch.\nGepriesen sei der Name Jesu.\nGepriesen sei sein heiligstes Herz.\nGepriesen sei sein kostbarstes Blut.\nGepriesen sei Jesus im allerheiligsten Sakrament des Altares.\nGepriesen sei der Heilige Geist, der Tröster.\nGepriesen sei die erhabene Gottesmutter Maria.\nGepriesen sei ihre heilige und unbefleckte Empfängnis.\nGepriesen sei ihre glorreiche Aufnahme in den Himmel.\nGepriesen sei der Name Mariens, der Jungfrau und Mutter.\nGepriesen sei der heilige Josef, ihr keuschester Bräutigam.\nGepriesen sei Gott in seinen Engeln und in seinen Heiligen.",
+      "notes": "Traditional German translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Sia benedetto Dio.\nSia benedetto il suo santo Nome.\nSia benedetto Gesù Cristo, vero Dio e vero Uomo.\nSia benedetto il Nome di Gesù.\nSia benedetto il suo Sacratissimo Cuore.\nSia benedetto il suo Preziosissimo Sangue.\nSia benedetto Gesù nel Santissimo Sacramento dell'altare.\nSia benedetto lo Spirito Santo Paraclito.\nSia benedetta la gran Madre di Dio, Maria Santissima.\nSia benedetta la sua santa e Immacolata Concezione.\nSia benedetta la sua gloriosa Assunzione.\nSia benedetto il nome di Maria, Vergine e Madre.\nSia benedetto San Giuseppe, suo castissimo sposo.\nSia benedetto Dio nei suoi angeli e nei suoi santi.",
+      "notes": "Traditional Italian translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Bendito seja Deus.\nBendito seja o seu santo Nome.\nBendito seja Jesus Cristo, verdadeiro Deus e verdadeiro Homem.\nBendito seja o Nome de Jesus.\nBendito seja o seu Sacratíssimo Coração.\nBendito seja o seu Preciosíssimo Sangue.\nBendito seja Jesus no Santíssimo Sacramento do altar.\nBendito seja o Espírito Santo Paráclito.\nBendita seja a excelsa Mãe de Deus, Maria Santíssima.\nBendita seja a sua santa e Imaculada Conceição.\nBendita seja a sua gloriosa Assunção.\nBendito seja o nome de Maria, Virgem e Mãe.\nBendito seja São José, seu castíssimo esposo.\nBendito seja Deus nos seus anjos e nos seus santos.",
+      "notes": "Traditional Portuguese translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Niech będzie pochwalony Bóg.\nNiech będzie pochwalone Jego święte Imię.\nNiech będzie pochwalony Jezus Chrystus, prawdziwy Bóg i prawdziwy Człowiek.\nNiech będzie pochwalone Imię Jezus.\nNiech będzie pochwalone Jego Najświętsze Serce.\nNiech będzie pochwalona Jego Najdroższa Krew.\nNiech będzie pochwalony Jezus w Najświętszym Sakramencie Ołtarza.\nNiech będzie pochwalony Duch Święty, Pocieszyciel.\nNiech będzie pochwalona Najświętsza Boża Rodzicielka, Maryja.\nNiech będzie pochwalone Jej święte i Niepokalane Poczęcie.\nNiech będzie pochwalone Jej chwalebne Wniebowzięcie.\nNiech będzie pochwalone imię Maryi, Dziewicy i Matki.\nNiech będzie pochwalony święty Józef, Jej przeczysty Oblubieniec.\nNiech będzie pochwalony Bóg w swoich aniołach i swoich świętych.",
+      "notes": "Traditional Polish translation."
+    }
+  }
+}

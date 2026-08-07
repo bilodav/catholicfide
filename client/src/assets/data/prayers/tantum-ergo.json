@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "tantum-ergo",
+    "title": "Tantum Ergo",
+    "primary_category": "eucharist",
+    "labels": ["eucharist", "adoration", "benediction", "hymn", "common"],
+    "importance": "essential",
+    "type": "liturgical_hymn",
+    "description": "The 'Tantum Ergo Sacramentum,' the final two verses of the Eucharistic hymn Pange Lingua by St. Thomas Aquinas, traditionally sung during Benediction of the Blessed Sacrament.",
+    "origin": "St. Thomas Aquinas",
+    "origin_date": "1264",
+    "usage": "Sung or recited during Benediction of the Blessed Sacrament, Eucharistic Adoration, Corpus Christi, and other Eucharistic celebrations.",
+    "feast_days": ["corpus-christi"],
+    "devotions": ["eucharistic-adoration", "benediction", "holy-eucharist"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Tantum ergo Sacramentum\nveneremur cernui,\net antiquum documentum\nnovo cedat ritui;\npraestet fides supplementum\nsensuum defectui.\n\nGenitori Genitoque\nlaus et iubilatio,\nsalus, honor, virtus quoque\nsit et benedictio;\nprocedenti ab utroque\ncompar sit laudatio. Amen.\n\n℣. Panem de caelo praestitisti eis.\n\n℟. Omne delectamentum in se habentem.\n\nOremus.\n\nDeus, qui nobis sub Sacramento mirabili Passionis tuae memoriam reliquisti: tribue, quaesumus, ita nos Corporis et Sanguinis tui sacra mysteria venerari, ut redemptionis tuae fructum in nobis iugiter sentiamus. Qui vivis et regnas in saecula saeculorum. Amen.",
+      "notes": "Official Latin text from the Roman Ritual."
+    },
+    "en": {
+      "language": "English",
+      "text": "Down in adoration falling,\nLo! the sacred Host we hail;\nLo! o'er ancient forms departing,\nNewer rites of grace prevail;\nFaith for all defects supplying,\nWhere the feeble senses fail.\n\nTo the everlasting Father,\nAnd the Son who reigns on high,\nWith the Holy Spirit proceeding\nForth from each eternally,\nBe salvation, honor, blessing,\nMight and endless majesty. Amen.\n\n℣. You have given them bread from heaven,\n\n℟. Having all delight within it.\n\nLet us pray.\n\nO God, who in this wonderful Sacrament\nleft us a memorial of your Passion:\ngrant, we implore you,\nthat we may so venerate\nthe sacred mysteries of your Body and Blood,\nas always to be conscious of the fruit of your Redemption.\nYou who live and reign forever and ever. Amen.",
+      "notes": "Traditional English translation commonly used for Benediction."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Adoremos reverentes\neste augusto Sacramento;\ncedan los antiguos ritos\nal nuevo Testamento.\nSupla la fe por los sentidos\ncuando falte el entendimiento.\n\nAl eterno Padre,\ny al Hijo soberano,\ny al Espíritu que procede\nde ambos por igual,\ndemos gloria, honor y alabanza,\npoder y bendición eternal. Amén.\n\n℣. Les diste pan del cielo.\n\n℟. Que contiene en sí todo deleite.\n\nOremos.\n\nOh Dios, que en este admirable Sacramento nos dejaste el memorial de tu Pasión; concédenos venerar de tal modo los sagrados misterios de tu Cuerpo y de tu Sangre, que experimentemos constantemente el fruto de tu Redención. Tú que vives y reinas por los siglos de los siglos. Amén.",
+      "notes": "Spanish liturgical translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Prosternés, adorons\nce grand Sacrement.\nQue les anciens rites\nfassent place au Nouveau.\nQue la foi supplée\nà la faiblesse de nos sens.\n\nAu Père éternel,\net au Fils unique,\nainsi qu'à l'Esprit Saint\nqui procède de l'un et de l'autre,\nsoient louange, salut,\nhonneur, puissance et bénédiction. Amen.\n\n℣. Tu leur as donné le pain venu du ciel.\n\n℟. Qui renferme toute douceur.\n\nPrions.\n\nSeigneur notre Dieu, dans cet admirable Sacrement tu nous as laissé le mémorial de ta Passion. Donne-nous de vénérer d'un si grand amour les mystères de ton Corps et de ton Sang que nous recueillions sans cesse le fruit de ta Rédemption. Toi qui vis et règnes pour les siècles des siècles. Amen.",
+      "notes": "French liturgical translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "Kommt, lasst uns tief verehren\ndieses große Sakrament.\nAlte Zeichen weichen nun\ndem neuen Gnadenbund.\nDer Glaube helfe dort,\nwo die Sinne versagen.\n\nDem ewigen Vater,\ndem Sohn\nund dem Heiligen Geist,\nder von beiden ausgeht,\nsei Lob, Preis,\nEhre und Herrlichkeit in Ewigkeit. Amen.\n\n℣. Brot vom Himmel hast du ihnen gegeben.\n\n℟. Das alle Freude in sich birgt.\n\nLasset uns beten.\n\nHerr Jesus Christus, im wunderbaren Sakrament hast du uns das Gedächtnis deines Leidens hinterlassen. Gib, dass wir die heiligen Geheimnisse deines Leibes und Blutes so verehren, dass wir die Frucht deiner Erlösung allezeit in uns erfahren. Der du lebst und herrschst in Ewigkeit. Amen.",
+      "notes": "German liturgical translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Adoriamo il Sacramento\nche Dio Padre ci donò.\nNuovo patto, nuovo rito\nnella fede si compì.\nAl mistero è fondamento\nla parola di Gesù.\n\nGloria al Padre onnipotente,\ngloria al Figlio Redentor,\nlode grande, sommo onore\nall'eterna Carità.\nGloria immensa, eterno amore\nalla Santa Trinità. Amen.\n\n℣. Hai dato loro il pane disceso dal cielo.\n\n℟. Che porta in sé ogni dolcezza.\n\nPreghiamo.\n\nO Dio, che in questo mirabile Sacramento ci hai lasciato il memoriale della tua Passione, concedi a noi di venerare con così grande amore i santi misteri del tuo Corpo e del tuo Sangue, da sentire sempre in noi i frutti della tua Redenzione. Tu che vivi e regni nei secoli dei secoli. Amen.",
+      "notes": "Official Italian liturgical translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Tão sublime Sacramento\nadoremos neste altar,\npois o Antigo Testamento\ndeu ao Novo o seu lugar.\nVenha a fé por suplemento\nos sentidos completar.\n\nAo eterno Pai cantemos\ne a Jesus, o Salvador;\nao Espírito exaltemos,\nna Trindade eterno amor.\nAo Deus Uno e Trino demos\na alegria do louvor. Amém.\n\n℣. Vós lhes destes o pão do céu.\n\n℟. Que contém em si toda delícia.\n\nOremos.\n\nÓ Deus, que neste admirável Sacramento nos deixastes o memorial da vossa Paixão, concedei-nos venerar de tal modo os sagrados mistérios do vosso Corpo e Sangue, que experimentemos continuamente os frutos da vossa Redenção. Vós que viveis e reinais pelos séculos dos séculos. Amém.",
+      "notes": "Portuguese liturgical translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Przed tak wielkim Sakramentem\nupadajmy wszyscy wraz.\nNiech przed Nowym Testamentem\nstarych praw ustąpi czas.\nCo dla zmysłów niepojęte,\nniech dopełni wiara w nas.\n\nBogu Ojcu i Synowi\nhołd po wszystkie nieśmy dni.\nNiech podaje wiek wiekowi\nhymn triumfu, thanks i czci.\nA równemu Im Duchowi\nniechaj wieczna chwała brzmi. Amen.\n\n℣. Dałeś im chleb z nieba.\n\n℟. Wszelką rozkosz mający w sobie.\n\nMódlmy się.\n\nBoże, który w przedziwnym Sakramencie pozostawiłeś nam pamiątkę swojej Męki, spraw, prosimy, abyśmy z taką czcią otaczali święte tajemnice Twojego Ciała i Krwi, byśmy nieustannie doświadczali owoców Twojego Odkupienia. Który żyjesz i królujesz na wieki wieków. Amen.",
+      "notes": "Traditional Polish liturgical translation."
+    }
+  }
+}

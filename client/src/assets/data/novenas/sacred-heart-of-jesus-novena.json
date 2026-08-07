@@ -1,0 +1,104 @@
+{
+  "schema_version": "2.0",
+
+  "metadata": {
+    "id": "sacred-heart-of-jesus-novena",
+    "title": "Sacred Heart of Jesus Novena",
+    "primary_category": "novena",
+    "labels": [
+      "sacred-heart",
+      "jesus",
+      "sacred-heart-of-jesus",
+      "mercy",
+      "trust",
+      "love",
+      "novena"
+    ],
+    "type": "novena",
+    "description": "Traditional nine-day novena to the Sacred Heart of Jesus asking for His mercy, compassion, and the grace of our intentions.",
+    "origin": "Traditional Catholic devotion",
+    "origin_date": "~17th Century",
+    "usage": "Prayed for nine consecutive days while presenting a personal intention.",
+    "created_date": "2026-08-07",
+    "last_modified": "2026-08-07"
+  },
+
+  "display": {
+    "default_language": "en",
+    "available_languages": ["en"],
+    "liturgical_color": "red",
+    "featured": false,
+    "show_intention_prompt": true
+  },
+
+  "assets": {
+    "cover_image": null,
+    "icon": "sacred-heart",
+    "audio": {},
+    "video": null
+  },
+
+  "references": {
+    "scripture": ["Matthew 7:7", "John 16:23", "Matthew 24:35"],
+    "catechism": [],
+    "saints": ["St. Margaret Mary Alacoque"],
+    "related_devotions": [],
+    "external_sources": []
+  },
+
+  "structure": {
+    "type": "same_prayer",
+    "days": 9,
+    "has_theme": false,
+    "has_reflection": false,
+    "has_intention": true
+  },
+
+  "translations": {
+    "en": {
+      "title": "Sacred Heart of Jesus Novena",
+
+      "template": {
+        "opening": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+
+        "introduction": "O Sacred Heart of Jesus, overflowing with infinite love and mercy, I come before You with confidence. Trusting in Your promises and compassionate Heart, I place before You my needs and intentions.",
+
+        "intention_prompt": "(Mention your intention here)",
+
+        "daily_prayer": "O my Jesus, You have said: \"Truly I say to you, ask and you will receive, seek and you will find, knock and it will be opened to you.\"\n\nBehold I knock, I seek and ask for the grace of...\n\n(Mention your intention here)\n\nSacred Heart of Jesus, I place all my trust in You.\n\nO my Jesus, You have said: \"Truly I say to you, if you ask anything of the Father in My Name, He will give it to you.\"\n\nBehold, in Your Name, I ask the Father for the grace of...\n\n(Mention your intention here)\n\nSacred Heart of Jesus, I place all my trust in You.\n\nO my Jesus, You have said: \"Truly I say to you, heaven and earth will pass away, but My words will not pass away.\"\n\nEncouraged by Your infallible words I now ask for the grace of...\n\n(Mention your intention here)\n\nSacred Heart of Jesus, I place all my trust in You.\n\nO Sacred Heart of Jesus, for whom it is impossible not to have compassion on the afflicted, have pity on us miserable sinners and grant us the grace which we ask of You, through the Sorrowful and Immaculate Heart of Mary, Your tender Mother and ours.\n\nAmen.",
+
+        "closing": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+
+      "days": [
+        {
+          "day": 1
+        },
+        {
+          "day": 2
+        },
+        {
+          "day": 3
+        },
+        {
+          "day": 4
+        },
+        {
+          "day": 5
+        },
+        {
+          "day": 6
+        },
+        {
+          "day": 7
+        },
+        {
+          "day": 8
+        },
+        {
+          "day": 9
+        }
+      ]
+    }
+  }
+}

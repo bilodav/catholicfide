@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "morning-prayer",
+    "title": "Morning Prayer",
+    "primary_category": "daily",
+    "labels": ["daily", "morning", "offering", "family", "common"],
+    "importance": "common",
+    "type": "devotional",
+    "description": "A simple morning offering prayer dedicating the day's thoughts, words, and actions to God through Jesus Christ.",
+    "origin": "Traditional Catholic morning prayer",
+    "origin_date": "~1900",
+    "usage": "Recited at the beginning of the day as a morning offering to God.",
+    "feast_days": [],
+    "devotions": ["morning-offering", "daily-prayers"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus, Pater noster, tibi hodie offero omnia quae cogito, facio et dico. Offero ea una cum omnibus quae Iesus Christus, Filius tuus, in terris egit. Amen.",
+      "notes": "Modern Latin translation."
+    },
+    "en": {
+      "language": "English",
+      "text": "God, our Father, I offer you today\nall that I think and do and say.\nI offer it with what was done\non earth\nby Jesus Christ, your Son.\nAmen.",
+      "notes": "Common English morning offering prayer."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios, Padre nuestro, te ofrezco hoy todo lo que pienso, hago y digo. Lo uno a todo lo que realizó en la tierra Jesucristo, tu Hijo. Amén.",
+      "notes": "Modern Spanish translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Dieu notre Père, je t'offre aujourd'hui tout ce que je pense, fais et dis. Je te l'offre avec tout ce que Jésus-Christ, ton Fils, a accompli sur la terre. Amen.",
+      "notes": "Modern French translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "Gott, unser Vater, ich bringe dir heute alles dar, was ich denke, tue und sage. Ich vereine es mit allem, was Jesus Christus, dein Sohn, auf Erden getan hat. Amen.",
+      "notes": "Modern German translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Dio, Padre nostro, ti offro oggi tutto ciò che penso, faccio e dico. Lo unisco a tutto ciò che Gesù Cristo, tuo Figlio, ha compiuto sulla terra. Amen.",
+      "notes": "Modern Italian translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Deus, nosso Pai, eu vos ofereço hoje tudo o que penso, faço e digo. Uno esta oferta a tudo o que Jesus Cristo, vosso Filho, realizou na terra. Amém.",
+      "notes": "Modern Portuguese translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Boże, Ojcze nasz, ofiaruję Ci dziś wszystko, co myślę, czynię i mówię. Łączę tę ofiarę ze wszystkim, czego dokonał na ziemi Jezus Chrystus, Twój Syn. Amen.",
+      "notes": "Modern Polish translation."
+    }
+  }
+}

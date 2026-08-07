@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "afternoon-prayer",
+    "title": "Afternoon Prayer",
+    "primary_category": "daily",
+    "labels": [
+      "daily",
+      "afternoon",
+      "midday",
+      "examination",
+      "virtue",
+      "common"
+    ],
+    "importance": "common",
+    "type": "devotional",
+    "description": "A midday prayer of thanksgiving, repentance, renewal, and dedication to God, asking for the grace to practice virtue and faithfully fulfill His will.",
+    "origin": "Modern Catholic prayer",
+    "origin_date": "~2000",
+    "usage": "Recited during the afternoon or midday as a pause for prayer, self-examination, and renewed commitment to God's will.",
+    "feast_days": [],
+    "devotions": ["daily-prayers", "examination-of-conscience", "virtues"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Deus gloriosissime,\n\nDum in medio huius diei consisto, Te ad hoc momentum orationis invito.\n\nIgnosce mihi, quaeso, si hodie in caritate defeci. Propter superbiam, invidiam, gulam, avaritiam, luxuriam, acediam et iram veniam tuam imploro.\n\nIterum hunc diem Tibi consecro. Dona mihi humilitatem, benignitatem, temperantiam, caritatem, castitatem, diligentiam et patientiam.\n\nAdiuva me, Domine, ut vocem tuam suavem audiam et ductui tuo plena fide obsequar.\n\nVita mea tua est, Domine.\nVita mea tua est.\n\nNihil a Te retinere velim. Da ut officia mea hodie secundum perfectam voluntatem tuam adimpleam.\n\nAmo Te, Domine.\nAmo Te ex toto corde meo.\nAdiuva me ut Te et proximum meum tota virtute diligam.\n\nAmen.",
+      "notes": "Modern Latin translation."
+    },
+    "en": {
+      "language": "English",
+      "text": "Most glorious God,\n\nAs I pause in the midst of this day,\nI invite You into this moment of prayer.\n\nI ask Your pardon for any way that I have failed to love today.\nFor my pride, envy, gluttony, greed, lust, sloth and anger,\nI beg for Your forgiveness.\n\nOnce again, I dedicate this day to You.\nI pray for humility, kindness, temperance, charity, chastity, diligence and patience.\n\nHelp me, Lord, to listen to Your gentle voice\nAnd to trust in Your guidance and grace.\n\nMy life is Yours, dear Lord.\nMy life is Yours.\n\nMay I hold nothing back from You.\nMay I fulfill my duties this day in accord with Your perfect will.\n\nI love You, dear Lord.\nI love You with all my heart.\nHelp me to love You and others with all my might.\n\nAmen.",
+      "notes": "Common English afternoon prayer."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Dios gloriosísimo,\n\nMientras hago una pausa en medio de este día, te invito a este momento de oración.\n\nTe pido perdón por todas las veces que hoy he dejado de amar. Por mi orgullo, envidia, gula, avaricia, lujuria, pereza e ira, imploro tu misericordia.\n\nUna vez más te consagro este día. Concédeme humildad, bondad, templanza, caridad, castidad, diligencia y paciencia.\n\nAyúdame, Señor, a escuchar tu voz suave y a confiar en tu guía y en tu gracia.\n\nMi vida es tuya, Señor.\nMi vida es tuya.\n\nQue no reserve nada para mí. Que cumpla hoy mis deberes conforme a tu perfecta voluntad.\n\nTe amo, Señor.\nTe amo con todo mi corazón. Ayúdame a amarte a Ti y a los demás con todas mis fuerzas.\n\nAmén.",
+      "notes": "Modern Spanish translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Dieu très glorieux,\n\nAlors que je m'arrête au milieu de cette journée, je T'invite dans ce moment de prière.\n\nJe Te demande pardon pour toutes les fois où je n'ai pas su aimer aujourd'hui. Pour mon orgueil, mon envie, ma gourmandise, mon avarice, ma luxure, ma paresse et ma colère, je T'implore de me pardonner.\n\nJe Te consacre de nouveau cette journée. Donne-moi l'humilité, la bonté, la tempérance, la charité, la chasteté, la diligence et la patience.\n\nAide-moi, Seigneur, à écouter Ta douce voix et à faire confiance à Ta conduite et à Ta grâce.\n\nMa vie est à Toi, Seigneur.\nMa vie est à Toi.\n\nQue je ne Te refuse rien. Que j'accomplisse aujourd'hui mes devoirs selon Ta volonté parfaite.\n\nJe T'aime, Seigneur. Je T'aime de tout mon cœur. Aide-moi à T'aimer, ainsi que les autres, de toutes mes forces.\n\nAmen.",
+      "notes": "Modern French translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "Hochherrlicher Gott,\n\nWährend ich mitten am Tag innehalte, lade ich Dich in diesen Augenblick des Gebets ein.\n\nIch bitte Dich um Vergebung für alles, worin ich heute versäumt habe zu lieben. Für meinen Stolz, Neid, Völlerei, Geiz, Unkeuschheit, Trägheit und Zorn flehe ich um Dein Erbarmen.\n\nErneut weihe ich Dir diesen Tag. Schenke mir Demut, Güte, Mäßigung, Liebe, Keuschheit, Fleiß und Geduld.\n\nHilf mir, Herr, auf Deine sanfte Stimme zu hören und Deiner Führung und Gnade zu vertrauen.\n\nMein Leben gehört Dir, Herr.\nMein Leben gehört Dir.\n\nLass mich nichts vor Dir zurückhalten. Hilf mir, meine Aufgaben heute nach Deinem vollkommenen Willen zu erfüllen.\n\nIch liebe Dich, Herr. Ich liebe Dich von ganzem Herzen. Hilf mir, Dich und meine Mitmenschen mit ganzer Kraft zu lieben.\n\nAmen.",
+      "notes": "Modern German translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Dio gloriosissimo,\n\nMentre mi fermo nel mezzo di questa giornata, Ti invito in questo momento di preghiera.\n\nTi chiedo perdono per ogni volta in cui oggi non ho saputo amare. Per il mio orgoglio, l'invidia, la gola, l'avarizia, la lussuria, l'accidia e l'ira imploro il Tuo perdono.\n\nAncora una volta Ti consacro questa giornata. Donami umiltà, bontà, temperanza, carità, castità, diligenza e pazienza.\n\nAiutami, Signore, ad ascoltare la Tua voce gentile e a confidare nella Tua guida e nella Tua grazia.\n\nLa mia vita è Tua, Signore.\nLa mia vita è Tua.\n\nFa' che non Ti nasconda nulla. Concedimi di compiere oggi i miei doveri secondo la Tua perfetta volontà.\n\nTi amo, Signore. Ti amo con tutto il cuore. Aiutami ad amare Te e il prossimo con tutte le mie forze.\n\nAmen.",
+      "notes": "Modern Italian translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Deus gloriosíssimo,\n\nEnquanto faço uma pausa no meio deste dia, convido-Vos para este momento de oração.\n\nPeço o vosso perdão por todas as vezes em que hoje deixei de amar. Pelo meu orgulho, inveja, gula, avareza, luxúria, preguiça e ira, suplico a vossa misericórdia.\n\nMais uma vez Vos consagro este dia. Concedei-me humildade, bondade, temperança, caridade, castidade, diligência e paciência.\n\nAjudai-me, Senhor, a ouvir a vossa voz suave e a confiar na vossa orientação e graça.\n\nA minha vida é vossa, Senhor.\nA minha vida é vossa.\n\nQue eu nada Vos esconda. Que cumpra hoje os meus deveres segundo a vossa perfeita vontade.\n\nEu Vos amo, Senhor. Amo-Vos de todo o meu coração. Ajudai-me a amar-Vos e ao próximo com todas as minhas forças.\n\nAmém.",
+      "notes": "Modern Portuguese translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Najchwalebniejszy Boże,\n\nZatrzymując się pośród tego dnia, zapraszam Cię do tej chwili modlitwy.\n\nProszę Cię o przebaczenie za wszystko, w czym dziś zabrakło mi miłości. Za moją pychę, zazdrość, obżarstwo, chciwość, nieczystość, lenistwo i gniew błagam o Twoje miłosierdzie.\n\nPonownie powierzam Ci ten dzień. Proszę o pokorę, dobroć, umiarkowanie, miłość, czystość, gorliwość i cierpliwość.\n\nPomóż mi, Panie, słuchać Twojego cichego głosu i ufać Twojemu prowadzeniu oraz łasce.\n\nMoje życie należy do Ciebie, Panie.\nMoje życie należy do Ciebie.\n\nNiech niczego przed Tobą nie ukrywam. Pomóż mi wypełniać moje obowiązki zgodnie z Twoją doskonałą wolą.\n\nKocham Cię, Panie. Kocham Cię całym sercem. Pomóż mi kochać Ciebie i bliźnich z całej mojej mocy.\n\nAmen.",
+      "notes": "Modern Polish translation."
+    }
+  }
+}

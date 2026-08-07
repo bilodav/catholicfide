@@ -2288,7 +2288,7 @@ const saintOfThedayDataApi = [
     saint_day: "4",
     saint_date: "8/4",
     saint_name: "Saint John Vianney",
-    saint_image: saintImg[216],
+    saint_image: saintImg[217],
     saint_lifetime: "May 8, 1786 – August 4, 1859",
     saint_patron: ["Diocesan Priests", "Parish Priests"],
     saint_reflection:
@@ -2302,7 +2302,13 @@ const saintOfThedayDataApi = [
     month_num: "8",
     saint_day: "5",
     saint_date: "8/5",
-    saint_name: "St. Addal",
+    saint_name: "Dedication of Saint Mary Major Basilica",
+    saint_image: saintImg[218],
+    saint_lifetime: "Completed in 1743",
+    saint_reflection:
+      "Theological debate over Christ’s nature as God and man reached fever pitch in Constantinople in the early fifth century. The chaplain of Bishop Nestorius began preaching against the title Theotokos, “Mother of God,” insisting that the Virgin was mother only of the human Jesus. Nestorius agreed, decreeing that Mary would henceforth be named “Mother of Christ” in his see. The people of Constantinople virtually revolted against their bishop’s refutation of a cherished belief. When the Council of Ephesus refuted Nestorius, believers took to the streets, enthusiastically chanting, “Theotokos! Theotokos!”",
+    saint_story:
+      "First raised at the order of Pope Liberius in the mid-fourth century, the Liberian basilica was rebuilt by Pope Sixtus III shortly after the Council of Ephesus affirmed Mary’s title as Mother of God in 431. Rededicated at that time to the Mother of God, St. Mary Major is the largest church in the world honoring God through Mary. Standing atop one of Rome’s seven hills, the Esquiline, it has survived many restorations without losing its character as an early Roman basilica. Its interior retains three naves divided by colonnades in the style of Constantine’s era. Fifth-century mosaics on its walls testify to its antiquity. St. Mary Major is one of the four Roman basilicas known as patriarchal churches in memory of the first centers of the Church. St. John Lateran represents Rome, the See of Peter; St. Paul Outside the Walls, the See of Alexandria, allegedly the see presided over by Mark; St. Peter’s, the See of Constantinople; and St. Mary’s, the See of Antioch, where Mary is supposed to have spent most of her later life. One legend, unreported before the year 1000, gives another name to this feast: Our Lady of the Snows. According to that story, a wealthy Roman couple pledged their fortune to the Mother of God. In affirmation, she produced a miraculous summer snowfall and told them to build a church on the site. The legend was long celebrated by releasing a shower of white rose petals from the basilica’s dome every August 5.",
   },
   {
     id: "219",
@@ -2310,7 +2316,13 @@ const saintOfThedayDataApi = [
     month_num: "8",
     saint_day: "6",
     saint_date: "8/6",
-    saint_name: "St. Hormisdas Pope",
+    saint_name: "Transfiguration of the Lord",
+    saint_image: saintImg[219],
+    saint_lifetime: "1st. century",
+    saint_reflection:
+      "One of the Transfiguration accounts is read on the second Sunday of Lent each year, proclaiming Christ’s divinity to the Elect and baptized alike. The Gospel for the first Sunday of Lent, by contrast, is the story of the temptation in the desert—affirmation of Jesus’ humanity. The two distinct but inseparable natures of the Lord were a subject of much theological argument at the beginning of the Church’s history; it remains hard for believers to grasp.",
+    saint_story:
+      "All three Synoptic Gospels tell the story of the Transfiguration (Matthew 17:1-8; Mark 9:2-9; Luke 9:28-36). With remarkable agreement, all three place the event shortly after Peter’s confession of faith that Jesus is the Messiah and Jesus’ first prediction of his passion and death. Peter’s eagerness to erect tents or booths on the spot suggests it occurred during the week-long Jewish Feast of Booths in the fall. According to Scripture scholars, in spite of the texts’ agreement it is difficult to reconstruct the disciples’ experience, because the Gospels draw heavily on Old Testament descriptions of the Sinai encounter with God, and prophetic visions of the Son of Man. Certainly Peter, James, and John had a glimpse of Jesus’ divinity strong enough to strike fear into their hearts. Such an experience defies description, so they drew on familiar religious language to describe it. And certainly Jesus warned them that his glory and his suffering were to be inextricably connected—a theme John highlights throughout his Gospel. Tradition names Mount Tabor as the site of the revelation. A church first raised there in the fourth century was dedicated on August 6. A feast in honor of the Transfiguration was celebrated in the Eastern Church from about that time. Western observance began in some localities about the eighth century. On July 22, 1456, Crusaders defeated the Turks at Belgrade. News of the victory reached Rome on August 6, and Pope Callistus III placed the feast on the Roman calendar the following year.",
   },
   {
     id: "220",
@@ -2319,6 +2331,17 @@ const saintOfThedayDataApi = [
     saint_day: "7",
     saint_date: "8/7",
     saint_name: "Saint Cajetan",
+    saint_image: saintImg[220],
+    saint_lifetime: "October 1, 1480 – August 7, 1547",
+    saint_patron: [
+      "Unemployed and job seekers",
+      "Bankers and financial workers",
+      "Gamblers and gamers",
+    ],
+    saint_reflection:
+      "If Vatican II had been summarily stopped after its first session in 1962, many Catholics would have felt that a great blow had been dealt to the growth of the Church. Saint Cajetan had the same feeling about the Council of Trent, held from 1545 to 1563. But as he said, God is the same in Naples as in Venice, with or without Trent or Vatican II. We open ourselves to God’s power in whatever circumstances we find ourselves, and God’s will is done. God’s standards of success differ from ours.",
+    saint_story:
+      "Like most of us, Saint Cajetan seemed headed for an “ordinary” life—first as a lawyer, then as a priest engaged in the work of the Roman Curia. Saint Cajetan’s life took a characteristic turn when he joined the Oratory of Divine Love in Rome, a group devoted to piety and charity, shortly after his ordination at 36. When he was 42 he founded a hospital for incurables at Venice. At Vicenza, he joined a “disreputable” religious community that consisted only of men of the lowest stations of life—and was roundly censured by his friends, who thought his action was a reflection on his family. He sought out the sick and poor of the town and served them. The greatest need of the time was the reformation of a Church that was “sick in head and members.” Cajetan and three friends decided that the best road to reformation lay in reviving the spirit and zeal of the clergy. Together they founded a congregation known as the Theatines—from Teate [Chieti] where their first superior-bishop had his see. One of the friends later became Pope Paul IV. They managed to escape to Venice after their house in Rome was wrecked when Emperor Charles V’s troops sacked Rome in 1527. The Theatines were outstanding among the Catholic reform movements that took shape before the Protestant Reformation. Cajetan founded a monte de pieta—“mountain or fund of piety”—in Naples, one of many charitable, nonprofit credit organizations that lent money on the security of pawned objects. The purpose was to help the poor and protect them against usurers. Saint Cajetan’s little organization ultimately became the Bank of Naples, with great changes in policy.",
   },
   {
     id: "221",
@@ -2327,6 +2350,13 @@ const saintOfThedayDataApi = [
     saint_day: "8",
     saint_date: "8/8",
     saint_name: "Saint Dominic",
+    saint_image: saintImg[221],
+    saint_lifetime: "August 8, 1170 – August 6, 1221",
+    saint_patron: ["Astronomers", "Dominican Republic"],
+    saint_reflection:
+      "The Dominican ideal, like that of all religious communities, is for the imitation, not merely the admiration, of the rest of the Church. The effective combining of contemplation and activity is the vocation of truck driver Smith as well as theologian Aquinas. Acquired contemplation is the tranquil abiding in the presence of God, and is an integral part of any full human life. It must be the wellspring of all Christian activity.",
+    saint_story:
+      "If he hadn’t taken a trip with his bishop, Saint Dominic would probably have remained within the structure of contemplative life; after the trip, he spent the rest of his life being a contemplative in active apostolic work. Born in old Castile, Spain, Saint Dominic was trained for the priesthood by a priest-uncle, studied the arts and theology, and became a canon of the cathedral at Osma, where there was an attempt to revive the apostolic common life described in Acts of the Apostles. On a journey through France with his bishop, Dominic came face to face with the then virulent Albigensian heresy at Languedoc. The Albigensians–or Cathari, “the pure ones”–held to two principles—one good, one evil—in the world. All matter is evil—hence they denied the Incarnation and the sacraments. On the same principle, they abstained from procreation and took a minimum of food and drink. The inner circle led what some people regarded as a heroic life of purity and asceticism not shared by ordinary followers. Saint Dominic sensed the need for the Church to combat this heresy, and was commissioned to be part of the preaching crusade against it. He saw immediately why the preaching crusade was not succeeding: the ordinary people admired and followed the ascetical heroes of the Albigenses. Understandably, they were not impressed by the Catholic preachers who traveled with horse and retinues, stayed at the best inns and had servants. Saint Dominic therefore, with three Cistercians, began itinerant preaching according to the gospel ideal. He continued this work for 10 years, being successful with the ordinary people but not with the leaders. His fellow preachers gradually became a community, and in 1215 Dominic founded a religious house at Toulouse, the beginning of the Order of Preachers or Dominicans. Dominic’s ideal, and that of his Order, was to organically link a life with God, study, and prayer in all forms, with a ministry of salvation to people by the word of God. His ideal: contemplata tradere: “to pass on the fruits of contemplation” or “to speak only of God or with God.”",
   },
   {
     id: "222",
@@ -2335,6 +2365,13 @@ const saintOfThedayDataApi = [
     saint_day: "9",
     saint_date: "8/9",
     saint_name: "Saint Teresa Benedicta of the Cross",
+    saint_image: saintImg[216],
+    saint_lifetime: "Completed in 1743",
+    saint_patron: ["Eucharistic devotion"],
+    saint_reflection:
+      "Theological debate over Christ’s nature as God and man reached fever pitch in Constantinople in the early fifth century. The chaplain of Bishop Nestorius began preaching against the title Theotokos, “Mother of God,” insisting that the Virgin was mother only of the human Jesus. Nestorius agreed, decreeing that Mary would henceforth be named “Mother of Christ” in his see. The people of Constantinople virtually revolted against their bishop’s refutation of a cherished belief. When the Council of Ephesus refuted Nestorius, believers took to the streets, enthusiastically chanting, “Theotokos! Theotokos!”",
+    saint_story:
+      "First raised at the order of Pope Liberius in the mid-fourth century, the Liberian basilica was rebuilt by Pope Sixtus III shortly after the Council of Ephesus affirmed Mary’s title as Mother of God in 431. Rededicated at that time to the Mother of God, St. Mary Major is the largest church in the world honoring God through Mary. Standing atop one of Rome’s seven hills, the Esquiline, it has survived many restorations without losing its character as an early Roman basilica. Its interior retains three naves divided by colonnades in the style of Constantine’s era. Fifth-century mosaics on its walls testify to its antiquity. St. Mary Major is one of the four Roman basilicas known as patriarchal churches in memory of the first centers of the Church. St. John Lateran represents Rome, the See of Peter; St. Paul Outside the Walls, the See of Alexandria, allegedly the see presided over by Mark; St. Peter’s, the See of Constantinople; and St. Mary’s, the See of Antioch, where Mary is supposed to have spent most of her later life. One legend, unreported before the year 1000, gives another name to this feast: Our Lady of the Snows. According to that story, a wealthy Roman couple pledged their fortune to the Mother of God. In affirmation, she produced a miraculous summer snowfall and told them to build a church on the site. The legend was long celebrated by releasing a shower of white rose petals from the basilica’s dome every August 5.",
   },
   {
     id: "223",

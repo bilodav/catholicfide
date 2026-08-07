@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "o-sacrum-convivium",
+    "title": "O Sacrum Convivium",
+    "primary_category": "eucharist",
+    "labels": ["eucharist", "adoration", "communion", "liturgy", "common"],
+    "importance": "common",
+    "type": "liturgical_prayer",
+    "description": "The antiphon 'O Sacrum Convivium,' traditionally attributed to St. Thomas Aquinas, celebrating the mystery of the Holy Eucharist.",
+    "origin": "Traditionally attributed to St. Thomas Aquinas",
+    "origin_date": "~1264",
+    "usage": "Recited or sung during Eucharistic Adoration, Benediction, Corpus Christi celebrations, and other Eucharistic devotions.",
+    "feast_days": ["corpus-christi"],
+    "devotions": ["eucharistic-adoration", "holy-eucharist", "benediction"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "O sacrum convivium,\nin quo Christus sumitur;\nrecolitur memoria passionis eius;\nmens impletur gratia;\net futurae gloriae nobis pignus datur.",
+      "notes": "Original Latin antiphon traditionally attributed to St. Thomas Aquinas."
+    },
+    "en": {
+      "language": "English",
+      "text": "O sacred banquet,\nin which Christ is received,\nthe memory of his Passion is renewed,\nthe mind is filled with grace,\nand a pledge of future glory is given to us.",
+      "notes": "Official English translation commonly used in Catholic liturgy."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "¡Oh sagrado banquete,\nen el que se recibe a Cristo,\nse renueva el memorial de su Pasión,\nel alma se llena de gracia,\ny se nos da la prenda de la gloria futura!",
+      "notes": "Spanish liturgical translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Ô banquet sacré,\noù le Christ est reçu,\noù le mémorial de sa Passion est renouvelé,\noù l'âme est comblée de grâce,\net où nous est donné le gage de la gloire à venir.",
+      "notes": "French liturgical translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "O heiliges Mahl,\nin dem Christus empfangen wird,\ndas Gedächtnis seines Leidens erneuert wird,\ndie Seele mit Gnade erfüllt wird\nund uns das Unterpfand der künftigen Herrlichkeit gegeben wird.",
+      "notes": "German liturgical translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "O sacro convito,\nin cui Cristo è nostro cibo;\nsi perpetua il memoriale della sua Passione;\nl'anima nostra è colmata di grazia\ne ci è dato il pegno della gloria futura.",
+      "notes": "Official Italian liturgical translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Ó sagrado banquete,\nem que Cristo é recebido,\ncelebra-se o memorial da sua Paixão,\na alma enche-se de graça\ne nos é dado o penhor da glória futura.",
+      "notes": "Portuguese liturgical translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "O święta Uczto,\nw której przyjmujemy Chrystusa,\nodnawia się pamięć Jego Męki,\ndusza napełnia się łaską\ni otrzymujemy zadatek przyszłej chwały.",
+      "notes": "Polish liturgical translation."
+    }
+  }
+}

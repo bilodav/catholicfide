@@ -1,0 +1,103 @@
+{
+  "schema_version": "2.0",
+  "metadata": {
+    "id": "immaculate-heart-of-mary-novena",
+    "title": "Immaculate Heart of Mary Novena",
+    "primary_category": "novena",
+    "labels": [
+      "immaculate-heart",
+      "mary",
+      "blessed-virgin-mary",
+      "our-lady",
+      "consecration",
+      "intercession",
+      "novena"
+    ],
+    "type": "novena",
+    "description": "Traditional nine-day novena to the Immaculate Heart of Mary asking for her maternal intercession, protection, and consecrating ourselves to her Immaculate Heart.",
+    "origin": "Traditional Catholic devotion",
+    "origin_date": "~20th Century",
+    "usage": "Prayed for nine consecutive days while presenting personal intentions and entrusting oneself to the Immaculate Heart of Mary.",
+    "created_date": "2026-08-07",
+    "last_modified": "2026-08-07"
+  },
+
+  "display": {
+    "default_language": "en",
+    "available_languages": ["en"],
+    "liturgical_color": "blue",
+    "featured": false,
+    "show_intention_prompt": true
+  },
+
+  "assets": {
+    "cover_image": null,
+    "icon": "immaculate-heart-of-mary",
+    "audio": {},
+    "video": null
+  },
+
+  "references": {
+    "scripture": [],
+    "catechism": [],
+    "saints": ["Blessed Virgin Mary", "Pope Pius XII"],
+    "related_devotions": ["Sacred Heart of Jesus", "Our Lady of Fatima"],
+    "external_sources": []
+  },
+
+  "structure": {
+    "type": "same_prayer",
+    "days": 9,
+    "has_theme": false,
+    "has_reflection": false,
+    "has_intention": true
+  },
+
+  "translations": {
+    "en": {
+      "title": "Immaculate Heart of Mary Novena",
+
+      "template": {
+        "opening": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+
+        "introduction": "Immaculate Virgin, by the holy will of your Son my Lord Jesus Christ, you are my Mother in Heaven. Your Immaculate Heart is full of love, mercy and compassion for sinners like me.",
+
+        "intention_prompt": "(Mention your prayer intentions here)",
+
+        "daily_prayer": "Immaculate Virgin, by the holy will of your Son my Lord Jesus Christ, you are my Mother in Heaven. Your Immaculate Heart is full of love, mercy and compassion for sinners like me. I ask that you intercede for me today for...\n\n(Mention your prayer intentions here)\n\nI trust in your intercession before the throne of God for my needs. Please pray also that if my requests are not in accordance with the will of God, that I may be, like you, conformed to His will and not my own.\n\nHail Mary...\n\nImmaculate Heart of Mary, pray for us!\n\nAmen.\n\nAct of Consecration\n\n— by Pope Pius XII\n\nMost Holy Virgin Mary, tender Mother of men, to fulfill the desires of the Sacred Heart of Jesus and the request of the Vicar of Your Son on earth, we consecrate ourselves and our families to your Sorrowful and Immaculate Heart, O Queen of the Most Holy Rosary, and we recommend to You all the people of our country and all the world.\n\nPlease accept our consecration, dearest Mother, and use us as You wish to accomplish Your designs in the world.\n\nO Sorrowful and Immaculate Heart of Mary, Queen of the Most Holy Rosary, and Queen of the World, rule over us, together with the Sacred Heart of Jesus Christ, Our King. Save us from the spreading flood of modern paganism; kindle in our hearts and homes the love of purity, the practice of a virtuous life, an ardent zeal for souls, and a desire to pray the Rosary more faithfully.\n\nWe come with confidence to You, O Throne of Grace and Mother of Fair Love. Inflame us with the same Divine Fire which has inflamed Your own Sorrowful and Immaculate Heart. Make our hearts and homes Your shrine, and through us, make the Heart of Jesus, together with your rule, triumph in every heart and home.\n\nAmen.",
+
+        "closing": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen."
+      },
+
+      "days": [
+        {
+          "day": 1
+        },
+        {
+          "day": 2
+        },
+        {
+          "day": 3
+        },
+        {
+          "day": 4
+        },
+        {
+          "day": 5
+        },
+        {
+          "day": 6
+        },
+        {
+          "day": 7
+        },
+        {
+          "day": 8
+        },
+        {
+          "day": 9
+        }
+      ]
+    }
+  }
+}

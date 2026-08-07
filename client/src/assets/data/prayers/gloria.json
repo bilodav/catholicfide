@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "id": "gloria",
+    "title": "Gloria",
+    "primary_category": "mass",
+    "labels": ["mass", "liturgy", "gloria", "praise", "doxology", "common"],
+    "importance": "essential",
+    "type": "liturgical_prayer",
+    "description": "The Gloria (Greater Doxology), an ancient hymn of praise recited or sung during the Holy Mass on Sundays outside Advent and Lent, and on solemnities and feasts.",
+    "origin": "Ancient Christian hymn (Greater Doxology), incorporated into the Roman Rite",
+    "origin_date": "~0200",
+    "usage": "Recited or sung during the Introductory Rites of the Holy Mass on Sundays outside Advent and Lent, as well as on solemnities and feasts.",
+    "feast_days": [],
+    "devotions": ["holy-mass"],
+    "created_date": "2025-10-20",
+    "last_modified": "2025-10-20"
+  },
+  "translations": {
+    "la": {
+      "language": "Latin",
+      "text": "Gloria in excelsis Deo,\net in terra pax hominibus bonae voluntatis.\n\nLaudamus te,\nbenedicimus te,\nadoramus te,\nglorificamus te,\ngratias agimus tibi propter magnam gloriam tuam,\nDomine Deus, Rex caelestis,\nDeus Pater omnipotens.\n\nDomine Fili unigenite, Iesu Christe,\nDomine Deus, Agnus Dei, Filius Patris,\nqui tollis peccata mundi,\nmiserere nobis;\nqui tollis peccata mundi,\nsuscipe deprecationem nostram;\nqui sedes ad dexteram Patris,\nmiserere nobis.\n\nQuoniam tu solus Sanctus,\ntu solus Dominus,\ntu solus Altissimus,\nIesu Christe,\ncum Sancto Spiritu,\nin gloria Dei Patris.\nAmen.",
+      "notes": "Official Latin text from the Roman Missal."
+    },
+    "en": {
+      "language": "English",
+      "text": "Glory to God in the highest,\nand on earth peace to people of good will.\n\nWe praise you,\nwe bless you,\nwe adore you,\nwe glorify you,\nwe give you thanks for your great glory,\nLord God, heavenly King,\nO God, almighty Father.\n\nLord Jesus Christ, Only Begotten Son,\nLord God, Lamb of God, Son of the Father,\nyou take away the sins of the world,\nhave mercy on us;\nyou take away the sins of the world,\nreceive our prayer;\nyou are seated at the right hand of the Father,\nhave mercy on us.\n\nFor you alone are the Holy One,\nyou alone are the Lord,\nyou alone are the Most High,\nJesus Christ,\nwith the Holy Spirit,\nin the glory of God the Father.\nAmen.",
+      "notes": "Official English translation from the Roman Missal."
+    },
+    "es": {
+      "language": "Spanish",
+      "text": "Gloria a Dios en el cielo,\ny en la tierra paz a los hombres que ama el Señor.\n\nPor tu inmensa gloria te alabamos,\nte bendecimos,\nte adoramos,\nte glorificamos,\nte damos gracias,\nSeñor Dios, Rey celestial,\nDios Padre todopoderoso.\n\nSeñor, Hijo único, Jesucristo;\nSeñor Dios, Cordero de Dios, Hijo del Padre;\ntú que quitas el pecado del mundo,\nten piedad de nosotros;\ntú que quitas el pecado del mundo,\natiende nuestra súplica;\ntú que estás sentado a la derecha del Padre,\nten piedad de nosotros.\n\nPorque sólo tú eres Santo,\nsólo tú Señor,\nsólo tú Altísimo,\nJesucristo,\ncon el Espíritu Santo,\nen la gloria de Dios Padre.\nAmén.",
+      "notes": "Official Spanish Roman Missal translation."
+    },
+    "fr": {
+      "language": "French",
+      "text": "Gloire à Dieu au plus haut des cieux,\net paix sur la terre aux hommes qu'il aime.\n\nNous te louons,\nnous te bénissons,\nnous t'adorons,\nnous te glorifions,\nnous te rendons grâce pour ton immense gloire,\nSeigneur Dieu, Roi du ciel,\nDieu le Père tout-puissant.\n\nSeigneur, Fils unique, Jésus Christ,\nSeigneur Dieu, Agneau de Dieu, le Fils du Père;\ntoi qui enlèves le péché du monde,\nprends pitié de nous;\ntoi qui enlèves le péché du monde,\nreçois notre prière;\ntoi qui es assis à la droite du Père,\nprends pitié de nous.\n\nCar toi seul es saint,\ntoi seul es Seigneur,\ntoi seul es le Très-Haut,\nJésus-Christ,\navec le Saint-Esprit,\ndans la gloire de Dieu le Père.\nAmen.",
+      "notes": "Official French Roman Missal translation."
+    },
+    "de": {
+      "language": "German",
+      "text": "Ehre sei Gott in der Höhe\nund Friede auf Erden den Menschen seines Wohlgefallens.\n\nWir loben dich,\nwir preisen dich,\nwir beten dich an,\nwir rühmen dich\nund danken dir, denn groß ist deine Herrlichkeit.\nHerr und Gott,\nKönig des Himmels,\nGott und Vater,\nHerrscher über das All.\n\nHerr, eingeborener Sohn, Jesus Christus.\nHerr und Gott,\nLamm Gottes,\nSohn des Vaters,\ndu nimmst hinweg die Sünde der Welt:\nerbarme dich unser;\ndu nimmst hinweg die Sünde der Welt:\nnimm an unser Gebet;\ndu sitzt zur Rechten des Vaters:\nerbarme dich unser.\n\nDenn du allein bist der Heilige,\ndu allein der Herr,\ndu allein der Höchste,\nJesus Christus,\nmit dem Heiligen Geist,\nzur Ehre Gottes des Vaters.\nAmen.",
+      "notes": "Official German Roman Missal translation."
+    },
+    "it": {
+      "language": "Italian",
+      "text": "Gloria a Dio nell'alto dei cieli\ned è pace in terra agli uomini, amati dal Signore.\n\nNoi ti lodiamo,\nti benediciamo,\nti adoriamo,\nti glorifichiamo,\nti rendiamo grazie per la tua gloria immensa,\nSignore Dio, Re del cielo,\nDio Padre onnipotente.\n\nSignore, Figlio unigenito, Gesù Cristo,\nSignore Dio, Agnello di Dio, Figlio del Padre;\ntu che togli i peccati del mondo,\nabbi pietà di noi;\ntu che togli i peccati del mondo,\naccogli la nostra supplica;\ntu che siedi alla destra del Padre,\nabbi pietà di noi.\n\nPerché tu solo il Santo,\ntu solo il Signore,\ntu solo l'Altissimo,\nGesù Cristo,\ncon lo Spirito Santo,\nnella gloria di Dio Padre.\nAmen.",
+      "notes": "Official Italian Roman Missal translation."
+    },
+    "pt": {
+      "language": "Portuguese",
+      "text": "Glória a Deus nas alturas,\ne paz na terra aos homens por Ele amados.\n\nSenhor Deus, Rei dos céus,\nDeus Pai todo-poderoso:\nnós Vos louvamos,\nnós Vos bendizemos,\nnós Vos adoramos,\nnós Vos glorificamos,\nnós Vos damos graças,\npor vossa imensa glória.\n\nSenhor Jesus Cristo,\nFilho Unigênito,\nSenhor Deus,\nCordeiro de Deus,\nFilho de Deus Pai;\nVós que tirais o pecado do mundo,\ntende piedade de nós;\nVós que tirais o pecado do mundo,\nacolhei a nossa súplica;\nVós que estais à direita do Pai,\ntende piedade de nós.\n\nSó Vós sois o Santo;\nsó Vós, o Senhor;\nsó Vós, o Altíssimo,\nJesus Cristo;\ncom o Espírito Santo,\nna glória de Deus Pai.\nAmém.",
+      "notes": "Official Portuguese Roman Missal translation."
+    },
+    "pl": {
+      "language": "Polish",
+      "text": "Chwała na wysokości Bogu,\na na ziemi pokój ludziom dobrej woli.\n\nChwalimy Cię,\nbłogosławimy Cię,\nwielbimy Cię,\nwysławiamy Cię.\nDzięki Ci składamy,\nbo wielka jest chwała Twoja.\nPanie Boże,\nKrólu nieba,\nBoże, Ojcze wszechmogący.\n\nPanie, Synu Jednorodzony,\nJezu Chryste.\nPanie Boże,\nBaranku Boży,\nSynu Ojca,\nktóry gładzisz grzechy świata,\nzmiłuj się nad nami;\nktóry gładzisz grzechy świata,\nprzyjm błaganie nasze;\nktóry siedzisz po prawicy Ojca,\nzmiłuj się nad nami.\n\nAlbowiem tylko Tyś jest Święty,\ntylko Tyś jest Panem,\ntylko Tyś Najwyższy,\nJezu Chryste,\nz Duchem Świętym,\nw chwale Boga Ojca.\nAmen.",
+      "notes": "Official Polish Roman Missal translation."
+    }
+  }
+}
