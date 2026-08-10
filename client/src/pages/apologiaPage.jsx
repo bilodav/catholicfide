@@ -3,43 +3,56 @@ import { useNavigate } from "react-router-dom";
 import apologiaHome from "../assets/videos/apologiaHome.mp4";
 import apologiaHomeBanner1 from "../assets/apologiaImages/apologia1.png";
 import apologiaHomeBanner2 from "../assets/apologiaImages/apologia2.jpeg";
-import themeImage1 from "../assets/apologiaImages/apologiaTheme1.jpeg";
-import themeImage2 from "../assets/apologiaImages/apologiaTheme2.jpeg";
-import themeImage3 from "../assets/apologiaImages/apologiaTheme3.jpeg";
-import themeImage4 from "../assets/apologiaImages/apologiaTheme4.jpeg";
-import themeImage5 from "../assets/apologiaImages/apologiaTheme5.jpeg";
-import themeImage6 from "../assets/apologiaImages/apologiaTheme6.jpeg";
+import themeImage1 from "../assets/apologiaImages/apologiaTheme1_aligned.jpg";
+import themeImage2 from "../assets/apologiaImages/apologiaTheme2_aligned.jpg";
+import themeImage3 from "../assets/apologiaImages/apologiaTheme3_aligned.jpg";
+import themeImage4 from "../assets/apologiaImages/apologiaTheme4_aligned.jpg";
+import themeImage5 from "../assets/apologiaImages/apologiaTheme5_aligned.jpg";
+import themeImage6 from "../assets/apologiaImages/apologiaTheme6_aligned.jpg";
+import themeImage1Color from "../assets/apologiaImages/apologiaTheme1Color_aligned.jpg";
+import themeImage2Color from "../assets/apologiaImages/apologiaTheme2Color_aligned.jpg";
+import themeImage3Color from "../assets/apologiaImages/apologiaTheme3Color_aligned.jpg";
+import themeImage4Color from "../assets/apologiaImages/apologiaTheme4Color_aligned.jpg";
+import themeImage5Color from "../assets/apologiaImages/apologiaTheme5Color_aligned.jpg";
+import themeImage6Color from "../assets/apologiaImages/apologiaTheme6Color_aligned.jpg";
+import { useState } from "react";
 
 const apologiaThemes = [
   {
     title: "Core Christian Doctrine",
     id: "core-christian-doctrine",
     image: themeImage1,
+    imageColor: themeImage1Color,
   },
   {
     title: "Defending the Faith",
     id: "defending-the-faith",
     image: themeImage2,
+    imageColor: themeImage2Color,
   },
   {
     title: "Scriptural Reliability",
     id: "scriptural-reliability",
     image: themeImage3,
+    imageColor: themeImage3Color,
   },
   {
     title: "Catholic Distinctives",
     id: "catholic-apologetics",
     image: themeImage4,
+    imageColor: themeImage4Color,
   },
   {
     title: "Church History",
     id: "church-history",
     image: themeImage5,
+    imageColor: themeImage5Color,
   },
   {
     title: "Resources",
     id: "resources",
     image: themeImage6,
+    imageColor: themeImage6Color,
   },
 ];
 
@@ -48,6 +61,7 @@ function ApologiaPage() {
   function handleThemeClick(theme) {
     navigate(`/apologia/${theme.id}`, { state: { theme } });
   }
+  const [hoveredId, setIsHoveredID] = useState(null);
 
   return (
     <>
@@ -81,12 +95,25 @@ function ApologiaPage() {
         <div className="navigation-section">
           {apologiaThemes.map((theme, index) => (
             <div
-              style={{ backgroundImage: `url(${theme.image})` }}
-              key={index}
+              key={theme.id}
+              onMouseEnter={() => setIsHoveredID(theme.id)}
+              onMouseLeave={() => setIsHoveredID(null)}
               className="navigation-card"
               onClick={() => handleThemeClick(theme)}
+              style={{ position: "relative" }}
             >
-              <h3>{theme.title}</h3>
+              <div
+                className="card-bg card-bg-default"
+                style={{ backgroundImage: `url(${theme.image})` }}
+              />
+              <div
+                className="card-bg card-bg-hover"
+                style={{
+                  backgroundImage: `url(${theme.imageColor})`,
+                  opacity: hoveredId === theme.id ? 1 : 0,
+                }}
+              />
+              <h3 style={{ position: "relative", zIndex: 1 }}>{theme.title}</h3>
             </div>
           ))}
         </div>

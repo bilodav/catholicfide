@@ -352,7 +352,9 @@ function Novenas() {
           <>
             <h3>You are currently doing {currPrayingNovena.metadata.title}</h3>
             <p>
-              You have finished Day: {dayCount - 1} on {today}
+              You have finished
+              <span className="bold-500"> Day {dayCount - 1} </span>
+              on {lastCompletedDate}
             </p>
             {prayedToday ? (
               <p>

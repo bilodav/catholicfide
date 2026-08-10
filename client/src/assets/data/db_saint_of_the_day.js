@@ -2459,14 +2459,13 @@ const saintOfThedayDataApi = [
     month_num: "8",
     saint_day: "15",
     saint_date: "8/15",
-    saint_name: "St. Alipius",
-    saint_image: saintImg[216],
-    saint_lifetime: "Completed in 1743",
-    saint_patron: ["Eucharistic devotion"],
+    saint_name: "Assumption of the Blessed Virgin Mary",
+    saint_image: saintImg[228],
+    saint_lifetime: "1st. century",
     saint_reflection:
-      "Theological debate over Christ’s nature as God and man reached fever pitch in Constantinople in the early fifth century. The chaplain of Bishop Nestorius began preaching against the title Theotokos, “Mother of God,” insisting that the Virgin was mother only of the human Jesus. Nestorius agreed, decreeing that Mary would henceforth be named “Mother of Christ” in his see. The people of Constantinople virtually revolted against their bishop’s refutation of a cherished belief. When the Council of Ephesus refuted Nestorius, believers took to the streets, enthusiastically chanting, “Theotokos! Theotokos!”",
+      "In the light of the Assumption of the Blessed Virgin Mary, it is easy to pray her Magnificat (Luke 1:46–55) with new meaning. In her glory she proclaims the greatness of the Lord and finds joy in God her savior. God has done marvels to her and she leads others to recognize God’s holiness. She is the lowly handmaid who deeply reverenced her God and has been raised to the heights. From her position of strength she will help the lowly and the poor find justice on earth, and she will challenge the rich and powerful to distrust wealth and power as a source of happiness.",
     saint_story:
-      "First raised at the order of Pope Liberius in the mid-fourth century, the Liberian basilica was rebuilt by Pope Sixtus III shortly after the Council of Ephesus affirmed Mary’s title as Mother of God in 431. Rededicated at that time to the Mother of God, St. Mary Major is the largest church in the world honoring God through Mary. Standing atop one of Rome’s seven hills, the Esquiline, it has survived many restorations without losing its character as an early Roman basilica. Its interior retains three naves divided by colonnades in the style of Constantine’s era. Fifth-century mosaics on its walls testify to its antiquity. St. Mary Major is one of the four Roman basilicas known as patriarchal churches in memory of the first centers of the Church. St. John Lateran represents Rome, the See of Peter; St. Paul Outside the Walls, the See of Alexandria, allegedly the see presided over by Mark; St. Peter’s, the See of Constantinople; and St. Mary’s, the See of Antioch, where Mary is supposed to have spent most of her later life. One legend, unreported before the year 1000, gives another name to this feast: Our Lady of the Snows. According to that story, a wealthy Roman couple pledged their fortune to the Mother of God. In affirmation, she produced a miraculous summer snowfall and told them to build a church on the site. The legend was long celebrated by releasing a shower of white rose petals from the basilica’s dome every August 5.",
+      "On November 1, 1950, Pope Pius XII defined the Assumption of Mary to be a dogma of faith: “We pronounce, declare and define it to be a divinely revealed dogma that the immaculate Mother of God, the ever Virgin Mary, having completed the course of her earthly life, was assumed body and soul to heavenly glory.” The pope proclaimed this dogma only after a broad consultation of bishops, theologians and laity. There were few dissenting voices. What the pope solemnly declared was already a common belief in the Catholic Church.\n\rWe find homilies on the Assumption of the Blessed Virgin Mary going back to the sixth century. In following centuries, the Eastern Churches held steadily to the doctrine, but some authors in the West were hesitant. However by the 13th century there was universal agreement. The feast was celebrated under various names—Commemoration, Dormition, Passing, Assumption—from at least the fifth or sixth century. Today it is celebrated as a solemnity.\n\rScripture does not give an account of Mary’s assumption into heaven. Nevertheless, Revelation 12 speaks of a woman who is caught up in the battle between good and evil. Many see this woman as God’s people. Since Mary best embodies the people of both Old and New Testaments, her assumption can be seen as an exemplification of the woman’s victory.\n\rFurthermore, in 1 Corinthians 15:20, Paul speaks of Christ’s resurrection as the first fruits of those who have fallen asleep.\n\rSince Mary is closely associated with all the mysteries of Jesus’ life, it is not surprising that the Holy Spirit has led the Church to believe in Mary’s share in his glorification. So close was she to Jesus on earth, she must be with him body and soul in heaven",
   },
   {
     id: "229",
@@ -2475,6 +2474,13 @@ const saintOfThedayDataApi = [
     saint_day: "16",
     saint_date: "8/16",
     saint_name: "Saint Stephen of Hungary",
+    saint_image: saintImg[229],
+    saint_lifetime: "975 – August 15, 1038",
+    saint_patron: ["Bricklayers", "Hungary"],
+    saint_reflection:
+      "God’s gift of holiness is a Christlike love of God and humanity. Love must sometimes bear a stern countenance for the sake of ultimate good. Christ attacked hypocrites among the Pharisees, but died forgiving them. Paul excommunicated the incestuous man at Corinth “that his spirit may be saved.” Some Christians fought the Crusades with noble zeal, in spite of the unworthy motives of others.\n\rToday, after senseless wars, and with a deeper understanding of the complex nature of human motives, we shrink from any use of violence—physical or “silent.” This wholesome development continues as people debate whether it is possible for a Christian to be an absolute pacifist or whether evil must sometimes be repelled by force.",
+    saint_story:
+      "The Church is universal, but its expression is always affected—for good or ill—by local culture. There are no “generic” Christians; there are Mexican Christians, Polish Christians, Filipino Christians. This fact is evident in the life of Stephen, national hero and spiritual patron of Hungary.\n\rBorn a pagan, he was baptized around the age of 10, together with his father, chief of the Magyars, a group who migrated to the Danube area in the ninth century. At 20, he married Gisela, sister to the future emperor, Saint Henry. When he succeeded his father, Stephen of Hungary adopted a policy of Christianization of the country for both political and religious reasons.\n\rHe suppressed a series of revolts by pagan nobles and welded the Magyars into a strong national group. He asked the pope to provide for the Church’s organization in Hungary—and also requested that the pope confer the title of king upon him. He was crowned on Christmas day in 1001.\n\rStephen of Hungary established a system of tithes to support churches and pastors and to relieve the poor. Out of every 10 towns one had to build a church and support a priest. He abolished pagan customs with a certain amount of violence, and commanded all to marry, except clergy and religious. He was easily accessible to all, especially the poor.\n\rIn 1031, his son Emeric died, and the rest of Stephen of Hungary’s days were embittered by controversy over his successor. His nephews attempted to kill him. He died in 1038 and was canonized, along with his son, in 1083.",
   },
   {
     id: "230",
@@ -2483,6 +2489,12 @@ const saintOfThedayDataApi = [
     saint_day: "17",
     saint_date: "8/17",
     saint_name: "Saint Joan of the Cross",
+    saint_image: saintImg[230],
+    saint_lifetime: "June 18, 1666 – August 17, 1736",
+    saint_reflection:
+      "The downtown areas of most major cities hold a population of “street people.” Well-dressed folks usually avoid making eye contact, probably for fear of being asked for a handout. That was Joan of the Cross’ attitude until the day one of them touched her heart. Most people thought the old woman was crazy, but she put Joan on the road to sainthood. Who knows what the next beggar we meet might do for us?",
+    saint_story:
+      "An encounter with a shabby old woman many dismissed as insane prompted Joan of the Cross to dedicate her life to the poor. For Joan, who had a reputation as a businesswoman intent on monetary success, this was a significant conversion.\n\rBorn in 1666, in Anjou, France, Joan of the Cross worked in the family business—a small shop near a religious shrine—from an early age. After her parents’ death she took over the shop. She quickly became known for her greediness and insensitivity to the beggars who often came seeking help.\n\rThat was until she was touched by the strange woman who claimed she was on intimate terms with the deity. Joan of the Cross, who had always been devout, even scrupulous, became a new person. She began caring for needy children. Then the poor, elderly, and sick came to her. Over time, she closed the family business so she could devote herself fully to good works and penance.\n\rShe went on to found what came to be known as the Congregation of Saint Anne of Providence. It was then she took the religious name of Joan of the Cross. By the time of her death in 1736 she had founded 12 religious houses, hospices, and schools. Pope John Paul II canonized her in 1982.",
   },
   {
     id: "231",
@@ -2491,6 +2503,13 @@ const saintOfThedayDataApi = [
     saint_day: "18",
     saint_date: "8/18",
     saint_name: "Saint Louis of Toulouse",
+    saint_image: saintImg[216],
+    saint_lifetime: "Completed in 1743",
+    saint_patron: ["Eucharistic devotion"],
+    saint_reflection:
+      "Theological debate over Christ’s nature as God and man reached fever pitch in Constantinople in the early fifth century. The chaplain of Bishop Nestorius began preaching against the title Theotokos, “Mother of God,” insisting that the Virgin was mother only of the human Jesus. Nestorius agreed, decreeing that Mary would henceforth be named “Mother of Christ” in his see. The people of Constantinople virtually revolted against their bishop’s refutation of a cherished belief. When the Council of Ephesus refuted Nestorius, believers took to the streets, enthusiastically chanting, “Theotokos! Theotokos!”",
+    saint_story:
+      "First raised at the order of Pope Liberius in the mid-fourth century, the Liberian basilica was rebuilt by Pope Sixtus III shortly after the Council of Ephesus affirmed Mary’s title as Mother of God in 431. Rededicated at that time to the Mother of God, St. Mary Major is the largest church in the world honoring God through Mary. Standing atop one of Rome’s seven hills, the Esquiline, it has survived many restorations without losing its character as an early Roman basilica. Its interior retains three naves divided by colonnades in the style of Constantine’s era. Fifth-century mosaics on its walls testify to its antiquity. St. Mary Major is one of the four Roman basilicas known as patriarchal churches in memory of the first centers of the Church. St. John Lateran represents Rome, the See of Peter; St. Paul Outside the Walls, the See of Alexandria, allegedly the see presided over by Mark; St. Peter’s, the See of Constantinople; and St. Mary’s, the See of Antioch, where Mary is supposed to have spent most of her later life. One legend, unreported before the year 1000, gives another name to this feast: Our Lady of the Snows. According to that story, a wealthy Roman couple pledged their fortune to the Mother of God. In affirmation, she produced a miraculous summer snowfall and told them to build a church on the site. The legend was long celebrated by releasing a shower of white rose petals from the basilica’s dome every August 5.",
   },
   {
     id: "232",
