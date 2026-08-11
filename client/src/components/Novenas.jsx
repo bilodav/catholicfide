@@ -49,12 +49,14 @@ function PrayerContent({ prayer, language = "en", day }) {
     return (
       <div className="prayer-content novena-content">
         {common.opening && <p className="prayer-opening">{common.opening}</p>}
+
         {common.introduction && (
           <p className="prayer-introduction">{common.introduction}</p>
         )}
         {common.intention_prompt && (
-          <em className="prayer-intention">{common.intention_prompt}</em>
+          <b className="prayer-intention bold-500">{common.intention_prompt}</b>
         )}
+        <br />
         {common.body_before_reflection && (
           <p className="prayer-body">{common.body_before_reflection}</p>
         )}
@@ -90,7 +92,9 @@ function PrayerContent({ prayer, language = "en", day }) {
           <p className="prayer-introduction">{template.introduction}</p>
         )}
         {template.intention_prompt && (
-          <em className="prayer-intention">{template.intention_prompt}</em>
+          <em className="prayer-intention  bold-500">
+            {template.intention_prompt}
+          </em>
         )}
         {template.daily_prayer && (
           <div className="prayer-daily-reflection">
