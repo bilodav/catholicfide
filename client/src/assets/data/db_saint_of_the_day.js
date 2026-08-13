@@ -2436,7 +2436,7 @@ const saintOfThedayDataApi = [
     saint_reflection:
       "Michael Joseph McGivney was a genuine pastor who, in the words of Pope Francis, was unafraid to share “the smell of his sheep.” He promoted families whose members were strong in their faith expressed through generous following of the corporal and spiritual works of mercy. In a decree read at the beatification Mass, Pope Francis praised Fr. McGivney’s “zeal and the proclamation of the Gospel and generous concern for his brothers and sisters.” These “made him an outstanding witness of Christian solidarity and fraternal assistance.”",
     saint_story:
-      "The eldest son of an immigrant Irish family in Connecticut, young Michael left school at 13 to work in a brass factory making spoons. At 16 Michael J. McGivney began studies for the priesthood in Quebec, but was obliged to leave to help support the family when his father died. Michael completed his education in Baltimore, Maryland, and was ordained for the diocese of Hartford in 1877. Assigned to St. Mary’s Parish in New Haven, Michael J. McGivney was very active in parish and civic affairs, serving as director of public plays and fairs. He volunteered to become the guardian of Alfred Downes, a minor whose father had died leaving a large family in poverty. This situation as well as his own family’s circumstances and that of other immigrants impressed on Fr. McGivney the need for lay Catholic men to establish a mutual aid society to provide financial assistance for their families if the primary wage earner died. Protestant fraternal groups already provided this type of life insurance protection for their members. In 1882, Michael J. McGivney formed the Knights of Columbus among a small group of St. Mary’s parishioners to promote charity, unity, and fraternity, assisting widows and orphans. Because of the Knights’ emphasis on serving Church, community and family, the organization grew and did not remain strictly parish-based. Patriotism was added as a founding principle in 1900. Michael J. McGivney died from pneumonia in 1890 and was buried in Waterbury, Connecticut. Later his body was moved back to St. Mary’s in New Haven where it remains today. He was beatified in 2020.",
+      "The eldest son of an immigrant Irish family in Connecticut, young Michael left school at 13 to work in a brass factory making spoons. At 16 Michael J. McGivney began studies for the priesthood in Quebec, but was obliged to leave to help support the family when his father died.\n\rMichael completed his education in Baltimore, Maryland, and was ordained for the diocese of Hartford in 1877. Assigned to St. Mary’s Parish in New Haven, Michael J. McGivney was very active in parish and civic affairs, serving as director of public plays and fairs. He volunteered to become the guardian of Alfred Downes, a minor whose father had died leaving a large family in poverty.\n\r This situation as well as his own family’s circumstances and that of other immigrants impressed on Fr. McGivney the need for lay Catholic men to establish a mutual aid society to provide financial assistance for their families if the primary wage earner died. Protestant fraternal groups already provided this type of life insurance protection for their members. In 1882, Michael J. McGivney formed the Knights of Columbus among a small group of St. Mary’s parishioners to promote charity, unity, and fraternity, assisting widows and orphans. Because of the Knights’ emphasis on serving Church, community and family, the organization grew and did not remain strictly parish-based. Patriotism was added as a founding principle in 1900. Michael J. McGivney died from pneumonia in 1890 and was buried in Waterbury, Connecticut. Later his body was moved back to St. Mary’s in New Haven where it remains today. He was beatified in 2020.",
   },
   {
     id: "227",
@@ -2503,7 +2503,7 @@ const saintOfThedayDataApi = [
     saint_day: "18",
     saint_date: "8/18",
     saint_name: "Saint Louis of Toulouse",
-    saint_image: saintImg[216],
+    saint_image: saintImg[231],
     saint_lifetime: "February 9, 1274 – August 19, 1297",
     saint_patron: ["Valencia", "Málaga"],
     saint_reflection:
@@ -2518,7 +2518,7 @@ const saintOfThedayDataApi = [
     saint_day: "19",
     saint_date: "8/19",
     saint_name: "Saint John Eudes",
-    saint_image: saintImg[216],
+    saint_image: saintImg[232],
     saint_lifetime: "November 14, 1601 – August 19, 1680",
     saint_patron: [
       "Missionaries",
