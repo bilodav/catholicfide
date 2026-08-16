@@ -1263,6 +1263,10 @@ nav a.active {
   margin-bottom: 5px;
 }
 
+.st-of-day-card p {
+  white-space: pre-line;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 300px) {
   /* body {background-color: green;} */

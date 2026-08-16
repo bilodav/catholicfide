@@ -33,9 +33,9 @@ function StOfDay() {
             <p>
               {todaysSaint.saint_patron.map((item, index) =>
                 index < todaysSaint.saint_patron.length - 1 ? (
-                  <span>{item} ,</span>
+                  <span key={index}>{item} ,</span>
                 ) : (
-                  <span>{item}</span>
+                  <span key={index}>{item}</span>
                 ),
               )}
             </p>
