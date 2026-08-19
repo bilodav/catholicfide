@@ -2425,7 +2425,7 @@ const saintOfThedayDataApi = [
     saint_day: "13",
     saint_date: "8/13",
     saint_name: "Blessed Michael J. McGivney",
-    saint_image: saintImg[216],
+    saint_image: saintImg[226],
     saint_lifetime: "August 12, 1852 – August 14, 1890",
     saint_patron: [
       "Parish priests",
