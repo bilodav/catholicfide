@@ -224,7 +224,7 @@ function ApologiaArticleViewer() {
           )}
         </div>
 
-        <div className="prayer-card prayercard-nodesc">
+        <div className="apologia-viewer">
           {currPrayer ? (
             <>
               <h3>{currPrayer.title}</h3>
@@ -235,7 +235,11 @@ function ApologiaArticleViewer() {
                     <button
                       key={view}
                       type="button"
-                      className={view === articleView ? "is-active" : ""}
+                      className={
+                        view === articleView
+                          ? "is-active btn-outline"
+                          : "btn-secondary"
+                      }
                       onClick={() => setArticleView(view)}
                     >
                       {VIEW_LABELS[view]}
@@ -313,7 +317,8 @@ function ArticleBlock({ block, citations }) {
       return <p className="article-paragraph">{block.text}</p>;
 
     case "heading": {
-      const Tag = `h${block.level || 3}`;
+      // const Tag = `h${block.level || 3}`;
+      const Tag = `h5`;
       return <Tag className="article-heading">{block.text}</Tag>;
     }
 
@@ -437,11 +442,11 @@ function ArticleBlock({ block, citations }) {
         <div className="article-objection">
           <p className="objection-title">{block.title}</p>
           <p className="objection-steelman">
-            <strong>The objection: </strong>
+            <strong className="bold-500">The objection: </strong>
             {block.steelman}
           </p>
           <p className="objection-response">
-            <strong>Response: </strong>
+            <strong className="bold-500">Response: </strong>
             {block.response}
           </p>
         </div>

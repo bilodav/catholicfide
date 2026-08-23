@@ -1682,6 +1682,423 @@ nav a.active {
 }
 
 /* ============================================================
+   Apologia Viewer
+   ============================================================ */
+
+/* Small devices (landscape phones, 176px and up) */
+@media (min-width: 176px) {
+  .apologia-viewer {
+    min-width: 300px;
+    width: 25%;
+    height: 80vh;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-lg);
+    background-color: var(--bg-primary);
+    flex: 1;
+  }
+
+  .apologia-viewer .btn-secondary {
+    padding: 3px 10px;
+    margin-right: 25px;
+  }
+
+  .apologia-viewer .btn-outline {
+    padding: 3px 10px;
+    margin-right: 25px;
+  }
+
+  .apologia-viewer h4 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .apologia-viewer h5 {
+    font-size: 1.55rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .video-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* ============================================================
+   ARTICLE SECTIONS — layout + rhythm
+   ============================================================ */
+
+  .article-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 100%;
+  }
+
+  .article-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .section-title {
+    position: relative;
+    padding-bottom: 6px;
+  }
+
+  .section-title::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: 2px;
+    background: var(--color-accent);
+    margin-top: 4px;
+    opacity: 0.8;
+  }
+
+  /* ============================================================
+   PARAGRAPH + HEADING BLOCKS
+   ============================================================ */
+
+  .article-paragraph {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    line-height: var(--line-height-relaxed);
+    color: var(--text-secondary);
+  }
+
+  .article-heading {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-semibold);
+  }
+
+  /* ============================================================
+   SCRIPTURE BLOCK
+   ============================================================ */
+
+  .article-scripture {
+    position: relative;
+    padding: 12px 18px;
+    margin: 8px 0;
+    background-color: var(--bg-secondary);
+    border-left: 3px solid var(--border-accent);
+    border-radius: var(--radius-sm);
+  }
+
+  .article-scripture .scripture-text {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--color-primary);
+  }
+
+  .article-scripture .scripture-reference {
+    display: block;
+    font-family: var(--font-body);
+    font-style: normal;
+    font-size: 0.85rem;
+    font-weight: var(--font-weight-medium);
+    color: var(--text-accent);
+    margin-top: 4px;
+  }
+
+  .article-scripture .scripture-commentary {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+  }
+
+  /* ============================================================
+   IMAGE BLOCK
+   ============================================================ */
+
+  .article-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .article-image img {
+    width: 100%;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .article-image figcaption {
+    margin-top: 6px;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--text-muted);
+    text-align: center;
+  }
+
+  /* ============================================================
+   VIDEO BLOCK — link fallback
+   ============================================================ */
+
+  .article-video a {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 0.9rem;
+    font-weight: var(--font-weight-medium);
+    color: var(--color-accent-dark);
+    border-bottom: 1px solid var(--border-accent);
+  }
+
+  /* ============================================================
+   CALLOUT BLOCK
+   ============================================================ */
+
+  .article-callout {
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--color-secondary);
+    background-color: var(--bg-secondary);
+  }
+
+  .article-callout .callout-title {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-primary);
+    margin-bottom: 4px;
+  }
+
+  .article-callout .callout-text {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+
+  .callout-info {
+    border-left-color: var(--color-secondary);
+  }
+
+  .callout-warning {
+    border-left-color: var(--color-accent);
+  }
+
+  .callout-success {
+    border-left-color: #5a8a5a;
+  }
+
+  .callout-danger {
+    border-left-color: #a34c4c;
+  }
+
+  /* ============================================================
+   TIMELINE BLOCK — connecting rail
+   ============================================================ */
+
+  .article-timeline {
+    position: relative;
+    padding-left: 14px;
+    border-left: 2px solid var(--border-medium);
+  }
+
+  .article-timeline .timeline-event {
+    list-style: none;
+    padding-left: 12px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .article-timeline .timeline-event::before {
+    content: "";
+    position: absolute;
+    left: -19px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-accent);
+  }
+
+  .timeline-date {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-accent);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .timeline-title {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+  }
+
+  /* ============================================================
+   CHURCH FATHER QUOTE
+   ============================================================ */
+
+  .article-church-father {
+    padding: 14px 18px;
+    margin: 8px 0;
+    background-color: var(--color-primary);
+    border-radius: var(--radius-md);
+  }
+
+  .article-church-father .father-quote {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--color-white);
+  }
+
+  .article-church-father .father-attribution {
+    display: block;
+    margin-top: 6px;
+    font-size: 0.8rem;
+    font-style: normal;
+    color: var(--color-accent-light);
+  }
+
+  /* ============================================================
+   CATECHISM BLOCK
+   ============================================================ */
+
+  .article-catechism {
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: 1px solid var(--border-accent);
+    border-radius: var(--radius-md);
+    background-color: var(--bg-primary);
+  }
+
+  .article-catechism .catechism-text {
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+  }
+
+  .article-catechism .catechism-reference {
+    display: block;
+    margin-top: 6px;
+    font-style: normal;
+    font-size: 0.78rem;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-accent);
+    letter-spacing: 0.04em;
+  }
+
+  /* ============================================================
+   PHILOSOPHICAL CITATION
+   ============================================================ */
+
+  .article-philosophy-citation {
+    padding: 8px 0;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .philosophy-source {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+  }
+
+  .philosophy-note {
+    margin-top: 4px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  /* ============================================================
+   OBJECTION BLOCK
+   ============================================================ */
+
+  .article-objection {
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-medium);
+    background-color: var(--bg-secondary);
+  }
+
+  .article-objection .objection-title {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-semibold);
+    font-size: 1.1rem;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+  }
+
+  .article-objection .objection-steelman {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    padding-left: 10px;
+    border-left: 3px solid var(--color-gray-400);
+  }
+
+  .article-objection .objection-response {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    padding-left: 10px;
+    border-left: 3px solid var(--color-accent);
+  }
+
+  /* ============================================================
+   BULLET LIST BLOCK
+   ============================================================ */
+
+  .article-bullet-list {
+    padding-left: 4px;
+  }
+
+  .article-bullet-list li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 6px;
+    font-size: 0.92rem;
+    color: var(--text-secondary);
+  }
+
+  .article-bullet-list li::before {
+    content: "✦";
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-size: 0.7rem;
+    top: 4px;
+  }
+
+  /* ============================================================
+   FAQ BLOCK
+   ============================================================ */
+
+  .article-faq-item {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .article-faq-item:last-child {
+    border-bottom: none;
+  }
+
+  .faq-question {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-semibold);
+    font-size: 1.05rem;
+    color: var(--color-primary);
+    margin-bottom: 4px;
+  }
+
+  .faq-answer {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+}
+
+/* ============================================================
    PRAYER COMPONENT — polish pass
    ============================================================ */
 
