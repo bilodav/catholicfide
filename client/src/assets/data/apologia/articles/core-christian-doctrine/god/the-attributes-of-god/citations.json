@@ -1,177 +1,95 @@
 {
-  "scripture": [
+  "citations": [
     {
-      "id": "scripture-exodus-3-14",
-      "reference": "Exodus 3:14",
+      "id": "ccc-41",
+      "type": "catechism",
+      "paragraph": 41,
+      "title": "God Is Infinite",
+      "text": "The perfections of creatures — their truth, their goodness, their beauty — reflect the infinite perfection of God. He is infinite in all his perfections, and we can name him only by taking creatures as our starting point, according to our limited human ways of knowing."
+    },
+    {
+      "id": "ccc-212-213",
+      "type": "catechism",
+      "paragraph": "212-213",
+      "title": "God Is Eternal and Unchanging",
+      "text": "By revealing his name, God at the same time reveals his faithfulness. His being and his truth are without beginning or end. Nothing that he has made can take back what he has once conferred, or change what he has once said."
+    },
+    {
+      "id": "ccc-301",
+      "type": "catechism",
+      "paragraph": 301,
+      "title": "God Sustains All Things",
+      "text": "With creation, God does not abandon his creatures to themselves. He not only gives them being and existence, but also, and at every moment, upholds and sustains them, enabling them to act and bringing them to their final end."
+    },
+    {
+      "id": "ccc-270",
+      "type": "catechism",
+      "paragraph": 270,
+      "title": "God's Knowledge Is Perfect",
+      "text": "God is the sovereign master of his plan. Nothing can escape his knowledge or be taken from his power; he sees and knows all things, even the most hidden, and nothing is impossible with him."
+    },
+    {
+      "id": "ccc-268-273",
+      "type": "catechism",
+      "paragraph": "268-273",
+      "title": "God Is Almighty",
+      "text": "Holy Scripture repeatedly confesses the universal power of God. He whose power is at work in all things is he to whom all things are possible. God's almighty power is in no way arbitrary, for it is always at the service of his wisdom, goodness, and love."
+    },
+    {
+      "id": "ccc-299",
+      "type": "catechism",
+      "paragraph": 299,
+      "title": "Creation Reflects God's Goodness",
+      "text": "Because God creates through wisdom and love, creation is good and reflects the infinite goodness of its Creator. Each creature possesses its own particular goodness, and taken together, all things bear witness to a supremely good God."
+    },
+    {
+      "id": "scripture-1-john-4-8",
+      "type": "scripture",
+      "reference": "1 John 4:8",
       "translation": "RSVCE",
-      "text": "God said to Moses, 'I AM WHO I AM.'"
+      "text": "He who does not love does not know God; for God is love."
     },
     {
-      "id": "scripture-john-1-1",
-      "reference": "John 1:1",
+      "id": "scripture-1-corinthians-1-24",
+      "type": "scripture",
+      "reference": "1 Corinthians 1:24",
       "translation": "RSVCE",
-      "text": "In the beginning was the Word..."
+      "text": "But to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God."
     },
     {
-      "id": "scripture-john-8-58",
-      "reference": "John 8:58",
+      "id": "scripture-exodus-34-6",
+      "type": "scripture",
+      "reference": "Exodus 34:6",
       "translation": "RSVCE",
-      "text": "Before Abraham was, I AM."
-    }
-  ],
-
-  "catechism": [
-    {
-      "id": "ccc-199",
-      "paragraph": 199,
-      "title": "God Is",
-      "text": "God is infinitely perfect and blessed in himself."
+      "text": "The Lord passed before him, and proclaimed, \"The Lord, the Lord, a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness.\""
     },
     {
-      "id": "ccc-200",
-      "paragraph": 200,
-      "title": "God Reveals His Name",
-      "text": "God revealed himself to Israel by making his name known."
-    }
-  ],
-
-  "church_fathers": [
-    {
-      "id": "ignatius-ephesians-18",
-      "author": "St. Ignatius of Antioch",
-      "work": "Letter to the Ephesians",
-      "chapter": "18",
-      "quote": "Our God, Jesus Christ..."
+      "id": "scripture-deuteronomy-7-9",
+      "type": "scripture",
+      "reference": "Deuteronomy 7:9",
+      "translation": "RSVCE",
+      "text": "Know therefore that the Lord your God is God, the faithful God who keeps covenant and steadfast love with those who love him and keep his commandments, to a thousand generations."
     },
     {
-      "id": "augustine-confessions-1",
-      "author": "St. Augustine",
-      "work": "Confessions",
-      "book": "Book I",
-      "quote": "You have made us for yourself, O Lord..."
-    }
-  ],
-
-  "church_documents": [
+      "id": "ccc-2809",
+      "type": "catechism",
+      "paragraph": 2809,
+      "title": "God's Holiness",
+      "text": "God alone is holy in an absolute sense. He is the source of all sanctity, and he causes those who have been called to holiness to be made holy in his likeness."
+    },
+    {
+      "id": "ccc-253-255",
+      "type": "catechism",
+      "paragraph": "253-255",
+      "title": "One God in Three Persons",
+      "text": "The Trinity is One. We do not confess three Gods, but one God in three Persons. The divine Persons are really distinct from one another, yet they do not divide the divine unity; each Person is fully God, and God is fully in each Person."
+    },
     {
       "id": "dei-verbum-2",
+      "type": "church-document",
       "title": "Dei Verbum",
       "section": "2",
-      "quote": "Through divine revelation..."
-    },
-    {
-      "id": "lumen-gentium-1",
-      "title": "Lumen Gentium",
-      "section": "1"
-    }
-  ],
-
-  "ecumenical_councils": [
-    {
-      "id": "nicaea-325",
-      "name": "First Council of Nicaea",
-      "year": 325,
-      "statement": "Begotten, not made, consubstantial with the Father."
-    }
-  ],
-
-  "papal_documents": [
-    {
-      "id": "fides-et-ratio",
-      "title": "Fides et Ratio",
-      "author": "Pope St. John Paul II",
-      "year": 1998
-    }
-  ],
-
-  "books": [
-    {
-      "id": "mere-christianity",
-      "title": "Mere Christianity",
-      "author": "C.S. Lewis",
-      "publisher": "HarperOne",
-      "year": 1952
-    },
-    {
-      "id": "summa-theologiae",
-      "title": "Summa Theologiae",
-      "author": "St. Thomas Aquinas"
-    }
-  ],
-
-  "historical_sources": [
-    {
-      "id": "josephus-antiquities",
-      "author": "Flavius Josephus",
-      "work": "Antiquities of the Jews",
-      "book": "18",
-      "chapter": "3"
-    },
-    {
-      "id": "tacitus-annals",
-      "author": "Tacitus",
-      "work": "Annals",
-      "book": "15",
-      "chapter": "44"
-    }
-  ],
-
-  "philosophical_sources": [
-    {
-      "id": "aristotle-metaphysics",
-      "author": "Aristotle",
-      "work": "Metaphysics"
-    },
-    {
-      "id": "plato-republic",
-      "author": "Plato",
-      "work": "Republic"
-    }
-  ],
-
-  "videos": [
-    {
-      "id": "yt-bishop-barron-god",
-      "provider": "YouTube",
-      "title": "Who is God?",
-      "url": "https://youtu.be/xxxxxxxx"
-    }
-  ],
-
-  "images": [
-    {
-      "id": "burning-bush",
-      "src": "media/burning-bush.webp",
-      "title": "The Burning Bush",
-      "credit": "Public Domain",
-      "license": "Public Domain"
-    },
-    {
-      "id": "trinity-diagram",
-      "src": "media/trinity-diagram.webp",
-      "title": "Shield of the Trinity",
-      "credit": "SylphCode"
-    }
-  ],
-
-  "downloads": [
-    {
-      "id": "study-guide",
-      "title": "Who Is God? Study Guide",
-      "file": "downloads/who-is-god-study-guide.pdf"
-    }
-  ],
-
-  "external_links": [
-    {
-      "id": "vatican-catechism",
-      "title": "Catechism of the Catholic Church",
-      "url": "https://www.vatican.va/archive/ENG0015/_INDEX.HTM"
-    },
-    {
-      "id": "new-advent",
-      "title": "New Advent",
-      "url": "https://www.newadvent.org/"
+      "quote": "Through divine revelation, God chose to show forth and communicate himself and the eternal decisions of his will."
     }
   ]
 }

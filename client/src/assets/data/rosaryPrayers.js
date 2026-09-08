@@ -1,7 +1,8 @@
 const rosary = Array.from(
   { length: 61 },
   (_, i) =>
-    new URL(`../rosaryBeadsImages/rosary${i + 1}.png`, import.meta.url).href,
+    new URL(`../images/rosaryBeadsImages/rosary${i + 1}.png`, import.meta.url)
+      .href,
 );
 
 const ourFatherPrayer =

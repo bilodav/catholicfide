@@ -1,363 +1,469 @@
 {
   "article": {
     "version": 1,
-
-    "defaultView": "long",
-
-    "availableViews": ["short", "medium", "long"],
-
-    "views": {
-      "short": ["question", "short-answer"],
-
-      "medium": ["question", "short-answer", "biblical-evidence", "conclusion"]
-    }
+    "defaultView": "short"
   },
-
   "sections": [
     {
       "id": "question",
-
       "type": "introduction",
-
       "title": "The Question",
-
+      "includeInShort": true,
       "blocks": [
         {
           "id": "paragraph-1",
-
           "type": "paragraph",
-
-          "text": "Who is God according to Christianity?"
+          "text": "What are the attributes of God according to Christianity?"
         }
       ]
     },
-
     {
       "id": "short-answer",
-
       "type": "summary",
-
       "title": "The Short Answer",
-
+      "includeInShort": true,
       "blocks": [
         {
           "id": "paragraph-2",
-
           "type": "paragraph",
-
-          "text": "Christians believe there is one eternal God who created everything that exists."
+          "text": "Christians understand God's attributes as the perfections that describe who God is. Catholic theology teaches that these attributes are not separate parts added to God; they belong to His one, simple and perfect divine being."
         },
-
         {
           "id": "paragraph-3",
-
           "type": "paragraph",
-
-          "text": "God exists eternally as Father, Son and Holy Spirit."
+          "text": "Some attributes, such as infinity, eternity, immutability and omnipresence, belong to God in a way that creatures cannot possess. Others, such as love, goodness, wisdom and faithfulness, are reflected in creation and shared with creatures in a limited way."
+        },
+        {
+          "id": "callout-short-1",
+          "type": "callout",
+          "style": "info",
+          "title": "In one sentence",
+          "text": "God is infinitely perfect, eternal, unchanging, all-knowing, all-powerful, perfectly good and loving, and fully present to His creation."
         }
       ]
     },
-
     {
-      "id": "historical-background",
-
-      "type": "history",
-
-      "title": "Historical Background",
-
+      "id": "nature-of-divine-attributes",
+      "type": "theology",
+      "title": "The Nature of Divine Attributes",
       "blocks": [
+        {
+          "id": "paragraph-3b",
+          "type": "paragraph",
+          "text": "Catholic theology distinguishes between communicable and incommunicable attributes. Incommunicable attributes belong to God alone, while communicable attributes are reflected in creatures in a limited way."
+        },
         {
           "id": "paragraph-4",
-
           "type": "paragraph",
-
-          "text": "The belief in one God stretches throughout Scripture."
+          "text": "The Church also teaches divine simplicity: God's attributes are not separate components of His being. God is not partly loving, partly wise or partly good. His perfections belong to His one, unified divine essence."
         },
-
-        {
-          "id": "timeline-1",
-
-          "type": "timeline",
-
-          "events": [
-            {
-              "title": "Creation",
-
-              "date": "Genesis"
-            },
-
-            {
-              "title": "Burning Bush",
-
-              "date": "Exodus"
-            },
-
-            {
-              "title": "Incarnation",
-
-              "date": "1st Century"
-            }
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "biblical-evidence",
-
-      "type": "biblical",
-
-      "title": "Biblical Evidence",
-
-      "blocks": [
-        {
-          "id": "heading-1",
-
-          "type": "heading",
-
-          "level": 2,
-
-          "text": "God Reveals His Name"
-        },
-
-        {
-          "id": "paragraph-5",
-
-          "type": "paragraph",
-
-          "text": "When Moses asked God's name..."
-        },
-
-        {
-          "id": "scripture-1",
-
-          "type": "scripture",
-
-          "reference": "Exodus 3:14",
-
-          "translation": "RSVCE",
-
-          "text": "I AM WHO I AM.",
-
-          "commentary": "God reveals His eternal existence."
-        },
-
-        {
-          "id": "image-1",
-
-          "type": "image",
-
-          "src": "media/burning-bush.webp",
-
-          "alt": "The Burning Bush",
-
-          "caption": "God appears to Moses."
-        },
-
-        {
-          "id": "video-1",
-
-          "type": "video",
-
-          "provider": "youtube",
-
-          "videoId": "XXXXXXXX",
-
-          "title": "Who is God?"
-        }
-      ]
-    },
-
-    {
-      "id": "philosophical-evidence",
-
-      "type": "philosophy",
-
-      "title": "Philosophical Evidence",
-
-      "blocks": [
-        {
-          "id": "heading-2",
-
-          "type": "heading",
-
-          "level": 2,
-
-          "text": "The First Cause"
-        },
-
-        {
-          "id": "paragraph-6",
-
-          "type": "paragraph",
-
-          "text": "Everything that begins to exist has a cause..."
-        },
-
         {
           "id": "callout-1",
-
           "type": "callout",
-
           "style": "info",
-
-          "title": "Natural Theology",
-
-          "text": "This argument does not rely upon Scripture."
+          "title": "Divine simplicity",
+          "text": "God does not possess His attributes as separate parts. His divine perfections are united in His one and simple being."
         }
       ]
     },
-
     {
-      "id": "historical-evidence",
-
-      "type": "historical",
-
-      "title": "Historical Evidence",
-
+      "id": "incommunicable-attributes",
+      "type": "attributes",
+      "title": "Incommunicable Attributes",
       "blocks": [
         {
-          "id": "father-1",
-
-          "type": "church-father",
-
-          "author": "St. Ignatius of Antioch",
-
-          "work": "Letter to the Ephesians",
-
-          "citation": "18",
-
-          "text": "Our God, Jesus Christ..."
-        }
-      ]
-    },
-
-    {
-      "id": "common-objections",
-
-      "type": "objections",
-
-      "title": "Common Objections",
-
-      "blocks": [
+          "id": "attr-infinity-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Infinity"
+        },
         {
-          "id": "objection-1",
-
-          "type": "objection",
-
-          "title": "Who created God?",
-
-          "steelman": "Many atheists argue that if everything requires a creator then God must also require one.",
-
-          "response": "Christianity teaches that everything which begins to exist requires a cause. God is eternal."
+          "id": "attr-infinity-desc",
+          "type": "paragraph",
+          "text": "God is infinite in all His perfections. He has no limits, boundaries or restrictions in His being, knowledge, power or presence."
+        },
+        {
+          "id": "attr-infinity-citation",
+          "type": "catechism",
+          "citation_id": "ccc-41"
         },
 
         {
-          "id": "objection-2",
+          "id": "attr-eternity-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Eternity"
+        },
+        {
+          "id": "attr-eternity-desc",
+          "type": "paragraph",
+          "text": "God is eternal. He does not begin or cease to exist and transcends the succession of moments that characterizes created time."
+        },
+        {
+          "id": "attr-eternity-citation",
+          "type": "catechism",
+          "citation_id": "ccc-212-213"
+        },
 
-          "type": "objection",
+        {
+          "id": "attr-immutability-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Immutability"
+        },
+        {
+          "id": "attr-immutability-desc",
+          "type": "paragraph",
+          "text": "God does not change in His divine perfection, essence or truth. His unchanging nature does not prevent Him from freely acting in time and relating to His creatures."
+        },
+        {
+          "id": "attr-immutability-citation",
+          "type": "catechism",
+          "citation_id": "ccc-212-213"
+        },
 
-          "title": "Isn't God just an invention?",
+        {
+          "id": "attr-impassibility-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Impassibility"
+        },
+        {
+          "id": "attr-impassibility-desc",
+          "type": "paragraph",
+          "text": "God is not subject to involuntary suffering or external forces that would diminish His perfection. His love is freely given rather than compelled by need."
+        },
+        {
+          "id": "attr-impassibility-citation",
+          "type": "catechism",
+          "citation_id": "ccc-212-213"
+        },
 
-          "steelman": "Some argue belief in God evolved naturally over time.",
+        {
+          "id": "attr-simplicity-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Simplicity"
+        },
+        {
+          "id": "attr-simplicity-desc",
+          "type": "paragraph",
+          "text": "God is not composed of parts. His essence and existence are not divided into separate components, and His attributes are united in His one divine being."
+        },
+        {
+          "id": "attr-simplicity-citation",
+          "type": "catechism",
+          "citation_id": "ccc-212-213"
+        },
 
-          "response": "The Christian claim is supported by revelation, philosophy and history."
+        {
+          "id": "attr-omnipresence-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Omnipresence"
+        },
+        {
+          "id": "attr-omnipresence-desc",
+          "type": "paragraph",
+          "text": "God is present everywhere. He is not limited by space and sustains His creation while remaining fully present to it."
+        },
+        {
+          "id": "attr-omnipresence-citation",
+          "type": "catechism",
+          "citation_id": "ccc-301"
         }
       ]
     },
-
     {
-      "id": "catholic-perspective",
-
-      "type": "catholic",
-
-      "title": "Catholic Teaching",
-
+      "id": "communicable-attributes",
+      "type": "attributes",
+      "title": "Communicable Attributes",
       "blocks": [
+        {
+          "id": "attr-omniscience-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Omniscience"
+        },
+        {
+          "id": "attr-omniscience-desc",
+          "type": "paragraph",
+          "text": "God knows all things perfectly. His knowledge encompasses what is actual and possible, and nothing escapes His knowledge."
+        },
+        {
+          "id": "attr-omniscience-citation",
+          "type": "catechism",
+          "citation_id": "ccc-270"
+        },
+
+        {
+          "id": "attr-omnipotence-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Omnipotence"
+        },
+        {
+          "id": "attr-omnipotence-desc",
+          "type": "paragraph",
+          "text": "God is all-powerful. His power is perfectly consistent with His nature, wisdom and goodness and is manifested in creation, providence and redemption."
+        },
+        {
+          "id": "attr-omnipotence-citation",
+          "type": "catechism",
+          "citation_id": "ccc-268-273"
+        },
+
+        {
+          "id": "attr-goodness-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Goodness"
+        },
+        {
+          "id": "attr-goodness-desc",
+          "type": "paragraph",
+          "text": "God is perfectly good and is the supreme source of all created goodness. Everything good in creation reflects His goodness."
+        },
+        {
+          "id": "attr-goodness-citation",
+          "type": "catechism",
+          "citation_id": "ccc-299"
+        },
+
+        {
+          "id": "attr-love-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Love"
+        },
+        {
+          "id": "attr-love-desc",
+          "type": "paragraph",
+          "text": "God is love itself. Divine love is not merely an emotion but belongs to God's very being and is perfectly expressed in the communion of Father, Son and Holy Spirit."
+        },
+        {
+          "id": "attr-love-citation",
+          "type": "scripture",
+          "citation_id": "scripture-1-john-4-8"
+        },
+
+        {
+          "id": "attr-wisdom-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Wisdom"
+        },
+        {
+          "id": "attr-wisdom-desc",
+          "type": "paragraph",
+          "text": "God perfectly knows how all things are ordered toward their proper ends. His wisdom is manifested in creation and in the work of salvation, and is perfectly revealed in Christ."
+        },
+        {
+          "id": "attr-wisdom-citation",
+          "type": "scripture",
+          "citation_id": "scripture-1-corinthians-1-24"
+        },
+
+        {
+          "id": "attr-justice-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Justice"
+        },
+        {
+          "id": "attr-justice-desc",
+          "type": "paragraph",
+          "text": "God is perfectly just, giving to each what is due according to His wisdom and goodness. Catholic teaching understands divine justice together with divine mercy."
+        },
+        {
+          "id": "attr-justice-citation",
+          "type": "catechism",
+          "citation_id": "ccc-270"
+        },
+
+        {
+          "id": "attr-mercy-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Mercy"
+        },
+        {
+          "id": "attr-mercy-desc",
+          "type": "paragraph",
+          "text": "God is infinitely merciful. His mercy is His loving compassion toward those in need, especially sinners, and is revealed in forgiveness, healing and redemption."
+        },
+        {
+          "id": "attr-mercy-citation",
+          "type": "scripture",
+          "citation_id": "scripture-exodus-34-6"
+        },
+
+        {
+          "id": "attr-holiness-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Holiness"
+        },
+        {
+          "id": "attr-holiness-desc",
+          "type": "paragraph",
+          "text": "God is perfectly holy, completely separate from sin and evil and the source of all sanctity. His holiness calls believers to reverence and transformation."
+        },
+        {
+          "id": "attr-holiness-citation",
+          "type": "catechism",
+          "citation_id": "ccc-2809"
+        },
+
+        {
+          "id": "attr-faithfulness-heading",
+          "type": "heading",
+          "level": 3,
+          "text": "Faithfulness"
+        },
+        {
+          "id": "attr-faithfulness-desc",
+          "type": "paragraph",
+          "text": "God is perfectly faithful. He keeps His promises and remains true to His covenant commitments, providing the foundation for Christian hope and trust."
+        },
+        {
+          "id": "attr-faithfulness-citation",
+          "type": "scripture",
+          "citation_id": "scripture-deuteronomy-7-9"
+        }
+      ]
+    },
+    {
+      "id": "trinity-and-attributes",
+      "type": "catholic",
+      "title": "The Trinity and Divine Attributes",
+      "blocks": [
+        {
+          "id": "paragraph-5",
+          "type": "paragraph",
+          "text": "Catholic theology teaches that the divine attributes belong fully to the one God in three Persons. The Father, Son and Holy Spirit do not divide the divine attributes between themselves; each Person fully possesses the one divine nature."
+        },
+        {
+          "id": "paragraph-6",
+          "type": "paragraph",
+          "text": "Therefore, God's omniscience, omnipotence, goodness and love are not three different versions of these attributes. They belong to the one divine essence shared eternally by the Father, Son and Holy Spirit."
+        },
         {
           "id": "catechism-1",
-
           "type": "catechism",
-
-          "paragraph": 199,
-
-          "text": "God is infinitely perfect..."
+          "citation_id": "ccc-253-255"
         }
       ]
     },
-
     {
-      "id": "summary",
-
-      "type": "summary",
-
-      "title": "Summary",
-
-      "blocks": [
-        {
-          "id": "list-1",
-
-          "type": "bullet-list",
-
-          "items": [
-            "God is eternal.",
-
-            "God is one.",
-
-            "God is Creator.",
-
-            "God revealed Himself.",
-
-            "Jesus reveals the Father."
-          ]
-        }
-      ]
-    },
-
-    {
-      "id": "conclusion",
-
-      "type": "conclusion",
-
-      "title": "Conclusion",
-
+      "id": "knowing-god",
+      "type": "revelation",
+      "title": "Knowing God Through Creation and Revelation",
       "blocks": [
         {
           "id": "paragraph-7",
-
           "type": "paragraph",
-
-          "text": "The Christian understanding of God is supported by Scripture, history, philosophy and Sacred Tradition."
+          "text": "The Catholic Church teaches that God's attributes can be known through natural reason as well as divine revelation. Creation points beyond itself to its Creator and allows human reason to recognize realities such as power, wisdom and goodness."
+        },
+        {
+          "id": "paragraph-8",
+          "type": "paragraph",
+          "text": "The fuller knowledge of God's attributes comes through divine revelation, especially Sacred Scripture and the person of Jesus Christ. In Christ, the invisible God is made known in a definitive way."
+        },
+        {
+          "id": "callout-dei-verbum",
+          "type": "callout",
+          "style": "info",
+          "title": "Dei Verbum, 2",
+          "text": "Through divine revelation, God chose to show forth and communicate himself and the eternal decisions of his will."
         }
       ]
     },
-
+    {
+      "id": "practical-implications",
+      "type": "application",
+      "title": "What God's Attributes Mean for Christian Life",
+      "blocks": [
+        {
+          "id": "paragraph-9",
+          "type": "paragraph",
+          "text": "Knowing God's attributes is not merely an intellectual exercise. These truths shape prayer, worship, trust and moral life."
+        },
+        {
+          "id": "bullet-list-1",
+          "type": "bullet-list",
+          "items": [
+            "God's love encourages trust and intimacy in prayer.",
+            "God's holiness inspires reverence and the pursuit of sanctity.",
+            "God's justice calls believers to take sin and righteousness seriously.",
+            "God's mercy gives confidence in repentance, forgiveness and healing.",
+            "God's faithfulness provides a foundation for hope and perseverance.",
+            "God's wisdom encourages believers to trust His providence even when His purposes are not immediately understood."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summary",
+      "type": "summary",
+      "title": "Summary",
+      "blocks": [
+        {
+          "id": "list-2",
+          "type": "bullet-list",
+          "items": [
+            "God is infinite — He has no limits or boundaries.",
+            "God is eternal — He has no beginning or end.",
+            "God is immutable — He does not change in His divine perfection.",
+            "God is omnipresent — He is fully present to His creation.",
+            "God is omniscient — He knows all things perfectly.",
+            "God is omnipotent — He is all-powerful according to His perfect nature.",
+            "God is perfectly good, loving, wise, just, merciful, holy and faithful.",
+            "All divine attributes belong fully to the one God in three Persons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "type": "conclusion",
+      "title": "Conclusion",
+      "blocks": [
+        {
+          "id": "paragraph-10",
+          "type": "paragraph",
+          "text": "The attributes of God provide a framework for understanding the infinite mystery of the Triune God. Catholic theology holds that these perfections are known through reason and revelation and are united in God's simple, perfect being. The more believers come to know who God is, the more they are invited to know, love and serve Him."
+        }
+      ]
+    },
     {
       "id": "faq",
-
       "type": "faq",
-
       "title": "Frequently Asked Questions",
-
       "blocks": [
         {
           "id": "faq-1",
-
           "type": "faq",
-
-          "question": "Can God change?",
-
-          "answer": "No. God's divine nature is immutable."
+          "question": "Are God's attributes separate parts of God?",
+          "answer": "No. Catholic theology teaches divine simplicity: God's attributes are not separate components added to His being. They belong to His one, simple and perfect divine nature."
         },
-
         {
           "id": "faq-2",
-
           "type": "faq",
-
-          "question": "Is the Trinity three gods?",
-
-          "answer": "No. Christians believe in one God in three Persons."
+          "question": "What is the difference between communicable and incommunicable attributes?",
+          "answer": "Incommunicable attributes belong to God alone, such as infinity, eternity and immutability. Communicable attributes, such as goodness, love and wisdom, are reflected in creation and shared with creatures in a limited way."
+        },
+        {
+          "id": "faq-3",
+          "type": "faq",
+          "question": "Does God change when He responds to people?",
+          "answer": "Catholic teaching holds that God is immutable in His divine nature. His free actions in time do not mean that His eternal perfection or essence changes."
+        },
+        {
+          "id": "faq-4",
+          "type": "faq",
+          "question": "Do the Father, Son and Holy Spirit have different attributes?",
+          "answer": "No. The three divine Persons share one divine nature, so the divine attributes belong fully to the Father, Son and Holy Spirit."
         }
       ]
     }

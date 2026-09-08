@@ -1,0 +1,147 @@
+/* ============================================================
+   HERO COMPONENT
+   ============================================================ */
+
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Layered overlay: dark vignette + subtle warm tint */
+.hero_overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    rgba(10, 14, 20, 038) 0%,
+    rgba(15, 20, 30, 0.15) 35%,
+    rgba(10, 14, 20, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.hero_content {
+  position: relative; /* sits above the overlay */
+  z-index: 1;
+  left: 8%;
+  max-width: 44%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* ── Title ── */
+.hero_title {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 5vw, 6rem);
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  margin-bottom: 0;
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.45);
+}
+
+/* Gold accent word */
+.hero_accent {
+  color: var(--color-accent-light);
+}
+
+/* ── Decorative rule beneath title ── */
+.hero_title::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 2px;
+  background: var(--color-accent);
+  margin-top: var(--spacing-sm);
+  opacity: 0.85;
+}
+
+/* ── Subtitle / first paragraph ── */
+.hero_subtitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: var(--line-height-relaxed);
+  letter-spacing: 0.01em;
+  margin-bottom: 0;
+}
+
+/* ── Body / second paragraph ── */
+.hero_body {
+  font-family: var(--font-body);
+  font-size: clamp(0.85rem, 1.2vw, 1rem);
+  color: rgba(255, 255, 255, 0.65);
+  line-height: var(--line-height-relaxed);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* ── CTA button ── */
+.hero_cta {
+  display: inline-block;
+  width: fit-content;
+  font-family: var(--font-body);
+  font-size: clamp(0.8rem, 1.1vw, 0.95rem);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent-light);
+  padding: 0.85rem 2.2rem;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  margin-top: var(--spacing-xs);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Filled sweep on hover */
+.hero_cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--transition-base);
+  z-index: -1;
+}
+
+.hero_cta:hover {
+  color: var(--color-primary-dark);
+  border-color: var(--color-accent);
+  cursor: pointer;
+}
+
+.hero_cta:hover::before {
+  transform: scaleX(1);
+}
+
+/* ============================================================
+   RESPONSIVE — Hero
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .hero_content {
+    left: 0;
+    max-width: 100%;
+    padding: 0 var(--spacing-lg);
+    gap: var(--spacing-sm);
+  }
+
+  .hero_cta {
+    width: 80%;
+    text-align: center;
+  }
+}

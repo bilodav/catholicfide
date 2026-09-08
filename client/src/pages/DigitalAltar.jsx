@@ -1,11 +1,11 @@
 import { useState } from "react";
-import Rosary from "./Rosary";
-import DefaultAltar from "./DefaultAltar";
-import Prayers from "./Prayers";
-import StationsOfTheCross from "./StationsOfTheCross";
-import StOfDay from "./StOfDay";
-import ReadingOfTheDay from "./ReadingOfTheDay";
-import Novenas from "./Novenas";
+import Rosary from "../components/Rosary";
+import DefaultAltar from "../components/DefaultAltar";
+import Prayers from "../components/Prayers";
+import StationsOfTheCross from "../components/StationsOfTheCross";
+import StOfDay from "../components/StOfDay";
+import ReadingOfTheDay from "../components/ReadingOfTheDay";
+import Novenas from "../components/Novenas";
 
 function DigitalAltar() {
   const [altarState, setAltarState] = useState("default");

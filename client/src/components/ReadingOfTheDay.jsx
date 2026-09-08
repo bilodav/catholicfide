@@ -1,5 +1,6 @@
 import fetchJsonp from "fetch-jsonp";
 import { useEffect, useState } from "react";
+import Loader from "./ui/Loader";
 
 function ReadingOfTheDay() {
   const [data, setData] = useState(null);
@@ -28,12 +29,7 @@ function ReadingOfTheDay() {
     fetchReading();
   }, []);
 
-  if (isLoading)
-    return (
-      <p style={{ fontSize: "2.5rem", textAlign: "center", marginTop: "15vh" }}>
-        Loading...
-      </p>
-    );
+  if (isLoading) return <Loader />;
 
   if (!isLoading && !error)
     return (

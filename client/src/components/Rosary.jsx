@@ -1,13 +1,7 @@
 import { useState } from "react";
 import mysteries from "../assets/data/mysteries";
-import FamilyPrayer from "./FamilyPrayer";
 import rosaryPrayers from "../assets/data/rosaryPrayers";
-import startEnder1 from "../assets/rosaryStarterEnderImages/startEnder1.jpeg";
-import startEnder2 from "../assets/rosaryStarterEnderImages/startEnder2.jpeg";
 import RosaryCard from "./RosaryCard";
-
-import altar from "../assets/altar.png";
-import altar2 from "../assets/altar2.png";
 
 const days = [
   "sunday",
@@ -69,10 +63,6 @@ function Rosary() {
     rosaryTitle = "Closing Prayers";
     mysteryImage = enderImage;
   }
-
-  console.log(bead);
-
-  console.log(mysteries.mysterySets[mysterySet].name);
 
   return (
     <section id="rosary" className="rosary">

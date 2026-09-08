@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
+import styles from "./Navbar.module.css";
 
 const links = [
   { label: "Home", to: "/" },
@@ -18,13 +19,7 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-
-      if (currentScrollY > lastScrollY) {
-        setHidden(true);
-      } else {
-        setHidden(false);
-      }
-
+      setHidden(currentScrollY > lastScrollY);
       setLastScrollY(currentScrollY);
     };
 
@@ -32,7 +27,6 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScrollY]);
 
-  // Close mobile menu when clicking outside the nav
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (navRef.current && !navRef.current.contains(event.target)) {
@@ -47,9 +41,9 @@ export default function Navbar() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav ref={navRef} className={hidden ? "nav--hidden" : ""}>
+    <nav ref={navRef} className={hidden ? styles["nav--hidden"] : ""}>
       <div
-        className={`menu-toggle ${menuOpen ? "active" : ""}`}
+        className={`${styles["menu-toggle"]} ${menuOpen ? styles.active : ""}`}
         onClick={() => setMenuOpen((prev) => !prev)}
       >
         <span></span>
@@ -57,13 +51,15 @@ export default function Navbar() {
         <span></span>
       </div>
 
-      <div className={`nav-links ${menuOpen ? "nav-links--open" : ""}`}>
+      <div
+        className={`${styles["nav-links"]} ${menuOpen ? styles["nav-links--open"] : ""}`}
+      >
         {links.map(({ label, to }) => (
           <NavLink
             key={to}
             to={to}
             onClick={closeMenu}
-            className={({ isActive }) => (isActive ? "active" : "")}
+            className={({ isActive }) => (isActive ? styles.active : "")}
           >
             {label}
           </NavLink>

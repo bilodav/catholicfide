@@ -13,6 +13,15 @@ const citationsModules = import.meta.glob(
   "../assets/data/apologia/articles/**/citations.json",
   { eager: true },
 );
+// Eagerly glob-import every media file so Vite can bundle/hash it and give
+// us a real, resolvable URL. Keyed by full module path (same shape as the
+// other glob maps above), e.g.:
+// "../assets/data/apologia/articles/core-christian-doctrine/god/who-is-god/media/burningBush.jpeg"
+//   -> "/assets/burningBush-abc123.jpeg"
+const mediaModules = import.meta.glob(
+  "../assets/data/apologia/articles/**/media/*.{jpg,jpeg,png,webp,gif,svg}",
+  { eager: true, import: "default", query: "?url" },
+);
 
 function dirOf(path) {
   return path.substring(0, path.lastIndexOf("/"));
@@ -35,6 +44,9 @@ const ARTICLES = Object.entries(metaModules).map(([path, m]) => {
     ...m.default,
     content: contentByDir[dir] ?? null,
     citations: citationsByDir[dir] ?? null,
+    // Keep the article's source directory so we can resolve relative
+    // media paths (e.g. "media/burningBush.jpeg") stored in citations.json.
+    _dir: dir,
   };
 });
 
@@ -48,6 +60,15 @@ function formatLabel(slug) {
 function resolveCitation(citations, citationId) {
   if (!citations || !citationId) return null;
   return citations.citations.find((c) => c.id === citationId) ?? null;
+}
+
+// Resolve a citation's relative "src" (e.g. "media/burningBush.jpeg")
+// against the article's directory, using the eager media glob above so we
+// get back a URL Vite has actually bundled — works in both dev and build.
+function resolveMediaSrc(dir, relativeSrc) {
+  if (!dir || !relativeSrc) return null;
+  const key = `${dir}/${relativeSrc}`;
+  return mediaModules[key] ?? null;
 }
 
 const VIEW_LABELS = {
@@ -303,6 +324,7 @@ function ArticleSections({ article, view }) {
               key={block.id}
               block={block}
               citations={article.citations}
+              dir={article._dir}
             />
           ))}
         </section>
@@ -311,7 +333,7 @@ function ArticleSections({ article, view }) {
   );
 }
 
-function ArticleBlock({ block, citations }) {
+function ArticleBlock({ block, citations, dir }) {
   switch (block.type) {
     case "paragraph":
       return <p className="article-paragraph">{block.text}</p>;
@@ -341,9 +363,11 @@ function ArticleBlock({ block, citations }) {
     case "image": {
       const cite = resolveCitation(citations, block.citation_id);
       if (!cite) return null;
+      const src = resolveMediaSrc(dir, cite.src);
+      if (!src) return null; // could swap in a fallback placeholder image
       return (
         <figure className="article-image">
-          <img src={cite.src} alt={cite.title || ""} />
+          <img src={src} alt={cite.title || ""} />
           {(block.caption || cite.title) && (
             <figcaption>{block.caption || cite.title}</figcaption>
           )}

@@ -1,4 +1,4 @@
-import Hero from "../components/Hero";
+import Hero from "../components/ui/Hero";
 import heroImg from "../assets/hero_1.jpg";
 
 function LandingPage() {
@@ -8,7 +8,7 @@ function LandingPage() {
         title="Catholic"
         titleAccent="Fide"
         subtitle="Defending the Faith and Defending the Truth"
-        body="Standing firm in sacred tradition — for God, for Church, for truth."
+        body="Standing firm in sacred tradition - for God, for Church, for truth."
         ctaText="Oremus"
         ctaHref="/oremus"
         bgImage={heroImg}
