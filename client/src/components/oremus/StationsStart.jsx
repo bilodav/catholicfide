@@ -1,9 +1,11 @@
-import starterImg from "../assets/stationsOfTheCrossImages/starterStations.jpeg";
+import styles from "./StationsStart.module.css";
+
+import starterImg from "../../assets/images/stationsOfTheCrossImages/starterStations.jpeg";
 
 function StationsStart() {
   return (
     <>
-      <div className="how-to">
+      <div className={styles["how-to"]}>
         <h3>How Do I Pray the Stations of the Cross?</h3>
         <p>
           The Stations of the Cross is a powerful and simple way to reflect on
@@ -64,7 +66,11 @@ function StationsStart() {
           how the story of Jesus’ Passion impacts your day!
         </p>
       </div>
-      <img src={starterImg} alt="Placeholder image" />
+      <img
+        className={styles["starter-img"]}
+        src={starterImg}
+        alt="Placeholder image"
+      />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import altar2 from "../assets/altar2.png";
 import altar3 from "../assets/altar3.png";
 import FamilyPrayer from "./FamilyPrayer";
 

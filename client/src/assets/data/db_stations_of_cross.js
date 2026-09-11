@@ -1,8 +1,10 @@
 const stationImg = Array.from(
   { length: 14 },
   (_, i) =>
-    new URL(`../stationsOfTheCrossImages/station${i + 1}.jpeg`, import.meta.url)
-      .href,
+    new URL(
+      `../images/stationsOfTheCrossImages/station${i + 1}.jpeg`,
+      import.meta.url,
+    ).href,
 );
 
 /** Data List*/
