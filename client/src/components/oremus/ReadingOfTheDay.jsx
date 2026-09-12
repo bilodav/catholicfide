@@ -1,6 +1,7 @@
 import fetchJsonp from "fetch-jsonp";
 import { useEffect, useState } from "react";
-import Loader from "./ui/Loader";
+import Loader from "../ui/Loader";
+import styles from "./ReadingOfTheDay.module.css";
 
 function ReadingOfTheDay() {
   const [data, setData] = useState(null);
@@ -33,27 +34,27 @@ function ReadingOfTheDay() {
 
   if (!isLoading && !error)
     return (
-      <section className="reading-of-the-day">
+      <section className={styles["reading-of-the-day"]}>
         <h3>{data.date}</h3>
         <div dangerouslySetInnerHTML={{ __html: data.day }} />
 
         <h3>Reading 1</h3>
         <div
-          className="reading-span"
+          className={styles["reading-span"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_R1?.source }}
         />
         <div
-          className="reading-paragraph"
+          className={styles["reading-paragraph"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_R1?.text }}
         />
 
         <h3>Responsorial Psalm</h3>
         <div
-          className="reading-span"
+          className={styles["reading-span"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_Ps?.source }}
         />
         <div
-          className="reading-paragraph"
+          className={styles["reading-paragraph"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_Ps?.text }}
         />
 
@@ -61,11 +62,11 @@ function ReadingOfTheDay() {
           <>
             <h3>Reading 2</h3>
             <div
-              className="reading-span"
+              className={styles["reading-span"]}
               dangerouslySetInnerHTML={{ __html: data.Mass_R2?.source }}
             />
             <div
-              className="reading-paragraph"
+              className={styles["reading-paragraph"]}
               dangerouslySetInnerHTML={{ __html: data.Mass_R2?.text }}
             />
           </>
@@ -73,26 +74,26 @@ function ReadingOfTheDay() {
 
         <h3>Alleluia</h3>
         <div
-          className="reading-span"
+          className={styles["reading-span"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_GA?.source }}
         />
         <div
-          className="reading-paragraph"
+          className={styles["reading-paragraph"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_GA?.text }}
         />
 
         <h3>Gospel</h3>
         <div
-          className="reading-span"
+          className={styles["reading-span"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_G?.source }}
         />
         <div
-          className="reading-paragraph"
+          className={styles["reading-paragraph"]}
           dangerouslySetInnerHTML={{ __html: data.Mass_G?.text }}
         />
 
         <div
-          className="reading-paragraph"
+          className={styles["reading-paragraph"]}
           dangerouslySetInnerHTML={{ __html: data.copyright?.text }}
         />
       </section>
