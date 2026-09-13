@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import altar3 from "../assets/altar3.png";
-import FamilyPrayer from "./FamilyPrayer";
+import altar3 from "../../assets/altar3.png";
+import FamilyPrayer from "../FamilyPrayer";
+import styles from "./DefaultAltar.module.css";
 
 function DefaultAltar() {
   useEffect(() => {

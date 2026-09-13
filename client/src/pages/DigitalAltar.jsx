@@ -1,11 +1,12 @@
 import { useState } from "react";
 import Rosary from "../components/Rosary";
-import DefaultAltar from "../components/DefaultAltar";
+import DefaultAltar from "../components/oremus/DefaultAltar";
 import Prayers from "../components/Prayers";
 import StationsOfTheCross from "../components/oremus/StationsOfTheCross";
 import StOfDay from "../components/StOfDay";
 import ReadingOfTheDay from "../components/oremus/ReadingOfTheDay";
 import Novenas from "../components/Novenas";
+import styles from "./DigitalAltar.module.css";
 
 function DigitalAltar() {
   const [altarState, setAltarState] = useState("default");
@@ -34,8 +35,8 @@ function DigitalAltar() {
       changedAltar = <DefaultAltar />;
   }
   return (
-    <section className="digital-altar" id="digitalAltar">
-      <div className="digital-altar-selection-row">
+    <section className={styles["digital-altar"]} id="digitalAltar">
+      <div className={styles["digital-altar-selection-row"]}>
         <select
           name="devotion"
           id="devotion"
