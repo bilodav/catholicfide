@@ -1,3 +1,6 @@
+import styles from "./RosaryCard.module.css";
+import Button from "./ui/Button";
+
 function RosaryCard(props) {
   const vibrate = (pattern = 50) => {
     if (navigator.vibrate) {
@@ -6,10 +9,10 @@ function RosaryCard(props) {
   };
 
   return (
-    <div className="rosary-card">
+    <div className={`${styles["rosary-card"]} ${props.cardClass}`}>
       {props.cardTitle && <h3>{props.cardTitle}</h3>}
       {props.mysteryGroup && <h3>{props.mysteryGroup}</h3>}
-      <div className="rosary-card-body">
+      <div className={styles["rosary-card-body"]}>
         {props.image && (
           <img src={props.image} className={props.imgClass} alt="mystery" />
         )}
@@ -17,47 +20,34 @@ function RosaryCard(props) {
         {props.scripture && (
           <p dangerouslySetInnerHTML={{ __html: props.scripture }} />
         )}
-        {props.date && <p className="date">{props.date}</p>}
+        {props.date && <p className={styles["date"]}>{props.date}</p>}
         {props.children}
 
         {props.beads && (
           <div
             style={{
               display: "flex",
-              alignItems: "space-around",
+              alignItems: "center",
               justifyContent: "space-around",
               margin: "10% auto",
             }}
           >
-            <button
+            <Button
               className="btn-outline"
-              style={{
-                display: "inline-block",
-                padding: "5px 15px",
-                fontSize: "20px",
-                marginRight: "100px",
-              }}
               onClick={() => {
                 vibrate();
                 props.onHandlePrev();
               }}
-            >
-              &#10094;
-            </button>
-            <button
+              text="❮"
+            />
+            <Button
               className="btn-outline"
-              style={{
-                display: "inline-block",
-                padding: "5px 15px",
-                fontSize: "20px",
-              }}
               onClick={() => {
                 vibrate();
                 props.onHandleNext();
               }}
-            >
-              &#10095;
-            </button>
+              text="❯"
+            />
           </div>
         )}
       </div>

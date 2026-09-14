@@ -1,0 +1,87 @@
+/* ============================================================
+   ROSARY COMPONENT
+   ============================================================ */
+
+/* Small devices (Portrait phones, 300px and up) */
+@media (min-width: 176px) {
+  /* body {
+    background-color: green;
+  } */
+  .rosary {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .rosary h2 {
+    margin-top: 0;
+    margin-bottom: 2vh;
+  }
+
+  .rosary-container {
+    flex-shrink: 0;
+    width: 90%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: minmax(300px, 450px);
+    justify-content: center;
+    padding: 0;
+    margin: 20px auto 5px;
+  }
+
+  .rosary-img {
+    height: 73%;
+    width: 65%;
+    min-width: 240px;
+    display: block;
+    margin: 0 auto 5px;
+    border-radius: var(--radius-lg);
+  }
+
+  .card-1 {
+    order: 3;
+  }
+
+  .card-2 {
+    order: 2;
+  }
+
+  .card-3 {
+    order: 1;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .rosary-container {
+    height: 71vh;
+    width: fit-content;
+    max-width: 90%;
+    grid-template-columns: minmax(220px, 1fr) minmax(240px, 1.6fr) minmax(
+        280px,
+        1fr
+      );
+    grid-template-rows: auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+  .card-1 {
+    order: 1;
+  }
+
+  .card-2 {
+    order: 2;
+  }
+
+  .card-3 {
+    order: 3;
+  }
+}

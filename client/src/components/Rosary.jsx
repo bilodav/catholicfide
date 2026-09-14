@@ -2,6 +2,7 @@ import { useState } from "react";
 import mysteries from "../assets/data/mysteries";
 import rosaryPrayers from "../assets/data/rosaryPrayers";
 import RosaryCard from "./RosaryCard";
+import styles from "./Rosary.module.css";
 
 const days = [
   "sunday",
@@ -65,7 +66,7 @@ function Rosary() {
   }
 
   return (
-    <section id="rosary" className="rosary">
+    <section id="rosary" className={styles["rosary"]}>
       <h2>Rosary</h2>
       <button
         className="btn-accent"
@@ -80,7 +81,7 @@ function Rosary() {
       >
         {isStarted ? "Reset" : "Start"}
       </button>
-      <div className="rosary-container">
+      <div className={styles["rosary-container"]}>
         {isStarted ? (
           <RosaryCard
             mysteryGroup={
@@ -101,9 +102,10 @@ function Rosary() {
                 ? mysteries.mysterySets[mysterySet].mysteries[mysteryNum].fruit
                 : null
             }
+            cardClass={styles["card-1"]}
           />
         ) : (
-          <RosaryCard image={starterImage} />
+          <RosaryCard image={starterImage} cardClass={styles["card-1"]} />
         )}
         {isStarted ? (
           <RosaryCard
@@ -112,25 +114,28 @@ function Rosary() {
               rosaryPrayers[bead - 1].prayer ||
               mysteries.mysterySets[mysterySet].mysteries[mysteryNum].verse
             }
+            cardClass={styles["card-2"]}
           />
         ) : (
           <RosaryCard
             mysteryGroup={mysteries.mysterySets[mysterySet].name}
             date={date.toDateString()}
+            cardClass={styles["card-2"]}
           />
         )}
         {isStarted ? (
           <RosaryCard
             cardTitle={rosaryTitle}
             image={rosaryPrayers[bead - 1].bead}
-            imgClass={"rosary-img"}
+            imgClass={styles["rosary-img"]}
             verse={rosaryPrayers[bead - 1].title}
             onHandlePrev={handlePrevBead}
             onHandleNext={handleNextBead}
             beads={true}
+            cardClass={styles["card-3"]}
           />
         ) : (
-          <RosaryCard image={enderImage} />
+          <RosaryCard image={enderImage} cardClass={styles["card-3"]} />
         )}
       </div>
     </section>

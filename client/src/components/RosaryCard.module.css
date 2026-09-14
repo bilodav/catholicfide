@@ -1,0 +1,77 @@
+/* ============================================================
+   ROSARY COMPONENT
+   ============================================================ */
+
+/* Small devices (Portrait phones, 300px and up) */
+@media (min-width: 176px) {
+  /* body {
+    background-color: green;
+  } */
+
+  .rosary-card {
+    width: 100%;
+    height: fit-content;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .rosary-card h3 {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .rosary-card h3:nth-of-type(2) {
+    font-size: 1.5rem;
+    margin-bottom: 0.2vh;
+  }
+
+  .rosary-card h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .rosary-card-body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .rosary-card img {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    border-radius: var(--radius-lg);
+  }
+
+  .rosary-card p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .rosary-card .date {
+    text-align: center;
+  }
+
+  .rosary-card button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .rosary-card {
+    width: 95%;
+    height: 55vh;
+    min-height: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+}
