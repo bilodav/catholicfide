@@ -1,6 +1,6 @@
 import { useState } from "react";
-import mysteries from "../assets/data/mysteries";
-import rosaryPrayers from "../assets/data/rosaryPrayers";
+import mysteries from "../../assets/data/mysteries";
+import rosaryPrayers from "../../assets/data/rosaryPrayers";
 import RosaryCard from "./RosaryCard";
 import styles from "./Rosary.module.css";
 
@@ -114,7 +114,7 @@ function Rosary() {
               rosaryPrayers[bead - 1].prayer ||
               mysteries.mysterySets[mysterySet].mysteries[mysteryNum].verse
             }
-            cardClass={styles["card-2"]}
+            cardClass={styles["card-2-active"]}
           />
         ) : (
           <RosaryCard

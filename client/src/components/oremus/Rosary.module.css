@@ -35,7 +35,7 @@
 
   .rosary-img {
     height: 73%;
-    width: 65%;
+    width: 66%;
     min-width: 240px;
     display: block;
     margin: 0 auto 5px;
@@ -48,6 +48,16 @@
 
   .card-2 {
     order: 2;
+    margin-bottom: 80px;
+  }
+
+  .card-2-active {
+    order: 2;
+    margin-bottom: 80px;
+    border: 1px solid var(--border-primary);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    padding: 5px;
   }
 
   .card-3 {
@@ -75,13 +85,26 @@
 
   .card-1 {
     order: 1;
+    align-self: flex-start;
+    height: 100%;
   }
 
   .card-2 {
     order: 2;
+    margin-top: 10px;
+  }
+
+  .card-2-active {
+    order: 2;
+    padding: 20px;
+    height: 96%;
+    align-self: flex-start;
+    margin-top: 10px;
   }
 
   .card-3 {
     order: 3;
+    align-self: flex-start;
+    height: 100%;
   }
 }

@@ -1,5 +1,5 @@
 import styles from "./RosaryCard.module.css";
-import Button from "./ui/Button";
+import Button from "../ui/Button";
 
 function RosaryCard(props) {
   const vibrate = (pattern = 50) => {
