@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import ApologiaPage from "./pages/apologiaPage";
 import ApologiaArticleViewer from "./components/ApologiaArticleViewer";
 import NotFoundPage from "./pages/NotFoundPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/oremus" element={<DigitalAltar />} />
         <Route path="/apologia" element={<ApologiaPage />} />
         <Route path="/apologia/:themeId" element={<ApologiaArticleViewer />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
