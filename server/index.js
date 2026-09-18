@@ -30,7 +30,7 @@ app.post("/api/send-mail", async (req, res) => {
       replyTo: email,
       to: process.env.CONTACT_TO_EMAIL,
       subject: `New Contact Form: ${subject}`,
-      text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
+      text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`,
     });
     res.json({ success: true });
   } catch (err) {

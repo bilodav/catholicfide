@@ -198,6 +198,21 @@ html {
   --text-white: #ffffff;
   --text-accent: #c9a961;
 
+  /* ── Status ── */
+  --color-error: #a3342f;
+  --color-error-light: #c75a54;
+  --color-error-dark: #7e2622;
+
+  --color-success: #4a7a4f;
+  --color-success-light: #6b9c70;
+  --color-success-dark: #365938;
+
+  /* ── Status text/bg ── */
+  --text-error: #a3342f;
+  --text-success: #4a7a4f;
+  --bg-error: #a3342f;
+  --bg-success: #4a7a4f;
+
   /* ── Backgrounds ── */
   --bg-primary: #ffffff;
   --bg-secondary: #f8f6f0;
@@ -244,6 +259,34 @@ html {
   --btn-outline-border: #c9a961;
   --btn-outline-hover-bg: #c9a961;
   --btn-outline-hover-text: #ffffff;
+
+  /* ── Buttons: Danger ── */
+  --btn-danger-bg: #a3342f;
+  --btn-danger-text: #ffffff;
+  --btn-danger-hover: #c75a54;
+  --btn-danger-active: #7e2622;
+  --btn-danger-shadow: 0 4px 12px rgba(163, 52, 47, 0.35);
+
+  /* ── Buttons: Success ── */
+  --btn-success-bg: #4a7a4f;
+  --btn-success-text: #ffffff;
+  --btn-success-hover: #6b9c70;
+  --btn-success-active: #365938;
+  --btn-success-shadow: 0 4px 12px rgba(74, 122, 79, 0.35);
+
+  /* ── Buttons: Ghost ── */
+  --btn-ghost-text: #1a2332;
+  --btn-ghost-hover-bg: rgba(26, 35, 50, 0.06);
+  --btn-ghost-active-bg: rgba(26, 35, 50, 0.12);
+
+  /* ── Buttons: Ghost Accent (gold ghost) ── */
+  --btn-ghost-accent-text: #c9a961;
+  --btn-ghost-accent-hover-bg: rgba(201, 169, 97, 0.1);
+  --btn-ghost-accent-active-bg: rgba(201, 169, 97, 0.18);
+
+  /* ── Buttons: Link ── */
+  --btn-link-text: #1a2332;
+  --btn-link-hover-text: #c9a961;
 
   /* ── Highlights ── */
   --highlight-primary: #c9a961;
@@ -324,6 +367,140 @@ a {
   color: var(--selection-text);
 }
 
+/* ============================================================
+   FORM ELEMENTS — BASE STYLING
+   ============================================================ */
+
+input,
+select,
+textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  border: 2px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  outline: none;
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: var(--border-dark);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-accent);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-light);
+  font-style: italic;
+}
+
+input:disabled,
+select:disabled,
+textarea:disabled {
+  background-color: var(--bg-hover);
+  color: var(--text-light);
+  border-color: var(--border-light);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Error / success states — pair with aria-invalid or a utility class */
+input.input-error,
+select.input-error,
+textarea.input-error,
+input[aria-invalid="true"] {
+  border-color: var(--color-error);
+}
+
+input.input-error:focus,
+select.input-error:focus,
+textarea.input-error:focus,
+input[aria-invalid="true"]:focus {
+  box-shadow: 0 0 0 3px rgba(163, 52, 47, 0.2);
+}
+
+input.input-success,
+select.input-success,
+textarea.input-success {
+  border-color: var(--color-success);
+}
+
+input.input-success:focus,
+select.input-success:focus,
+textarea.input-success:focus {
+  box-shadow: 0 0 0 3px rgba(74, 122, 79, 0.2);
+}
+
+/* ── Select-specific ── */
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath fill='%23c9a961' d='M6 8 0 0h12z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--spacing-sm) center;
+  background-size: 10px 7px;
+  padding-right: calc(var(--spacing-lg) + var(--spacing-xs));
+}
+
+select:disabled {
+  background-image: none;
+}
+
+/* ── Textarea-specific ── */
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  line-height: var(--line-height-normal);
+  font-family: var(--font-body);
+}
+
+/* ── Checkbox / radio ── */
+input[type="checkbox"],
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  accent-color: var(--color-accent);
+  cursor: pointer;
+}
+
+/* ── Label ── */
+label {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+/* ── Helper / error text under a field ── */
+.field-hint {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.field-error-text {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-error);
+  margin-top: 4px;
+}
 /* ============================================================
    GLOBAL BUTTON STYLES  (reusable across all sections)
    ============================================================ */
