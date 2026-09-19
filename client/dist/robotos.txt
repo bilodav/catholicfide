@@ -1,0 +1,30 @@
+# robots.txt for catholicfide.sylphcode.co.za
+
+# --- AI TRAINING CRAWLERS: blocked ---
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+User-agent: Bytespider
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: omgili
+User-agent: omgilibot
+User-agent: Timpibot
+User-agent: AI2Bot
+Disallow: /
+
+# --- EVERYONE ELSE, including search and AI-search crawlers: allowed ---
+# This covers Googlebot, Bingbot, DuckDuckBot, Applebot, OAI-SearchBot,
+# ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot and Perplexity-User.
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://catholicfide.sylphcode.co.za/sitemap.xml

@@ -27,6 +27,49 @@
   .mission-panel {
     display: none;
   }
+
+  .contact-donation {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    border: 1px solid var(--border-dark);
+    width: 85%;
+    margin: 0 auto 20px;
+    border-radius: var(--radius-xl);
+    background-image: url("../assets/churchlight.jpg");
+    background-size: cover;
+    box-shadow: var(--shadow-xl);
+  }
+
+  .contact-donation svg {
+    width: 10%;
+  }
+
+  .contact-donation-info {
+    width: 80%;
+  }
+
+  .contact-donation-info span:first-of-type {
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--color-black);
+    color: var(--color-black);
+  }
+
+  .contact-donation-info p:first-of-type {
+    display: none;
+  }
+
+  .contact-donation-info p:last-of-type {
+    font-size: 0.85rem;
+    color: var(--color-black);
+  }
+
+  .contact-donation button {
+    padding: 5px 20px;
+    height: 40px;
+    align-self: center;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
