@@ -6,6 +6,10 @@
     flex-direction: column;
   }
 
+  .contact-form-nav {
+    display: none;
+  }
+
   .contact-form-container {
     display: flex;
     flex-direction: column;
@@ -40,18 +44,19 @@
     background-image: url("../assets/churchlight.jpg");
     background-size: cover;
     box-shadow: var(--shadow-xl);
+    container-type: inline-size;
   }
 
   .contact-donation svg {
-    width: 10%;
+    width: 20%;
   }
 
   .contact-donation-info {
     width: 80%;
   }
 
-  .contact-donation-info span:first-of-type {
-    font-size: 1.5rem;
+  .span-text {
+    font-size: 5cqw;
     border-bottom: 2px solid var(--color-black);
     color: var(--color-black);
   }
@@ -61,7 +66,7 @@
   }
 
   .contact-donation-info p:last-of-type {
-    font-size: 0.85rem;
+    font-size: 2.8cqw;
     color: var(--color-black);
   }
 
@@ -74,7 +79,55 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* body {background-color: rgb(71, 17, 195);} */
+  .contact-form-nav {
+    position: relative;
+    width: 60%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    margin: -80px auto 80px;
+  }
+  .contact-form-card {
+    height: 200px;
+    width: 220px;
+    border-radius: 1px solid var(--border-primary);
+    border-radius: var(--radius-xl);
+    background-color: var(--bg-dark);
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    transition: var(--transition-slow);
+  }
+
+  .contact-form-card:hover {
+    box-shadow: var(--shadow-xl);
+    transform: translateY(-10px);
+  }
+
+  .contact-form-card h4 {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+    z-index: 5;
+    color: var(--text-white);
+    transition: var(--transition-slow);
+  }
+
+  .contact-form-card:hover h4 {
+    font-size: 2rem;
+    transform: translateX(30px);
+  }
+
+  .contact-form-card img {
+    position: absolute;
+    inset: 0; /* top/right/bottom/left: 0 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: var(--radius-xl);
+  }
+
   .contact-form-container {
     height: 100vh;
     flex-direction: row;
@@ -93,9 +146,55 @@
     border-radius: var(--radius-xl);
     height: 95%;
     width: 100%;
-    min-width: 450px;
+    min-width: 405px;
     margin: auto;
     margin-top: 40px;
+  }
+
+  .contact-donation {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .contact-donation-info span:first-of-type {
+    font-size: 5cqw;
+    border-bottom: 2px solid var(--color-black);
+    color: var(--color-black);
+    text-align: center;
+  }
+
+  .contact-donation svg {
+    width: 10%;
+    max-width: 90px;
+  }
+
+  .contact-donation-info {
+    text-align: center;
+  }
+
+  .span-text {
+    font-size: 1.5rem;
+    border-bottom: none;
+  }
+
+  .contact-donation-info p:first-of-type {
+    display: block;
+    font-size: 2.5rem;
+    color: var(--color-black);
+  }
+
+  .contact-donation-info p:last-of-type {
+    font-size: 1rem;
+    color: var(--color-black);
+  }
+
+  .contact-donation button {
+    padding: 5px 40px;
+    align-self: center;
   }
 }
 
