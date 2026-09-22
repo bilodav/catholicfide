@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import rosary from "../assets/rosaryInLight.jpeg";
 import prayerHands from "../assets/prayerHands.jpeg";
 import familyCross from "../assets/familyCross.jpeg";
+import SnapScanDonation from "../components/payments/SnapScanDonation";
 
 function ContactPage() {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,14 +76,17 @@ function ContactPage() {
           </p>
         </div>
 
-        <Button text="Donate" onClick={() => setIsOpen(true)} />
+        <Button
+          className="btn-primary"
+          text="Donate"
+          onClick={() => setIsOpen(true)}
+        />
         <Modal isOpen={isOpen} onClose={onClose}>
-          <div className={styles["donation-modal"]}>
-            <p>Hi</p>
-            <p>I am A div</p>
-          </div>
+          <SnapScanDonation />
         </Modal>
       </div>
+
+      <div id="faq" className={styles["contact-faq"]}></div>
     </section>
   );
 }
