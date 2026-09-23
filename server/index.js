@@ -9,7 +9,7 @@ const checkoutRoutes = require("./routes/checkout");
 const app = express();
 
 app.use(cors());
-app.use(express.json());
+app.use(cors({ origin: process.env.CLIENT_URL }));
 
 // API routes
 app.get("/api", (req, res) => {
