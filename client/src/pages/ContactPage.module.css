@@ -79,6 +79,10 @@
   .decorative-line {
     display: none;
   }
+
+  .contact-faq {
+    padding: 10px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -209,6 +213,16 @@
     vertical-align: middle;
     margin: 0px 10px;
     position: relative;
+  }
+
+  .contact-faq {
+    padding: 30px;
+    width: 85%;
+    margin: 80px auto;
+  }
+
+  .contact-faq h3 {
+    text-align: center;
   }
 }
 

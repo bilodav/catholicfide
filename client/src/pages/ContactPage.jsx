@@ -11,12 +11,85 @@ import rosary from "../assets/rosaryInLight.jpeg";
 import prayerHands from "../assets/prayerHands.jpeg";
 import familyCross from "../assets/familyCross.jpeg";
 import SnapScanDonation from "../components/payments/SnapScanDonation";
+import Accordion from "../components/ui/Accordion";
+import YocoTestForm from "../components/payments/YocoTestForm";
+
+const faqs = [
+  {
+    title: "What is Catholic Fide?",
+    content:
+      "Catholic Fide is a digital resource for Catholics and anyone seeking to learn more about the Catholic faith. It brings together prayers, theological resources, church information, and helpful tools for growing in faith.",
+  },
+  {
+    title: "Can I suggest a prayer or theological topic?",
+    content:
+      "Absolutely. We welcome suggestions for prayers, devotions, theological subjects, and other resources that you would like to see added to Catholic Fide.",
+  },
+  {
+    title: "I found incorrect information. How can I report it?",
+    content:
+      "If you notice an error in a prayer, theological text, church listing, Mass time, or other information, please let us know through the contact form. Select “Complaint or Report” and provide as much detail as possible so we can review it.",
+  },
+  {
+    title: "Can I suggest a church or update church information?",
+    content:
+      "Yes. If a church is missing or its details have changed, you can contact us with the relevant information. This helps us keep the Catholic Fide church directory as accurate and useful as possible.",
+  },
+  {
+    title: "How can I support Catholic Fide?",
+    content:
+      "You can support Catholic Fide through a donation. Your generosity helps us maintain the platform, develop new resources, and make Catholic content more accessible.",
+  },
+  {
+    title: "How can I report a technical problem?",
+    content:
+      "If something isn't working correctly, please use the contact form and select “Technical Support.” Include a description of the problem and, where possible, the page or feature where you experienced it.",
+  },
+  {
+    title: "How long will it take to receive a response?",
+    content:
+      "We aim to respond to enquiries as soon as reasonably possible. Response times may vary depending on the nature of your enquiry and the information required to address it.",
+  },
+];
 
 function ContactPage() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
 
   const onClose = () => setIsOpen(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setStatus("sending");
+
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setStatus("success");
+        setFormData({
+          name: "",
+          email: "",
+          subject: defaultSubject,
+          message: "",
+        });
+        onSuccess?.(result);
+      } else {
+        setStatus("error");
+        onError?.(result);
+      }
+    } catch (err) {
+      console.error("Contact form error:", err);
+      setStatus("error");
+      onError?.(err);
+    }
+  };
   return (
     <section className={styles["contact-page"]}>
       <div className={styles["contact-hero"]}></div>
@@ -38,10 +111,10 @@ function ContactPage() {
 
           <img src={prayerHands} alt="" />
         </a>
-        <div className={styles["contact-form-card"]}>
+        <a href="#faq" className={styles["contact-form-card"]}>
           <h4>FAQ</h4>
           <img src={rosary} alt="" />
-        </div>
+        </a>
       </div>
 
       <div id="contact" className={styles["contact-form-container"]}>
@@ -86,7 +159,13 @@ function ContactPage() {
         </Modal>
       </div>
 
-      <div id="faq" className={styles["contact-faq"]}></div>
+      <div id="faq" className={styles["contact-faq"]}>
+        <h3>Frequently Asked Questions</h3>
+
+        <Accordion content={faqs} />
+      </div>
+
+      <YocoTestForm />
     </section>
   );
 }

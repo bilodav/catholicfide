@@ -4,6 +4,7 @@ const path = require("path");
 require("dotenv").config();
 
 const transporter = require("./config/mail");
+const checkoutRoutes = require("./routes/checkout");
 
 const app = express();
 
@@ -14,6 +15,8 @@ app.use(express.json());
 app.get("/api", (req, res) => {
   res.json({ message: "Store API is running 🚀" });
 });
+
+app.use("/api", checkoutRoutes); // gives you POST /api/checkout
 
 app.post("/api/send-mail", async (req, res) => {
   const { name, email, subject, message } = req.body;
