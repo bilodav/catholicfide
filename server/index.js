@@ -5,11 +5,17 @@ require("dotenv").config();
 
 const transporter = require("./config/mail");
 const checkoutRoutes = require("./routes/checkout");
+const webhookRoutes = require("./routes/webhook");
 
 const app = express();
 
-app.use(cors());
+// Webhook route must be mounted BEFORE express.json(), since it needs the
+// raw request body to verify Yoco's signature — express.json() would
+// otherwise consume and re-parse the body first, breaking verification.
+app.use("/api", webhookRoutes);
+
 app.use(cors({ origin: process.env.CLIENT_URL }));
+app.use(express.json());
 
 // API routes
 app.get("/api", (req, res) => {
