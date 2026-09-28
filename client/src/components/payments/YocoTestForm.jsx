@@ -1,4 +1,6 @@
 import { useState } from "react";
+import styles from "./YocoTestForm.module.css";
+import Button from "../ui/Button";
 
 export default function YocoTestForm({ endpoint = "/api/checkout" }) {
   const [amount, setAmount] = useState("");
@@ -33,7 +35,12 @@ export default function YocoTestForm({ endpoint = "/api/checkout" }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles["card-donation"]}>
+      <h2>Donate via Card</h2>
+      <p>
+        Your donations helps with the upkeep costs of catholicfide and allows us
+        to reach more people across the world.
+      </p>
       <label htmlFor="amount">Amount (ZAR)</label>
       <input
         id="amount"
@@ -46,10 +53,12 @@ export default function YocoTestForm({ endpoint = "/api/checkout" }) {
         required
       />
 
-      <button type="submit" disabled={status === "sending"}>
-        {status === "sending" ? "Redirecting…" : "Pay"}
-      </button>
-
+      <Button
+        type="submit"
+        disabled={status === "sending"}
+        text={status === "sending" ? "Redirecting…" : "Pay"}
+        className="btn-success"
+      />
       {status === "error" && <p style={{ color: "red" }}>{errorMsg}</p>}
     </form>
   );

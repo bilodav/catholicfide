@@ -1,0 +1,71 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 176px) {
+  /* body {background-color: green;} */
+  .donation-path-container {
+    padding: 30px;
+  }
+
+  .donation-path-container > button {
+    margin: 50px 0px 0px;
+    position: absolute;
+    right: 10px;
+    top: -42px;
+    padding: 3px 20px;
+  }
+
+  .path-choice h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .path-card h3 {
+    margin: 0;
+    transition: var(--transition-base);
+  }
+  .path-card {
+    cursor: pointer;
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: 0 20px;
+    margin-bottom: 10px;
+    transition: var(--transition-base);
+  }
+
+  .path-card:hover {
+    border: 1px solid var(--border-accent);
+    box-shadow: var(--shadow-inset);
+  }
+
+  .path-card:hover h3 {
+    transform: translateX(8px);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { */
+/* body {background-color: rgb(71, 17, 195);} */
+
+/* } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { */
+/* body {background-color: rgb(242, 118, 192);} */
+
+/* } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+ body {background-color: rgb(101, 217, 233);}
+  
+} */
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+ body {background-color: rgb(144, 111, 221);}
+  
+} */

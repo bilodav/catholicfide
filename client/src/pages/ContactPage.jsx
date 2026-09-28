@@ -10,9 +10,8 @@ import { useNavigate } from "react-router-dom";
 import rosary from "../assets/rosaryInLight.jpeg";
 import prayerHands from "../assets/prayerHands.jpeg";
 import familyCross from "../assets/familyCross.jpeg";
-import SnapScanDonation from "../components/payments/SnapScanDonation";
 import Accordion from "../components/ui/Accordion";
-import YocoTestForm from "../components/payments/YocoTestForm";
+import DonationPath from "../components/payments/DonationPath";
 
 const faqs = [
   {
@@ -144,7 +143,7 @@ function ContactPage() {
           <span className={styles["decorative-line"]}></span>
           <p>Make a Donation</p>
           <p>
-            Your generoisty helps us share the Catholic Faith with more people
+            Your generosity helps us share the Catholic Faith with more people
             around the world
           </p>
         </div>
@@ -155,7 +154,7 @@ function ContactPage() {
           onClick={() => setIsOpen(true)}
         />
         <Modal isOpen={isOpen} onClose={onClose}>
-          <SnapScanDonation />
+          {isOpen && <DonationPath />}
         </Modal>
       </div>
 
@@ -164,8 +163,6 @@ function ContactPage() {
 
         <Accordion content={faqs} />
       </div>
-
-      <YocoTestForm />
     </section>
   );
 }
