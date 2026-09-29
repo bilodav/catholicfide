@@ -3,6 +3,7 @@ import SnapScanDonation from "./SnapScanDonation";
 import YocoTestForm from "./YocoTestForm";
 import styles from "./DonationPath.module.css";
 import { useState } from "react";
+import EftDetails from "./EftDetails";
 
 function DonationPath() {
   const [pathway, setPathway] = useState(null);
@@ -48,7 +49,7 @@ function DonationPath() {
           </div>
           <div
             onClick={(e) => {
-              handleClick("snapscan");
+              handleClick("eft");
             }}
             className={styles["path-card"]}
           >
@@ -71,6 +72,7 @@ function DonationPath() {
       )}
       {pathway === "snapscan" && <SnapScanDonation />}
       {pathway === "card" && <YocoTestForm />}
+      {pathway === "eft" && <EftDetails />}
     </div>
   );
 }

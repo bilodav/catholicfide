@@ -19,38 +19,67 @@ const faqs = [
     content:
       "Catholic Fide is a digital resource for Catholics and anyone seeking to learn more about the Catholic faith. It brings together prayers, theological resources, church information, and helpful tools for growing in faith.",
   },
+
+  {
+    title: "Who manages Catholic Fide?",
+    content:
+      "Catholic Fide is currently developed and managed by Sylph Code, a web development company owned by the founder of Catholic Fide. Sylph Code provides the technical development, hosting, maintenance, and other support needed to build and operate the platform. Catholic Fide is currently an independent project being developed with the intention of establishing an appropriate non-profit structure as the project grows.",
+  },
+
+  {
+    title: "Why does my donation show Sylph Code?",
+    content:
+      "Because Catholic Fide is currently being developed and managed through Sylph Code, payments made through services such as SnapScan, EFT, or card payments may display Sylph Code as the payment recipient or business name. This reflects the current payment and operational arrangement while Catholic Fide is still being established as a project.",
+  },
+
+  {
+    title: "What are donations to Catholic Fide used for?",
+    content:
+      "Donations made in support of Catholic Fide are intended to help cover the costs of developing, maintaining, researching, and growing the project. This includes website development and upkeep, research, legal and professional advice relating to the project's future legal structure, travelling and documenting Catholic churches throughout South Africa, developing Catholic resources, and supporting future outreach activities.",
+  },
+
+  {
+    title: "Is Catholic Fide a registered non-profit organisation?",
+    content:
+      "Catholic Fide is currently in its development stage and has not yet completed the formal process of establishing its non-profit legal structure. We are working towards determining and establishing the appropriate legal framework for the project. Until that process is complete, Catholic Fide should not be considered a registered non-profit organisation.",
+  },
+
   {
     title: "Can I suggest a prayer or theological topic?",
     content:
       "Absolutely. We welcome suggestions for prayers, devotions, theological subjects, and other resources that you would like to see added to Catholic Fide.",
   },
+
   {
     title: "I found incorrect information. How can I report it?",
     content:
       "If you notice an error in a prayer, theological text, church listing, Mass time, or other information, please let us know through the contact form. Select “Complaint or Report” and provide as much detail as possible so we can review it.",
   },
+
   {
     title: "Can I suggest a church or update church information?",
     content:
       "Yes. If a church is missing or its details have changed, you can contact us with the relevant information. This helps us keep the Catholic Fide church directory as accurate and useful as possible.",
   },
+
   {
     title: "How can I support Catholic Fide?",
     content:
-      "You can support Catholic Fide through a donation. Your generosity helps us maintain the platform, develop new resources, and make Catholic content more accessible.",
+      "You can support Catholic Fide through a donation or by helping us with information, research, feedback, and outreach. Donations help us cover the practical costs of building and operating the project, including development, research, legal and professional advice, church documentation, and future outreach activities.",
   },
+
   {
     title: "How can I report a technical problem?",
     content:
       "If something isn't working correctly, please use the contact form and select “Technical Support.” Include a description of the problem and, where possible, the page or feature where you experienced it.",
   },
+
   {
     title: "How long will it take to receive a response?",
     content:
       "We aim to respond to enquiries as soon as reasonably possible. Response times may vary depending on the nature of your enquiry and the information required to address it.",
   },
 ];
-
 function ContactPage() {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();

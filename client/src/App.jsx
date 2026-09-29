@@ -6,6 +6,7 @@ import ApologiaPage from "./pages/apologiaPage";
 import ApologiaArticleViewer from "./components/ApologiaArticleViewer";
 import NotFoundPage from "./pages/NotFoundPage";
 import ContactPage from "./pages/ContactPage";
+import PaymentSuccess from "./pages/PaymentSuccess";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/apologia" element={<ApologiaPage />} />
         <Route path="/apologia/:themeId" element={<ApologiaArticleViewer />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/payment-success" element={<PaymentSuccess />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </>
