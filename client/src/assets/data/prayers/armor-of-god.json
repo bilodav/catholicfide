@@ -3,7 +3,14 @@
     "id": "armor-of-god",
     "title": "Armor of God Prayer",
     "primary_category": "devotional",
-    "labels": ["devotional", "spiritual-warfare", "biblical", "protection", "essential", "daily"],
+    "labels": [
+      "devotional",
+      "spiritual-warfare",
+      "biblical",
+      "protection",
+      "essential",
+      "daily"
+    ],
     "importance": "essential",
     "type": "devotional",
     "description": "Prayer for spiritual protection based on Ephesians 6:10-18, asking God to clothe the believer in the spiritual armor of truth, righteousness, faith, salvation, and the Word of God",
@@ -23,7 +30,7 @@
     },
     "en": {
       "language": "English",
-      "text": "Almighty God, by the power of the Holy Spirit, clothe me with the armor of God, that I may be able to stand firm against the tactics of the devil. Gird me with the belt of truth. Clothe me with the breastplate of righteousness. Fit my feet with the readiness that comes from the gospel of peace. Take up the shield of faith, with which I can extinguish all the flaming arrows of the evil one. Put on me the helmet of salvation and the sword of the Spirit, which is the word of God. Help me to pray in the Spirit on all occasions with all kinds of prayers and requests. Help me to be alert and always keep on praying for all the Lord's people. Give me strength in the Lord and in his mighty power, that I may stand against the rulers, against the authorities, against the powers of this dark world and against the spiritual forces of evil in the heavenly realms. Through Christ our Lord. Amen.",
+      "text": "Almighty God, by the power of the Holy Spirit, clothe me with the armor of God, that I may be able to stand firm against the tactics of the devil.\nGird me with the belt of truth. Clothe me with the breastplate of righteousness. Fit my feet with the readiness that comes from the gospel of peace. Take up the shield of faith, with which I can extinguish all the flaming arrows of the evil one. Put on me the helmet of salvation and the sword of the Spirit, which is the word of God.\n Help me to pray in the Spirit on all occasions with all kinds of prayers and requests. Help me to be alert and always keep on praying for all the Lord's people. Give me strength in the Lord and in his mighty power, that I may stand against the rulers, against the authorities, against the powers of this dark world and against the spiritual forces of evil in the heavenly realms. Through Christ our Lord. Amen.",
       "notes": "Based on Ephesians 6:10-18 (NIV/RSV-CE)"
     },
     "es": {

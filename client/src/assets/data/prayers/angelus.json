@@ -3,25 +3,15 @@
     "id": "angelus",
     "title": "The Angelus",
     "primary_category": "marian",
-    "labels": [
-      "marian",
-      "daily",
-      "devotional"
-    ],
+    "labels": ["marian", "daily", "devotional"],
     "importance": "common",
     "type": "devotional",
     "description": "A traditional Marian devotion commemorating the Annunciation, recited three times daily",
     "origin": "Developed from the practice of reciting Hail Marys at the sound of church bells",
     "origin_date": "1200/1300",
     "usage": "Recited at 6 AM, 12 PM, and 6 PM daily, traditionally at the sound of church bells",
-    "feast_days": [
-      "annunciation",
-      "all-marian-feasts"
-    ],
-    "devotions": [
-      "daily-prayers",
-      "marian-devotions"
-    ],
+    "feast_days": ["annunciation", "all-marian-feasts"],
+    "devotions": ["daily-prayers", "marian-devotions"],
     "created_date": "2025-07-14",
     "last_modified": "2025-10-20"
   },
