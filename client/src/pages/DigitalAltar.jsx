@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Rosary from "../components/oremus/Rosary";
 import DefaultAltar from "../components/oremus/DefaultAltar";
-import Prayers from "../components/Prayers";
+import Prayers from "../components/oremus/Prayers";
 import StationsOfTheCross from "../components/oremus/StationsOfTheCross";
 import StOfDay from "../components/StOfDay";
 import ReadingOfTheDay from "../components/oremus/ReadingOfTheDay";
