@@ -5,7 +5,7 @@ import Prayers from "../components/oremus/Prayers";
 import StationsOfTheCross from "../components/oremus/StationsOfTheCross";
 import StOfDay from "../components/StOfDay";
 import ReadingOfTheDay from "../components/oremus/ReadingOfTheDay";
-import Novenas from "../components/Novenas";
+import Novenas from "../components/oremus/Novenas";
 import styles from "./DigitalAltar.module.css";
 
 function DigitalAltar() {

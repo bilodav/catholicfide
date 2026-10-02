@@ -21,7 +21,7 @@ function LibraryBrowser({
   const [selectedId, setSelectedId] = useState(null);
   const [displayExtraInfo, setDisplayExtraInfo] = useState(false);
 
-  // Derived data: no need to keep this in state
+  // Derived data
   const query = search.trim().toLowerCase();
   const list = items
     .filter(

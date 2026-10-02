@@ -3,7 +3,7 @@ import Navbar from "./components/navigation/Navbar";
 import DigitalAltar from "./pages/DigitalAltar";
 import LandingPage from "./pages/LandingPage";
 import ApologiaPage from "./pages/apologiaPage";
-import ApologiaArticleViewer from "./components/ApologiaArticleViewer";
+import ApologiaArticleViewer from "./components/apologia/ApologiaArticleViewer";
 import NotFoundPage from "./pages/NotFoundPage";
 import ContactPage from "./pages/ContactPage";
 import PaymentSuccess from "./pages/PaymentSuccess";

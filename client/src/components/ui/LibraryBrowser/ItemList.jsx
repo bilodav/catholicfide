@@ -1,7 +1,7 @@
 import styles from "./ItemList.module.css";
 function ItemList({ items, selectedId, onSelect, title = "Prayer List" }) {
   return (
-    <div className="prayer-list prayer-card">
+    <div className={`${styles["item-list"]} ${styles["item-card"]}`}>
       <h3>{title}</h3>
       <ul>
         {items.map((item) => (
