@@ -36,24 +36,33 @@ function LibraryBrowser({
     )
     .map((p) => ({ id: p.metadata.id, title: p.metadata.title }));
 
+  const filterCount = [categories, languages, extraInfoFields].filter(
+    Boolean,
+  ).length;
+  const inlineSearch = filterCount === 1;
+
   const selected = selectedId ? itemsById[selectedId] : null;
 
   return (
     <section>
-      <BrowserFilters
-        categories={categories}
-        category={category}
-        onCategoryChange={setCategory}
-        languages={languages}
-        language={language}
-        onLanguageChange={setLanguage}
-        displayExtraInfo={displayExtraInfo}
-        onDisplayExtraInfoChange={
-          extraInfoFields ? setDisplayExtraInfo : undefined
-        }
-      />
+      <div
+        className={`${styles["filters"]} ${
+          inlineSearch ? styles["filters-inline-search"] : ""
+        }`}
+      >
+        <BrowserFilters
+          categories={categories}
+          category={category}
+          onCategoryChange={setCategory}
+          languages={languages}
+          language={language}
+          onLanguageChange={setLanguage}
+          displayExtraInfo={displayExtraInfo}
+          onDisplayExtraInfoChange={
+            extraInfoFields ? setDisplayExtraInfo : undefined
+          }
+        />
 
-      <div>
         {searchPlaceholder && (
           <BrowserSearch
             value={search}
@@ -61,7 +70,9 @@ function LibraryBrowser({
             placeholder={searchPlaceholder}
           />
         )}
+      </div>
 
+      <div>
         <div className={styles["library-display"]}>
           <ItemList
             title={listTitle}

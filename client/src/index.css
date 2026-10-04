@@ -762,26 +762,6 @@ label {
     box-shadow: var(--shadow-accent);
   }
 
-  .prayer-search {
-    min-width: 300px;
-    width: 84.5%;
-    padding: 2px 10px;
-    min-height: 20px;
-    height: 3.5vh;
-    font-family: var(--font-heading);
-    font-size: 1.25rem;
-    border-radius: var(--radius-md);
-    border: 2px solid var(--border-medium);
-    outline: none;
-    display: block;
-    margin: 8px auto;
-  }
-
-  .prayer-search:focus {
-    border: 2px solid var(--border-accent);
-    box-shadow: var(--shadow-accent);
-  }
-
   .select-card p {
     font-size: 0.85rem;
   }

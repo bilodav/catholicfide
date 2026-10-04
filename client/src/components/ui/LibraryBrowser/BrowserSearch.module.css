@@ -1,0 +1,20 @@
+.browser-search {
+  min-width: 300px;
+  width: 100%;
+  padding: 2px 10px;
+  min-height: 20px;
+  height: 3.5vh;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--border-medium);
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.browser-search:focus {
+  border: 2px solid var(--border-accent);
+  box-shadow: var(--shadow-accent);
+}

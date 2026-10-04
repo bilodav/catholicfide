@@ -13,6 +13,28 @@
     padding: 0;
     margin: 15px auto 10px;
   }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /* lines the search box up with the select, not its label */
+    gap: 12px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Default: filters and search each take a full row */
+@media (min-width: 768px) {
+  .filters-inline-search > :first-child {
+    flex: 0 0 auto; /* filter shrinks to its content */
+    width: 350px;
+  }
+
+  .filters-inline-search > :last-child {
+    flex: 1 1 0;
+    min-width: 300px; /* wraps to a new line if there's less room than this */
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

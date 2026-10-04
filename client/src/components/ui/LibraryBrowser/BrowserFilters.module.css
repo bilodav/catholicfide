@@ -2,11 +2,12 @@
 @media (min-width: 176px) {
   /* body {background-color: green;} */
   .library-filters {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
+    margin: 20px0;
+    width: 100%;
   }
 
   .library-filters select {
