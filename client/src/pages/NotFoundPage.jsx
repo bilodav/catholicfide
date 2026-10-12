@@ -10,7 +10,9 @@ function NotFoundPage() {
         <p>404</p>
         <p>
           It seems you have explored where we have{" "}
-          <span className={styles["text-404-accent"]}>not yet gone</span>
+          <span className={styles["text-404-accent"]}>
+            not yet gone--test--
+          </span>
         </p>
 
         <span className={styles["text-404-end"]}>
