@@ -1,4 +1,3 @@
-import fetchJsonp from "fetch-jsonp";
 import { useEffect, useState } from "react";
 import Loader from "../ui/Loader";
 import styles from "./ReadingOfTheDay.module.css";
@@ -9,25 +8,29 @@ function ReadingOfTheDay() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    async function fetchReading() {
-      try {
-        setIsLoading(true);
-        setError("");
-        const res = await fetchJsonp(
-          "https://universalis.com/Europe.England/jsonpmass.js",
-        );
-        if (!res.ok)
-          throw new Error("Something went wrong with fetching the reading");
-        const data = await res.json();
-        setData(data);
-      } catch (err) {
-        console.error(err.message);
-        setError(err.message);
-      } finally {
-        setIsLoading(false);
-      }
-    }
-    fetchReading();
+    setIsLoading(true);
+    setError("");
+
+    const script = document.createElement("script");
+    script.src = "https://universalis.com/Europe.England/jsonpmass.js";
+    script.async = true;
+
+    window.universalisCallback = (json) => {
+      setData(json);
+      setIsLoading(false);
+    };
+
+    script.onerror = () => {
+      setError("Could not load the reading");
+      setIsLoading(false);
+    };
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+      delete window.universalisCallback;
+    };
   }, []);
 
   if (isLoading) return <Loader />;
