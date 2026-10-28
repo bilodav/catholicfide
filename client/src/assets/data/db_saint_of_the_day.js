@@ -2662,6 +2662,13 @@ const saintOfThedayDataApi = [
     saint_day: "28",
     saint_date: "8/28",
     saint_name: "Saint Augustine of Hippo",
+    saint_image: saintImg[241],
+    saint_lifetime: "November 13, 354 – August 28, 430",
+    saint_patron: ["Converts to Christianity", "Printers", "Theologians"],
+    saint_reflection:
+      "Augustine of Hippo is still acclaimed and condemned in our day. He is a prophet for today, trumpeting the need to scrap escapisms and stand face-to-face with personal responsibility and dignity.",
+    saint_story:
+      "A Christian at 33, a priest at 36, a bishop at 41: Many people are familiar with the biographical sketch of Augustine of Hippo, sinner turned saint. But to get to really know the man is a rewarding experience.\r\nThere quickly surfaces the intensity with which he lived his life, whether his path led away from or toward God. The tears of his mother, the instructions of Ambrose and, most of all, God himself speaking to him in the Scriptures, redirected Augustine of Hippo’s love of life to a life of love.\r\nHaving been so deeply immersed in creature-pride of life in his early days and having drunk deeply of its bitter dregs, it is not surprising that Augustine should have turned, with a holy fierceness, against the many demon-thrusts rampant in his day. His times were truly decadent: politically, socially, morally. He was both feared and loved, like the Master. The perennial criticism leveled against him: a fundamental rigorism.\r\nIn his day, Augustine of Hippo providentially fulfilled the office of prophet. Like Jeremiah and other greats, he was hard-pressed but could not keep quiet. “I say to myself, I will not mention him/I will speak in his name no more/But then it becomes like fire burning in my heart/imprisoned in my bones/I grow weary holding it in/I cannot endure it” (Jeremiah 20:9).",
   },
   {
     id: "242",
@@ -2670,6 +2677,12 @@ const saintOfThedayDataApi = [
     saint_day: "29",
     saint_date: "8/29",
     saint_name: "Martyrdom of Saint John the Baptist",
+    saint_image: saintImg[242],
+    saint_lifetime: "1st. century",
+    saint_reflection:
+      "Each of us has a calling to which we must listen. No one will ever repeat the mission of Saint John the Baptist, and yet all of us are called to that very mission. It is the role of the Christian to witness to Jesus. Whatever our position in this world, we are called to be disciples of Christ. By our words and deeds, others should realize that we live in the joy of knowing that Jesus is Lord. We do not have to depend upon our own limited resources, but can draw strength from the vastness of Christ’s saving grace.",
+    saint_story:
+      "The drunken oath of a king with a shallow sense of honor, a seductive dance and the hateful heart of a queen combined to bring about the martyrdom of John the Baptist. The greatest of prophets suffered the fate of so many Old Testament prophets before him: rejection and martyrdom. The “voice crying in the desert” did not hesitate to accuse the guilty, did not hesitate to speak the truth. But why? What possesses a man that he would give up his very life?\r\nThis great religious reformer was sent by God to prepare the people for the Messiah. His vocation was one of selfless giving. The only power that he claimed was the Spirit of Yahweh. “I am baptizing you with water, for repentance, but the one who is coming after me is mightier than I. I am not worthy to carry his sandals. He will baptize you with the Holy Spirit and fire” (Matthew 3:11).\r\nScripture tells us that many people followed Saint John the Baptist looking to him for hope, perhaps in anticipation of some great messianic power. John never allowed himself the false honor of receiving these people for his own glory. He knew his calling was one of preparation. When the time came, he led his disciples to Jesus: “The next day John was there again with two of his disciples, and as he watched Jesus walk by, he said, ‘Behold, the Lamb of God.’ The two disciples heard what he said and followed Jesus” (John 1:35-37).\r\nIt is John the Baptist who has pointed the way to Christ. John’s life and death were a giving over of self for God and other people. His simple style of life was one of complete detachment from earthly possessions. His heart was centered on God and the call that he heard from the Spirit of God speaking to his heart. Confident of God’s grace, he had the courage to speak words of condemnation, repentance, and salvation.,",
   },
   {
     id: "243",
@@ -2678,6 +2691,13 @@ const saintOfThedayDataApi = [
     saint_day: "30",
     saint_date: "8/30",
     saint_name: "Saint Jeanne Jugan",
+    saint_image: saintImg[243],
+    saint_lifetime: "October 25, 1792 – August 29, 1879",
+    saint_patron: ["The Elderly", "The Destitute"],
+    saint_reflection:
+      "Jeanne Jugan saw Christ in what Saint Teresa of Calcutta would describe as his “distressing disguises.” With great confidence in God’s providence and the intercession of Saint Joseph, she begged willingly for the many homes that she opened, relying on the good example of the Sisters and the generosity of benefactors who knew the good that the Sisters were doing. They now work in 30 countries.\r\n“With the eye of faith, we must see Jesus in our old people—for they are God’s mouthpiece,” Jeanne once said. No matter what the difficulties, she was always able to praise God and move ahead.",
+    saint_story:
+      "Born in northern France during the French Revolution—a time when congregations of women and men religious were being suppressed by the national government, Jeanne would eventually be highly praised in the French academy for her community’s compassionate care of elderly poor people.\r\nWhen Jeanne Jugan was three and a half years old, her father, a fisherman, was lost at sea. Her widowed mother was hard pressed to raise her eight children alone; four died young. At the age of 15 or 16, Jeanne became a kitchen maid for a family that not only cared for its own members, but also served poor, elderly people nearby. Ten years later, Jeanne became a nurse at the hospital in Le Rosais. Soon thereafter, she joined a third order group founded by Saint John Eudes.\r\nAfter six years she became a servant and friend of a woman she met through the third order. They prayed, visited the poor, and taught catechism to children. After her friend’s death, Jeanne and two other women continued a similar life in the city of Saint-Sevran. In 1839, they brought in their first permanent guest. They began an association, received more members, and more guests. Mère Marie of the Cross, as Jeanne Jugan was now known, founded six more houses for the elderly by the end of 1849, all staffed by members of her association—the Little Sisters of the Poor. By 1853, the association numbered 500 and had houses as far away as England.\r\nAbbé Le Pailleur, a chaplain, had prevented Jeanne Jugan’s reelection as superior in 1843; nine years later, he had her assigned to duties within the congregation, but would not allow her to be recognized as its founder. In 1890, the Holy See removed him from office.\r\nBy the time Pope Leo XIII gave her final approval to the community’s constitutions in 1879, there were 2,400 Little Sisters of the Poor. Jeanne died later that same year, on August 30. Her cause was introduced in Rome in 1970. She was beatified in 1982, and canonized in 2009.",
   },
   {
     id: "244",
