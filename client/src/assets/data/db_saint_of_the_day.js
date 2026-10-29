@@ -2706,6 +2706,13 @@ const saintOfThedayDataApi = [
     saint_day: "31",
     saint_date: "8/31",
     saint_name: "Saints Joseph of Arimathea and Nicodemus",
+    saint_image: saintImg[244],
+    saint_lifetime: "1st century",
+    saint_patron: ["Funeral Directors", "PAllbearers"],
+    saint_reflection:
+      "Celebrating these two contemporaries of Jesus who played significant roles in Jesus’ life, reminds us of the humanity of Jesus and how he related to his fellow men and women. His gentleness to these two and his acceptance of their help remind us that he treats us in the same gentle way.",
+    saint_story:
+      "The actions of these two influential Jewish leaders give insight into the charismatic power of Jesus and his teachings—and the risks that could be involved in following him.\r\nJoseph was a respected, wealthy civic leader who had become a disciple of Jesus. Following the death of Jesus, Joseph obtained Jesus’ body from Pilate, wrapped it in fine linen and buried it. For these reasons, Joseph is considered the patron saint of funeral directors and pallbearers. More important is the courage Joseph showed in asking Pilate for Jesus’ body. Jesus was a condemned criminal who had been publicly executed. According to some legends, Joseph was punished and imprisoned for such a bold act.\r\nNicodemus was a Pharisee and, like Joseph, an important first-century Jew. We know from John’s Gospel that Nicodemus went to Jesus at night—secretly—to better understand his teachings about the kingdom. Later, he spoke up for Jesus at the time of his arrest and assisted in Jesus’ burial. We know little else about Nicodemus.",
   },
   {
     id: "245",
@@ -2714,6 +2721,13 @@ const saintOfThedayDataApi = [
     saint_day: "1",
     saint_date: "9/1",
     saint_name: "Saint Giles",
+    saint_image: saintImg[245],
+    saint_lifetime: "c. 650 – 710",
+    saint_patron: ["Beggars", "The Disabled", "Disasters", "The Poor"],
+    saint_reflection:
+      "Saint Giles may not have been a martyr but, as the word martyr means, he was a true witness to the faith. This is attested to by the faith of the People of God in the Middle Ages. He became one of the “holy helpers” and can still function in that role for us today.",
+    saint_story:
+      "Despite the fact that much about Saint Giles is shrouded in mystery, we can say that he was one of the most popular saints in the Middle Ages. Likely, he was born in the first half of the seventh century in southeastern France. That is where he built a monastery that became a popular stopping-off point for pilgrims making their way to Compostela in Spain, and the Holy Land.\r\nIn England, many ancient churches and hospitals were dedicated to Saint Giles. One of the sections of the city of Brussels is named after him. In Germany, Giles was included among the so-called 14 Holy Helpers, a popular group of saints to whom people prayed, especially for recovery from disease, and for strength at the hour of death.\r\nAlso among the 14 were Saints Christopher, Barbara, and Blaise. Interestingly, Giles was the only non-martyr among them. Devotion to the “Holy Helpers” was especially strong in parts of Germany and in Hungary and Sweden. Such devotion made his popularity spread. Giles was soon invoked as the patron of the poor and the disabled.\r\nThe pilgrimage center that once drew so many fell into disrepair some centuries after Giles’ death.",
   },
   {
     id: "246",
