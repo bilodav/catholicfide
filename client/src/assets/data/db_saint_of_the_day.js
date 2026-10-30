@@ -2736,6 +2736,12 @@ const saintOfThedayDataApi = [
     saint_day: "2",
     saint_date: "9/2",
     saint_name: "Blessed John Francis Burté and Companions",
+    saint_image: saintImg[245],
+    saint_lifetime: "d. September 2, 1792 and January 21, 1794",
+    saint_reflection:
+      "“Liberty, Equality, Fraternity” was the motto of the French Revolution. If individuals have “inalienable rights,” as the Declaration of Independence states, these must come not from the agreement of society—which can be very fragile—but directly from God. Do we believe that? Do we act on it?",
+    saint_story:
+      "These priests were victims of the French Revolution. Though their martyrdom spans a period of several years, they stand together in the Church’s memory because they all gave their lives for the same principle. In 1791, the Civil Constitution of the Clergy required all priests to take an oath which amounted to a denial of the faith. Each of these men refused and was executed.\r\nJohn Francis Burté became a Franciscan at 16 and after ordination taught theology to the young friars. Later he was guardian of the large Conventual friary in Paris until he was arrested and held in the convent of the Carmelites.\r\nAppolinaris of Posat was born in 1739 in Switzerland. He joined the Capuchins and acquired a reputation as an excellent preacher, confessor, and instructor of clerics. Preparing for his assignment to the East as a missionary, he was in Paris studying Oriental languages when the French Revolution began. Refusing the oath, he was swiftly arrested and detained in the Carmelite convent.\r\nSeverin Girault, a member of the Third Order Regular, was a chaplain for a group of sisters in Paris. Imprisoned with the others, he was the first to die in the slaughter at the convent.\r\nThese three plus 182 others—including several bishops and many religious and diocesan priests—were massacred at the Carmelite house in Paris on September 2, 1792. They were beatified in 1926.\r\nBorn in 1737, John Baptist Triquerie became a Conventual Franciscan. He was the chaplain and confessor of Poor Clare monasteries in three cities before he was arrested for refusing to take the oath. He and 13 diocesan priests were martyred in Laval on January 21, 1794. He was beatified in 1955.",
   },
   {
     id: "247",
@@ -2744,6 +2750,13 @@ const saintOfThedayDataApi = [
     saint_day: "3",
     saint_date: "9/3",
     saint_name: "Saint Gregory the Great",
+    saint_image: saintImg[247],
+    saint_lifetime: "c. 540 – March 12, 604)",
+    saint_patron: ["England", "Epilepsy", "Musicians", "Teachers"],
+    saint_reflection:
+      "Gregory was content to be a monk, but he willingly served the Church in other ways when asked. He sacrificed his own preferences in many ways, especially when he was called to be Bishop of Rome. Once he was called to public service, Gregory gave his considerable energies completely to this work. Gregory’s description of bishops as physicians fits in well with Pope Francis’ description of the Church as a “field hospital.”",
+    saint_story:
+      "Saint Gregory the Great was the prefect of Rome before he was 30. After five years in office he resigned, founded six monasteries on his Sicilian estate, and became a Benedictine monk in his own home at Rome.\r\nOrdained a priest, Gregory became one of the pope’s seven deacons, and also served six years in the East as papal representative in Constantinople. He was recalled to become abbot, but at the age of 50 was elected pope by the clergy and people of Rome.\r\nGregory was direct and firm. He removed unworthy priests from office, forbade taking money for many services, emptied the papal treasury to ransom prisoners of the Lombards and to care for persecuted Jews and the victims of plague and famine. He was very concerned about the conversion of England, sending 40 monks from his own monastery. He is known for his reform of the liturgy, and for strengthening respect for doctrine. Whether he was largely responsible for the revision of “Gregorian” chant is disputed.\r\nSaint Gregory the Great lived in a time of perpetual strife with invading Lombards and difficult relations with the East. When Rome itself was under attack, he interviewed the Lombard king.\r\nHis book, Pastoral Care, on the duties and qualities of a bishop, was read for centuries after his death. He described bishops mainly as physicians whose main duties were preaching and the enforcement of discipline. In his own down-to-earth preaching, Gregory was skilled at applying the daily Gospel to the needs of his listeners. Called “the Great,” Gregory has been given a place with Augustine, Ambrose, and Jerome, as one of the four key doctors of the Western Church.\r\nAn Anglican historian has written: “It is impossible to conceive what would have been the confusion, the lawlessness, the chaotic state of the Middle Ages without the medieval papacy; and of the medieval papacy, the real father is Gregory the Great.”",
   },
   {
     id: "248",
@@ -2752,6 +2765,13 @@ const saintOfThedayDataApi = [
     saint_day: "4",
     saint_date: "9/4",
     saint_name: "Saint Rose of Viterbo",
+    saint_image: saintImg[248],
+    saint_lifetime: "1233 – March 6, 1251",
+    saint_patron: ["Florists", "Flower Growers"],
+    saint_reflection:
+      "The list of Franciscan saints seems to have quite a few men and women who accomplished nothing very extraordinary. Saint Rose of Viterbo is one of them. She did not influence popes and kings, did not multiply bread for the hungry, and never established the religious order of her dreams. But she made a place in her life for God’s grace, and like Saint Francis before her, saw death as the gateway to new life.",
+    saint_story:
+      "Even as a child, Rose had a great desire to pray and to aid the poor. While still very young, she began a life of penance in her parents’ house. She was as generous to the poor as she was strict with herself. At the age of 10, she became a Secular Franciscan and soon began preaching in the streets about sin and the sufferings of Jesus.\r\nViterbo, her native city, was then in revolt against the pope. When Saint Rose of Viterbo took the pope’s side against the emperor, she and her family were exiled from the city. When the pope’s side won in Viterbo, Rose was allowed to return. Her attempt at age 15 to found a religious community failed, and she returned to a life of prayer and penance in her father’s home, where she died in 1251. Rose was canonized in 1457.",
   },
   {
     id: "249",
