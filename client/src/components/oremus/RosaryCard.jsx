@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./RosaryCard.module.css";
 import Button from "../ui/Button";
 
@@ -7,6 +8,27 @@ function RosaryCard(props) {
       navigator.vibrate(pattern);
     }
   };
+
+  useEffect(() => {
+    if (!props.beads) return; // Only listen when the beads are shown
+
+    const handleKeyDown = (event) => {
+      const tag = event.target.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT") return;
+      if (event.target.isContentEditable) return;
+
+      if (event.key === "ArrowLeft") {
+        vibrate();
+        props.onHandlePrev();
+      } else if (event.key === "ArrowRight") {
+        vibrate();
+        props.onHandleNext();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [props.beads, props.onHandlePrev, props.onHandleNext]);
 
   return (
     <div className={`${styles["rosary-card"]} ${props.cardClass}`}>

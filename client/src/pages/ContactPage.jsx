@@ -82,7 +82,6 @@ const faqs = [
 ];
 function ContactPage() {
   const [isOpen, setIsOpen] = useState(false);
-  const navigate = useNavigate();
 
   const onClose = () => setIsOpen(false);
 

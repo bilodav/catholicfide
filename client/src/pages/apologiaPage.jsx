@@ -93,7 +93,7 @@ function ApologiaPage() {
       <section className="apologia">
         <h1>Be Ready To Give An Answer</h1>
         <div className="navigation-section">
-          {apologiaThemes.map((theme, index) => (
+          {apologiaThemes.map((theme) => (
             <div
               key={theme.id}
               onMouseEnter={() => setIsHoveredID(theme.id)}

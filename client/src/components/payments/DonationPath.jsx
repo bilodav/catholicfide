@@ -20,7 +20,7 @@ function DonationPath() {
         <div className={styles["path-choice"]}>
           <h2>How would you like to give?</h2>
           <div
-            onClick={(e) => {
+            onClick={() => {
               handleClick("snapscan");
             }}
             className={styles["path-card"]}
@@ -34,7 +34,7 @@ function DonationPath() {
             </svg>
           </div>
           <div
-            onClick={(e) => {
+            onClick={() => {
               handleClick("card");
             }}
             className={styles["path-card"]}
@@ -48,7 +48,7 @@ function DonationPath() {
             </svg>
           </div>
           <div
-            onClick={(e) => {
+            onClick={() => {
               handleClick("eft");
             }}
             className={styles["path-card"]}
