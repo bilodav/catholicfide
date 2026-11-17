@@ -14,7 +14,7 @@ Catholic Fide is a Catholic apologetics and devotion website. It brings together
 A growing library of articles that answer the question *"Why should I believe?"* Articles are organised into themes such as:
 
 - **Core Christian Doctrine**: God, Jesus Christ, the Trinity, the Gospel and the Holy Spirit.
-- **Defending the Faith**: honest answers to objections from Islam, atheism, science and philosophy, plus alleged Bible contradictions.
+- **Defending the Faith**: honest answers to common objections.
 
 Every article follows a consistent structure (the question, a short answer, biblical and historical evidence, common objections, the Catholic perspective, and further reading) so readers always know what to expect. Opposing views are meant to be presented fairly, at their strongest, before they are answered.
 
