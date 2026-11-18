@@ -3316,6 +3316,13 @@ const saintOfThedayDataApi = [
     saint_day: "11",
     saint_date: "11/11",
     saint_name: "Saint Martin of Tours",
+    saint_image: saintImg[316],
+    saint_lifetime: "c. 316 – November 8, 397)",
+    saint_patron: ["Horses", "Soldiers", "South Africa"],
+    saint_reflection:
+      "Martin’s worry about cooperation with evil reminds us that almost nothing is either all black or all white. The saints are not creatures of another world: They face the same perplexing decisions that we do. Any decision of conscience always involves some risk. If we choose to go north, we may never know what would have happened had we gone east, west, or south. A hyper-cautious withdrawal from all perplexing situations is not the virtue of prudence; it is in fact, a bad decision, for “not to decide is to decide.”\r\nLet us pray that we are able to journey this life of ours with the same passion and zeal as Martin of Tours. And let us hope that our efforts, however brave or futile, can convert hearts to God’s overflowing grace. Saint Martin: Pray for us!",
+    saint_story:
+      "A conscientious objector who wanted to be a monk; a monk who was maneuvered into being a bishop; a bishop who fought paganism as well as pleaded for mercy to heretics—such was Martin of Tours, one of the most popular of saints and one of the first not to be a martyr.\r\nBorn of pagan parents in what is now Hungary, and raised in Italy, this son of a veteran was forced at the age of 15 to serve in the army. Martin became a Christian catechumen and was baptized when he was 18. It was said that he lived more like a monk than a soldier. At 23, Martin of Tours refused a war bonus and told his commander: “I have served you as a soldier; now let me serve Christ. Give the bounty to those who are going to fight. But I am a soldier of Christ and it is not lawful for me to fight.” After great difficulties, he was discharged and went to be a disciple of Hilary of Poitiers.\r\nHe was ordained an exorcist and worked with great zeal against the Arians. Martin became a monk, living first at Milan and later on a small island. When Hilary was restored to his see following his exile, Martin returned to France and established what may have been the first French monastery near Poitiers. He lived there for 10 years, forming his disciples and preaching throughout the countryside.\r\nThe people of Tours demanded that he become their bishop. Martin was drawn to that city by a ruse—the need of a sick person—and was brought to the church, where he reluctantly allowed himself to be consecrated bishop. Some of the consecrating bishops thought his rumpled appearance and unkempt hair indicated that he was not dignified enough for the office.\r\nAlong with Saint Ambrose, Martin rejected Bishop Ithacius’s principle of putting heretics to death—as well as the intrusion of the emperor into such matters. He prevailed upon the emperor to spare the life of the heretic Priscillian. For his efforts, Martin was accused of the same heresy, and Priscillian was executed after all. Martin then pleaded for a cessation of the persecution of Priscillian’s followers in Spain. He still felt he could cooperate with Ithacius in other areas, but afterwards his conscience troubled him about this decision.\r\nAs death approached, Martin’s followers begged him not to leave them. He prayed, “Lord, if your people still need me, I do not refuse the work. Your will be done.”",
   },
   {
     id: "317",
@@ -3324,6 +3331,13 @@ const saintOfThedayDataApi = [
     saint_day: "12",
     saint_date: "11/12",
     saint_name: "Saint Josaphat",
+    saint_image: saintImg[317],
+    saint_lifetime: "c. 1580 –  November 12, 1623",
+    saint_patron: ["Horses", "Soldiers", "South Africa"],
+    saint_reflection:
+      "The seeds of separation were sown in the fourth century when the Roman Empire was divided into East and West. The actual split came over customs such as using unleavened bread, Saturday fasting, and celibacy. No doubt the political involvement of religious leaders on both sides was a large factor, and doctrinal disagreement was present. But no reason was enough to justify the present tragic division in Christendom, which is 64 percent Roman Catholic, 13 percent Eastern—mostly Orthodox—Churches, and 23 percent Protestant, and this when the 71 percent of the world that is not Christian should be experiencing unity and Christ-like charity from Christians!",
+    saint_story:
+      "In 1595, the Orthodox bishop of Brest-Litovsk in present-day Belarus and five other bishops representing millions of Ruthenians, sought reunion with Rome. John Kunsevich—who took the name Josaphat in religious life—was to dedicate his life, and die for the same cause. Born in what is now Ukraine, he went to work in Wilno and was influenced by clergy adhering to the 1596 Union of Brest. He became a Basilian monk, then a priest, and soon was well known as a preacher and an ascetic.\r\nAt a relatively young age, upon becoming both bishop of Vitebsk and archbishop of Polotsk, Saint Josaphat faced a difficult situation. Most monks, fearing interference in liturgy and customs, did not want union with Rome. By synods, catechetical instruction, reform of the clergy, and personal example, however, Josaphat was successful in winning the greater part of the Orthodox in that area to the union.\r\nBut the next year a dissident hierarchy was set up, and his opposite number spread the accusation that Saint Josaphat had “gone Latin” and that all his people would have to do the same. He was not enthusiastically supported by the Latin bishops of Poland.\r\nDespite warnings, he went to Vitebsk, still a hotbed of trouble. Attempts were made to foment trouble and drive him from the diocese: A priest was sent to shout insults to him from his own courtyard. When Josaphat had him removed and shut up in his house, the opposition rang the town hall bell, and a mob assembled. The priest was released, but members of the mob broke into the bishop’s home. Saint Josaphat was struck with a halberd, then shot, and his body thrown into the river. It was later recovered and is now buried in St. Peter’s Basilica in Rome. He was the first saint of the Eastern Church to be canonized by Rome.\r\nSaint Josaphat’s death brought a movement toward Catholicism and unity, but the controversy continued, and the dissidents, too, had their martyr. After the partition of Poland, the Russians forced most Ruthenians to join the Russian Orthodox Church. In 1964, newspaper photos of Pope Paul VI embracing Athenagoras I, the Orthodox patriarch of Constantinople, marked a significant step toward the healing of a division in Christendom that has spanned more than nine centuries.",
   },
   {
     id: "318",
@@ -3371,7 +3385,12 @@ const saintOfThedayDataApi = [
     month_num: "11",
     saint_day: "18",
     saint_date: "11/18",
-    saint_name: "St. Rose Philippine Duchesne",
+    saint_name: "Dedication of Churches of Saints Peter and Paul",
+    saint_image: saintImg[323],
+    saint_reflection:
+      "Peter, the rough fisherman whom Jesus named the rock on which the Church is built, and the educated Paul, reformed persecutor of Christians, Roman citizen, and missionary to the gentiles, are the original odd couple. The major similarity in their faith-journeys is the journey’s end: both, according to tradition, died a martyr’s death in Rome—Peter on a cross and Paul beneath the sword. Their combined gifts shaped the early Church and believers have prayed at their tombs from the earliest days.",
+    saint_story:
+      "Saint Peter’s is probably the most famous church in Christendom. Massive in scale and a veritable museum of art and architecture, it began on a much humbler scale. Vatican Hill was a simple cemetery where believers gathered at Saint Peter’s tomb to pray. In 319, Constantine built a basilica on the site that stood for more than a thousand years until, despite numerous restorations, it threatened to collapse. In 1506, Pope Julius II ordered it razed and reconstructed, but the new basilica was not completed and dedicated for more than two centuries.\r\nSaint Paul’s Outside-the-Walls stands near the Abaazia delle Tre Fontane, where Saint Paul is believed to have been beheaded. The largest church in Rome until Saint Peter’s was rebuilt, the basilica also rises over the traditional site of its namesake’s grave. The most recent edifice was constructed after a fire in 1823. The first basilica was also Constantine’s doing.\r\nConstantine’s building projects enticed the first of a centuries-long parade of pilgrims to Rome. From the time the basilicas were first built until the empire crumbled under “barbarian” invasions, the two churches, although miles apart, were linked by a roofed colonnade of marble columns.",
   },
   {
     id: "324",
@@ -3380,6 +3399,18 @@ const saintOfThedayDataApi = [
     saint_day: "19",
     saint_date: "11/19",
     saint_name: "Saint Agnes of Assisi",
+    saint_image: saintImg[324],
+    saint_lifetime: "c. 1197 – November 16, 1253",
+    saint_patron: [
+      "Pre-novices",
+      "The Order of St. Clare (Poor Clares)",
+      "Chastity",
+      "Those seeking a deeper life of prayer",
+    ],
+    saint_reflection:
+      "God must love irony; the world is so full of it. In 1212, many in Assisi surely felt that Clare and Agnes were wasting their lives and turning their backs on the world. In reality, their lives were tremendously life-giving, and the world has been enriched by the example of these poor contemplatives.",
+    saint_story:
+      "Born Caterina Offreducia, Agnes was the younger sister of Saint Clare, and her first follower. When Caterina left home two weeks after Clare’s departure, their family attempted to bring her back by force. They tried to drag her out of the monastery, but her body suddenly became so heavy that several knights could not budge it. Her uncle Monaldo tried to strike her but was temporarily paralyzed. The knights then left Caterina and Clare in peace.\r\nSaint Francis himself gave Clare’s sister the name Agnes, because she was gentle like a young lamb.\r\nAgnes matched her sister in devotion to prayer and in willingness to endure the strict penances that characterized the Poor Ladies’ lives at San Damiano. In 1221, a group of Benedictine nuns in Monticelli near Florence asked to become Poor Ladies. Saint Clare sent Agnes to become abbess of that monastery.\r\nAgnes soon wrote a rather sad letter about how much she missed Clare and the other nuns at San Damiano. After establishing other monasteries of Poor Ladies in northern Italy, Agnes was recalled to San Damiano in 1253, as Clare lay dying.\r\nThree months later Agnes followed Clare in death, and was canonized in 1753.",
   },
   {
     id: "325",
@@ -3388,6 +3419,13 @@ const saintOfThedayDataApi = [
     saint_day: "20",
     saint_date: "11/20",
     saint_name: "Saint Rose Philippine Duchesne",
+    saint_image: saintImg[325],
+    saint_lifetime: "c. 1580 –  November 12, 1623",
+    saint_patron: ["Perseverance amid adversity"],
+    saint_reflection:
+      "Divine grace channeled Rose Philippine Duchesne’s iron will and determination into humility and selflessness, and to a desire not to be made superior. Still, even saints can get involved in silly situations. In an argument with her over a minor change in the sanctuary, a priest threatened to remove the tabernacle. She patiently let herself be criticized by younger nuns for not being progressive enough. For 31 years, she hewed to the line of a dauntless love and an unshakable observance of her religious vows.",
+    saint_story:
+      "Born in Grenoble, France, of a family that was among the new rich, Rose learned political skills from her father and a love of the poor from her mother. The dominant feature of her temperament was a strong and dauntless will, which became the material—and the battlefield—of her holiness. She entered the Visitation of Mary convent at 19, and remained despite family opposition. As the French Revolution broke, the convent was closed, and she began taking care of the poor and sick, opened a school for homeless children, and risked her life helping priests in the underground.\r\nWhen the situation cooled, Rose personally rented the former convent, now a shambles, and tried to revive its religious life. The spirit was gone, however, and soon there were only four nuns left. They joined the infant Society of the Sacred Heart, whose young superior, Mother Madeleine Sophie Barat, would be her lifelong friend.\r\nIn a short time Rose Philippine Duchesne was a superior and supervisor of the novitiate and a school. But since hearing tales of missionary work in Louisiana as a little girl, her ambition was to go to America and work among the Indians. At 49, she thought this would be her work. With four nuns, she spent 11 weeks at sea en route to New Orleans, and seven weeks more on the Mississippi to St. Louis.\r\nShe then met one of the many disappointments of her life. The bishop had no place for them to live and work among Native Americans. Instead, he sent her to what she sadly called “the remotest village in the U.S.,” St. Charles, Missouri. With characteristic drive and courage, she founded the first free school for girls west of the Mississippi.\r\nThough Rose Philippine Duchesne was as hardy as any of the pioneer women in the wagons rolling west, cold and hunger drove them out—to Florissant, Missouri, where she founded the first Catholic Indian school, adding others in the territory.\r\n“In her first decade in America, Rose Philippine Duchesne suffered practically every hardship the frontier had to offer, except the threat of Indian massacre—poor lodging, shortages of food, drinking water, fuel and money, forest fires and blazing chimneys, the vagaries of the Missouri climate, cramped living quarters and the privation of all privacy, and the crude manners of children reared in rough surroundings and with only the slightest training in courtesy” (Louise Callan, R.S.C.J., Philippine Duchesne).\r\nFinally at age 72, retired and in poor health, Rose got her lifelong wish. A mission was founded at Sugar Creek, Kansas, among the Potawatomi and she was taken along. Though she could not learn their language, they soon named her “Woman-Who-Prays-Always.” While others taught, she prayed. Legend has it that Native American children sneaked behind her as she knelt and sprinkled bits of paper on her habit, and came back hours later to find them undisturbed. Rose Duchesne died in 1852, at the age of 83, and was canonized in 1988. Rose Philippine Duchesne’s liturgical feast is celebrated on November 18.",
   },
   {
     id: "326",

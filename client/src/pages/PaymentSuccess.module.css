@@ -5,9 +5,9 @@
 /* Small devices (tiny screens and up, 176px and up) */
 @media (min-width: 176px) {
   .payment-success {
-    background-image: url("../assets/semanaSanta.jpg");
+    background-image: url("../assets/holdingCrossAtSunrise.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
